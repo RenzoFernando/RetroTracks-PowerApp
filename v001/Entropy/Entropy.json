@@ -509,7 +509,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/05/2023 14:39:31",
+  "HeaderLastSavedDateTimeUTC": "06/05/2023 14:51:28",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "599b1913-4d6c-430e-8b80-6f1264943d5c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/f10d7844c54140f8a5b20c8d05d07042\""
@@ -529,6 +529,7 @@
     "CustomGallerySample": 0,
     "DropDownSample": 5,
     "ListboxSample": 7,
+    "luna's_songs": 8,
     "m": 1,
     "MiBandaSonora": 2,
     "registro": 3,
