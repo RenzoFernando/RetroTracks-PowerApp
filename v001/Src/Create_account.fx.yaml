@@ -11,7 +11,7 @@ Create_account As screen:
         Size: =23
         Text: ="Registro"
         Width: =640
-        ZIndex: =1
+        ZIndex: =2
 
     Form3 As form:
         DataSource: =registro
@@ -23,7 +23,7 @@ Create_account As screen:
         Width: =550
         X: =45
         Y: =94
-        ZIndex: =2
+        ZIndex: =3
 
         Título_DataCard2 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(172, 0, 255, 1)
@@ -507,7 +507,7 @@ Create_account As screen:
         Width: =560
         X: =40
         Y: =955
-        ZIndex: =3
+        ZIndex: =4
 
     volver_2 As button:
         Fill: =RGBA(104, 0, 156, 1)
@@ -521,5 +521,5 @@ Create_account As screen:
         Width: =560
         X: =40
         Y: =1053
-        ZIndex: =4
+        ZIndex: =5
 

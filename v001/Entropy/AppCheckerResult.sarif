@@ -10350,6 +10350,18 @@
               "message": {
                 "text": "Error al ejecutar la regla app-InefficientDelayLoading."
               }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 5
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error al ejecutar la regla app-InefficientDelayLoading."
+              }
             }
           ]
         }
@@ -10360,19 +10372,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Exito Signup'.TextInput1_9.AccessibleLabel"
+                  "fullyQualifiedName": "'Exito Signup'.Image5_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Exito Signup'.TextInput1_9.AccessibleLabel",
+                  "fullyQualifiedName": "'Exito Signup'.Image5_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Exito Signup",
-                "type": "'Exito Signup'.TextInput1_9"
+                "type": "'Exito Signup'.Image5_2"
               }
             }
           ],
@@ -10390,19 +10402,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Exito Signup'.TextInput1_8.AccessibleLabel"
+                  "fullyQualifiedName": "'Exito Signup'.Image5_2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Exito Signup'.TextInput1_8.AccessibleLabel",
+                  "fullyQualifiedName": "'Exito Signup'.Image5_2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
+                "member": "TabIndex",
                 "module": "Exito Signup",
-                "type": "'Exito Signup'.TextInput1_8"
+                "type": "'Exito Signup'.Image5_2"
               }
             }
           ],
@@ -10412,8 +10424,8 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -11740,19 +11752,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Error Loging'.TextInput1_7.AccessibleLabel"
+                  "fullyQualifiedName": "'Error Loging'.Image5_3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Error Loging'.TextInput1_7.AccessibleLabel",
+                  "fullyQualifiedName": "'Error Loging'.Image5_3.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
+                "member": "TabIndex",
                 "module": "Error Loging",
-                "type": "'Error Loging'.TextInput1_7"
+                "type": "'Error Loging'.Image5_3"
               }
             }
           ],
@@ -11762,27 +11774,27 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Error Loging'.TextInput1_6.AccessibleLabel"
+                  "fullyQualifiedName": "'Error Loging'.Image5_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Error Loging'.TextInput1_6.AccessibleLabel",
+                  "fullyQualifiedName": "'Error Loging'.Image5_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Error Loging",
-                "type": "'Error Loging'.TextInput1_6"
+                "type": "'Error Loging'.Image5_3"
               }
             }
           ],

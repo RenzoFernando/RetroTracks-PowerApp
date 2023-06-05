@@ -24,9 +24,9 @@
         Size: =21
         Text: ="Felicidades registro exitoso. Ahora porfavor inicie la sesion con los datos correspondientes. Precione para continuar."
         Width: =460
-        X: =34
-        Y: =390
-        ZIndex: =3
+        X: =49
+        Y: =700
+        ZIndex: =2
 
     Button4 As button:
         Fill: =RGBA(104, 0, 156, 1)
@@ -35,16 +35,16 @@
         Size: =24
         Text: ="Continuar "
         Width: =280
-        X: =165
-        Y: =630
-        ZIndex: =4
+        X: =180
+        Y: =985
+        ZIndex: =3
 
     Icon8 As icon.EmojiSmile:
         Color: =RGBA(172, 0, 255, 1)
         Icon: =Icon.EmojiSmile
-        X: =512
-        Y: =441
-        ZIndex: =5
+        X: =527
+        Y: =767
+        ZIndex: =4
 
     Label7_1 As label:
         Align: =Align.Center
@@ -54,41 +54,15 @@
         Size: =21
         Text: ="Registro exitoso "
         Width: =542
-        X: =34
-        Y: =267
+        X: =49
+        Y: =57
+        ZIndex: =5
+
+    Image5_2 As image:
+        Height: =642
+        Image: ='logo (1)'
+        OnSelect: =Navigate(Log_in)
+        Width: =640
+        Y: =125
         ZIndex: =6
-
-    TextInput1_8 As text:
-        BorderColor: =RGBA(0, 0, 0, 1)
-        BorderThickness: =0
-        Color: =RGBA(15, 15, 15, 1)
-        Default: =""
-        DisabledBorderColor: =RGBA(172, 0, 255, 1)
-        DisabledFill: =RGBA(172, 0, 255, 1)
-        Height: =10
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Size: =21
-        Width: =640
-        Y: =1034
-        ZIndex: =7
-
-    TextInput1_9 As text:
-        BorderColor: =RGBA(0, 0, 0, 1)
-        BorderThickness: =0
-        Color: =RGBA(15, 15, 15, 1)
-        Default: =""
-        DisabledBorderColor: =RGBA(172, 0, 255, 1)
-        DisabledFill: =RGBA(172, 0, 255, 1)
-        Height: =10
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Size: =21
-        Width: =640
-        Y: =124
-        ZIndex: =8
 

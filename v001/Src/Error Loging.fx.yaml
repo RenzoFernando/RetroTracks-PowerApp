@@ -14,14 +14,14 @@
             ="
             "
         Width: =640
-        ZIndex: =2
+        ZIndex: =1
 
     Icon7 As icon.EmojiFrown:
         Color: =RGBA(172, 0, 255, 1)
         Icon: =Icon.EmojiFrown
-        X: =536
-        Y: =466
-        ZIndex: =3
+        X: =527
+        Y: =818
+        ZIndex: =2
 
     Button3 As button:
         Fill: =RGBA(104, 0, 156, 1)
@@ -30,8 +30,8 @@
         Text: ="Aceptar "
         Width: =280
         X: =180
-        Y: =595
-        ZIndex: =6
+        Y: =997
+        ZIndex: =3
 
     Label6 As label:
         Color: =RGBA(255, 255, 255, 1)
@@ -39,9 +39,9 @@
         Size: =21
         Text: ="Se ha producido un error con su contraseña o su usuario. Porfavor vuelva a intentar de nuevo "
         Width: =460
-        X: =58
-        Y: =406
-        ZIndex: =7
+        X: =49
+        Y: =781
+        ZIndex: =4
 
     Label7 As label:
         Color: =RGBA(255, 255, 255, 1)
@@ -50,41 +50,15 @@
         Size: =21
         Text: ="Error de inicio de secion "
         Width: =542
-        X: =58
-        Y: =280
-        ZIndex: =8
+        X: =49
+        Y: =117
+        ZIndex: =5
 
-    TextInput1_6 As text:
-        BorderColor: =RGBA(0, 0, 0, 1)
-        BorderThickness: =0
-        Color: =RGBA(15, 15, 15, 1)
-        Default: =""
-        DisabledBorderColor: =RGBA(172, 0, 255, 1)
-        DisabledFill: =RGBA(172, 0, 255, 1)
-        Height: =10
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Size: =21
+    Image5_3 As image:
+        Height: =642
+        Image: ='logo (1)'
+        OnSelect: =Navigate(Log_in)
         Width: =640
-        Y: =1034
-        ZIndex: =9
-
-    TextInput1_7 As text:
-        BorderColor: =RGBA(0, 0, 0, 1)
-        BorderThickness: =0
-        Color: =RGBA(15, 15, 15, 1)
-        Default: =""
-        DisabledBorderColor: =RGBA(172, 0, 255, 1)
-        DisabledFill: =RGBA(172, 0, 255, 1)
-        Height: =10
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Size: =21
-        Width: =640
-        Y: =124
-        ZIndex: =10
+        Y: =209
+        ZIndex: =6
 

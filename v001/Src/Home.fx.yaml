@@ -1,4 +1,5 @@
 Home As screen:
+    BackgroundImage: =
     Fill: =RGBA(0, 0, 0, 1)
 
     Label1_4 As label:
@@ -62,24 +63,6 @@ Home As screen:
         Y: =1022
         ZIndex: =7
 
-    Icon3 As icon.History:
-        Color: =RGBA(172, 0, 255, 1)
-        Height: =49
-        Icon: =Icon.History
-        Width: =56
-        X: =551
-        Y: =23
-        ZIndex: =8
-
-    Icon4 As icon.Bell:
-        Color: =RGBA(172, 0, 255, 1)
-        Height: =55
-        Icon: =Icon.Bell
-        Width: =61
-        X: =484
-        Y: =20
-        ZIndex: =9
-
     Icon5 As icon.DetailList:
         Color: =RGBA(172, 0, 255, 1)
         Height: =71
@@ -87,7 +70,7 @@ Home As screen:
         Width: =56
         X: =295
         Y: =1018
-        ZIndex: =10
+        ZIndex: =8
 
     Label4_1 As label:
         Color: =RGBA(172, 0, 255, 1)
@@ -97,7 +80,7 @@ Home As screen:
         Width: =94
         X: =76
         Y: =1072
-        ZIndex: =12
+        ZIndex: =9
 
     Label5 As label:
         Color: =RGBA(172, 0, 255, 1)
@@ -107,7 +90,7 @@ Home As screen:
         Width: =125
         X: =482
         Y: =1072
-        ZIndex: =13
+        ZIndex: =10
 
     Rectangle6 As rectangle:
         BorderColor: =RGBA(72, 50, 133, 1)
@@ -116,7 +99,7 @@ Home As screen:
         Width: =172
         X: =51
         Y: =114
-        ZIndex: =14
+        ZIndex: =11
 
     Label8 As label:
         Height: =50
@@ -125,7 +108,7 @@ Home As screen:
         Width: =165
         X: =58
         Y: =114
-        ZIndex: =15
+        ZIndex: =12
 
     Label9 As label:
         Height: =90
@@ -134,7 +117,7 @@ Home As screen:
         Width: =143
         X: =157
         Y: =206
-        ZIndex: =16
+        ZIndex: =13
 
     Label9_1 As label:
         Height: =100
@@ -143,7 +126,7 @@ Home As screen:
         Width: =143
         X: =435
         Y: =199
-        ZIndex: =17
+        ZIndex: =14
 
     Label9_2 As label:
         Height: =89
@@ -152,7 +135,7 @@ Home As screen:
         Width: =153
         X: =161
         Y: =335
-        ZIndex: =18
+        ZIndex: =15
 
     Label9_3 As label:
         Height: =100
@@ -161,28 +144,28 @@ Home As screen:
         Width: =139
         X: =427
         Y: =331
-        ZIndex: =19
+        ZIndex: =16
 
     Image2_1 As image:
         Height: =148
         Width: =200
         X: =41
         Y: =561
-        ZIndex: =20
+        ZIndex: =17
 
     Image3 As image:
         Height: =148
         Width: =166
         X: =241
         Y: =561
-        ZIndex: =21
+        ZIndex: =18
 
     Image4 As image:
         Height: =148
         Width: =195
         X: =404
         Y: =561
-        ZIndex: =22
+        ZIndex: =19
 
     TextInput1 As text:
         BorderColor: =RGBA(72, 50, 133, 1)
@@ -200,35 +183,35 @@ Home As screen:
         Width: =527
         X: =51
         Y: =489
-        ZIndex: =23
+        ZIndex: =20
 
     Image2_2 As image:
         Height: =90
         Width: =84
         X: =337
         Y: =203
-        ZIndex: =24
+        ZIndex: =21
 
     Image2_3 As image:
         Height: =87
         Width: =84
         X: =337
         Y: =337
-        ZIndex: =25
+        ZIndex: =22
 
     Image2_4 As image:
         Height: =90
         Width: =87
         X: =68
         Y: =334
-        ZIndex: =26
+        ZIndex: =23
 
     Image2_5 As image:
         Height: =87
         Width: =83
         X: =68
         Y: =206
-        ZIndex: =27
+        ZIndex: =24
 
     TextInput1_2 As text:
         BorderColor: =RGBA(72, 50, 133, 1)
@@ -242,14 +225,57 @@ Home As screen:
         Width: =520
         X: =58
         Y: =754
-        ZIndex: =32
+        ZIndex: =25
+
+    Rectangle5 As rectangle:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =81
+        Width: =640
+        ZIndex: =26
+
+    Icon4 As icon.Bell:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =55
+        Icon: =Icon.Bell
+        Width: =61
+        X: =559
+        Y: =16
+        ZIndex: =27
+
+    Label12 As label:
+        Color: =RGBA(172, 0, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =21
+        Text: ="Bienvenido X"
+        Width: =560
+        X: =6
+        Y: =5
+        ZIndex: =28
+
+    Image8 As image:
+        Height: =158
+        Image: ='cover-spotify-artwork-mac'
+        ImagePosition: =ImagePosition.Stretch
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =482
+        X: =79
+        Y: =831
+        ZIndex: =29
 
     Button6 As button:
+        Fill: =RGBA(0, 0, 0, 0.33)
         Height: =158
+        HoverFill: =ColorFade(RGBA(172, 0, 225, 50), 0)
+        OnSelect: =Navigate(PlayList_)
         Size: =24
-        Text: ="Botón"
+        Text: ="Clic aqui para descubrir"
         Width: =483
-        X: =76
+        X: =80
         Y: =831
-        ZIndex: =33
+        ZIndex: =30
 

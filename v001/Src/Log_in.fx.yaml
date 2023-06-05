@@ -1,6 +1,12 @@
 Log_in As screen:
     Fill: =RGBA(0, 0, 0, 1)
 
+    Image5_1 As image:
+        Height: =642
+        Image: ='logo (1)'
+        Width: =640
+        ZIndex: =1
+
     constrasena As text:
         BorderColor: =RGBA(172, 0, 255, 1)
         BorderThickness: =5
@@ -21,7 +27,7 @@ Log_in As screen:
         Width: =560
         X: =44
         Y: =804
-        ZIndex: =1
+        ZIndex: =2
 
     "'Inicio de sesión' As button":
         DisabledBorderColor: =RGBA(104, 0, 156, 1)
@@ -38,7 +44,7 @@ Log_in As screen:
         Width: =560
         X: =44
         Y: =973
-        ZIndex: =2
+        ZIndex: =3
 
     Button2 As button:
         Color: =RGBA(172, 0, 255, 1)
@@ -52,7 +58,7 @@ Log_in As screen:
         Width: =560
         X: =44
         Y: =1068
-        ZIndex: =3
+        ZIndex: =4
 
     olvidar As button:
         Align: =Align.Right
@@ -70,7 +76,7 @@ Log_in As screen:
         Width: =293
         X: =311
         Y: =874
-        ZIndex: =4
+        ZIndex: =5
 
     Label2 As label:
         Align: =Align.Center
@@ -81,7 +87,7 @@ Log_in As screen:
         Size: =23
         Text: ="RetroTrack"
         Width: =640
-        ZIndex: =5
+        ZIndex: =6
 
     Label3_1 As label:
         Color: =RGBA(172, 0, 255, 1)
@@ -92,7 +98,7 @@ Log_in As screen:
         Width: =560
         X: =44
         Y: =762
-        ZIndex: =6
+        ZIndex: =7
 
     usuario As text:
         BorderColor: =RGBA(172, 0, 255, 1)
@@ -113,7 +119,7 @@ Log_in As screen:
         Width: =560
         X: =44
         Y: =670
-        ZIndex: =7
+        ZIndex: =8
 
     Label3 As label:
         Color: =RGBA(172, 0, 255, 1)
@@ -124,5 +130,5 @@ Log_in As screen:
         Width: =560
         X: =40
         Y: =628
-        ZIndex: =8
+        ZIndex: =9
 
