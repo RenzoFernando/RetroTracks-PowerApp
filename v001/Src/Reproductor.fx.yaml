@@ -106,6 +106,14 @@
                 Y: =333
                 ZIndex: =2
 
+            Video1 As videoPlayback:
+                Height: =323
+                Media: =ThisItem.Fuente
+                Width: =575
+                X: =19
+                Y: =10
+                ZIndex: =3
+
         Interprete_DataCard1 As typedDataCard.textualViewCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_4"
