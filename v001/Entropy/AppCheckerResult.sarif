@@ -2526,6 +2526,18 @@
               "message": {
                 "text": "Error al ejecutar la regla app-InefficientDelayLoading."
               }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 8
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error al ejecutar la regla app-InefficientDelayLoading."
+              }
             }
           ]
         }
@@ -2536,12 +2548,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect"
+                  "fullyQualifiedName": "r.IconDelete1_1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect",
+                  "fullyQualifiedName": "r.IconDelete1_1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2554,8 +2566,8 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Reproductor",
-                "type": "Reproductor.IconDelete1"
+                "module": "r",
+                "type": "r.IconDelete1_1"
               }
             }
           ],
@@ -2576,12 +2588,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect"
+                  "fullyQualifiedName": "r.IconDelete1_1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect",
+                  "fullyQualifiedName": "r.IconDelete1_1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2594,8 +2606,8 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Reproductor",
-                "type": "Reproductor.IconDelete1"
+                "module": "r",
+                "type": "r.IconDelete1_1"
               }
             }
           ],
@@ -2617,12 +2629,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect"
+                  "fullyQualifiedName": "r.IconDelete1_1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect",
+                  "fullyQualifiedName": "r.IconDelete1_1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2635,8 +2647,8 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Reproductor",
-                "type": "Reproductor.IconDelete1"
+                "module": "r",
+                "type": "r.IconDelete1_1"
               }
             }
           ],
@@ -2657,12 +2669,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect"
+                  "fullyQualifiedName": "r.IconDelete1_1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect",
+                  "fullyQualifiedName": "r.IconDelete1_1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2675,8 +2687,8 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Reproductor",
-                "type": "Reproductor.IconDelete1"
+                "module": "r",
+                "type": "r.IconDelete1_1"
               }
             }
           ],
@@ -2694,12 +2706,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect"
+                  "fullyQualifiedName": "r.IconDelete1_1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect",
+                  "fullyQualifiedName": "r.IconDelete1_1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2712,8 +2724,8 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Reproductor",
-                "type": "Reproductor.IconDelete1"
+                "module": "r",
+                "type": "r.IconDelete1_1"
               }
             }
           ],
@@ -2735,12 +2747,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect"
+                  "fullyQualifiedName": "r.IconDelete1_1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect",
+                  "fullyQualifiedName": "r.IconDelete1_1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2753,8 +2765,8 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Reproductor",
-                "type": "Reproductor.IconDelete1"
+                "module": "r",
+                "type": "r.IconDelete1_1"
               }
             }
           ],
@@ -2775,12 +2787,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "r.IconDelete1_1.OnSelect"
+                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "r.IconDelete1_1.OnSelect",
+                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2793,8 +2805,8 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "r",
-                "type": "r.IconDelete1_1"
+                "module": "Reproductor",
+                "type": "Reproductor.IconDelete1"
               }
             }
           ],
@@ -2815,12 +2827,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "r.IconDelete1_1.OnSelect"
+                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "r.IconDelete1_1.OnSelect",
+                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2833,8 +2845,8 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "r",
-                "type": "r.IconDelete1_1"
+                "module": "Reproductor",
+                "type": "Reproductor.IconDelete1"
               }
             }
           ],
@@ -2856,12 +2868,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "r.IconDelete1_1.OnSelect"
+                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "r.IconDelete1_1.OnSelect",
+                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2874,8 +2886,8 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "r",
-                "type": "r.IconDelete1_1"
+                "module": "Reproductor",
+                "type": "Reproductor.IconDelete1"
               }
             }
           ],
@@ -2896,12 +2908,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "r.IconDelete1_1.OnSelect"
+                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "r.IconDelete1_1.OnSelect",
+                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2914,8 +2926,8 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "r",
-                "type": "r.IconDelete1_1"
+                "module": "Reproductor",
+                "type": "Reproductor.IconDelete1"
               }
             }
           ],
@@ -2933,12 +2945,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "r.IconDelete1_1.OnSelect"
+                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "r.IconDelete1_1.OnSelect",
+                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2951,8 +2963,8 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "r",
-                "type": "r.IconDelete1_1"
+                "module": "Reproductor",
+                "type": "Reproductor.IconDelete1"
               }
             }
           ],
@@ -2974,12 +2986,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "r.IconDelete1_1.OnSelect"
+                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "r.IconDelete1_1.OnSelect",
+                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -2992,8 +3004,8 @@
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "r",
-                "type": "r.IconDelete1_1"
+                "module": "Reproductor",
+                "type": "Reproductor.IconDelete1"
               }
             }
           ],
@@ -3074,79 +3086,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Reproductor.Gallery1.AccessibleLabel"
+                  "fullyQualifiedName": "r.Video2.ClosedCaptionsUrl"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Reproductor.Gallery1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Reproductor",
-                "type": "Reproductor.Gallery1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Reproductor.Gallery1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Reproductor.Gallery1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Reproductor",
-                "type": "Reproductor.Gallery1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Reproductor.Gallery1.Video5.ClosedCaptionsUrl"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Reproductor.Gallery1.Video5.ClosedCaptionsUrl",
+                  "fullyQualifiedName": "r.Video2.ClosedCaptionsUrl",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "ClosedCaptionsUrl",
-                "module": "Reproductor",
-                "type": "Reproductor.Gallery1.Video5"
+                "module": "r",
+                "type": "r.Video2"
               }
             }
           ],
@@ -3157,26 +3109,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-CaptionsNeeded",
-          "ruleIndex": 6
+          "ruleIndex": 5
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Reproductor.Gallery1.Video5.AccessibleLabel"
+                  "fullyQualifiedName": "r.Video2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Reproductor.Gallery1.Video5.AccessibleLabel",
+                  "fullyQualifiedName": "r.Video2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Reproductor",
-                "type": "Reproductor.Gallery1.Video5"
+                "module": "r",
+                "type": "r.Video2"
               }
             }
           ],
@@ -3367,7 +3319,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-HelpfulControlSettingNeeded",
-          "ruleIndex": 7
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -3817,7 +3769,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -3837,6 +3789,66 @@
                 "member": "AccessibleLabel",
                 "module": "Libreria",
                 "type": "Libreria.TextInput1_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reproductor.DetailForm1.NombreC_DataCard1.Video1.ClosedCaptionsUrl"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reproductor.DetailForm1.NombreC_DataCard1.Video1.ClosedCaptionsUrl",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "ClosedCaptionsUrl",
+                "module": "Reproductor",
+                "type": "Reproductor.DetailForm1.NombreC_DataCard1.Video1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-CaptionsNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reproductor.DetailForm1.NombreC_DataCard1.Video1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reproductor.DetailForm1.NombreC_DataCard1.Video1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Reproductor",
+                "type": "Reproductor.DetailForm1.NombreC_DataCard1.Video1"
               }
             }
           ],
@@ -3932,23 +3944,6 @@
               }
             },
             {
-              "id": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-              "messageStrings": {
-                "issue": {
-                  "text": "Missing tab stop"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Set TabIndex to 0 or greater to ensure that interactive elements have a tab stop."
-                ],
-                "level": "Medium",
-                "primaryCategory": "accessibility",
-                "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
-              }
-            },
-            {
               "id": "acc-CaptionsNeeded",
               "messageStrings": {
                 "issue": {
@@ -3980,6 +3975,23 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "Changing this property setting will give the user better information about the function of the controls in your app."
+              }
+            },
+            {
+              "id": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+              "messageStrings": {
+                "issue": {
+                  "text": "Missing tab stop"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Set TabIndex to 0 or greater to ensure that interactive elements have a tab stop."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
               }
             },
             {
