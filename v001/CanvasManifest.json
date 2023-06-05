@@ -126,7 +126,7 @@
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
     "PublishTarget": "player",
-    "UserLocale": "en-US"
+    "UserLocale": "es-ES"
   },
   "ScreenOrder": [
     "Bienvenidos",
@@ -138,6 +138,6 @@
     "Edit[no oficial en pruevas]",
     "Error Loging",
     "Exito Signup",
-    "Screen1"
+    "Screen2"
   ]
 }
