@@ -146,6 +146,7 @@
     TextSearchBox1_12 As text:
         Default: ="RenFer"
         DelayOutput: =true
+        DisplayMode: =DisplayMode.View
         Height: =68
         HintText: =""
         PaddingLeft: =70

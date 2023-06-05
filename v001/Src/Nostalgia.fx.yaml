@@ -136,6 +136,7 @@
     TextSearchBox1_6 As text:
         Default: ="Nostalgia"
         DelayOutput: =true
+        DisplayMode: =DisplayMode.View
         Height: =68
         PaddingLeft: =70
         RadiusBottomLeft: =0

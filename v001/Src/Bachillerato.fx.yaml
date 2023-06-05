@@ -136,6 +136,7 @@
     TextSearchBox1_2 As text:
         Default: ="Bachillerato"
         DelayOutput: =true
+        DisplayMode: =DisplayMode.View
         Height: =68
         HintText: ="Buscar en elementos"
         PaddingLeft: =70

@@ -136,6 +136,7 @@
     TextSearchBox1_8 As text:
         Default: ="Puntos de quiebre"
         DelayOutput: =true
+        DisplayMode: =DisplayMode.View
         Height: =68
         PaddingLeft: =70
         RadiusBottomLeft: =0

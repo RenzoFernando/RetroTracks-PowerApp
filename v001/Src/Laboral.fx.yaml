@@ -136,6 +136,7 @@
     TextSearchBox1_5 As text:
         Default: ="Laboral"
         DelayOutput: =true
+        DisplayMode: =DisplayMode.View
         Height: =68
         HintText: =""
         PaddingLeft: =70

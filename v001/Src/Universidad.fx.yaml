@@ -136,6 +136,7 @@
     TextSearchBox1_10 As text:
         Default: ="Universidad"
         DelayOutput: =true
+        DisplayMode: =DisplayMode.View
         Height: =68
         PaddingLeft: =70
         RadiusBottomLeft: =0

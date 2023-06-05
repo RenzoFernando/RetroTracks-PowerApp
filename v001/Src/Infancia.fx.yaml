@@ -136,6 +136,7 @@
     TextSearchBox1_4 As text:
         Default: ="Infancia"
         DelayOutput: =true
+        DisplayMode: =DisplayMode.View
         Height: =68
         HintText: ="Buscar en elementos"
         PaddingLeft: =70
