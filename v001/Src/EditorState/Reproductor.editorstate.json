@@ -3333,7 +3333,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "%DetailViewContainer.ID%",
       "Name": "DetailForm1",
-      "ParentIndex": 5,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3575,7 +3575,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Gallery1",
-      "ParentIndex": 6,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4599,7 +4599,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%field_4.ID%",
       "Name": "Interprete_DataCard1",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4941,7 +4941,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%field_1.ID%",
       "Name": "Momento_DataCard1",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5075,7 +5075,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%field_3.ID%",
       "Name": "NombreC_DataCard1",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
