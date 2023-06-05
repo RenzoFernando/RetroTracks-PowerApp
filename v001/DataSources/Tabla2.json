@@ -1,0 +1,25 @@
+[
+  {
+    "Data": "[]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "Tabla2",
+    "OrderedColumnNames": [
+      "Asolescencia",
+      "Bachillerato",
+      "Conexión familiar",
+      "Infancia",
+      "Laboral",
+      "Nostalgia",
+      "Preadolescencia",
+      "Puntos de quiebre",
+      "Romance",
+      "Vacaciones"
+    ],
+    "OriginalName": "Tabla2",
+    "OriginalSchema": "*[Asolescencia:s, Bachillerato:s, 'Conexión familiar':s, Infancia:s, Laboral:s, Nostalgia:s, Preadolescencia:s, 'Puntos de quiebre':s, Romance:s, Vacaciones:s]",
+    "Schema": "*[Asolescencia:s, Bachillerato:s, 'Conexión familiar':s, Infancia:s, Laboral:s, Nostalgia:s, Preadolescencia:s, 'Puntos de quiebre':s, Romance:s, Vacaciones:s]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]
