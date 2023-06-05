@@ -1,86 +1,28 @@
 Bienvenidos As screen:
     Fill: =RGBA(0, 0, 0, 1)
 
-    Label1_3 As label:
-        Color: =RGBA(255, 255, 255, 1)
-        Height: =70
-        Size: =21
-        Text: ="copirrite"
-        Width: =560
-        X: =36
-        Y: =1052
-        ZIndex: =2
-
-    Rectangle5 As rectangle:
-        BorderColor: =RGBA(104, 0, 156, 1)
-        Fill: =RGBA(104, 0, 156, 1)
-        Height: =134
-        Width: =560
-        X: =40
-        Y: =138
-        ZIndex: =3
-
-    Label11 As label:
-        Align: =Align.Center
-        Color: =RGBA(255, 255, 255, 1)
-        FontWeight: =FontWeight.Semibold
-        Height: =124
-        Size: =25
-        Text: ="Bienvenido a RetroTracks tu app de música favorita"
-        Width: =517
-        X: =61
-        Y: =138
-        ZIndex: =4
-
     Button5 As button:
         Fill: =RGBA(172, 0, 255, 1)
-        Height: =70
+        Height: =142
         OnSelect: =Navigate(Log_in)
         Size: =24
-        Text: ="Button"
-        Width: =280
-        X: =176
-        Y: =889
+        Text: ="Clic para empezar esta diverttida historia de musica e historios o algo asi no c"
+        Width: =517
+        X: =61
+        Y: =872
         ZIndex: =5
-
-    TextInput1_5 As text:
-        BorderColor: =RGBA(0, 0, 0, 1)
-        BorderThickness: =0
-        Color: =RGBA(15, 15, 15, 1)
-        Default: =""
-        DisabledBorderColor: =RGBA(172, 0, 255, 1)
-        DisabledFill: =RGBA(172, 0, 255, 1)
-        Height: =10
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Size: =21
-        Width: =640
-        Y: =994
-        ZIndex: =8
-
-    TextInput1_10 As text:
-        BorderColor: =RGBA(0, 0, 0, 1)
-        BorderThickness: =0
-        Color: =RGBA(15, 15, 15, 1)
-        Default: =""
-        DisabledBorderColor: =RGBA(172, 0, 255, 1)
-        DisabledFill: =RGBA(172, 0, 255, 1)
-        Height: =10
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Size: =21
-        Width: =640
-        Y: =72
-        ZIndex: =9
 
     Image5 As image:
         Height: =642
         Image: ='logo (1)'
         Width: =640
-        Y: =272
+        Y: =217
         ZIndex: =10
+
+    Image1 As image:
+        Height: =320
+        Image: =Imagen1
+        Width: =640
+        Y: =82
+        ZIndex: =11
 
