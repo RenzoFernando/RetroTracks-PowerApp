@@ -46,6 +46,7 @@
         ZIndex: =5
 
     Label7_1 As label:
+        Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(104, 0, 156, 1)
         Height: =77
