@@ -11,7 +11,7 @@
     "BrowseGallery1_1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         DelayItemLoading: =true
         Height: =838
-        Items: =SortByColumns(Filter([@m], StartsWith(NombreC, TextSearchBox1_1.Text)), "Title", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
+        Items: =SortByColumns(Filter([@m], StartsWith(Momento, TextSearchBox1_1.Text)), "Title", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         OnSelect: =Navigate(Reproductor, ScreenTransition.None)
@@ -90,7 +90,7 @@
         Fill: =RGBA(58, 58, 58, 0)
         Height: =88
         Size: =27
-        Text: ="Adolescencia"
+        Text: ="Playlist"
         Width: =Parent.Width - Self.X - IconSortUpDown1_1.Width - IconNewItem1_1.Width - IconRefresh1_1.Width
         Wrap: =false
         X: =20
@@ -144,7 +144,7 @@
         ZIndex: =5
 
     TextSearchBox1_1 As text:
-        Default: =""
+        Default: ="Adolescencia"
         DelayOutput: =true
         Height: =68
         HintText: ="Buscar en elementos"
@@ -157,20 +157,6 @@
         Width: =640
         Y: =RectQuickActionBar1_1.Height
         ZIndex: =6
-
-    SearchIcon1_1 As icon.Search:
-        Color: =RGBA(191, 190, 190, 1)
-        Height: =Self.Width
-        Icon: =Icon.Search
-        PaddingBottom: =14
-        PaddingLeft: =14
-        PaddingRight: =14
-        PaddingTop: =14
-        Tooltip: ="Buscar"
-        Width: =TextSearchBox1_1.Height
-        X: =TextSearchBox1_1.X
-        Y: =TextSearchBox1_1.Y
-        ZIndex: =7
 
     Rectangle11_1 As rectangle:
         Height: =2
@@ -257,4 +243,13 @@
         Width: =640
         Y: =994
         ZIndex: =16
+
+    Icon6_16 As icon.BackArrow:
+        Height: =43
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(Home)
+        Width: =45
+        X: =11
+        Y: =100
+        ZIndex: =17
 
