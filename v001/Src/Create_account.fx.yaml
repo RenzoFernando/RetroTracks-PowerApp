@@ -497,7 +497,6 @@ Create_account As screen:
         AutoDisableOnSelect: =
         Fill: =RGBA(172, 0, 255, 1)
         Height: =82
-        Italic: =true
         OnSelect: |-
             =If(DataCardValue19.Value, Set(te,false), Set(te,true));
             
