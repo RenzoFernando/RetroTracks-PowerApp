@@ -303,8 +303,8 @@
         LoadingSpinner: =LoadingSpinner.Data
         TemplateSize: =560
         Width: =568
-        X: =33
-        Y: =104
+        X: =32
+        Y: =120
         ZIndex: =7
 
         Video5 As videoPlayback:
