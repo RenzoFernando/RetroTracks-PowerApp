@@ -126,7 +126,7 @@
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
     "PublishTarget": "player",
-    "UserLocale": "es-ES"
+    "UserLocale": "en-US"
   },
   "ScreenOrder": [
     "Bienvenidos",
@@ -149,6 +149,14 @@
     "Reproductor_Adole",
     "Reproductor_Bachi",
     "Reproductor_Conexión",
+    "Reproductor_Infancia",
+    "Reproductor_Laboral",
+    "Reproductor_Nostalgia",
+    "Reproductor_Preadolecencia",
+    "Reproductor_Puntos",
+    "Reproductor_Romance",
+    "Reproductor_Romance_2",
+    "Reproductor_Romance_1",
     "Edit[no oficial en pruevas]",
     "Error Loging",
     "Exito Signup",
