@@ -1,0 +1,208 @@
+Log_in_Prueba As screen:
+    Fill: =RGBA(0, 0, 0, 1)
+
+    Image5_4 As image:
+        Height: =642
+        Image: ='logo (1)'
+        Width: =640
+        ZIndex: =1
+
+    constrasena_1 As text:
+        BorderColor: =RGBA(172, 0, 255, 1)
+        BorderThickness: =5
+        Clear: =true
+        Color: =RGBA(255, 255, 255, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        Fill: =RGBA(104, 0, 156, 0.66)
+        Height: =70
+        HintText: =""
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        Mode: =TextMode.Password
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Size: =21
+        Width: =560
+        X: =44
+        Y: =804
+        ZIndex: =2
+
+    "'Inicio de sesión_1' As button":
+        DisabledBorderColor: =RGBA(104, 0, 156, 1)
+        Fill: =RGBA(172, 0, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =82
+        HoverFill: =ColorFade(RGBA(0, 0, 0, 0), 000%)
+        OnSelect: |-
+            =If(!IsBlank(LookUp(registro,Nombre = DataCardValue7.Text && Contrasena = constrasena_1.Text)),
+            Navigate(Home) && Reset(constrasena_1) && Reset(DataCardValue7);, 
+            Navigate('Error Loging') && Reset(constrasena_1) && Reset(DataCardValue7));
+        Size: =24
+        Text: ="Iniciar sesión"
+        Tooltip: =
+        Width: =560
+        X: =44
+        Y: =973
+        ZIndex: =3
+
+    Button2_1 As button:
+        Color: =RGBA(172, 0, 255, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =34
+        HoverFill: =ColorFade(RGBA(0, 0, 0, 0), 0%)
+        OnSelect: =Navigate(Create_account) && ResetForm(Form3) && Set(te,false)
+        Size: =18
+        Text: ="Crear cuenta"
+        Tooltip: =
+        Width: =560
+        X: =44
+        Y: =1068
+        ZIndex: =4
+
+    olvidar_1 As button:
+        Align: =Align.Right
+        AutoDisableOnSelect: =false
+        Color: =RGBA(172, 0, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =42
+        HoverFill: =ColorFade(RGBA(0, 0, 0, 0),000)
+        RadiusBottomLeft: =9
+        RadiusBottomRight: =9
+        RadiusTopLeft: =9
+        RadiusTopRight: =9
+        Text: ="¿Olvidaste tu contraseña?"
+        Width: =293
+        X: =311
+        Y: =874
+        ZIndex: =5
+
+    Label3_3 As label:
+        Color: =RGBA(172, 0, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =42
+        Size: =15
+        Text: ="Contraseña"
+        Width: =560
+        X: =44
+        Y: =762
+        ZIndex: =6
+
+    usuario_1 As text:
+        BorderColor: =RGBA(172, 0, 255, 1)
+        BorderThickness: =5
+        Clear: =true
+        Color: =RGBA(255, 255, 255, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        Fill: =RGBA(104, 0, 156, 0.64)
+        Height: =70
+        HintText: =""
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Size: =21
+        Width: =560
+        X: =44
+        Y: =670
+        ZIndex: =7
+
+    Label3_2 As label:
+        Color: =RGBA(172, 0, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =42
+        Size: =15
+        Text: ="Nombre de usuario"
+        Width: =560
+        X: =40
+        Y: =628
+        ZIndex: =8
+
+    Form2 As form:
+        DataSource: =personas
+        DefaultMode: =FormMode.New
+        Height: =185
+        OnFailure: |-
+            =If(!IsBlank(LookUp(registro,Nombre = DataCardValue7.Text)),
+            SubmitForm(Form2));
+        Width: =640
+        Y: =436
+        ZIndex: =9
+
+        Título_DataCard3 As typedDataCard.textualEditCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Title"
+            Default: =ThisItem.Título
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@personas],DataSourceInfo.DisplayName,"Title")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@personas], DataSourceInfo.MaxLength, "Title")
+            Required: =true
+            Update: =DataCardValue7.Text
+            Width: =640
+            X: =0
+            Y: =0
+            ZIndex: =10
+
+            DataCardKey7 As label:
+                AutoHeight: =true
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue7 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =70
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =21
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey7.Y + DataCardKey7.Height + 5
+                ZIndex: =2
+
+            ErrorMessage16 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue7.Y + DataCardValue7.Height
+                ZIndex: =3
+
+            StarVisible16 As label:
+                Align: =Align.Center
+                Height: =DataCardKey7.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey7.Y
+                ZIndex: =4
+
