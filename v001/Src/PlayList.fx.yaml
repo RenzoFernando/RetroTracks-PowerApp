@@ -42,7 +42,7 @@ PlayList As screen:
             Default: ="Entrada de texto"
             Height: =35
             Size: =17
-            Width: =199
+            Width: =213
             X: =52
             Y: =348
             ZIndex: =14
@@ -208,6 +208,13 @@ PlayList As screen:
             Y: =918
             ZIndex: =33
 
+    Icon6_22 As icon.Search:
+        Color: =RGBA(172, 0, 255, 1)
+        Icon: =Icon.Search
+        X: =266
+        Y: =1008
+        ZIndex: =35
+
     Group1 As group:
         Height: =5
         Width: =5
@@ -230,4 +237,77 @@ PlayList As screen:
             X: =39
             Y: =36
             ZIndex: =34
+
+    Label5_30 As label:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =64
+        Size: =21
+        Text: ="Buscar"
+        Width: =125
+        X: =256
+        Y: =1072
+        ZIndex: =36
+
+    Label1_22 As label:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =64
+        Size: =21
+        Text: ="Tu libreria"
+        Width: =153
+        X: =409
+        Y: =1072
+        ZIndex: =37
+
+    Icon2_18 As icon.Home:
+        Color: =RGBA(172, 0, 255, 1)
+        Icon: =Icon.Home
+        X: =93
+        Y: =1008
+        ZIndex: =38
+
+    Icon5_18 As icon.DetailList:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =71
+        Icon: =Icon.DetailList
+        Width: =56
+        X: =457
+        Y: =1004
+        ZIndex: =39
+
+    Label4_19 As label:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =64
+        Size: =21
+        Text: ="Home"
+        Width: =94
+        X: =78
+        Y: =1072
+        ZIndex: =40
+
+    Label5_31 As label:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =64
+        Size: =21
+        Text: ="Buscar"
+        Width: =125
+        X: =256
+        Y: =1072
+        ZIndex: =41
+
+    TextInput1_5 As text:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =0
+        Color: =RGBA(15, 15, 15, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(172, 0, 255, 1)
+        DisabledFill: =RGBA(172, 0, 255, 1)
+        Height: =10
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =21
+        Width: =640
+        Y: =994
+        ZIndex: =42
 
