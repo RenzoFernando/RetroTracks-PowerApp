@@ -1,0 +1,374 @@
+"Reproductor_Moon As screen.'phoneDetailViewLayout_ver3.0'":
+
+    RectQuickActionBar2_13 As rectangle:
+        Height: =88
+        Width: =Parent.Width
+        ZIndex: =1
+
+    IconBackarrow1_13 As icon.ChevronLeft:
+        AccessibleLabel: =Self.Tooltip
+        Fill: =RGBA(104, 0, 156, 1)
+        Height: =88
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Navigate(Libreria, ScreenTransition.None)
+        PaddingBottom: =24
+        PaddingLeft: =24
+        PaddingRight: =24
+        PaddingTop: =24
+        TabIndex: =0
+        Tooltip: ="Volver a la lista"
+        Width: =88
+        ZIndex: =2
+
+    IconEdit1_13 As icon.Edit:
+        AccessibleLabel: =Self.Tooltip
+        DisplayMode: =If(DataSourceInfo([@m], DataSourceInfo.EditPermission), DisplayMode.Edit, DisplayMode.Disabled)
+        Fill: =RGBA(104, 0, 156, 1)
+        Height: =88
+        Icon: =Icon.Edit
+        OnSelect: =EditForm(EditForm1);Navigate('Edit[no oficial en pruevas]', ScreenTransition.None)
+        PaddingBottom: =24
+        PaddingLeft: =24
+        PaddingRight: =24
+        PaddingTop: =24
+        TabIndex: =0
+        Tooltip: ="Editar este elemento"
+        Width: =88
+        X: =Parent.Width - Self.Width
+        ZIndex: =3
+
+    IconDelete1_13 As icon.Trash:
+        AccessibleLabel: =Self.Tooltip
+        BorderColor: =RGBA(172, 0, 255, 1)
+        Color: =RGBA(172, 0, 255, 1)
+        DisplayMode: =If(!IsBlank(BrowseGallery1.Selected) && DataSourceInfo([@m], DataSourceInfo.DeletePermission), DisplayMode.Edit, DisplayMode.Disabled)
+        Fill: =RGBA(104, 0, 156, 1)
+        Height: =88
+        Icon: =Icon.Trash
+        OnSelect: =Remove([@m], BrowseGallery1.Selected); If (IsEmpty(Errors([@m], BrowseGallery1.Selected)), Back())
+        PaddingBottom: =24
+        PaddingLeft: =24
+        PaddingRight: =24
+        PaddingTop: =24
+        TabIndex: =0
+        Tooltip: ="Eliminar este elemento"
+        Width: =88
+        X: =Parent.Width - IconEdit1_13.Width - Self.Width
+        ZIndex: =4
+
+    LblAppName2_13 As label:
+        BorderColor: =RGBA(172, 0, 255, 1)
+        Fill: =RGBA(104, 0, 156, 1)
+        Height: =88
+        Size: =27
+        Text: ="Reproduciendo..."
+        Width: =Parent.Width - Self.X - IconDelete1_13.Width - IconEdit1_13.Width
+        Wrap: =false
+        X: =80
+        ZIndex: =5
+
+    DetailForm1_13 As formViewer:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        DataSource: =MiBandaSonora
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =926
+        Item: =BrowseGallery1_13.Selected
+        Width: =Parent.Width
+        Y: =88
+        ZIndex: =6
+
+        NombreC_DataCard1_13 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(172, 0, 255, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_3"
+            Default: =ThisItem.Nombre
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@m],DataSourceInfo.DisplayName,"field_3")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =382
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            DataCardKey4_13 As label:
+                AutoHeight: =true
+                Height: =48
+                Size: =21
+                Text: =""
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue4_13 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 255, 255, 1)
+                DisplayMode: =Parent.DisplayMode
+                FontWeight: =FontWeight.Bold
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =21
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =39
+                Y: =347
+                ZIndex: =2
+
+            Video1_13 As videoPlayback:
+                Height: =323
+                Media: =ThisItem.Fuente
+                Width: =575
+                X: =39
+                Y: =24
+                ZIndex: =3
+
+        Interprete_DataCard1_13 As typedDataCard.textualViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_4"
+            Default: =ThisItem.Interprete
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@m],DataSourceInfo.DisplayName,"field_4")
+            Fill: =RGBA(109, 49, 162, 1)
+            Height: =75
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =1
+            ZIndex: =1
+
+            DataCardKey5_13 As label:
+                AutoHeight: =true
+                Height: =48
+                Size: =21
+                Text: =""
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue5_13 As label:
+                Align: =Align.Right
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =21
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                ZIndex: =2
+
+            DataCardKey2_26 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 255, 255, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =3
+
+        Momento_DataCard1_13 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_1"
+            Default: =ThisItem.Momento
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@m],DataSourceInfo.DisplayName,"field_1")
+            Fill: =RGBA(172, 0, 255, 1)
+            Height: =40
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =2
+            ZIndex: =1
+
+            DataCardKey2_27 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 255, 255, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue2_13 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =21
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey2_27.Y + DataCardKey2_27.Height + 5
+                ZIndex: =2
+
+        Genero_DataCard1_13 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(104, 0, 156, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_5"
+            Default: =ThisItem.Genero
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@m],DataSourceInfo.DisplayName,"field_5")
+            Fill: =RGBA(0, 0, 0, 1)
+            Height: =40
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =3
+            ZIndex: =1
+
+            DataCardKey6_13 As label:
+                AutoHeight: =true
+                Color: =RGBA(172, 0, 255, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue6_13 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 255, 255, 1)
+                DisplayMode: =Parent.DisplayMode
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =21
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey6_13.Y + DataCardKey6_13.Height + 5
+                ZIndex: =2
+
+        Relato_DataCard1_13 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(104, 0, 156, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_7"
+            Default: =ThisItem.Relato
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@m],DataSourceInfo.DisplayName,"field_7")
+            Fill: =RGBA(0, 0, 0, 1)
+            Height: =40
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =4
+            ZIndex: =1
+
+            DataCardKey8_13 As label:
+                AutoHeight: =true
+                Color: =RGBA(172, 0, 255, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue8_13 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 255, 255, 1)
+                DisplayMode: =Parent.DisplayMode
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =21
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey8_13.Y + DataCardKey8_13.Height + 5
+                ZIndex: =2
+
+    Label1_34 As label:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =64
+        Size: =21
+        Text: ="Tu libreria"
+        Width: =153
+        X: =407
+        Y: =1072
+        ZIndex: =7
+
+    Icon2_30 As icon.Home:
+        Color: =RGBA(172, 0, 255, 1)
+        Icon: =Icon.Home
+        X: =91
+        Y: =1022
+        ZIndex: =8
+
+    Icon5_30 As icon.DetailList:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =71
+        Icon: =Icon.DetailList
+        Width: =56
+        X: =455
+        Y: =1018
+        ZIndex: =9
+
+    Icon6_43 As icon.Search:
+        Color: =RGBA(172, 0, 255, 1)
+        Icon: =Icon.Search
+        X: =265
+        Y: =1022
+        ZIndex: =10
+
+    Label4_31 As label:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =64
+        Size: =21
+        Text: ="Home"
+        Width: =94
+        X: =76
+        Y: =1072
+        ZIndex: =11
+
+    Label5_45 As label:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =64
+        Size: =21
+        Text: ="Buscar"
+        Width: =125
+        X: =254
+        Y: =1072
+        ZIndex: =12
+
+    TextInput1_10 As text:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =0
+        Color: =RGBA(15, 15, 15, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(172, 0, 255, 1)
+        DisabledFill: =RGBA(172, 0, 255, 1)
+        Height: =10
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =21
+        Width: =640
+        Y: =1014
+        ZIndex: =13
+
