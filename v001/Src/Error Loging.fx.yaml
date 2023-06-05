@@ -19,7 +19,7 @@
     Icon7 As icon.EmojiFrown:
         Color: =RGBA(172, 0, 255, 1)
         Icon: =Icon.EmojiFrown
-        X: =518
+        X: =536
         Y: =466
         ZIndex: =3
 
