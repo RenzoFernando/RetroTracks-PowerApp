@@ -90,6 +90,7 @@ PlayList_ As screen:
 
         Image7 As image:
             Height: =150
+            OnSelect: =Navigate(Adolescencia)
             Width: =150
             X: =79
             Y: =39
@@ -99,6 +100,7 @@ PlayList_ As screen:
             Color: =RGBA(255, 255, 255, 1)
             FontWeight: =FontWeight.Semibold
             Height: =38
+            OnSelect: =Navigate(Adolescencia)
             Size: =19
             Text: ="Adolescencia"
             Width: =227
@@ -115,6 +117,7 @@ PlayList_ As screen:
 
         Image7_1 As image:
             Height: =150
+            OnSelect: =Navigate(Bachillerato)
             Width: =150
             X: =371
             Y: =39
@@ -124,6 +127,7 @@ PlayList_ As screen:
             Color: =RGBA(255, 255, 255, 1)
             FontWeight: =FontWeight.Semibold
             Height: =38
+            OnSelect: =Navigate(Bachillerato)
             Size: =19
             Text: ="Bachillerato"
             Width: =227
@@ -140,6 +144,7 @@ PlayList_ As screen:
 
         Image7_2 As image:
             Height: =150
+            OnSelect: =Navigate('Conexión Familiar')
             Width: =150
             X: =79
             Y: =227
@@ -149,6 +154,7 @@ PlayList_ As screen:
             Color: =RGBA(255, 255, 255, 1)
             FontWeight: =FontWeight.Semibold
             Height: =38
+            OnSelect: =Navigate('Conexión Familiar')
             Size: =19
             Text: ="Conexión familiar"
             Width: =227
@@ -165,6 +171,7 @@ PlayList_ As screen:
 
         Image7_3 As image:
             Height: =150
+            OnSelect: =Navigate(Infancia)
             Width: =150
             X: =371
             Y: =227
@@ -174,6 +181,7 @@ PlayList_ As screen:
             Color: =RGBA(255, 255, 255, 1)
             FontWeight: =FontWeight.Semibold
             Height: =38
+            OnSelect: =Navigate(Infancia)
             Size: =19
             Text: ="Infancia"
             Width: =227
@@ -190,6 +198,7 @@ PlayList_ As screen:
 
         Image7_4 As image:
             Height: =150
+            OnSelect: =Navigate(Laboral)
             Width: =150
             X: =79
             Y: =415
@@ -199,6 +208,7 @@ PlayList_ As screen:
             Color: =RGBA(255, 255, 255, 1)
             FontWeight: =FontWeight.Semibold
             Height: =38
+            OnSelect: =Navigate(Laboral)
             Size: =19
             Text: ="Laboral"
             Width: =227
@@ -215,6 +225,7 @@ PlayList_ As screen:
 
         Image7_5 As image:
             Height: =150
+            OnSelect: =Navigate(Nostalgia)
             Width: =150
             X: =371
             Y: =415
@@ -224,6 +235,7 @@ PlayList_ As screen:
             Color: =RGBA(255, 255, 255, 1)
             FontWeight: =FontWeight.Semibold
             Height: =38
+            OnSelect: =Navigate(Nostalgia)
             Size: =19
             Text: ="Nostalgia"
             Width: =227
@@ -240,6 +252,7 @@ PlayList_ As screen:
 
         Image7_6 As image:
             Height: =150
+            OnSelect: =Navigate(Preadolecencia)
             Width: =150
             X: =79
             Y: =604
@@ -249,6 +262,7 @@ PlayList_ As screen:
             Color: =RGBA(255, 255, 255, 1)
             FontWeight: =FontWeight.Semibold
             Height: =38
+            OnSelect: =Navigate(Preadolecencia)
             Size: =19
             Text: ="Preadolescencia"
             Width: =227
@@ -265,6 +279,7 @@ PlayList_ As screen:
 
         Image7_7 As image:
             Height: =150
+            OnSelect: =Navigate('Puntos De Quiebre')
             Width: =150
             X: =371
             Y: =604
@@ -274,6 +289,7 @@ PlayList_ As screen:
             Color: =RGBA(255, 255, 255, 1)
             FontWeight: =FontWeight.Semibold
             Height: =38
+            OnSelect: =Navigate('Puntos De Quiebre')
             Size: =19
             Text: ="Puntos de quiebre"
             Width: =257
@@ -290,6 +306,7 @@ PlayList_ As screen:
 
         Image7_8 As image:
             Height: =150
+            OnSelect: =Navigate(Romance)
             Width: =150
             X: =79
             Y: =796
@@ -299,6 +316,7 @@ PlayList_ As screen:
             Color: =RGBA(255, 255, 255, 1)
             FontWeight: =FontWeight.Semibold
             Height: =38
+            OnSelect: =Navigate(Romance)
             Size: =19
             Text: ="Romance"
             Width: =227
@@ -315,6 +333,7 @@ PlayList_ As screen:
 
         Image7_9 As image:
             Height: =150
+            OnSelect: =Navigate(Vacaciones)
             Width: =150
             X: =371
             Y: =796
@@ -324,6 +343,7 @@ PlayList_ As screen:
             Color: =RGBA(255, 255, 255, 1)
             FontWeight: =FontWeight.Semibold
             Height: =38
+            OnSelect: =Navigate(Vacaciones)
             Size: =19
             Text: ="Vacaciones"
             Width: =227
