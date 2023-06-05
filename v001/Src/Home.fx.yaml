@@ -8,7 +8,7 @@ Home As screen:
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
         TemplateSize: =Min(440, Self.Height - 60)
-        Y: =766
+        Y: =784
         ZIndex: =1
 
         Image10 As image:
@@ -289,6 +289,6 @@ Home As screen:
         Size: =15
         Width: =520
         X: =58
-        Y: =731
+        Y: =754
         ZIndex: =32
 
