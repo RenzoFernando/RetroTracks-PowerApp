@@ -19,20 +19,9 @@
     Icon7 As icon.EmojiFrown:
         Color: =RGBA(172, 0, 255, 1)
         Icon: =Icon.EmojiFrown
-        X: =518
+        X: =536
         Y: =466
         ZIndex: =3
-
-    TextInput3 As text:
-        Color: =RGBA(255, 255, 255, 1)
-        Default: ="Text input"
-        Fill: =RGBA(104, 0, 156, 1)
-        Height: =70
-        Size: =21
-        Width: =560
-        X: =40
-        Y: =297
-        ZIndex: =5
 
     Button3 As button:
         Fill: =RGBA(104, 0, 156, 1)
@@ -41,7 +30,7 @@
         Text: ="Aceptar "
         Width: =280
         X: =180
-        Y: =645
+        Y: =595
         ZIndex: =6
 
     Label6 As label:
@@ -51,6 +40,17 @@
         Text: ="Se ha producido un error con su contraseña o su usuario. Porfavor vuelva a intentar de nuevo "
         Width: =460
         X: =58
-        Y: =429
+        Y: =406
         ZIndex: =7
+
+    Label7 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(104, 0, 156, 1)
+        Height: =77
+        Size: =21
+        Text: ="Error de inicio de secion "
+        Width: =542
+        X: =58
+        Y: =280
+        ZIndex: =8
 

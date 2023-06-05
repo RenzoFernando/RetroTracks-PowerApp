@@ -2,7 +2,7 @@
 
     Button1_1 As button:
         BorderThickness: =0
-        Fill: =RGBA(172, 0, 255, 1)
+        Fill: =RGBA(0, 0, 0, 1)
         Height: =1136
         OnSelect: =Navigate(Log_in)
         RadiusBottomLeft: =0
@@ -11,11 +11,48 @@
         RadiusTopRight: =0
         Size: =24
         Text: |-
-            ="FELICITACION USTED SE HA REGIUSTRADO CON EXITO
+            ="
             
-            AHORA PORFAVOR INICIE SECCION CON SUS DATOS DADOS
             
-            PRESIONE PARA CONTINUAR"
+            "
         Width: =640
         ZIndex: =1
+
+    Label6_1 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =198
+        Size: =21
+        Text: ="Felicidades registro exitoso. Ahora porfavor inicie la sesion con los datos correspondientes. Precione para continuar."
+        Width: =460
+        X: =34
+        Y: =390
+        ZIndex: =3
+
+    Button4 As button:
+        Fill: =RGBA(104, 0, 156, 1)
+        Height: =70
+        Size: =24
+        Text: ="Continuar "
+        Width: =280
+        X: =165
+        Y: =630
+        ZIndex: =4
+
+    Icon8 As icon.EmojiSmile:
+        Color: =RGBA(172, 0, 255, 1)
+        Icon: =Icon.EmojiSmile
+        X: =512
+        Y: =441
+        ZIndex: =5
+
+    Label7_1 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(104, 0, 156, 1)
+        Height: =77
+        Size: =21
+        Text: ="Registro exitoso "
+        Width: =542
+        X: =34
+        Y: =267
+        ZIndex: =6
 
