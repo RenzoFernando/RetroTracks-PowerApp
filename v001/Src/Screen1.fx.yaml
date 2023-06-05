@@ -3,9 +3,10 @@ Screen1 As screen:
     ComboBox1 As combobox:
         DisplayFields: =["Momentos"]
         Height: =70
+        IsSearchable: =false
         Items: =Tabla1
         SearchFields: =["Momentos"]
-        SearchItems: =Search(Tabla1,ComboBox1.SearchText,"Momentos")
+        SearchItems: =[]
         Size: =21
         Template: =ListItemTemplate.Double
         Width: =575
