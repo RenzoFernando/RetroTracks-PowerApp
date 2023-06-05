@@ -190,3 +190,10 @@ Configuraciones As screen:
         Y: =1072
         ZIndex: =19
 
+    Image6 As image:
+        Height: =90
+        Width: =165
+        X: =40
+        Y: =152
+        ZIndex: =20
+
