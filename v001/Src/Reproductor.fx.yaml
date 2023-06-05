@@ -7,7 +7,7 @@
 
     IconBackarrow1 As icon.ChevronLeft:
         AccessibleLabel: =Self.Tooltip
-        Fill: =RGBA(172, 0, 255, 1)
+        Fill: =RGBA(104, 0, 156, 1)
         Height: =88
         Icon: =Icon.ChevronLeft
         OnSelect: =Navigate(Libreria, ScreenTransition.None)
@@ -23,7 +23,7 @@
     IconEdit1 As icon.Edit:
         AccessibleLabel: =Self.Tooltip
         DisplayMode: =If(DataSourceInfo([@m], DataSourceInfo.EditPermission), DisplayMode.Edit, DisplayMode.Disabled)
-        Fill: =RGBA(172, 0, 255, 1)
+        Fill: =RGBA(104, 0, 156, 1)
         Height: =88
         Icon: =Icon.Edit
         OnSelect: =EditForm(EditForm1);Navigate('Edit[no oficial en pruevas]', ScreenTransition.None)
@@ -42,7 +42,7 @@
         BorderColor: =RGBA(172, 0, 255, 1)
         Color: =RGBA(172, 0, 255, 1)
         DisplayMode: =If(!IsBlank(BrowseGallery1.Selected) && DataSourceInfo([@m], DataSourceInfo.DeletePermission), DisplayMode.Edit, DisplayMode.Disabled)
-        Fill: =RGBA(172, 0, 255, 1)
+        Fill: =RGBA(104, 0, 156, 1)
         Height: =88
         Icon: =Icon.Trash
         OnSelect: =Remove([@m], BrowseGallery1.Selected); If (IsEmpty(Errors([@m], BrowseGallery1.Selected)), Back())
@@ -58,7 +58,7 @@
 
     LblAppName2 As label:
         BorderColor: =RGBA(172, 0, 255, 1)
-        Fill: =RGBA(172, 0, 255, 1)
+        Fill: =RGBA(104, 0, 156, 1)
         Height: =88
         Size: =27
         Text: ="Reproduciendo..."
@@ -121,8 +121,8 @@
                 Height: =323
                 Media: =ThisItem.Fuente
                 Width: =575
-                X: =35
-                Y: =10
+                X: =30
+                Y: =37
                 ZIndex: =3
 
         Interprete_DataCard1 As typedDataCard.textualViewCard:
@@ -170,7 +170,7 @@
             Default: =ThisItem.Momento
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@m],DataSourceInfo.DisplayName,"field_1")
-            Fill: =RGBA(104, 0, 156, 1)
+            Fill: =RGBA(172, 0, 255, 1)
             Height: =40
             Required: =false
             Width: =640
@@ -252,7 +252,7 @@
             Default: =ThisItem.Relato
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@m],DataSourceInfo.DisplayName,"field_7")
-            Fill: =RGBA(104, 0, 156, 1)
+            Fill: =RGBA(172, 0, 255, 1)
             Height: =40
             Required: =false
             Width: =640
@@ -285,4 +285,74 @@
                 X: =30
                 Y: =DataCardKey8.Y + DataCardKey8.Height + 5
                 ZIndex: =2
+
+    Label1_6 As label:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =64
+        Size: =21
+        Text: ="Tu libreria"
+        Width: =153
+        X: =407
+        Y: =1072
+        ZIndex: =7
+
+    Icon2_2 As icon.Home:
+        Color: =RGBA(172, 0, 255, 1)
+        Icon: =Icon.Home
+        X: =91
+        Y: =1022
+        ZIndex: =8
+
+    Icon5_2 As icon.DetailList:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =71
+        Icon: =Icon.DetailList
+        Width: =56
+        X: =455
+        Y: =1018
+        ZIndex: =9
+
+    Icon6_2 As icon.Search:
+        Color: =RGBA(172, 0, 255, 1)
+        Icon: =Icon.Search
+        X: =265
+        Y: =1022
+        ZIndex: =10
+
+    Label4_3 As label:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =64
+        Size: =21
+        Text: ="Home"
+        Width: =94
+        X: =76
+        Y: =1072
+        ZIndex: =11
+
+    Label5_3 As label:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =64
+        Size: =21
+        Text: ="Buscar"
+        Width: =125
+        X: =254
+        Y: =1072
+        ZIndex: =12
+
+    TextInput1_4 As text:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =0
+        Color: =RGBA(15, 15, 15, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(172, 0, 255, 1)
+        DisabledFill: =RGBA(172, 0, 255, 1)
+        Height: =10
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =21
+        Width: =640
+        Y: =1014
+        ZIndex: =13
 
