@@ -54,8 +54,7 @@
     LblAppName2 As label:
         Height: =88
         Size: =27
-        Text: |-
-            ="Reproduciendo:"
+        Text: ="m"
         Width: =Parent.Width - Self.X - IconDelete1.Width - IconEdit1.Width
         Wrap: =false
         X: =80
@@ -297,11 +296,20 @@
                 Y: =DataCardKey8.Y + DataCardKey8.Height + 5
                 ZIndex: =2
 
-    Video4 As videoPlayback:
-        Height: =323
-        Media: =ThisItem.'Fuente'
-        Width: =575
-        X: =32
-        Y: =120
+    Gallery1 As gallery.galleryHorizontal:
+        DelayItemLoading: =true
+        Height: =361
+        Items: =m
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =560
+        Width: =586
+        X: =33
+        Y: =104
         ZIndex: =7
+
+        Video5 As videoPlayback:
+            Height: =351
+            Media: =ThisItem.'Fuente'
+            Width: =560
+            ZIndex: =1
 
