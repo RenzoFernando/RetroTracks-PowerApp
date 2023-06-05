@@ -500,7 +500,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/05/2023 15:18:22",
+  "HeaderLastSavedDateTimeUTC": "06/05/2023 15:19:40",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "599b1913-4d6c-430e-8b80-6f1264943d5c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/1844cddf9dba4a71bfd8896ee9767ec8\""
@@ -520,9 +520,10 @@
     "CustomGallerySample": 1,
     "DropDownSample": 2,
     "ListboxSample": 3,
-    "m": 4,
-    "MiBandaSonora": 5,
-    "registro": 6
+    "m": 5,
+    "MiBandaSonora": 6,
+    "registro": 7,
+    "Tabla1": 4
   },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
