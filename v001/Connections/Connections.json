@@ -9,6 +9,13 @@
       "parameterHintsV2": {}
     },
     "datasets": {
+      "https://icesiedu-my.sharepoint.com/personal/1058932590_u_icesi_edu_co/_layouts/15/lists.aspx": {
+        "dataSources": {
+          "listaCancionesLuna": {
+            "tableName": "f5babacd-70d2-473b-97ba-f7260fe00126"
+          }
+        }
+      },
       "https://icesiedu-my.sharepoint.com/personal/1114876013_u_icesi_edu_co": {
         "dataSources": {
           "m": {
@@ -22,7 +29,8 @@
     },
     "dataSources": [
       "m",
-      "registro"
+      "registro",
+      "listaCancionesLuna"
     ],
     "dependencies": {},
     "dependents": [],
