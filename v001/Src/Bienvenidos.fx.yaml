@@ -9,7 +9,7 @@ Bienvenidos As screen:
         Width: =560
         X: =36
         Y: =1052
-        ZIndex: =3
+        ZIndex: =2
 
     Rectangle5 As rectangle:
         BorderColor: =RGBA(104, 0, 156, 1)
@@ -17,19 +17,20 @@ Bienvenidos As screen:
         Height: =134
         Width: =560
         X: =40
-        Y: =167
-        ZIndex: =4
+        Y: =82
+        ZIndex: =3
 
     Label11 As label:
+        Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         FontWeight: =FontWeight.Semibold
         Height: =124
         Size: =25
         Text: ="Bienvenido a RetroTracks tu app de musica favorita"
         Width: =517
-        X: =79
-        Y: =167
-        ZIndex: =5
+        X: =56
+        Y: =92
+        ZIndex: =4
 
     Button5 As button:
         Fill: =RGBA(172, 0, 255, 1)
@@ -37,9 +38,9 @@ Bienvenidos As screen:
         Size: =24
         Text: ="Button"
         Width: =280
-        X: =180
-        Y: =701
-        ZIndex: =7
+        X: =176
+        Y: =919
+        ZIndex: =5
 
     TextInput1_5 As text:
         BorderColor: =RGBA(0, 0, 0, 1)
