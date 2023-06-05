@@ -39,8 +39,8 @@ Bienvenidos As screen:
         Size: =24
         Text: ="Button"
         Width: =280
-        X: =174
-        Y: =709
+        X: =176
+        Y: =889
         ZIndex: =5
 
     TextInput1_5 As text:
@@ -78,10 +78,9 @@ Bienvenidos As screen:
         ZIndex: =9
 
     Image5 As image:
-        Height: =375
+        Height: =642
         Image: ='logo (1)'
-        Width: =395
-        X: =102
-        Y: =262
+        Width: =640
+        Y: =272
         ZIndex: =10
 
