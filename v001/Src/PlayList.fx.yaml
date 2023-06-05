@@ -1,99 +1,12 @@
 PlayList As screen:
     Fill: =RGBA(0, 0, 0, 1)
 
-    Icon6_19 As icon.Search:
-        Color: =RGBA(172, 0, 255, 1)
-        Icon: =Icon.Search
-        X: =266
-        Y: =1008
-        ZIndex: =1
-
-    Label5_27 As label:
-        Color: =RGBA(172, 0, 255, 1)
-        Height: =64
-        Size: =21
-        Text: ="Buscar"
-        Width: =125
-        X: =256
-        Y: =1072
-        ZIndex: =2
-
-    Label1_19 As label:
-        Color: =RGBA(172, 0, 255, 1)
-        Height: =64
-        Size: =21
-        Text: ="Tu libreria"
-        Width: =153
-        X: =409
-        Y: =1072
-        ZIndex: =3
-
-    Icon2_15 As icon.Home:
-        Color: =RGBA(172, 0, 255, 1)
-        Icon: =Icon.Home
-        X: =93
-        Y: =1008
-        ZIndex: =4
-
-    Icon5_15 As icon.DetailList:
-        Color: =RGBA(172, 0, 255, 1)
-        Height: =71
-        Icon: =Icon.DetailList
-        Width: =56
-        X: =457
-        Y: =1004
-        ZIndex: =5
-
-    Label4_16 As label:
-        Color: =RGBA(172, 0, 255, 1)
-        Height: =64
-        Size: =21
-        Text: ="Home"
-        Width: =94
-        X: =78
-        Y: =1072
-        ZIndex: =6
-
-    Label5_28 As label:
-        Color: =RGBA(172, 0, 255, 1)
-        Height: =64
-        Size: =21
-        Text: ="Buscar"
-        Width: =125
-        X: =256
-        Y: =1072
-        ZIndex: =7
-
-    TextInput1_24 As text:
-        BorderColor: =RGBA(0, 0, 0, 1)
-        BorderThickness: =0
-        Color: =RGBA(15, 15, 15, 1)
-        Default: =""
-        DisabledBorderColor: =RGBA(172, 0, 255, 1)
-        DisabledFill: =RGBA(172, 0, 255, 1)
-        Height: =10
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Size: =21
-        Width: =640
-        Y: =994
-        ZIndex: =8
-
     Group1 As group:
         Height: =5
         Width: =5
         X: =60
         Y: =60
         ZIndex: =11
-
-        Image8 As image:
-            Height: =107
-            Width: =226
-            X: =39
-            Y: =36
-            ZIndex: =9
 
         TextInput2 As text:
             Default: ="Entrada de texto"

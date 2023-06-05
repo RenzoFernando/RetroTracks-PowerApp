@@ -133,7 +133,6 @@
     "Log_in",
     "Create_account",
     "Home",
-    "PlayList",
     "Libreria",
     "Adolescencia",
     "Bachillerato",
@@ -147,11 +146,15 @@
     "Universidad",
     "Vacaciones",
     "Reproductor",
+    "Reproductor_Adole",
+    "Reproductor_Bachi",
+    "Reproductor_Conexión",
     "Edit[no oficial en pruevas]",
     "Error Loging",
     "Exito Signup",
     "Configuraciones",
     "Screen1",
-    "Screen2"
+    "Screen2",
+    "PlayList"
   ]
 }
