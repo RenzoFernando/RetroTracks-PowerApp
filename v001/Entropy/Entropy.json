@@ -88,9 +88,7 @@
     "Fuente_DataCard1": 60,
     "Fuente_DataCard1_1": 32,
     "Fuente_DataCard2": 141,
-    "Gallery1": 215,
     "galleryTemplate1": 197,
-    "galleryTemplate2": 216,
     "Genero_DataCard1": 57,
     "Genero_DataCard1_1": 29,
     "Genero_DataCard2": 136,
@@ -210,12 +208,12 @@
     "Title3": 199,
     "Título_DataCard2": 74,
     "usuario": 7,
-    "Video5": 217,
+    "Video1": 218,
     "volver_2": 104
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/05/2023 02:37:12",
+  "HeaderLastSavedDateTimeUTC": "06/05/2023 02:41:32",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "599b1913-4d6c-430e-8b80-6f1264943d5c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/f10d7844c54140f8a5b20c8d05d07042\""
@@ -236,16 +234,16 @@
   "OrderTemplate": {},
   "OrderXMLTemplate": {
     "button": 2,
-    "form": 8,
+    "form": 7,
     "formViewer": 5,
-    "gallery": 6,
+    "gallery": 10,
     "icon": 4,
-    "image": 10,
+    "image": 9,
     "label": 0,
     "rectangle": 3,
     "text": 1,
-    "toggleSwitch": 9,
-    "videoPlayback": 7
+    "toggleSwitch": 8,
+    "videoPlayback": 6
   },
   "OverridablePropertiesEntry": {
     "¿Aceptas los términos y condiciones?_DataCard2": {},
@@ -334,9 +332,7 @@
     "Fuente_DataCard1": {},
     "Fuente_DataCard1_1": {},
     "Fuente_DataCard2": {},
-    "Gallery1": {},
     "galleryTemplate1": {},
-    "galleryTemplate2": {},
     "Genero_DataCard1": {},
     "Genero_DataCard1_1": {},
     "Genero_DataCard2": {},
@@ -456,7 +452,7 @@
     "Title3": {},
     "Título_DataCard2": {},
     "usuario": {},
-    "Video5": {},
+    "Video1": {},
     "volver_2": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
@@ -548,9 +544,7 @@
     "Fuente_DataCard1": 197,
     "Fuente_DataCard1_1": 169,
     "Fuente_DataCard2": 54,
-    "Gallery1": 189,
     "galleryTemplate1": 143,
-    "galleryTemplate2": 191,
     "Genero_DataCard1": 196,
     "Genero_DataCard1_1": 168,
     "Genero_DataCard2": 53,
@@ -670,7 +664,7 @@
     "Title3": 145,
     "Título_DataCard2": 13,
     "usuario": 152,
-    "Video5": 192,
+    "Video1": 0,
     "volver_2": 12
   },
   "ResourcesJsonIndices": {
@@ -695,7 +689,7 @@
       "text": 20,
       "toggleSwitch": 1,
       "typedDataCard": 26,
-      "videoPlayback": 3
+      "videoPlayback": 4
     },
     "DeserializationLoadTime": 1.4091914
   },
