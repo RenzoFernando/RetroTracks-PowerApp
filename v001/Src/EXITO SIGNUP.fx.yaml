@@ -1,0 +1,16 @@
+"'EXITO SIGNUP' As screen":
+
+    Button1_1 As button:
+        BorderThickness: =0
+        Height: =1136
+        OnSelect: =Navigate(Log_in)
+        Size: =24
+        Text: |-
+            ="FELICITACION USTED SE HA REGIUSTRADO CON EXITO
+            
+            AHORA PORFAVOR INICIE SECCION CON SUS DATOS DADOS
+            
+            PRESIONE PARA CONTINUAR"
+        Width: =640
+        ZIndex: =1
+

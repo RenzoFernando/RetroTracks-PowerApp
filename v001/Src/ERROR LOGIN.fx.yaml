@@ -1,0 +1,15 @@
+"'ERROR LOGIN' As screen":
+
+    Button1 As button:
+        BorderThickness: =0
+        Height: =1136
+        OnSelect: =Navigate(Log_in)
+        Size: =24
+        Text: |-
+            ="ERROR AL INTENTAR INICIAL SECCION
+            USUARIO O CONTRASEÑA EQUICOCADAS
+            
+            PRESIONE PARA VOLVERA INTENTAR"
+        Width: =640
+        ZIndex: =2
+

@@ -1,0 +1,128 @@
+Log_in As screen:
+    Fill: =RGBA(0, 0, 0, 1)
+
+    constrasena As text:
+        BorderColor: =RGBA(172, 0, 255, 1)
+        BorderThickness: =5
+        Clear: =true
+        Color: =RGBA(255, 255, 255, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        Fill: =RGBA(104, 0, 156, 0.66)
+        Height: =70
+        HintText: =""
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        Mode: =TextMode.Password
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Size: =21
+        Width: =560
+        X: =44
+        Y: =804
+        ZIndex: =1
+
+    "'Inicio de sesión' As button":
+        DisabledBorderColor: =RGBA(104, 0, 156, 1)
+        Fill: =RGBA(172, 0, 255, 1)
+        Height: =82
+        HoverFill: =ColorFade(RGBA(0, 0, 0, 0), 000%)
+        OnSelect: |-
+            =If(!IsBlank(LookUp(registro,Nombre = usuario.Text && Contrasena = constrasena.Text)),
+            Navigate(Home) && Reset(constrasena) && Reset(usuario);,
+            Navigate('ERROR LOGIN') && Reset(constrasena) && Reset(usuario));
+        Size: =24
+        Text: ="Iniciar sesión"
+        Tooltip: =
+        Width: =560
+        X: =44
+        Y: =973
+        ZIndex: =2
+
+    Button2 As button:
+        Color: =RGBA(172, 0, 255, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =34
+        HoverFill: =ColorFade(RGBA(0, 0, 0, 0), 0%)
+        OnSelect: =Navigate(Create_account) && ResetForm(Form3) && Set(te,false)
+        Size: =18
+        Text: ="Crear cuenta"
+        Tooltip: =
+        Width: =560
+        X: =44
+        Y: =1068
+        ZIndex: =3
+
+    olvidar As button:
+        Align: =Align.Right
+        AutoDisableOnSelect: =false
+        Color: =RGBA(172, 0, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =42
+        HoverFill: =ColorFade(RGBA(0, 0, 0, 0),000)
+        RadiusBottomLeft: =9
+        RadiusBottomRight: =9
+        RadiusTopLeft: =9
+        RadiusTopRight: =9
+        Text: ="¿Olvidaste tu contraseña?"
+        Width: =293
+        X: =311
+        Y: =874
+        ZIndex: =4
+
+    Label2 As label:
+        Align: =Align.Center
+        Color: =RGBA(172, 0, 255, 1)
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Bold
+        Height: =65
+        Size: =23
+        Text: ="RetroTrack"
+        Width: =640
+        ZIndex: =5
+
+    Label3_1 As label:
+        Color: =RGBA(172, 0, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =42
+        Size: =15
+        Text: ="Contraseña"
+        Width: =560
+        X: =44
+        Y: =762
+        ZIndex: =6
+
+    usuario As text:
+        BorderColor: =RGBA(172, 0, 255, 1)
+        BorderThickness: =5
+        Clear: =true
+        Color: =RGBA(255, 255, 255, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        Fill: =RGBA(104, 0, 156, 0.64)
+        Height: =70
+        HintText: =""
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Size: =21
+        Width: =560
+        X: =44
+        Y: =670
+        ZIndex: =7
+
+    Label3 As label:
+        Color: =RGBA(172, 0, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =42
+        Size: =15
+        Text: ="Nombre de usuario"
+        Width: =560
+        X: =40
+        Y: =628
+        ZIndex: =8
+
