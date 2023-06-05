@@ -30,7 +30,7 @@ Create_account As screen:
             BorderStyle: =BorderStyle.None
             BorderThickness: =5
             DataField: ="Title"
-            Default: =ThisItem.Title
+            Default: =ThisItem.Título
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@registro],DataSourceInfo.DisplayName,"Title")
             Fill: =RGBA(0, 0, 0, 0)
@@ -192,7 +192,7 @@ Create_account As screen:
         "'Teléfono _DataCard2' As typedDataCard.numberEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Tel_x00e9_fono"
-            Default: =ThisItem.'Teléfono '
+            Default: =ThisItem.Teléfono
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@registro],DataSourceInfo.DisplayName,"Tel_x00e9_fono")
             Fill: =RGBA(0, 0, 0, 0)
