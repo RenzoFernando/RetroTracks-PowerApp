@@ -1,55 +1,6 @@
 Home As screen:
     Fill: =RGBA(0, 0, 0, 1)
 
-    "Gallery5 As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver4.0'":
-        DelayItemLoading: =true
-        Height: =213
-        Items: =m
-        LoadingSpinner: =LoadingSpinner.Data
-        TemplatePadding: =0
-        TemplateSize: =Min(440, Self.Height - 60)
-        Y: =784
-        ZIndex: =1
-
-        Image10 As image:
-            Height: =269
-            OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth - 32
-            X: =16
-            ZIndex: =1
-
-        Title6 As label:
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =11
-            Text: =ThisItem.Id_lista
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 64
-            X: =16
-            Y: =32
-            ZIndex: =2
-
-        Subtitle6 As label:
-            Color: =RGBA(255, 255, 255, 1)
-            FontWeight: =FontWeight.Bold
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =12
-            Text: =ThisItem.Momento
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Title6.Width
-            X: =32
-            Y: =32
-            ZIndex: =3
-
     Label1_4 As label:
         Color: =RGBA(172, 0, 255, 1)
         Height: =64
@@ -291,4 +242,54 @@ Home As screen:
         X: =58
         Y: =754
         ZIndex: =32
+
+    "Gallery3 As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver4.0'":
+        DelayItemLoading: =true
+        Height: =238
+        Items: =Tabla1
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =0
+        TemplateSize: =Min(440, Self.Height - 60)
+        Y: =768
+        ZIndex: =33
+
+        Image8 As image:
+            Height: =165
+            OnSelect: =Select(Parent)
+            Width: =134
+            X: =16
+            Y: =72
+            ZIndex: =1
+
+        Title4 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =68
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =13
+            Text: =ThisItem.Momentos
+            VerticalAlign: =VerticalAlign.Top
+            Width: =164
+            X: =16
+            Y: =59
+            ZIndex: =2
+
+        Subtitle4 As label:
+            Color: =RGBA(0, 0, 0, 0.02)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Momentos
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title4.Width
+            X: =16
+            Y: =27
+            ZIndex: =3
 

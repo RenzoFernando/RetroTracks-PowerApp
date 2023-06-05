@@ -1,0 +1,16 @@
+[
+  {
+    "Data": "[{\"Momentos\":\"Asolescencia\"},{\"Momentos\":\"Bachillerato\"},{\"Momentos\":\"Conexi\\u00F3n familiar\"},{\"Momentos\":\"Infancia\"},{\"Momentos\":\"Laboral\"},{\"Momentos\":\"Nostalgia\"},{\"Momentos\":\"Preadolescencia\"},{\"Momentos\":\"Puntos de quiebre\"},{\"Momentos\":\"Romance\"},{\"Momentos\":\"Vacaciones\"}]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "Tabla1",
+    "OrderedColumnNames": [
+      "Momentos"
+    ],
+    "OriginalName": "Tabla1",
+    "OriginalSchema": "*[Momentos:s]",
+    "Schema": "*[Momentos:s]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]
