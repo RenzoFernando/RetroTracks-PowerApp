@@ -1,46 +1,15 @@
 Screen1 As screen:
 
-    "Gallery5 As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver4.0'":
-        DelayItemLoading: =true
-        Height: =366
+    ComboBox1 As combobox:
+        DisplayFields: =["Momentos"]
+        Height: =70
         Items: =Tabla1
-        LoadingSpinner: =LoadingSpinner.Data
-        TemplatePadding: =0
-        TemplateSize: =Min(440, Self.Height - 60)
+        SearchFields: =["Momentos"]
+        SearchItems: =Search(Tabla1,ComboBox1.SearchText,"Momentos")
+        Size: =21
+        Template: =ListItemTemplate.Double
+        Width: =575
+        X: =40
         Y: =40
         ZIndex: =1
-
-        Image10 As image:
-            Height: =250
-            OnSelect: =Select(Parent)
-            Width: =250
-            ZIndex: =1
-
-        Title6 As label:
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.Momentos
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 64
-            X: =32
-            Y: =Image10.Y + Image10.Height + 16
-            ZIndex: =2
-
-        Subtitle6 As label:
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.Momentos
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Title6.Width
-            X: =Title6.X
-            Y: =Title6.Y + Title6.Height + 8
-            ZIndex: =3
 
