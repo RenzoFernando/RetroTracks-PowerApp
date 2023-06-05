@@ -35,3 +35,21 @@
         Y: =282
         ZIndex: =5
 
+    Button3 As button:
+        Height: =70
+        Size: =24
+        Text: ="Button"
+        Width: =280
+        X: =140
+        Y: =782
+        ZIndex: =6
+
+    Label6 As label:
+        Height: =192
+        Size: =21
+        Text: =""
+        Width: =460
+        X: =40
+        Y: =395
+        ZIndex: =7
+
