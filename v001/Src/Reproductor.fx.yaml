@@ -96,13 +96,14 @@
             DataCardValue4 As label:
                 AutoHeight: =true
                 DisplayMode: =Parent.DisplayMode
+                FontWeight: =FontWeight.Bold
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
                 Size: =21
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
-                X: =17
+                X: =35
                 Y: =333
                 ZIndex: =2
 
@@ -110,7 +111,7 @@
                 Height: =323
                 Media: =ThisItem.Fuente
                 Width: =575
-                X: =19
+                X: =35
                 Y: =10
                 ZIndex: =3
 
@@ -168,6 +169,7 @@
 
             DataCardKey2 As label:
                 AutoHeight: =true
+                FontWeight: =FontWeight.Bold
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
@@ -206,6 +208,7 @@
 
             DataCardKey6 As label:
                 AutoHeight: =true
+                FontWeight: =FontWeight.Bold
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
@@ -244,6 +247,7 @@
 
             DataCardKey7 As label:
                 AutoHeight: =true
+                FontWeight: =FontWeight.Bold
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
@@ -282,6 +286,7 @@
 
             DataCardKey8 As label:
                 AutoHeight: =true
+                FontWeight: =FontWeight.Bold
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
