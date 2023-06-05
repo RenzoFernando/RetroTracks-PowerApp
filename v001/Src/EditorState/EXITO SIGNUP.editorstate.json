@@ -349,7 +349,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button4",
-      "ParentIndex": 5,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -832,7 +832,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label6_1",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1078,14 +1078,7 @@
         "HoverFill",
         "Font",
         "FontWeight",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Align",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Align",
         "VerticalAlign",
         "X",
         "Y",
@@ -1115,7 +1108,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label7_1",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1418,7 +1411,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "TextInput1_8",
-      "ParentIndex": 6,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1716,7 +1709,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "TextInput1_9",
-      "ParentIndex": 1,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
