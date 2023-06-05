@@ -298,8 +298,9 @@
                 ZIndex: =2
 
     Video4 As videoPlayback:
+        AutoStart: =true
         Height: =323
-        Media: =ThisItem.'Fuente'
+        Media: =
         Width: =575
         X: =32
         Y: =120
