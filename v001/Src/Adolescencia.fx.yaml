@@ -8,84 +8,6 @@
         Width: =Parent.Width
         ZIndex: =1
 
-    "BrowseGallery1_1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
-        DelayItemLoading: =true
-        Height: =838
-        Items: =SortByColumns(Filter([@m], StartsWith(Momento, TextSearchBox1_1.Text)), "Title", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
-        Layout: =Layout.Vertical
-        LoadingSpinner: =LoadingSpinner.Data
-        OnSelect: =Navigate(Reproductor, ScreenTransition.None)
-        ShowScrollbar: =false
-        TemplatePadding: =0
-        TemplateSize: =Min(160, Self.Height - 60)
-        Width: =Parent.Width
-        Y: =156
-        ZIndex: =1
-
-        Image2_6 As image:
-            Height: =128
-            Image: =ThisItem.'Image[image]'
-            OnSelect: =Select(Parent)
-            Width: =128
-            X: =16
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =1
-
-        Title3_1 As label:
-            Color: =RGBA(255, 255, 255, 1)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.NombreC
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - Image2_6.Width - 104
-            X: =Image2_6.X + Image2_6.Width + 24
-            Y: =44
-            ZIndex: =2
-
-        Subtitle2_1 As label:
-            Color: =RGBA(255, 255, 255, 1)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.Interprete
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Title3_1.Width
-            X: =Title3_1.X
-            Y: =Title3_1.Y + Title3_1.Height + 4
-            ZIndex: =3
-
-        NextArrow3_1 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            Color: =RGBA(255, 255, 255, 1)
-            Fill: =RGBA(109, 49, 162, 1)
-            Height: =60
-            Icon: =Icon.ChevronRight
-            OnSelect: =Select(Parent)
-            PaddingBottom: =10
-            PaddingLeft: =10
-            PaddingRight: =10
-            PaddingTop: =10
-            TabIndex: =0
-            Tooltip: ="Ver los detalles del elemento"
-            Width: =60
-            X: =Parent.TemplateWidth - Self.Width - 5
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =4
-
-        Separator3_1 As rectangle:
-            Height: =1
-            OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
-            Y: =Parent.TemplateHeight - 1
-            ZIndex: =5
-
     LblAppName1_1 As label:
         Fill: =RGBA(58, 58, 58, 0)
         Height: =88
@@ -147,7 +69,7 @@
         Default: ="Adolescencia"
         DelayOutput: =true
         Height: =68
-        HintText: ="Buscar en elementos"
+        HintText: =""
         PaddingLeft: =70
         RadiusBottomLeft: =0
         RadiusBottomRight: =0
@@ -252,4 +174,97 @@
         X: =11
         Y: =100
         ZIndex: =17
+
+    "BrowseGallery1_1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        DelayItemLoading: =true
+        Height: =838
+        Items: |-
+            =SortByColumns(
+                Filter(
+                    [@m],
+                    StartsWith(
+                        Momento,
+                        TextSearchBox1_1.Text
+                    )
+                ),
+                "Title",
+                If(
+                    SortDescending1,
+                    SortOrder.Descending,
+                    SortOrder.Ascending
+                )
+            )
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        OnSelect: =Navigate(Reproductor, ScreenTransition.None)
+        ShowScrollbar: =false
+        TemplatePadding: =0
+        TemplateSize: =Min(160, Self.Height - 60)
+        Width: =Parent.Width
+        Y: =158
+        ZIndex: =18
+
+        Image2_6 As image:
+            Height: =128
+            Image: =ThisItem.'Image[image]'
+            OnSelect: =Select(Parent)
+            Width: =128
+            X: =16
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =1
+
+        Title3_1 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Momento
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - Image2_6.Width - 104
+            X: =Image2_6.X + Image2_6.Width + 24
+            Y: =44
+            ZIndex: =2
+
+        Subtitle2_1 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Interprete
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title3_1.Width
+            X: =Title3_1.X
+            Y: =Title3_1.Y + Title3_1.Height + 4
+            ZIndex: =3
+
+        NextArrow3_1 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Color: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(109, 49, 162, 1)
+            Height: =60
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="Ver los detalles del elemento"
+            Width: =60
+            X: =Parent.TemplateWidth - Self.Width - 5
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =4
+
+        Separator3_1 As rectangle:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =5
 
