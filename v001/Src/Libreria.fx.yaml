@@ -11,7 +11,7 @@
     "BrowseGallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         DelayItemLoading: =true
         Height: =838
-        Items: =SortByColumns(Filter([@m], StartsWith(Title, TextSearchBox1.Text)), "Title", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
+        Items: =SortByColumns(Filter([@m], StartsWith(Id_lista, TextSearchBox1.Text)), "Title", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         OnSelect: =Navigate(Reproductor, ScreenTransition.None)
