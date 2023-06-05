@@ -2868,36 +2868,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Reproductor.DetailForm1.NombreC_DataCard1.Audio1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Reproductor.DetailForm1.NombreC_DataCard1.Audio1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Reproductor",
-                "type": "Reproductor.DetailForm1.NombreC_DataCard1.Audio1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Create_account.Form3.Título_DataCard2.DataCardValue14_1.AccessibleLabel"
                 }
               ],
@@ -3331,36 +3301,6 @@
                 "member": "AccessibleLabel",
                 "module": "Edit[no oficial en pruevas]",
                 "type": "'Edit[no oficial en pruevas]'.EditForm1.Relato_DataCard2.DataCardValue16"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Error Loging'.TextInput3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Error Loging'.TextInput3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Error Loging",
-                "type": "'Error Loging'.TextInput3"
               }
             }
           ],
