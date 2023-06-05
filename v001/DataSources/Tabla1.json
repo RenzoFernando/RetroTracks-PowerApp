@@ -1,0 +1,17 @@
+[
+  {
+    "Data": "[{\"Momentos\":\"Asolescencia\",\"imagen \":\"https://media.istockphoto.com/id/1055971066/es/vector/galer%C3%ADa-de-im%C3%A1genes-icono-s%C3%ADmbolo-ilustraci%C3%B3n-de-vector-de-la-imagen-foto-y-%C3%A1lbum-concepto.jpg?s=1024x1024\\u0026w=is\\u0026k=20\\u0026c=rftDB6HvFzLGqrqH_fKVWiWjTgQrOySTPeCmK60evyo=\"},{\"Momentos\":\"Bachillerato\",\"imagen \":\"https://media.istockphoto.com/id/1055971066/es/vector/galer%C3%ADa-de-im%C3%A1genes-icono-s%C3%ADmbolo-ilustraci%C3%B3n-de-vector-de-la-imagen-foto-y-%C3%A1lbum-concepto.jpg?s=1024x1024\\u0026w=is\\u0026k=20\\u0026c=rftDB6HvFzLGqrqH_fKVWiWjTgQrOySTPeCmK60evyo=\"},{\"Momentos\":\"Conexi\\u00F3n familiar\",\"imagen \":\"https://media.istockphoto.com/id/1055971066/es/vector/galer%C3%ADa-de-im%C3%A1genes-icono-s%C3%ADmbolo-ilustraci%C3%B3n-de-vector-de-la-imagen-foto-y-%C3%A1lbum-concepto.jpg?s=1024x1024\\u0026w=is\\u0026k=20\\u0026c=rftDB6HvFzLGqrqH_fKVWiWjTgQrOySTPeCmK60evyo=\"},{\"Momentos\":\"Infancia\",\"imagen \":\"https://media.istockphoto.com/id/1055971066/es/vector/galer%C3%ADa-de-im%C3%A1genes-icono-s%C3%ADmbolo-ilustraci%C3%B3n-de-vector-de-la-imagen-foto-y-%C3%A1lbum-concepto.jpg?s=1024x1024\\u0026w=is\\u0026k=20\\u0026c=rftDB6HvFzLGqrqH_fKVWiWjTgQrOySTPeCmK60evyo=\"},{\"Momentos\":\"Laboral\",\"imagen \":\"https://media.istockphoto.com/id/1055971066/es/vector/galer%C3%ADa-de-im%C3%A1genes-icono-s%C3%ADmbolo-ilustraci%C3%B3n-de-vector-de-la-imagen-foto-y-%C3%A1lbum-concepto.jpg?s=1024x1024\\u0026w=is\\u0026k=20\\u0026c=rftDB6HvFzLGqrqH_fKVWiWjTgQrOySTPeCmK60evyo=\"},{\"Momentos\":\"Nostalgia\",\"imagen \":\"https://media.istockphoto.com/id/1055971066/es/vector/galer%C3%ADa-de-im%C3%A1genes-icono-s%C3%ADmbolo-ilustraci%C3%B3n-de-vector-de-la-imagen-foto-y-%C3%A1lbum-concepto.jpg?s=1024x1024\\u0026w=is\\u0026k=20\\u0026c=rftDB6HvFzLGqrqH_fKVWiWjTgQrOySTPeCmK60evyo=\"},{\"Momentos\":\"Preadolescencia\",\"imagen \":\"https://media.istockphoto.com/id/1055971066/es/vector/galer%C3%ADa-de-im%C3%A1genes-icono-s%C3%ADmbolo-ilustraci%C3%B3n-de-vector-de-la-imagen-foto-y-%C3%A1lbum-concepto.jpg?s=1024x1024\\u0026w=is\\u0026k=20\\u0026c=rftDB6HvFzLGqrqH_fKVWiWjTgQrOySTPeCmK60evyo=\"},{\"Momentos\":\"Puntos de quiebre\",\"imagen \":\"https://media.istockphoto.com/id/1055971066/es/vector/galer%C3%ADa-de-im%C3%A1genes-icono-s%C3%ADmbolo-ilustraci%C3%B3n-de-vector-de-la-imagen-foto-y-%C3%A1lbum-concepto.jpg?s=1024x1024\\u0026w=is\\u0026k=20\\u0026c=rftDB6HvFzLGqrqH_fKVWiWjTgQrOySTPeCmK60evyo=\"},{\"Momentos\":\"Romance\",\"imagen \":\"https://media.istockphoto.com/id/1055971066/es/vector/galer%C3%ADa-de-im%C3%A1genes-icono-s%C3%ADmbolo-ilustraci%C3%B3n-de-vector-de-la-imagen-foto-y-%C3%A1lbum-concepto.jpg?s=1024x1024\\u0026w=is\\u0026k=20\\u0026c=rftDB6HvFzLGqrqH_fKVWiWjTgQrOySTPeCmK60evyo=\"},{\"Momentos\":\"Vacaciones\",\"imagen \":\"https://media.istockphoto.com/id/1055971066/es/vector/galer%C3%ADa-de-im%C3%A1genes-icono-s%C3%ADmbolo-ilustraci%C3%B3n-de-vector-de-la-imagen-foto-y-%C3%A1lbum-concepto.jpg?s=1024x1024\\u0026w=is\\u0026k=20\\u0026c=rftDB6HvFzLGqrqH_fKVWiWjTgQrOySTPeCmK60evyo=\"}]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "Tabla1",
+    "OrderedColumnNames": [
+      "Momentos",
+      "imagen "
+    ],
+    "OriginalName": "Tabla1",
+    "OriginalSchema": "*[Momentos:s, 'imagen ':s]",
+    "Schema": "*[Momentos:s, 'imagen ':s]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]
