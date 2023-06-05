@@ -129,13 +129,14 @@
     "UserLocale": "es-ES"
   },
   "ScreenOrder": [
+    "Bienvenidos",
     "Log_in",
     "Create_account",
     "Home",
-    "BrowseScreen1",
-    "DetailScreen1",
-    "EditScreen1",
-    "ERROR LOGIN",
-    "EXITO SIGNUP"
+    "Libreria",
+    "Reproductor",
+    "Edit[no oficial en pruevas]",
+    "Error Loging",
+    "Exito Signup"
   ]
 }

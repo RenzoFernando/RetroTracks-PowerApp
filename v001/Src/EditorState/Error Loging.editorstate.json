@@ -35,10 +35,38 @@
         "Width",
         "Height",
         "ZIndex",
-        "RadiusTopLeft",
-        "RadiusTopRight",
-        "RadiusBottomLeft",
-        "RadiusBottomRight",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusTopLeft",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusTopRight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusBottomLeft",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusBottomRight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -258,7 +286,7 @@
       "StyleName": "defaultButtonStyle",
       "Type": "ControlInfo"
     },
-    "ERROR LOGIN": {
+    "Error Loging": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Fill",
@@ -278,18 +306,13 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "ERROR LOGIN",
+      "Name": "Error Loging",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
           "Category": "Design",
-          "PropertyName": "Width",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "Height",
+          "PropertyName": "Fill",
           "RuleProviderType": "Unknown"
         },
         {
@@ -299,17 +322,12 @@
         },
         {
           "Category": "Design",
-          "PropertyName": "Fill",
+          "PropertyName": "Height",
           "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
-          "PropertyName": "LoadingSpinner",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "LoadingSpinnerColor",
+          "PropertyName": "Width",
           "RuleProviderType": "Unknown"
         },
         {
@@ -321,11 +339,21 @@
           "Category": "Design",
           "PropertyName": "Orientation",
           "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "LoadingSpinner",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "LoadingSpinnerColor",
+          "RuleProviderType": "Unknown"
         }
       ],
       "StyleName": "defaultScreenStyle",
       "Type": "ControlInfo"
     }
   },
-  "TopParentName": "ERROR LOGIN"
+  "TopParentName": "Error Loging"
 }

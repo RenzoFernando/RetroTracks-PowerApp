@@ -1,4 +1,4 @@
-"EditScreen1 As screen.'phoneDetailEditLayout_ver3.0'":
+"'Edit[no oficial en pruevas]' As screen.'phoneDetailEditLayout_ver3.0'":
 
     RectQuickActionBar3 As rectangle:
         Height: =88

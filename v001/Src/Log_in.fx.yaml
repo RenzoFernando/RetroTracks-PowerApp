@@ -31,7 +31,7 @@ Log_in As screen:
         OnSelect: |-
             =If(!IsBlank(LookUp(registro,Nombre = usuario.Text && Contrasena = constrasena.Text)),
             Navigate(Home) && Reset(constrasena) && Reset(usuario);,
-            Navigate('ERROR LOGIN') && Reset(constrasena) && Reset(usuario));
+            Navigate('Error Loging') && Reset(constrasena) && Reset(usuario));
         Size: =24
         Text: ="Iniciar sesión"
         Tooltip: =

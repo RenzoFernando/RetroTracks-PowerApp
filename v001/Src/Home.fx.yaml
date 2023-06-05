@@ -1,2 +1,290 @@
 Home As screen:
+    Fill: =RGBA(0, 0, 0, 1)
+
+    Label1_4 As label:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =64
+        Size: =21
+        Text: ="Tu libreria"
+        Width: =153
+        X: =407
+        Y: =1072
+        ZIndex: =1
+
+    Rectangle1 As rectangle:
+        BorderColor: =RGBA(72, 50, 133, 1)
+        Fill: =RGBA(122, 0, 184, 1)
+        Height: =116
+        Width: =249
+        X: =51
+        Y: =190
+        ZIndex: =2
+
+    Rectangle2 As rectangle:
+        BorderColor: =RGBA(72, 50, 133, 1)
+        Fill: =RGBA(122, 0, 184, 1)
+        Height: =118
+        Width: =250
+        X: =324
+        Y: =190
+        ZIndex: =3
+
+    Rectangle3 As rectangle:
+        Fill: =RGBA(122, 0, 184, 1)
+        Height: =106
+        Width: =249
+        X: =51
+        Y: =329
+        ZIndex: =4
+
+    Rectangle4 As rectangle:
+        BorderColor: =RGBA(72, 50, 133, 1)
+        Fill: =RGBA(122, 0, 184, 1)
+        Height: =106
+        Width: =246
+        X: =324
+        Y: =331
+        ZIndex: =5
+
+    Icon1 As icon.Settings:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =52
+        Icon: =Icon.Settings
+        X: =543
+        Y: =23
+        ZIndex: =6
+
+    Icon2 As icon.Home:
+        Color: =RGBA(172, 0, 255, 1)
+        Icon: =Icon.Home
+        X: =91
+        Y: =1022
+        ZIndex: =7
+
+    Icon3 As icon.History:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =49
+        Icon: =Icon.History
+        Width: =56
+        X: =475
+        Y: =23
+        ZIndex: =8
+
+    Icon4 As icon.Bell:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =55
+        Icon: =Icon.Bell
+        Width: =61
+        X: =408
+        Y: =20
+        ZIndex: =9
+
+    Icon5 As icon.DetailList:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =71
+        Icon: =Icon.DetailList
+        Width: =56
+        X: =455
+        Y: =1018
+        ZIndex: =10
+
+    Icon6 As icon.Search:
+        Color: =RGBA(172, 0, 255, 1)
+        Icon: =Icon.Search
+        X: =265
+        Y: =1022
+        ZIndex: =11
+
+    Label4_1 As label:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =64
+        Size: =21
+        Text: ="Home"
+        Width: =94
+        X: =76
+        Y: =1072
+        ZIndex: =12
+
+    Label5 As label:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =64
+        Size: =21
+        Text: ="Buscar"
+        Width: =125
+        X: =254
+        Y: =1072
+        ZIndex: =13
+
+    Rectangle6 As rectangle:
+        BorderColor: =RGBA(72, 50, 133, 1)
+        Fill: =RGBA(172, 0, 255, 1)
+        Height: =50
+        Width: =155
+        X: =51
+        Y: =114
+        ZIndex: =14
+
+    Label8 As label:
+        Height: =50
+        Size: =15
+        Text: ="Música"
+        Width: =165
+        X: =58
+        Y: =114
+        ZIndex: =15
+
+    Label9 As label:
+        Height: =90
+        Size: =15
+        Text: ="Nombre de la playlist"
+        Width: =143
+        X: =157
+        Y: =206
+        ZIndex: =16
+
+    Label9_1 As label:
+        Height: =100
+        Size: =15
+        Text: ="Nombre de la playlist"
+        Width: =143
+        X: =435
+        Y: =199
+        ZIndex: =17
+
+    Label9_2 As label:
+        Height: =89
+        Size: =15
+        Text: ="Nombre de la playlist"
+        Width: =153
+        X: =161
+        Y: =335
+        ZIndex: =18
+
+    Label9_3 As label:
+        Height: =100
+        Size: =15
+        Text: ="Nombre de la playlist"
+        Width: =139
+        X: =427
+        Y: =331
+        ZIndex: =19
+
+    Image2_1 As image:
+        Height: =148
+        Width: =200
+        X: =41
+        Y: =561
+        ZIndex: =20
+
+    Image3 As image:
+        Height: =148
+        Width: =166
+        X: =241
+        Y: =561
+        ZIndex: =21
+
+    Image4 As image:
+        Height: =148
+        Width: =195
+        X: =404
+        Y: =561
+        ZIndex: =22
+
+    TextInput1 As text:
+        BorderColor: =RGBA(72, 50, 133, 1)
+        Color: =RGBA(15, 15, 15, 1)
+        Default: ="Otras Playlists"
+        DisabledBorderColor: =RGBA(172, 0, 255, 1)
+        DisabledFill: =RGBA(172, 0, 255, 1)
+        Fill: =RGBA(172, 0, 255, 1)
+        Height: =51
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Size: =15
+        Width: =527
+        X: =51
+        Y: =489
+        ZIndex: =23
+
+    Image2_2 As image:
+        Height: =90
+        Width: =84
+        X: =337
+        Y: =203
+        ZIndex: =24
+
+    Image2_3 As image:
+        Height: =87
+        Width: =84
+        X: =337
+        Y: =337
+        ZIndex: =25
+
+    Image2_4 As image:
+        Height: =90
+        Width: =87
+        X: =68
+        Y: =334
+        ZIndex: =26
+
+    Image2_5 As image:
+        Height: =87
+        Width: =83
+        X: =68
+        Y: =206
+        ZIndex: =27
+
+    TextInput1_1 As text:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =0
+        Color: =RGBA(15, 15, 15, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(172, 0, 255, 1)
+        DisabledFill: =RGBA(172, 0, 255, 1)
+        Height: =10
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =21
+        Width: =640
+        Y: =994
+        ZIndex: =28
+
+    Image2_6 As image:
+        Height: =148
+        Width: =200
+        X: =41
+        Y: =806
+        ZIndex: =29
+
+    Image3_1 As image:
+        Height: =148
+        Width: =181
+        X: =238
+        Y: =806
+        ZIndex: =30
+
+    Image3_2 As image:
+        Height: =148
+        Width: =149
+        X: =435
+        Y: =806
+        ZIndex: =31
+
+    TextInput1_2 As text:
+        BorderColor: =RGBA(72, 50, 133, 1)
+        Color: =RGBA(15, 15, 15, 1)
+        Default: ="Otras Playlists"
+        DisabledBorderColor: =RGBA(172, 0, 255, 1)
+        DisabledFill: =RGBA(172, 0, 255, 1)
+        Fill: =RGBA(172, 0, 255, 1)
+        Height: =49
+        Size: =15
+        Width: =520
+        X: =58
+        Y: =731
+        ZIndex: =32
 

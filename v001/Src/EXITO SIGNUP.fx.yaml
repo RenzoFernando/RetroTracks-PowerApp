@@ -1,9 +1,13 @@
-"'EXITO SIGNUP' As screen":
+"'Exito Signup' As screen":
 
     Button1_1 As button:
         BorderThickness: =0
         Height: =1136
         OnSelect: =Navigate(Log_in)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
         Size: =24
         Text: |-
             ="FELICITACION USTED SE HA REGIUSTRADO CON EXITO

@@ -501,7 +501,7 @@ Create_account As screen:
         OnSelect: |-
             =If(DataCardValue19.Value, Set(te,false), Set(te,true));
             
-            If(!IsBlank(Form3) && DataCardValue19.Value , SubmitForm(Form3) && Navigate('EXITO SIGNUP'));
+            If(!IsBlank(Form3) && DataCardValue19.Value , SubmitForm(Form3) && Navigate('Exito Signup'));
         Size: =24
         Text: ="Registrar"
         Width: =560
