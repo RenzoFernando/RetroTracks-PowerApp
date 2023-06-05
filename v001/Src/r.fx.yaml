@@ -40,7 +40,7 @@
         DisplayMode: =If(!IsBlank(BrowseGallery1.Selected) && DataSourceInfo([@m], DataSourceInfo.DeletePermission), DisplayMode.Edit, DisplayMode.Disabled)
         Height: =88
         Icon: =Icon.Trash
-        OnSelect: =Remove([@Libreria], BrowseGallery1.Selected); If (IsEmpty(Errors([@Libreria], BrowseGallery1.Selected)), Back())
+        OnSelect: =Remove([@m], BrowseGallery1.Selected); If (IsEmpty(Errors([@m], BrowseGallery1.Selected)), Back())
         PaddingBottom: =24
         PaddingLeft: =24
         PaddingRight: =24
