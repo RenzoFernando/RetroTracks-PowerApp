@@ -96,7 +96,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 1,
+    "BindingErrorCount": 3,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -126,7 +126,7 @@
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
     "PublishTarget": "player",
-    "UserLocale": "en-US"
+    "UserLocale": "es-ES"
   },
   "ScreenOrder": [
     "Bienvenidos",
