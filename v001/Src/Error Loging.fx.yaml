@@ -30,7 +30,7 @@
         Text: ="Aceptar "
         Width: =280
         X: =180
-        Y: =645
+        Y: =595
         ZIndex: =6
 
     Label6 As label:
@@ -40,7 +40,7 @@
         Text: ="Se ha producido un error con su contraseña o su usuario. Porfavor vuelva a intentar de nuevo "
         Width: =460
         X: =58
-        Y: =429
+        Y: =406
         ZIndex: =7
 
     Label7 As label:
@@ -51,6 +51,6 @@
         Text: ="Error de inicio de secion "
         Width: =542
         X: =58
-        Y: =330
+        Y: =280
         ZIndex: =8
 
