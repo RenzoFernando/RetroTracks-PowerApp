@@ -1,16 +1,6 @@
 Home As screen:
     Fill: =RGBA(255, 255, 255, 1)
 
-    Label1_4 As label:
-        Color: =RGBA(172, 0, 255, 1)
-        Height: =64
-        Size: =21
-        Text: ="Tu libreria"
-        Width: =153
-        X: =247
-        Y: =1072
-        ZIndex: =1
-
     "Gallery5 As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver4.0'":
         DelayItemLoading: =true
         Height: =269
@@ -59,6 +49,16 @@ Home As screen:
             X: =Title6.X
             Y: =251
             ZIndex: =3
+
+    Label1_4 As label:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =64
+        Size: =21
+        Text: ="Tu libreria"
+        Width: =153
+        X: =247
+        Y: =1072
+        ZIndex: =1
 
     Rectangle1 As rectangle:
         BorderColor: =RGBA(72, 50, 133, 1)
