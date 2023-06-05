@@ -6,7 +6,7 @@ Bienvenidos As screen:
         Height: =142
         OnSelect: =Navigate(Log_in)
         Size: =24
-        Text: ="Clic para empezar esta diverttida historia de musica e historios o algo asi no c"
+        Text: ="Continuar"
         Width: =517
         X: =61
         Y: =872
@@ -23,6 +23,6 @@ Bienvenidos As screen:
         Height: =320
         Image: =Imagen1
         Width: =640
-        Y: =82
+        Y: =2
         ZIndex: =11
 
