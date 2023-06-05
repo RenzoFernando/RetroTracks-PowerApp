@@ -1,0 +1,260 @@
+"Libreria_10 As screen.'phoneBrowseLayout_ver3.0'":
+    Fill: =RGBA(0, 0, 0, 1)
+
+    RectQuickActionBar1_10 As rectangle:
+        BorderColor: =RGBA(109, 49, 162, 1)
+        Fill: =RGBA(109, 49, 162, 1)
+        Height: =88
+        Width: =Parent.Width
+        ZIndex: =1
+
+    "BrowseGallery1_10 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        DelayItemLoading: =true
+        Height: =838
+        Items: =SortByColumns(Filter([@m], StartsWith(NombreC, TextSearchBox1_10.Text)), "Title", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        OnSelect: =Navigate(Reproductor, ScreenTransition.None)
+        ShowScrollbar: =false
+        TemplatePadding: =0
+        TemplateSize: =Min(160, Self.Height - 60)
+        Width: =Parent.Width
+        Y: =156
+        ZIndex: =1
+
+        Image2_15 As image:
+            Height: =128
+            Image: =ThisItem.'Image[image]'
+            OnSelect: =Select(Parent)
+            Width: =128
+            X: =16
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =1
+
+        Title3_10 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.NombreC
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - Image2_15.Width - 104
+            X: =Image2_15.X + Image2_15.Width + 24
+            Y: =44
+            ZIndex: =2
+
+        Subtitle2_10 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Interprete
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title3_10.Width
+            X: =Title3_10.X
+            Y: =Title3_10.Y + Title3_10.Height + 4
+            ZIndex: =3
+
+        NextArrow3_10 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Color: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(109, 49, 162, 1)
+            Height: =60
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="Ver los detalles del elemento"
+            Width: =60
+            X: =Parent.TemplateWidth - Self.Width - 5
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =4
+
+        Separator3_10 As rectangle:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =5
+
+    LblAppName1_10 As label:
+        Fill: =RGBA(58, 58, 58, 0)
+        Height: =88
+        Size: =27
+        Text: ="Libreria"
+        Width: =Parent.Width - Self.X - IconSortUpDown1_10.Width - IconNewItem1_10.Width - IconRefresh1_10.Width
+        Wrap: =false
+        X: =20
+        ZIndex: =2
+
+    IconRefresh1_10 As icon.Reload:
+        AccessibleLabel: =Self.Tooltip
+        Height: =88
+        Icon: =Icon.Reload
+        OnSelect: =Refresh([@m])
+        PaddingBottom: =22
+        PaddingLeft: =22
+        PaddingRight: =22
+        PaddingTop: =22
+        TabIndex: =0
+        Tooltip: ="Actualizar lista"
+        Width: =88
+        X: =Parent.Width - IconNewItem1_10.Width - IconSortUpDown1_10.Width - Self.Width
+        ZIndex: =3
+
+    IconSortUpDown1_10 As icon.ArrowsUpDown:
+        AccessibleLabel: =Self.Tooltip
+        Height: =88
+        Icon: =Icon.Sort
+        OnSelect: |-
+            =UpdateContext({SortDescending1: !SortDescending1})
+        PaddingBottom: =26
+        PaddingLeft: =26
+        PaddingRight: =26
+        PaddingTop: =26
+        TabIndex: =0
+        Tooltip: =If(SortDescending1, "Ordenar la lista en orden alfabético inverso", "Ordenar la lista en orden alfabético")
+        Width: =88
+        X: =Parent.Width - IconNewItem1_10.Width - Self.Width
+        ZIndex: =4
+
+    IconNewItem1_10 As icon.Add:
+        AccessibleLabel: =Self.Tooltip
+        DisplayMode: =If(DataSourceInfo([@m], DataSourceInfo.CreatePermission), DisplayMode.Edit, DisplayMode.Disabled)
+        Height: =88
+        Icon: =Icon.Add
+        OnSelect: =NewForm(EditForm1);Navigate('Edit[no oficial en pruevas]', ScreenTransition.None)
+        PaddingBottom: =24
+        PaddingLeft: =24
+        PaddingRight: =24
+        PaddingTop: =24
+        TabIndex: =0
+        Tooltip: ="Crear elemento"
+        Width: =88
+        X: =Parent.Width - Self.Width
+        ZIndex: =5
+
+    TextSearchBox1_10 As text:
+        Default: =""
+        DelayOutput: =true
+        Height: =68
+        HintText: ="Buscar en elementos"
+        PaddingLeft: =70
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =21
+        Width: =640
+        Y: =RectQuickActionBar1_10.Height
+        ZIndex: =6
+
+    SearchIcon1_10 As icon.Search:
+        Color: =RGBA(191, 190, 190, 1)
+        Height: =Self.Width
+        Icon: =Icon.Search
+        PaddingBottom: =14
+        PaddingLeft: =14
+        PaddingRight: =14
+        PaddingTop: =14
+        Tooltip: ="Buscar"
+        Width: =TextSearchBox1_10.Height
+        X: =TextSearchBox1_10.X
+        Y: =TextSearchBox1_10.Y
+        ZIndex: =7
+
+    Rectangle11_10 As rectangle:
+        Height: =2
+        Width: =Parent.Width
+        Y: =TextSearchBox1_10.Y + TextSearchBox1_10.Height
+        ZIndex: =8
+
+    Icon6_13 As icon.Search:
+        Color: =RGBA(172, 0, 255, 1)
+        Icon: =Icon.Search
+        X: =266
+        Y: =1008
+        ZIndex: =9
+
+    Label5_23 As label:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =64
+        Size: =21
+        Text: ="Buscar"
+        Width: =125
+        X: =256
+        Y: =1072
+        ZIndex: =10
+
+    Label1_17 As label:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =64
+        Size: =21
+        Text: ="Tu libreria"
+        Width: =153
+        X: =409
+        Y: =1072
+        ZIndex: =11
+
+    Icon2_13 As icon.Home:
+        Color: =RGBA(172, 0, 255, 1)
+        Icon: =Icon.Home
+        X: =93
+        Y: =1008
+        ZIndex: =12
+
+    Icon5_13 As icon.DetailList:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =71
+        Icon: =Icon.DetailList
+        Width: =56
+        X: =457
+        Y: =1004
+        ZIndex: =13
+
+    Label4_14 As label:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =64
+        Size: =21
+        Text: ="Home"
+        Width: =94
+        X: =78
+        Y: =1072
+        ZIndex: =14
+
+    Label5_24 As label:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =64
+        Size: =21
+        Text: ="Buscar"
+        Width: =125
+        X: =256
+        Y: =1072
+        ZIndex: =15
+
+    TextInput1_22 As text:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =0
+        Color: =RGBA(15, 15, 15, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(172, 0, 255, 1)
+        DisabledFill: =RGBA(172, 0, 255, 1)
+        Height: =10
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =21
+        Width: =640
+        Y: =994
+        ZIndex: =16
+
