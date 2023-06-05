@@ -96,7 +96,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 1,
+    "BindingErrorCount": 0,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -126,7 +126,7 @@
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
     "PublishTarget": "player",
-    "UserLocale": "es-ES"
+    "UserLocale": "en-US"
   },
   "ScreenOrder": [
     "Bienvenidos",
@@ -146,6 +146,9 @@
     "Universidad",
     "Vacaciones",
     "Reproductor",
+    "Reproductor_Adole",
+    "Reproductor_Bachi",
+    "Reproductor_Conexión",
     "Edit[no oficial en pruevas]",
     "Error Loging",
     "Exito Signup",

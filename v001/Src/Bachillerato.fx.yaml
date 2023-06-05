@@ -14,7 +14,7 @@
         Items: =SortByColumns(Filter([@m], StartsWith(Momento, TextSearchBox1_2.Text)), "Title", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        OnSelect: =Navigate(Reproductor, ScreenTransition.None)
+        OnSelect: =Navigate(Reproductor_Bachi, ScreenTransition.None)
         ShowScrollbar: =false
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)

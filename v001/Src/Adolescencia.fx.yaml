@@ -178,25 +178,10 @@
     "BrowseGallery1_1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         DelayItemLoading: =true
         Height: =838
-        Items: |-
-            =SortByColumns(
-                Filter(
-                    [@m],
-                    StartsWith(
-                        Momento,
-                        TextSearchBox1_1.Text
-                    )
-                ),
-                "Title",
-                If(
-                    SortDescending1,
-                    SortOrder.Descending,
-                    SortOrder.Ascending
-                )
-            )
+        Items: =SortByColumns(Filter([@m],StartsWith(Momento,TextSearchBox1_1.Text)),"Title",If(SortDescending1,SortOrder.Descending,SortOrder.Ascending))
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        OnSelect: =Navigate(Reproductor, ScreenTransition.None)
+        OnSelect: =Navigate(Reproductor_Adole, ScreenTransition.None)
         ShowScrollbar: =false
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
