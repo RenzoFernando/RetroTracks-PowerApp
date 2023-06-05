@@ -11,10 +11,10 @@
     "BrowseGallery1_11 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         DelayItemLoading: =true
         Height: =838
-        Items: =SortByColumns(Filter([@m], StartsWith(NombreC, TextSearchBox1_11.Text)), "Title", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
+        Items: =SortByColumns(Filter([@m], StartsWith(Momento, TextSearchBox1_11.Text)), "Title", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        OnSelect: =Navigate(Reproductor, ScreenTransition.None)
+        OnSelect: =Navigate(Reproductor_Vacaciones, ScreenTransition.None)
         ShowScrollbar: =false
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
@@ -86,16 +86,6 @@
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
 
-    LblAppName1_11 As label:
-        Fill: =RGBA(58, 58, 58, 0)
-        Height: =88
-        Size: =27
-        Text: ="Libreria"
-        Width: =Parent.Width - Self.X - IconSortUpDown1_11.Width - IconNewItem1_11.Width - IconRefresh1_11.Width
-        Wrap: =false
-        X: =20
-        ZIndex: =2
-
     IconRefresh1_11 As icon.Reload:
         AccessibleLabel: =Self.Tooltip
         Height: =88
@@ -144,10 +134,9 @@
         ZIndex: =5
 
     TextSearchBox1_11 As text:
-        Default: =""
+        Default: ="Vacaciones"
         DelayOutput: =true
         Height: =68
-        HintText: ="Buscar en elementos"
         PaddingLeft: =70
         RadiusBottomLeft: =0
         RadiusBottomRight: =0
@@ -157,20 +146,6 @@
         Width: =640
         Y: =RectQuickActionBar1_11.Height
         ZIndex: =6
-
-    SearchIcon1_11 As icon.Search:
-        Color: =RGBA(191, 190, 190, 1)
-        Height: =Self.Width
-        Icon: =Icon.Search
-        PaddingBottom: =14
-        PaddingLeft: =14
-        PaddingRight: =14
-        PaddingTop: =14
-        Tooltip: ="Buscar"
-        Width: =TextSearchBox1_11.Height
-        X: =TextSearchBox1_11.X
-        Y: =TextSearchBox1_11.Y
-        ZIndex: =7
 
     Rectangle11_11 As rectangle:
         Height: =2
@@ -257,4 +232,23 @@
         Width: =640
         Y: =994
         ZIndex: =16
+
+    LblAppName1_10 As label:
+        Fill: =RGBA(58, 58, 58, 0)
+        Height: =88
+        Size: =27
+        Text: ="Playlist"
+        Width: =Parent.Width - Self.X - IconSortUpDown1_1.Width - IconNewItem1_1.Width - IconRefresh1_1.Width
+        Wrap: =false
+        X: =24
+        ZIndex: =17
+
+    Icon6_36 As icon.BackArrow:
+        Height: =43
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(Home)
+        Width: =45
+        X: =15
+        Y: =100
+        ZIndex: =18
 
