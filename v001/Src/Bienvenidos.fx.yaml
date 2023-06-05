@@ -3,13 +3,13 @@ Bienvenidos As screen:
 
     Button5 As button:
         Fill: =RGBA(172, 0, 255, 1)
-        Height: =142
+        Height: =94
         OnSelect: =Navigate(Log_in)
         Size: =24
         Text: ="Continuar"
-        Width: =517
-        X: =61
-        Y: =872
+        Width: =387
+        X: =126
+        Y: =877
         ZIndex: =5
 
     Image5 As image:
