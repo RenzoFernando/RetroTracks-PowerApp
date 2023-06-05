@@ -54,7 +54,7 @@
     LblAppName2 As label:
         Height: =88
         Size: =27
-        Text: ="m"
+        Text: ="Reproduciendo"
         Width: =Parent.Width - Self.X - IconDelete1.Width - IconEdit1.Width
         Wrap: =false
         X: =80
@@ -62,87 +62,11 @@
 
     DetailForm1 As formViewer:
         DataSource: =[@m]
-        Height: =660
+        Height: =1048
         Item: =BrowseGallery1.Selected
         Width: =Parent.Width
-        Y: =476
+        Y: =88
         ZIndex: =6
-
-        NombreC_DataCard1 As typedDataCard.textualViewCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="field_3"
-            Default: =ThisItem.NombreC
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@m],DataSourceInfo.DisplayName,"field_3")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =false
-            Width: =640
-            X: =0
-            Y: =35
-            ZIndex: =1
-
-            DataCardKey4 As label:
-                AutoHeight: =true
-                Height: =48
-                Size: =21
-                Text: =""
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue4 As label:
-                AutoHeight: =true
-                DisplayMode: =Parent.DisplayMode
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =21
-                Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey4.Y + DataCardKey4.Height + 5
-                ZIndex: =2
-
-        Interprete_DataCard1 As typedDataCard.textualViewCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="field_4"
-            Default: =ThisItem.Interprete
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@m],DataSourceInfo.DisplayName,"field_4")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =false
-            Width: =640
-            X: =0
-            Y: =100
-            ZIndex: =1
-
-            DataCardKey5 As label:
-                AutoHeight: =true
-                Height: =48
-                Size: =21
-                Text: =""
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue5 As label:
-                AutoHeight: =true
-                DisplayMode: =Parent.DisplayMode
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =21
-                Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =27
-                Y: =DataCardKey5.Y + DataCardKey5.Height + 5
-                ZIndex: =2
 
         Momento_DataCard1 As typedDataCard.textualViewCard:
             BorderStyle: =BorderStyle.Solid
@@ -155,7 +79,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =405
+            Y: =2
             ZIndex: =1
 
             DataCardKey2 As label:
@@ -182,6 +106,88 @@
                 Y: =DataCardKey2.Y + DataCardKey2.Height + 5
                 ZIndex: =2
 
+        NombreC_DataCard1 As typedDataCard.textualViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_3"
+            Default: =ThisItem.NombreC
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@m],DataSourceInfo.DisplayName,"field_3")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =305
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            DataCardKey4 As label:
+                AutoHeight: =true
+                Height: =48
+                Size: =21
+                Text: =""
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue4 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =21
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey4.Y + DataCardKey4.Height + 5
+                ZIndex: =2
+
+            Video1 As videoPlayback:
+                Height: =323
+                Width: =575
+                X: =35
+                ZIndex: =3
+
+        Interprete_DataCard1 As typedDataCard.textualViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_4"
+            Default: =ThisItem.Interprete
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@m],DataSourceInfo.DisplayName,"field_4")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =640
+            X: =0
+            Y: =1
+            ZIndex: =1
+
+            DataCardKey5 As label:
+                AutoHeight: =true
+                Height: =48
+                Size: =21
+                Text: =""
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue5 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =21
+                Text: =Parent.Default
+                Width: =Parent.Width - 60
+                X: =27
+                Y: =DataCardKey5.Y + DataCardKey5.Height + 5
+                ZIndex: =2
+
         Genero_DataCard1 As typedDataCard.textualViewCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_5"
@@ -193,7 +199,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =638
+            Y: =3
             ZIndex: =1
 
             DataCardKey6 As label:
@@ -231,7 +237,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =741
+            Y: =4
             ZIndex: =1
 
             DataCardKey7 As label:
@@ -269,7 +275,7 @@
             Required: =false
             Width: =640
             X: =0
-            Y: =844
+            Y: =5
             ZIndex: =1
 
             DataCardKey8 As label:
@@ -295,21 +301,4 @@
                 X: =30
                 Y: =DataCardKey8.Y + DataCardKey8.Height + 5
                 ZIndex: =2
-
-    Gallery1 As gallery.galleryHorizontal:
-        DelayItemLoading: =true
-        Height: =361
-        Items: =m
-        LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =560
-        Width: =568
-        X: =33
-        Y: =104
-        ZIndex: =7
-
-        Video5 As videoPlayback:
-            Height: =351
-            Media: =ThisItem.Fuente
-            Width: =560
-            ZIndex: =1
 
