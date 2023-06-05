@@ -90,6 +90,8 @@ PlayList_ As screen:
 
         Image7 As image:
             Height: =150
+            Image: =adoles
+            ImagePosition: =ImagePosition.Fill
             OnSelect: =Navigate(Adolescencia)
             Width: =150
             X: =79
@@ -117,6 +119,8 @@ PlayList_ As screen:
 
         Image7_1 As image:
             Height: =150
+            Image: =bachi
+            ImagePosition: =ImagePosition.Fill
             OnSelect: =Navigate(Bachillerato)
             Width: =150
             X: =371
@@ -144,6 +148,8 @@ PlayList_ As screen:
 
         Image7_2 As image:
             Height: =150
+            Image: =coneccionF
+            ImagePosition: =ImagePosition.Fill
             OnSelect: =Navigate('Conexión Familiar')
             Width: =150
             X: =79
@@ -171,6 +177,8 @@ PlayList_ As screen:
 
         Image7_3 As image:
             Height: =150
+            Image: =infa
+            ImagePosition: =ImagePosition.Fill
             OnSelect: =Navigate(Infancia)
             Width: =150
             X: =371
@@ -198,6 +206,8 @@ PlayList_ As screen:
 
         Image7_4 As image:
             Height: =150
+            Image: =labo
+            ImagePosition: =ImagePosition.Fill
             OnSelect: =Navigate(Laboral)
             Width: =150
             X: =79
@@ -225,6 +235,8 @@ PlayList_ As screen:
 
         Image7_5 As image:
             Height: =150
+            Image: =nosta
+            ImagePosition: =ImagePosition.Fill
             OnSelect: =Navigate(Nostalgia)
             Width: =150
             X: =371
@@ -252,6 +264,8 @@ PlayList_ As screen:
 
         Image7_6 As image:
             Height: =150
+            Image: ='pre-a'
+            ImagePosition: =ImagePosition.Fill
             OnSelect: =Navigate(Preadolecencia)
             Width: =150
             X: =79
@@ -279,6 +293,8 @@ PlayList_ As screen:
 
         Image7_7 As image:
             Height: =150
+            Image: =puntQ
+            ImagePosition: =ImagePosition.Fill
             OnSelect: =Navigate('Puntos De Quiebre')
             Width: =150
             X: =371
@@ -306,6 +322,8 @@ PlayList_ As screen:
 
         Image7_8 As image:
             Height: =150
+            Image: =roma
+            ImagePosition: =ImagePosition.Fill
             OnSelect: =Navigate(Romance)
             Width: =150
             X: =79
@@ -333,6 +351,8 @@ PlayList_ As screen:
 
         Image7_9 As image:
             Height: =150
+            Image: =vaca
+            ImagePosition: =ImagePosition.Fill
             OnSelect: =Navigate(Vacaciones)
             Width: =150
             X: =371

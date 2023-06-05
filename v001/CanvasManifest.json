@@ -133,6 +133,7 @@
     "Log_in",
     "Create_account",
     "Home",
+    "PlayList_",
     "Libreria",
     "Adolescencia",
     "Bachillerato",
@@ -160,7 +161,6 @@
     "Edit[no oficial en pruevas]",
     "Error Loging",
     "Exito Signup",
-    "Configuraciones",
-    "PlayList_"
+    "Configuraciones"
   ]
 }
