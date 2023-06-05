@@ -1470,7 +1470,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": true,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey8",
@@ -2878,7 +2878,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": true,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue8",
@@ -6072,7 +6072,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": true,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "%field_7.ID%",
       "Name": "Relato_DataCard1",
@@ -6151,7 +6151,14 @@
     "Reproductor": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
-        "Fill",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Fill",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "ImagePosition",
         "Height",
         "Width",
