@@ -1,4 +1,4 @@
-"C_RenFer_1 As screen.'phoneBrowseLayout_ver3.0'":
+"Moon As screen.'phoneBrowseLayout_ver3.0'":
     Fill: =RGBA(0, 0, 0, 1)
 
     RectQuickActionBar1_13 As rectangle:
@@ -11,10 +11,10 @@
     "BrowseGallery1_13 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         DelayItemLoading: =true
         Height: =838
-        Items: =Tabla2
+        Items: =MiBandaSonora
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        OnSelect: =Navigate(Reproductor, ScreenTransition.None)
+        OnSelect: =Navigate(Reproductor_Moon, ScreenTransition.None)
         ShowScrollbar: =false
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
@@ -39,7 +39,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.NombreC
+            Text: =ThisItem.Nombre
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - Image2_18.Width - 104
             X: =Image2_18.X + Image2_18.Width + 24
@@ -134,7 +134,7 @@
         ZIndex: =5
 
     TextSearchBox1_13 As text:
-        Default: ="RenFer"
+        Default: ="Moon"
         DelayOutput: =true
         DisplayMode: =DisplayMode.View
         Height: =68
