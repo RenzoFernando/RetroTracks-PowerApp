@@ -68,6 +68,7 @@
     TextSearchBox1_1 As text:
         Default: ="Adolescencia"
         DelayOutput: =true
+        DisplayMode: =DisplayMode.View
         Height: =68
         HintText: =""
         PaddingLeft: =70
