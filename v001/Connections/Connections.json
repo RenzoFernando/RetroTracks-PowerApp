@@ -18,19 +18,11 @@
             "tableName": "4dd436c9-5821-4752-8ed2-95609a1d1293"
           }
         }
-      },
-      "https://icesiedu-my.sharepoint.com/personal/1114876013_u_icesi_edu_co/_layouts/15/lists.aspx": {
-        "dataSources": {
-          "listaCancionesRenfer": {
-            "tableName": "8f7f4dcc-6803-4458-b72a-1eb40385959a"
-          }
-        }
       }
     },
     "dataSources": [
       "m",
-      "registro",
-      "listaCancionesRenfer"
+      "registro"
     ],
     "dependencies": {},
     "dependents": [],
