@@ -45,3 +45,15 @@ Screen1 As screen:
             Y: =Title5.Y + Title5.Height + 8
             ZIndex: =3
 
+    Container1 As groupContainer.horizontalAutoLayoutContainer:
+        Height: =225
+        LayoutMode: =LayoutMode.Auto
+        Width: =464
+        Y: =690
+        ZIndex: =2
+
+        Image1 As image:
+            LayoutMinHeight: =320
+            LayoutMinWidth: =320
+            ZIndex: =1
+

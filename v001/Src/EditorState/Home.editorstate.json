@@ -47,7 +47,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Gallery3",
-      "ParentIndex": 1,
+      "ParentIndex": 21,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -337,7 +337,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon1",
-      "ParentIndex": 3,
+      "ParentIndex": 24,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -503,7 +503,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon2",
-      "ParentIndex": 24,
+      "ParentIndex": 23,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -669,7 +669,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon3",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1001,7 +1001,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon5",
-      "ParentIndex": 23,
+      "ParentIndex": 22,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1166,7 +1166,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image2_1",
-      "ParentIndex": 19,
+      "ParentIndex": 17,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1361,7 +1361,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image2_2",
-      "ParentIndex": 9,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1556,7 +1556,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image2_3",
-      "ParentIndex": 17,
+      "ParentIndex": 15,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1751,7 +1751,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image2_4",
-      "ParentIndex": 15,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1946,7 +1946,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image2_5",
-      "ParentIndex": 10,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2141,7 +2141,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image3",
-      "ParentIndex": 20,
+      "ParentIndex": 18,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2336,7 +2336,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image4",
-      "ParentIndex": 21,
+      "ParentIndex": 19,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2547,7 +2547,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplateBrowseGalleryImage.ID%",
       "Name": "Image8",
-      "ParentIndex": 1,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2776,7 +2776,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label1_4",
-      "ParentIndex": 27,
+      "ParentIndex": 26,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3314,7 +3314,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label5",
-      "ParentIndex": 26,
+      "ParentIndex": 27,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3590,7 +3590,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label8",
-      "ParentIndex": 5,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3859,7 +3859,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label9",
-      "ParentIndex": 11,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4128,7 +4128,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label9_1",
-      "ParentIndex": 8,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4397,7 +4397,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label9_2",
-      "ParentIndex": 16,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4666,7 +4666,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label9_3",
-      "ParentIndex": 14,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4911,7 +4911,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle1",
-      "ParentIndex": 6,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5036,7 +5036,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle2",
-      "ParentIndex": 7,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5154,7 +5154,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle3",
-      "ParentIndex": 12,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5279,7 +5279,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle4",
-      "ParentIndex": 13,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5397,7 +5397,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle6",
-      "ParentIndex": 4,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5535,7 +5535,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplateBrowseGallerySubtitle.ID%",
       "Name": "Subtitle4",
-      "ParentIndex": 3,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5846,7 +5846,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "TextInput1",
-      "ParentIndex": 18,
+      "ParentIndex": 16,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6137,7 +6137,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "TextInput1_2",
-      "ParentIndex": 22,
+      "ParentIndex": 20,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
