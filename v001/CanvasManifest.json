@@ -119,9 +119,9 @@
   },
   "PublishInfo": {
     "AppName": "RetroTracks_v001",
-    "BackgroundColor": "rgba(0, 0, 0, 1)",
+    "BackgroundColor": "rgba(109, 49, 162, 1)",
     "IconColor": "RGBA(255,255,255,1)",
-    "IconName": "",
+    "IconName": "Next",
     "LogoFileName": "logo.jpg",
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,

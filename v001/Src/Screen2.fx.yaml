@@ -10,15 +10,6 @@ Screen2 As screen:
         Y: =40
         ZIndex: =1
 
-        Image6 As image:
-            Height: =128
-            Image: =ThisItem.'Image[image]'
-            OnSelect: =Select(Parent)
-            Width: =128
-            X: =16
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =1
-
         Title4 As label:
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
