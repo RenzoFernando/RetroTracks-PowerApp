@@ -255,7 +255,8 @@ Home As screen:
 
         Image8 As image:
             Height: =165
-            OnSelect: =Select(Parent)
+            Image: ='logo (1)'
+            OnSelect: =Navigate(Adolescencia)
             Width: =134
             X: =16
             Y: =72
