@@ -20,7 +20,7 @@ PlayList As screen:
             Height: =35
             Size: =17
             Width: =199
-            X: =371
+            X: =385
             Y: =156
             ZIndex: =12
 
@@ -221,7 +221,7 @@ PlayList As screen:
             OnSelect: =
             Size: =17
             Width: =199
-            X: =52
+            X: =59
             Y: =156
             ZIndex: =10
 
