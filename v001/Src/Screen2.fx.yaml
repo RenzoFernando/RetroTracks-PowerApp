@@ -1,6 +1,6 @@
 Screen2 As screen:
 
-    "Gallery3 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+    "Gallery4 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         DelayItemLoading: =true
         Items: ='luna''s_songs'
         Layout: =Layout.Vertical
@@ -10,7 +10,15 @@ Screen2 As screen:
         Y: =40
         ZIndex: =1
 
-        Title4 As label:
+        Image7 As image:
+            Height: =128
+            OnSelect: =Select(Parent)
+            Width: =128
+            X: =16
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =1
+
+        Title5 As label:
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
@@ -19,26 +27,26 @@ Screen2 As screen:
             PaddingTop: =0
             Text: =ThisItem.Nombre
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - Image6.Width - 104
-            X: =Image6.X + Image6.Width + 24
+            Width: =Parent.TemplateWidth - Image7.Width - 104
+            X: =Image7.X + Image7.Width + 24
             Y: =44
             ZIndex: =2
 
-        Subtitle4 As label:
+        Subtitle5 As label:
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.Interprete
+            Text: =ThisItem.Momento
             VerticalAlign: =VerticalAlign.Top
-            Width: =Title4.Width
-            X: =Title4.X
-            Y: =Title4.Y + Title4.Height + 4
+            Width: =Title5.Width
+            X: =Title5.X
+            Y: =Title5.Y + Title5.Height + 4
             ZIndex: =3
 
-        NextArrow4 As icon.ChevronRight:
+        NextArrow5 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
             Height: =60
             Icon: =Icon.ChevronRight
@@ -54,7 +62,7 @@ Screen2 As screen:
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =4
 
-        Separator4 As rectangle:
+        Separator5 As rectangle:
             Height: =1
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
