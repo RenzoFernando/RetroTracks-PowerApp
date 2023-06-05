@@ -2502,6 +2502,30 @@
               "message": {
                 "text": "Error occurred running rule app-InefficientDelayLoading."
               }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 8
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error occurred running rule app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 8
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error occurred running rule app-InefficientDelayLoading."
+              }
             }
           ]
         }
@@ -3050,49 +3074,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Reproductor.DetailForm1.NombreC_DataCard1.Video1.AccessibleLabel"
+                  "fullyQualifiedName": "r.Video2.ClosedCaptionsUrl"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Reproductor.DetailForm1.NombreC_DataCard1.Video1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Reproductor",
-                "type": "Reproductor.DetailForm1.NombreC_DataCard1.Video1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Reproductor.DetailForm1.NombreC_DataCard1.Video1.ClosedCaptionsUrl"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Reproductor.DetailForm1.NombreC_DataCard1.Video1.ClosedCaptionsUrl",
+                  "fullyQualifiedName": "r.Video2.ClosedCaptionsUrl",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "ClosedCaptionsUrl",
-                "module": "Reproductor",
-                "type": "Reproductor.DetailForm1.NombreC_DataCard1.Video1"
+                "module": "r",
+                "type": "r.Video2"
               }
             }
           ],
@@ -3104,6 +3098,36 @@
           },
           "ruleId": "acc-CaptionsNeeded",
           "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "r.Video2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "r.Video2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "r",
+                "type": "r.Video2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
         },
         {
           "locations": [
