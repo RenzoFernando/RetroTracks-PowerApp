@@ -7,7 +7,7 @@
 
     IconBackarrow1 As icon.ChevronLeft:
         AccessibleLabel: =Self.Tooltip
-        Fill: =RGBA(172, 0, 255, 1)
+        Fill: =RGBA(104, 0, 156, 1)
         Height: =88
         Icon: =Icon.ChevronLeft
         OnSelect: =Navigate(Libreria, ScreenTransition.None)
@@ -23,7 +23,7 @@
     IconEdit1 As icon.Edit:
         AccessibleLabel: =Self.Tooltip
         DisplayMode: =If(DataSourceInfo([@m], DataSourceInfo.EditPermission), DisplayMode.Edit, DisplayMode.Disabled)
-        Fill: =RGBA(172, 0, 255, 1)
+        Fill: =RGBA(104, 0, 156, 1)
         Height: =88
         Icon: =Icon.Edit
         OnSelect: =EditForm(EditForm1);Navigate('Edit[no oficial en pruevas]', ScreenTransition.None)
@@ -42,7 +42,7 @@
         BorderColor: =RGBA(172, 0, 255, 1)
         Color: =RGBA(172, 0, 255, 1)
         DisplayMode: =If(!IsBlank(BrowseGallery1.Selected) && DataSourceInfo([@m], DataSourceInfo.DeletePermission), DisplayMode.Edit, DisplayMode.Disabled)
-        Fill: =RGBA(172, 0, 255, 1)
+        Fill: =RGBA(104, 0, 156, 1)
         Height: =88
         Icon: =Icon.Trash
         OnSelect: =Remove([@m], BrowseGallery1.Selected); If (IsEmpty(Errors([@m], BrowseGallery1.Selected)), Back())
@@ -58,7 +58,7 @@
 
     LblAppName2 As label:
         BorderColor: =RGBA(172, 0, 255, 1)
-        Fill: =RGBA(172, 0, 255, 1)
+        Fill: =RGBA(104, 0, 156, 1)
         Height: =88
         Size: =27
         Text: ="Reproduciendo..."
@@ -121,8 +121,8 @@
                 Height: =323
                 Media: =ThisItem.Fuente
                 Width: =575
-                X: =35
-                Y: =10
+                X: =30
+                Y: =37
                 ZIndex: =3
 
         Interprete_DataCard1 As typedDataCard.textualViewCard:
@@ -170,7 +170,7 @@
             Default: =ThisItem.Momento
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@m],DataSourceInfo.DisplayName,"field_1")
-            Fill: =RGBA(104, 0, 156, 1)
+            Fill: =RGBA(172, 0, 255, 1)
             Height: =40
             Required: =false
             Width: =640
@@ -252,7 +252,7 @@
             Default: =ThisItem.Relato
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@m],DataSourceInfo.DisplayName,"field_7")
-            Fill: =RGBA(104, 0, 156, 1)
+            Fill: =RGBA(172, 0, 255, 1)
             Height: =40
             Required: =false
             Width: =640
