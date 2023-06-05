@@ -157,7 +157,7 @@ PlayList As screen:
             Default: ="Entrada de texto"
             Height: =35
             Size: =17
-            Width: =213
+            Width: =199
             X: =371
             Y: =736
             ZIndex: =28
