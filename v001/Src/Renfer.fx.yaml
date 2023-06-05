@@ -1,4 +1,4 @@
-"C_RenFer As screen.'phoneBrowseLayout_ver3.0'":
+"Renfer As screen.'phoneBrowseLayout_ver3.0'":
     Fill: =RGBA(0, 0, 0, 1)
 
     RectQuickActionBar1_12 As rectangle:

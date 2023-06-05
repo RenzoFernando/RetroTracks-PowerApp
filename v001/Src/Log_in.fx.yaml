@@ -87,7 +87,7 @@ Log_in As screen:
         Width: =560
         X: =44
         Y: =762
-        ZIndex: =7
+        ZIndex: =6
 
     usuario As text:
         BorderColor: =RGBA(172, 0, 255, 1)
@@ -108,7 +108,7 @@ Log_in As screen:
         Width: =560
         X: =44
         Y: =670
-        ZIndex: =8
+        ZIndex: =7
 
     Label3 As label:
         Color: =RGBA(172, 0, 255, 1)
@@ -119,5 +119,5 @@ Log_in As screen:
         Width: =560
         X: =40
         Y: =628
-        ZIndex: =9
+        ZIndex: =8
 

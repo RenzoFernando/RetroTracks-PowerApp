@@ -29,23 +29,16 @@
       "Created": "Creado",
       "Editor": "Modificado por",
       "Editor#Claims": "Modificado por Claims",
-      "field_1": "Momento",
-      "field_2": "Image[image]",
-      "field_3": "NombreC",
-      "field_4": "Interprete",
-      "field_5": "Genero",
-      "field_6": "Fuente",
-      "field_7": "Relato",
       "ID": "ID",
       "Modified": "Modificado",
       "OData__ColorTag": "Etiqueta de color",
-      "Title": "Id_lista"
+      "Title": "Título"
     },
     "DatasetName": "https://icesiedu-my.sharepoint.com/personal/1114876013_u_icesi_edu_co",
     "EncodeDataset": true,
     "IsSampleData": false,
     "IsWritable": true,
-    "Name": "m",
+    "Name": "personas",
     "Type": "ConnectedDataSourceInfo"
   }
 ]
