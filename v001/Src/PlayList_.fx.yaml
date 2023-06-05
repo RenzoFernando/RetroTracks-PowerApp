@@ -91,8 +91,8 @@ PlayList_ As screen:
         Image7 As image:
             Height: =150
             Width: =150
-            X: =89
-            Y: =29
+            X: =79
+            Y: =39
             ZIndex: =51
 
         Label11 As label:
@@ -100,10 +100,10 @@ PlayList_ As screen:
             FontWeight: =FontWeight.Semibold
             Height: =38
             Size: =19
-            Text: ="Texto"
+            Text: ="Adolescencia"
             Width: =227
-            X: =89
-            Y: =179
+            X: =79
+            Y: =189
             ZIndex: =53
 
     Group1_1 As group:
@@ -117,7 +117,7 @@ PlayList_ As screen:
             Height: =150
             Width: =150
             X: =371
-            Y: =29
+            Y: =39
             ZIndex: =54
 
         Label11_1 As label:
@@ -125,10 +125,10 @@ PlayList_ As screen:
             FontWeight: =FontWeight.Semibold
             Height: =38
             Size: =19
-            Text: ="Texto"
+            Text: ="Bachillerato"
             Width: =227
             X: =371
-            Y: =179
+            Y: =189
             ZIndex: =55
 
     Group1_2 As group:
@@ -141,8 +141,8 @@ PlayList_ As screen:
         Image7_2 As image:
             Height: =150
             Width: =150
-            X: =89
-            Y: =217
+            X: =79
+            Y: =227
             ZIndex: =56
 
         Label11_2 As label:
@@ -150,10 +150,10 @@ PlayList_ As screen:
             FontWeight: =FontWeight.Semibold
             Height: =38
             Size: =19
-            Text: ="Texto"
+            Text: ="Conexión familiar"
             Width: =227
-            X: =89
-            Y: =367
+            X: =79
+            Y: =377
             ZIndex: =57
 
     Group1_3 As group:
@@ -167,7 +167,7 @@ PlayList_ As screen:
             Height: =150
             Width: =150
             X: =371
-            Y: =217
+            Y: =227
             ZIndex: =59
 
         Label11_3 As label:
@@ -175,10 +175,10 @@ PlayList_ As screen:
             FontWeight: =FontWeight.Semibold
             Height: =38
             Size: =19
-            Text: ="Texto"
+            Text: ="Infancia"
             Width: =227
             X: =371
-            Y: =367
+            Y: =377
             ZIndex: =60
 
     Group1_4 As group:
@@ -191,8 +191,8 @@ PlayList_ As screen:
         Image7_4 As image:
             Height: =150
             Width: =150
-            X: =89
-            Y: =405
+            X: =79
+            Y: =415
             ZIndex: =61
 
         Label11_4 As label:
@@ -200,10 +200,10 @@ PlayList_ As screen:
             FontWeight: =FontWeight.Semibold
             Height: =38
             Size: =19
-            Text: ="Texto"
+            Text: ="Laboral"
             Width: =227
-            X: =89
-            Y: =555
+            X: =79
+            Y: =565
             ZIndex: =62
 
     Group1_5 As group:
@@ -217,7 +217,7 @@ PlayList_ As screen:
             Height: =150
             Width: =150
             X: =371
-            Y: =405
+            Y: =415
             ZIndex: =64
 
         Label11_5 As label:
@@ -225,10 +225,10 @@ PlayList_ As screen:
             FontWeight: =FontWeight.Semibold
             Height: =38
             Size: =19
-            Text: ="Texto"
+            Text: ="Nostalgia"
             Width: =227
             X: =371
-            Y: =555
+            Y: =565
             ZIndex: =65
 
     Group1_6 As group:
@@ -241,8 +241,8 @@ PlayList_ As screen:
         Image7_6 As image:
             Height: =150
             Width: =150
-            X: =89
-            Y: =594
+            X: =79
+            Y: =604
             ZIndex: =67
 
         Label11_6 As label:
@@ -250,10 +250,10 @@ PlayList_ As screen:
             FontWeight: =FontWeight.Semibold
             Height: =38
             Size: =19
-            Text: ="Texto"
+            Text: ="Preadolescencia"
             Width: =227
-            X: =89
-            Y: =744
+            X: =79
+            Y: =754
             ZIndex: =68
 
     Group1_7 As group:
@@ -267,7 +267,7 @@ PlayList_ As screen:
             Height: =150
             Width: =150
             X: =371
-            Y: =594
+            Y: =604
             ZIndex: =70
 
         Label11_7 As label:
@@ -275,10 +275,10 @@ PlayList_ As screen:
             FontWeight: =FontWeight.Semibold
             Height: =38
             Size: =19
-            Text: ="Texto"
-            Width: =227
+            Text: ="Puntos de quiebre"
+            Width: =257
             X: =371
-            Y: =744
+            Y: =754
             ZIndex: =71
 
     Group1_8 As group:
@@ -291,8 +291,8 @@ PlayList_ As screen:
         Image7_8 As image:
             Height: =150
             Width: =150
-            X: =89
-            Y: =790
+            X: =79
+            Y: =796
             ZIndex: =72
 
         Label11_8 As label:
@@ -300,10 +300,10 @@ PlayList_ As screen:
             FontWeight: =FontWeight.Semibold
             Height: =38
             Size: =19
-            Text: ="Texto"
+            Text: ="Romance"
             Width: =227
-            X: =89
-            Y: =940
+            X: =79
+            Y: =946
             ZIndex: =73
 
     Group1_9 As group:
@@ -317,7 +317,7 @@ PlayList_ As screen:
             Height: =150
             Width: =150
             X: =371
-            Y: =790
+            Y: =796
             ZIndex: =75
 
         Label11_9 As label:
@@ -325,9 +325,9 @@ PlayList_ As screen:
             FontWeight: =FontWeight.Semibold
             Height: =38
             Size: =19
-            Text: ="Texto"
+            Text: ="Vacaciones"
             Width: =227
             X: =371
-            Y: =940
+            Y: =946
             ZIndex: =76
 
