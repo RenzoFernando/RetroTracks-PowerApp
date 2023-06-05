@@ -216,7 +216,7 @@ PlayList_1 As screen:
         ZIndex: =35
 
         TextInput2_10 As text:
-            Default: ="Entrada de texto"
+            Default: ="Adolescencia"
             Height: =35
             OnSelect: =
             Size: =17
