@@ -250,3 +250,11 @@ PlayList As screen:
         Y: =994
         ZIndex: =42
 
+    Icon1_1 As icon.Settings:
+        Color: =RGBA(172, 0, 255, 1)
+        Height: =52
+        Icon: =Icon.Settings
+        X: =502
+        Y: =1037
+        ZIndex: =44
+
