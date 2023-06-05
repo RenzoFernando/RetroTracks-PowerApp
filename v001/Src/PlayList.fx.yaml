@@ -230,7 +230,7 @@ PlayList As screen:
             OnSelect: =
             Width: =226
             X: =45
-            Y: =18
+            Y: =36
             ZIndex: =34
 
     TextInput1_5 As text:
