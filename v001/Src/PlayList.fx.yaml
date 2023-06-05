@@ -218,6 +218,7 @@ PlayList As screen:
         TextInput2 As text:
             Default: ="Entrada de texto"
             Height: =35
+            OnSelect: =
             Size: =17
             Width: =199
             X: =52
@@ -226,9 +227,10 @@ PlayList As screen:
 
         Image8_10 As image:
             Height: =107
+            OnSelect: =
             Width: =226
-            X: =39
-            Y: =36
+            X: =45
+            Y: =18
             ZIndex: =34
 
     TextInput1_5 As text:
