@@ -302,14 +302,14 @@
         Items: =m
         LoadingSpinner: =LoadingSpinner.Data
         TemplateSize: =560
-        Width: =586
+        Width: =568
         X: =33
         Y: =104
         ZIndex: =7
 
         Video5 As videoPlayback:
             Height: =351
-            Media: =ThisItem.'Fuente'
+            Media: =ThisItem.Fuente
             Width: =560
             ZIndex: =1
 
