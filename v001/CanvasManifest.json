@@ -109,7 +109,7 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "e378a016-0c58-4a78-b353-99d8dadacb6a",
-    "Id": "e378a016-0c58-4a78-b353-99d8dadacb6a",
+    "Id": "a2165188-019e-456c-ad59-c77ae77ceebd",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
@@ -126,7 +126,7 @@
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
     "PublishTarget": "player",
-    "UserLocale": "es-ES"
+    "UserLocale": "en-US"
   },
   "ScreenOrder": [
     "Bienvenidos",
@@ -138,6 +138,7 @@
     "Edit[no oficial en pruevas]",
     "Error Loging",
     "Exito Signup",
-    "Screen2"
+    "Screen2",
+    "Configuraciones"
   ]
 }
