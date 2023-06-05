@@ -78,17 +78,6 @@ Log_in As screen:
         Y: =874
         ZIndex: =5
 
-    Label2 As label:
-        Align: =Align.Center
-        Color: =RGBA(172, 0, 255, 1)
-        Font: =Font.'Lato Black'
-        FontWeight: =FontWeight.Bold
-        Height: =65
-        Size: =23
-        Text: ="RetroTrack"
-        Width: =640
-        ZIndex: =6
-
     Label3_1 As label:
         Color: =RGBA(172, 0, 255, 1)
         FontWeight: =FontWeight.Bold
