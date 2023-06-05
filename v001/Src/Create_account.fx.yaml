@@ -16,13 +16,13 @@ Create_account As screen:
     Form3 As form:
         DataSource: =registro
         DefaultMode: =FormMode.New
-        Height: =1069
+        Height: =949
         OnFailure: =
         OnReset: =true
         OnSuccess: =true
         Width: =550
         X: =45
-        Y: =67
+        Y: =94
         ZIndex: =2
 
         Título_DataCard2 As typedDataCard.textualEditCard:
@@ -30,7 +30,7 @@ Create_account As screen:
             BorderStyle: =BorderStyle.None
             BorderThickness: =5
             DataField: ="Title"
-            Default: =ThisItem.Título
+            Default: =ThisItem.Title
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@registro],DataSourceInfo.DisplayName,"Title")
             Fill: =RGBA(0, 0, 0, 0)
