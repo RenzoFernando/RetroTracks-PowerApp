@@ -228,7 +228,7 @@ Home As screen:
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =21
-        Text: ="Bienvenido X"
+        Text: ="Bienvenido " && "u"
         Width: =560
         X: =6
         Y: =5
