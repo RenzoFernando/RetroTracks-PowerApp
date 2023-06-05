@@ -81,3 +81,253 @@ PlayList_ As screen:
         Y: =994
         ZIndex: =50
 
+    Group1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =54
+
+        Image7 As image:
+            Height: =150
+            Width: =150
+            X: =89
+            Y: =29
+            ZIndex: =51
+
+        Label11 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =38
+            Size: =19
+            Text: ="Texto"
+            Width: =227
+            X: =89
+            Y: =179
+            ZIndex: =53
+
+    Group1_1 As group:
+        Height: =5
+        Width: =5
+        X: =20
+        Y: =20
+        ZIndex: =56
+
+        Image7_1 As image:
+            Height: =150
+            Width: =150
+            X: =371
+            Y: =29
+            ZIndex: =54
+
+        Label11_1 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =38
+            Size: =19
+            Text: ="Texto"
+            Width: =227
+            X: =371
+            Y: =179
+            ZIndex: =55
+
+    Group1_2 As group:
+        Height: =5
+        Width: =5
+        X: =20
+        Y: =20
+        ZIndex: =58
+
+        Image7_2 As image:
+            Height: =150
+            Width: =150
+            X: =89
+            Y: =217
+            ZIndex: =56
+
+        Label11_2 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =38
+            Size: =19
+            Text: ="Texto"
+            Width: =227
+            X: =89
+            Y: =367
+            ZIndex: =57
+
+    Group1_3 As group:
+        Height: =5
+        Width: =5
+        X: =20
+        Y: =20
+        ZIndex: =61
+
+        Image7_3 As image:
+            Height: =150
+            Width: =150
+            X: =371
+            Y: =217
+            ZIndex: =59
+
+        Label11_3 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =38
+            Size: =19
+            Text: ="Texto"
+            Width: =227
+            X: =371
+            Y: =367
+            ZIndex: =60
+
+    Group1_4 As group:
+        Height: =5
+        Width: =5
+        X: =20
+        Y: =20
+        ZIndex: =63
+
+        Image7_4 As image:
+            Height: =150
+            Width: =150
+            X: =89
+            Y: =405
+            ZIndex: =61
+
+        Label11_4 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =38
+            Size: =19
+            Text: ="Texto"
+            Width: =227
+            X: =89
+            Y: =555
+            ZIndex: =62
+
+    Group1_5 As group:
+        Height: =5
+        Width: =5
+        X: =20
+        Y: =20
+        ZIndex: =66
+
+        Image7_5 As image:
+            Height: =150
+            Width: =150
+            X: =371
+            Y: =405
+            ZIndex: =64
+
+        Label11_5 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =38
+            Size: =19
+            Text: ="Texto"
+            Width: =227
+            X: =371
+            Y: =555
+            ZIndex: =65
+
+    Group1_6 As group:
+        Height: =5
+        Width: =5
+        X: =20
+        Y: =20
+        ZIndex: =69
+
+        Image7_6 As image:
+            Height: =150
+            Width: =150
+            X: =89
+            Y: =594
+            ZIndex: =67
+
+        Label11_6 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =38
+            Size: =19
+            Text: ="Texto"
+            Width: =227
+            X: =89
+            Y: =744
+            ZIndex: =68
+
+    Group1_7 As group:
+        Height: =5
+        Width: =5
+        X: =20
+        Y: =20
+        ZIndex: =72
+
+        Image7_7 As image:
+            Height: =150
+            Width: =150
+            X: =371
+            Y: =594
+            ZIndex: =70
+
+        Label11_7 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =38
+            Size: =19
+            Text: ="Texto"
+            Width: =227
+            X: =371
+            Y: =744
+            ZIndex: =71
+
+    Group1_8 As group:
+        Height: =5
+        Width: =5
+        X: =20
+        Y: =20
+        ZIndex: =74
+
+        Image7_8 As image:
+            Height: =150
+            Width: =150
+            X: =89
+            Y: =790
+            ZIndex: =72
+
+        Label11_8 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =38
+            Size: =19
+            Text: ="Texto"
+            Width: =227
+            X: =89
+            Y: =940
+            ZIndex: =73
+
+    Group1_9 As group:
+        Height: =5
+        Width: =5
+        X: =20
+        Y: =20
+        ZIndex: =77
+
+        Image7_9 As image:
+            Height: =150
+            Width: =150
+            X: =371
+            Y: =790
+            ZIndex: =75
+
+        Label11_9 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =38
+            Size: =19
+            Text: ="Texto"
+            Width: =227
+            X: =371
+            Y: =940
+            ZIndex: =76
+
