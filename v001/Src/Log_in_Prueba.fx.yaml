@@ -90,27 +90,6 @@ Log_in_Prueba As screen:
         Y: =762
         ZIndex: =6
 
-    usuario_1 As text:
-        BorderColor: =RGBA(172, 0, 255, 1)
-        BorderThickness: =5
-        Clear: =true
-        Color: =RGBA(255, 255, 255, 1)
-        Default: =""
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        Fill: =RGBA(104, 0, 156, 0.64)
-        Height: =70
-        HintText: =""
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        RadiusBottomLeft: =10
-        RadiusBottomRight: =10
-        RadiusTopLeft: =10
-        RadiusTopRight: =10
-        Size: =21
-        Width: =560
-        X: =44
-        Y: =670
-        ZIndex: =7
-
     Label3_2 As label:
         Color: =RGBA(172, 0, 255, 1)
         FontWeight: =FontWeight.Bold
@@ -125,10 +104,11 @@ Log_in_Prueba As screen:
     Form2 As form:
         DataSource: =personas
         DefaultMode: =FormMode.New
-        Height: =185
+        Height: =103
         OnFailure: =
-        Width: =640
-        Y: =436
+        Width: =572
+        X: =34
+        Y: =670
         ZIndex: =9
 
         Título_DataCard3 As typedDataCard.textualEditCard:
@@ -138,11 +118,11 @@ Log_in_Prueba As screen:
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@personas],DataSourceInfo.DisplayName,"Title")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
+            Height: =98
             MaxLength: =DataSourceInfo([@personas], DataSourceInfo.MaxLength, "Title")
             Required: =true
             Update: =DataCardValue7.Text
-            Width: =640
+            Width: =572
             X: =0
             Y: =0
             ZIndex: =10
@@ -156,26 +136,27 @@ Log_in_Prueba As screen:
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 Wrap: =false
-                X: =30
-                Y: =10
+                X: =31
                 ZIndex: =1
 
             DataCardValue7 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =RGBA(172, 0, 255, 1)
+                BorderThickness: =5
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(104, 0, 156, 0.65)
                 Height: =70
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
+                RadiusBottomLeft: =10
+                RadiusBottomRight: =10
+                RadiusTopLeft: =10
+                RadiusTopRight: =10
                 Size: =21
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey7.Y + DataCardKey7.Height + 5
+                Width: =564
+                X: =5
+                Y: =22
                 ZIndex: =2
 
