@@ -1,17 +1,17 @@
-"Libreria_6 As screen.'phoneBrowseLayout_ver3.0'":
+"'Puntos de quiebre' As screen.'phoneBrowseLayout_ver3.0'":
     Fill: =RGBA(0, 0, 0, 1)
 
-    RectQuickActionBar1_6 As rectangle:
+    RectQuickActionBar1_8 As rectangle:
         BorderColor: =RGBA(109, 49, 162, 1)
         Fill: =RGBA(109, 49, 162, 1)
         Height: =88
         Width: =Parent.Width
         ZIndex: =1
 
-    "BrowseGallery1_6 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+    "BrowseGallery1_8 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         DelayItemLoading: =true
         Height: =838
-        Items: =SortByColumns(Filter([@m], StartsWith(NombreC, TextSearchBox1_6.Text)), "Title", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
+        Items: =SortByColumns(Filter([@m], StartsWith(NombreC, TextSearchBox1_8.Text)), "Title", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         OnSelect: =Navigate(Reproductor, ScreenTransition.None)
@@ -22,7 +22,7 @@
         Y: =156
         ZIndex: =1
 
-        Image2_11 As image:
+        Image2_13 As image:
             Height: =128
             Image: =ThisItem.'Image[image]'
             OnSelect: =Select(Parent)
@@ -31,7 +31,7 @@
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =1
 
-        Title3_6 As label:
+        Title3_8 As label:
             Color: =RGBA(255, 255, 255, 1)
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
@@ -41,12 +41,12 @@
             PaddingTop: =0
             Text: =ThisItem.NombreC
             VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - Image2_11.Width - 104
-            X: =Image2_11.X + Image2_11.Width + 24
+            Width: =Parent.TemplateWidth - Image2_13.Width - 104
+            X: =Image2_13.X + Image2_13.Width + 24
             Y: =44
             ZIndex: =2
 
-        Subtitle2_6 As label:
+        Subtitle2_8 As label:
             Color: =RGBA(255, 255, 255, 1)
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
@@ -56,12 +56,12 @@
             PaddingTop: =0
             Text: =ThisItem.Interprete
             VerticalAlign: =VerticalAlign.Top
-            Width: =Title3_6.Width
-            X: =Title3_6.X
-            Y: =Title3_6.Y + Title3_6.Height + 4
+            Width: =Title3_8.Width
+            X: =Title3_8.X
+            Y: =Title3_8.Y + Title3_8.Height + 4
             ZIndex: =3
 
-        NextArrow3_6 As icon.ChevronRight:
+        NextArrow3_8 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
             Color: =RGBA(255, 255, 255, 1)
             Fill: =RGBA(109, 49, 162, 1)
@@ -79,24 +79,24 @@
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =4
 
-        Separator3_6 As rectangle:
+        Separator3_8 As rectangle:
             Height: =1
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
 
-    LblAppName1_6 As label:
+    LblAppName1_8 As label:
         Fill: =RGBA(58, 58, 58, 0)
         Height: =88
         Size: =27
         Text: ="Libreria"
-        Width: =Parent.Width - Self.X - IconSortUpDown1_6.Width - IconNewItem1_6.Width - IconRefresh1_6.Width
+        Width: =Parent.Width - Self.X - IconSortUpDown1_8.Width - IconNewItem1_8.Width - IconRefresh1_8.Width
         Wrap: =false
         X: =20
         ZIndex: =2
 
-    IconRefresh1_6 As icon.Reload:
+    IconRefresh1_8 As icon.Reload:
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.Reload
@@ -108,10 +108,10 @@
         TabIndex: =0
         Tooltip: ="Actualizar lista"
         Width: =88
-        X: =Parent.Width - IconNewItem1_6.Width - IconSortUpDown1_6.Width - Self.Width
+        X: =Parent.Width - IconNewItem1_8.Width - IconSortUpDown1_8.Width - Self.Width
         ZIndex: =3
 
-    IconSortUpDown1_6 As icon.ArrowsUpDown:
+    IconSortUpDown1_8 As icon.ArrowsUpDown:
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.Sort
@@ -124,10 +124,10 @@
         TabIndex: =0
         Tooltip: =If(SortDescending1, "Ordenar la lista en orden alfabético inverso", "Ordenar la lista en orden alfabético")
         Width: =88
-        X: =Parent.Width - IconNewItem1_6.Width - Self.Width
+        X: =Parent.Width - IconNewItem1_8.Width - Self.Width
         ZIndex: =4
 
-    IconNewItem1_6 As icon.Add:
+    IconNewItem1_8 As icon.Add:
         AccessibleLabel: =Self.Tooltip
         DisplayMode: =If(DataSourceInfo([@m], DataSourceInfo.CreatePermission), DisplayMode.Edit, DisplayMode.Disabled)
         Height: =88
@@ -143,7 +143,7 @@
         X: =Parent.Width - Self.Width
         ZIndex: =5
 
-    TextSearchBox1_6 As text:
+    TextSearchBox1_8 As text:
         Default: =""
         DelayOutput: =true
         Height: =68
@@ -155,10 +155,10 @@
         RadiusTopRight: =0
         Size: =21
         Width: =640
-        Y: =RectQuickActionBar1_6.Height
+        Y: =RectQuickActionBar1_8.Height
         ZIndex: =6
 
-    SearchIcon1_6 As icon.Search:
+    SearchIcon1_8 As icon.Search:
         Color: =RGBA(191, 190, 190, 1)
         Height: =Self.Width
         Icon: =Icon.Search
@@ -167,25 +167,25 @@
         PaddingRight: =14
         PaddingTop: =14
         Tooltip: ="Buscar"
-        Width: =TextSearchBox1_6.Height
-        X: =TextSearchBox1_6.X
-        Y: =TextSearchBox1_6.Y
+        Width: =TextSearchBox1_8.Height
+        X: =TextSearchBox1_8.X
+        Y: =TextSearchBox1_8.Y
         ZIndex: =7
 
-    Rectangle11_6 As rectangle:
+    Rectangle11_8 As rectangle:
         Height: =2
         Width: =Parent.Width
-        Y: =TextSearchBox1_6.Y + TextSearchBox1_6.Height
+        Y: =TextSearchBox1_8.Y + TextSearchBox1_8.Height
         ZIndex: =8
 
-    Icon6_9 As icon.Search:
+    Icon6_11 As icon.Search:
         Color: =RGBA(172, 0, 255, 1)
         Icon: =Icon.Search
         X: =266
         Y: =1008
         ZIndex: =9
 
-    Label5_15 As label:
+    Label5_19 As label:
         Color: =RGBA(172, 0, 255, 1)
         Height: =64
         Size: =21
@@ -195,7 +195,7 @@
         Y: =1072
         ZIndex: =10
 
-    Label1_13 As label:
+    Label1_15 As label:
         Color: =RGBA(172, 0, 255, 1)
         Height: =64
         Size: =21
@@ -205,14 +205,14 @@
         Y: =1072
         ZIndex: =11
 
-    Icon2_9 As icon.Home:
+    Icon2_11 As icon.Home:
         Color: =RGBA(172, 0, 255, 1)
         Icon: =Icon.Home
         X: =93
         Y: =1008
         ZIndex: =12
 
-    Icon5_9 As icon.DetailList:
+    Icon5_11 As icon.DetailList:
         Color: =RGBA(172, 0, 255, 1)
         Height: =71
         Icon: =Icon.DetailList
@@ -221,7 +221,7 @@
         Y: =1004
         ZIndex: =13
 
-    Label4_10 As label:
+    Label4_12 As label:
         Color: =RGBA(172, 0, 255, 1)
         Height: =64
         Size: =21
@@ -231,7 +231,7 @@
         Y: =1072
         ZIndex: =14
 
-    Label5_16 As label:
+    Label5_20 As label:
         Color: =RGBA(172, 0, 255, 1)
         Height: =64
         Size: =21
@@ -241,7 +241,7 @@
         Y: =1072
         ZIndex: =15
 
-    TextInput1_18 As text:
+    TextInput1_20 As text:
         BorderColor: =RGBA(0, 0, 0, 1)
         BorderThickness: =0
         Color: =RGBA(15, 15, 15, 1)
