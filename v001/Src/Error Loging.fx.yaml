@@ -4,6 +4,7 @@
         BorderThickness: =0
         Fill: =RGBA(0, 0, 0, 1)
         Height: =1136
+        HoverFill: =ColorFade(RGBA(0, 0, 0, 0), 0%)
         OnSelect: =Navigate(Log_in)
         RadiusBottomLeft: =0
         RadiusBottomRight: =0

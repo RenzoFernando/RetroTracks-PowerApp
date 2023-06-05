@@ -9,7 +9,7 @@ Home As screen:
         Size: =21
         Text: ="Libreria"
         Width: =153
-        X: =247
+        X: =240
         Y: =1072
         ZIndex: =1
 
@@ -52,15 +52,15 @@ Home As screen:
         Color: =RGBA(172, 0, 255, 1)
         Height: =52
         Icon: =Icon.Settings
-        X: =502
-        Y: =1037
+        X: =495
+        Y: =1031
         ZIndex: =6
 
     Icon2 As icon.Home:
         Color: =RGBA(172, 0, 255, 1)
         Icon: =Icon.Home
-        X: =91
-        Y: =1022
+        X: =80
+        Y: =1025
         ZIndex: =7
 
     Icon5 As icon.DetailList:
@@ -68,8 +68,8 @@ Home As screen:
         Height: =71
         Icon: =Icon.DetailList
         Width: =56
-        X: =295
-        Y: =1018
+        X: =288
+        Y: =1021
         ZIndex: =8
 
     Label4_1 As label:
@@ -78,7 +78,7 @@ Home As screen:
         Size: =21
         Text: ="Home"
         Width: =94
-        X: =76
+        X: =68
         Y: =1072
         ZIndex: =9
 
@@ -88,7 +88,7 @@ Home As screen:
         Size: =21
         Text: ="Ajustes"
         Width: =125
-        X: =482
+        X: =474
         Y: =1072
         ZIndex: =10
 
@@ -96,7 +96,7 @@ Home As screen:
         BorderColor: =RGBA(72, 50, 133, 1)
         Fill: =RGBA(172, 0, 255, 1)
         Height: =50
-        Width: =172
+        Width: =263
         X: =51
         Y: =114
         ZIndex: =11
@@ -104,9 +104,10 @@ Home As screen:
     Label8 As label:
         Height: =50
         Size: =15
-        Text: ="Recomendadas"
-        Width: =165
-        X: =58
+        Text: |-
+            ="Cansiones Recomendadas:"
+        Width: =263
+        X: =51
         Y: =114
         ZIndex: =12
 
@@ -145,27 +146,6 @@ Home As screen:
         X: =427
         Y: =331
         ZIndex: =16
-
-    Image2_1 As image:
-        Height: =148
-        Width: =200
-        X: =41
-        Y: =561
-        ZIndex: =17
-
-    Image3 As image:
-        Height: =148
-        Width: =166
-        X: =241
-        Y: =561
-        ZIndex: =18
-
-    Image4 As image:
-        Height: =148
-        Width: =195
-        X: =404
-        Y: =561
-        ZIndex: =19
 
     TextInput1 As text:
         BorderColor: =RGBA(72, 50, 133, 1)
@@ -278,4 +258,96 @@ Home As screen:
         X: =80
         Y: =831
         ZIndex: =30
+
+    TextInput1_6 As text:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =0
+        Color: =RGBA(15, 15, 15, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(172, 0, 255, 1)
+        DisabledFill: =RGBA(172, 0, 255, 1)
+        Height: =10
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =21
+        Width: =640
+        Y: =1008
+        ZIndex: =34
+
+    Group2 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =34
+
+        Image2_1 As image:
+            Height: =148
+            Width: =200
+            X: =41
+            Y: =561
+            ZIndex: =17
+
+        Label18 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =30
+            Size: =17
+            Text: ="~Nigori"
+            Width: =142
+            X: =68
+            Y: =709
+            ZIndex: =31
+
+    Group3 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =34
+
+        Image3 As image:
+            Height: =148
+            Width: =166
+            X: =241
+            Y: =561
+            ZIndex: =18
+
+        Label18_2 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =31
+            Size: =17
+            Text: ="~Moon"
+            Width: =148
+            X: =251
+            Y: =709
+            ZIndex: =33
+
+    Group4 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =34
+
+        Image4 As image:
+            Height: =148
+            Width: =195
+            X: =404
+            Y: =561
+            ZIndex: =19
+
+        Label18_1 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =30
+            Size: =17
+            Text: ="~Ren"
+            Width: =142
+            X: =427
+            Y: =709
+            ZIndex: =32
 
