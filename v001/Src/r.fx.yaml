@@ -299,8 +299,8 @@
     Video2 As videoPlayback:
         Height: =323
         Width: =575
-        X: =20
-        Y: =20
+        X: =32
+        Y: =100
         ZIndex: =7
 
     DetailForm1_2dfghnjm As formViewer:
