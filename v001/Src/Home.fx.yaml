@@ -284,8 +284,9 @@ Home As screen:
         ZIndex: =34
 
         Image2_1 As image:
-            Height: =148
-            Width: =200
+            Height: =150
+            Image: =NIGORI
+            Width: =150
             X: =41
             Y: =561
             ZIndex: =17
