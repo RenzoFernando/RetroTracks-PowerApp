@@ -96,7 +96,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 1,
+    "BindingErrorCount": 0,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -131,11 +131,12 @@
   "ScreenOrder": [
     "Bienvenidos",
     "Log_in",
+    "Log_in_Prueba",
     "Create_account",
     "Home",
     "PlayList_",
     "Libreria",
-    "C_RenFer",
+    "Renfer",
     "Moon",
     "Adolescencia",
     "Bachillerato",
