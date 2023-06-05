@@ -126,7 +126,7 @@
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
     "PublishTarget": "player",
-    "UserLocale": "es-ES"
+    "UserLocale": "en-US"
   },
   "ScreenOrder": [
     "Bienvenidos",
@@ -155,8 +155,8 @@
     "Reproductor_Preadolecencia",
     "Reproductor_Puntos",
     "Reproductor_Romance",
-    "Reproductor_Romance_2",
-    "Reproductor_Romance_1",
+    "Reproductor_Universidad",
+    "Reproductor_Vacaciones",
     "Edit[no oficial en pruevas]",
     "Error Loging",
     "Exito Signup",
