@@ -123,7 +123,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%BrowseContainer.ID%",
       "Name": "BrowseGallery1_1",
-      "ParentIndex": 8,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -676,7 +676,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon6_16",
-      "ParentIndex": 6,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3364,7 +3364,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplatePhoneRectangle1.ID%",
       "Name": "Rectangle11_1",
-      "ParentIndex": 7,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

@@ -601,7 +601,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon6_18",
-      "ParentIndex": 6,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2959,7 +2959,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "LblAppName1_3",
-      "ParentIndex": 4,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
