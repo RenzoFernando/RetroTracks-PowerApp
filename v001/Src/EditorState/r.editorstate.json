@@ -3962,7 +3962,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplatePhoneIconBackarrow.ID%",
       "Name": "IconBackarrow1_1",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4185,7 +4185,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplatePhoneIconDelete.ID%",
       "Name": "IconDelete1_1",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4408,7 +4408,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplatePhoneIconEdit.ID%",
       "Name": "IconEdit1_1",
-      "ParentIndex": 5,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4622,7 +4622,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%field_4.ID%",
       "Name": "Interprete_DataCard1_1",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4745,7 +4745,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplatePhoneLblAppName.ID%",
       "Name": "LblAppName2_1",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4964,7 +4964,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%field_1.ID%",
       "Name": "Momento_DataCard1_1",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5098,7 +5098,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%field_3.ID%",
       "Name": "NombreC_DataCard1_1",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5498,7 +5498,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Video2",
-      "ParentIndex": 1,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
