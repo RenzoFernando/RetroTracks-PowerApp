@@ -26,7 +26,7 @@ Bienvenidos As screen:
         FontWeight: =FontWeight.Semibold
         Height: =124
         Size: =25
-        Text: ="Bienvenido a RetroTracks tu app de musica favorita"
+        Text: ="Bienvenido a RetroTracks tu app de música favorita"
         Width: =517
         X: =56
         Y: =92
@@ -35,6 +35,7 @@ Bienvenidos As screen:
     Button5 As button:
         Fill: =RGBA(172, 0, 255, 1)
         Height: =70
+        OnSelect: =Navigate(Log_in)
         Size: =24
         Text: ="Button"
         Width: =280
