@@ -17,7 +17,7 @@ Bienvenidos As screen:
         Height: =134
         Width: =560
         X: =40
-        Y: =82
+        Y: =138
         ZIndex: =3
 
     Label11 As label:
@@ -28,8 +28,8 @@ Bienvenidos As screen:
         Size: =25
         Text: ="Bienvenido a RetroTracks tu app de música favorita"
         Width: =517
-        X: =56
-        Y: =92
+        X: =61
+        Y: =138
         ZIndex: =4
 
     Button5 As button:
@@ -39,8 +39,8 @@ Bienvenidos As screen:
         Size: =24
         Text: ="Button"
         Width: =280
-        X: =180
-        Y: =699
+        X: =174
+        Y: =709
         ZIndex: =5
 
     TextInput1_5 As text:
@@ -78,10 +78,10 @@ Bienvenidos As screen:
         ZIndex: =9
 
     Image5 As image:
-        Height: =320
+        Height: =375
         Image: ='logo (1)'
-        Width: =320
-        X: =154
-        Y: =255
+        Width: =395
+        X: =102
+        Y: =262
         ZIndex: =10
 

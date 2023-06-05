@@ -123,7 +123,7 @@
                 Media: =ThisItem.Fuente
                 Width: =575
                 X: =39
-                Y: =10
+                Y: =24
                 ZIndex: =3
 
         Interprete_DataCard1 As typedDataCard.textualViewCard:
@@ -163,6 +163,19 @@
                 Width: =Parent.Width - 60
                 X: =30
                 ZIndex: =2
+
+            DataCardKey2_1 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 255, 255, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =3
 
         Momento_DataCard1 As typedDataCard.textualViewCard:
             BorderColor: =RGBA(0, 0, 0, 1)
