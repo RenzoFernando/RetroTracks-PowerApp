@@ -126,9 +126,7 @@ Log_in_Prueba As screen:
         DataSource: =personas
         DefaultMode: =FormMode.New
         Height: =185
-        OnFailure: |-
-            =If(!IsBlank(LookUp(registro,Nombre = DataCardValue7.Text)),
-            SubmitForm(Form2));
+        OnFailure: =
         Width: =640
         Y: =436
         ZIndex: =9
