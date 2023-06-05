@@ -96,7 +96,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 2,
+    "BindingErrorCount": 0,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -135,9 +135,9 @@
     "Home",
     "Libreria",
     "Reproductor",
-    "r",
     "Edit[no oficial en pruevas]",
     "Error Loging",
-    "Exito Signup"
+    "Exito Signup",
+    "Screen1"
   ]
 }

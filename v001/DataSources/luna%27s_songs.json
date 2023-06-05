@@ -45,7 +45,7 @@
     "EncodeDataset": true,
     "IsSampleData": false,
     "IsWritable": true,
-    "Name": "listaCancionesLuna",
+    "Name": "luna's_songs",
     "Type": "ConnectedDataSourceInfo"
   }
 ]

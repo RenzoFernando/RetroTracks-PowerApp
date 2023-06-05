@@ -336,7 +336,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey4",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -610,7 +610,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey5",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1988,7 +1988,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue5",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2764,14 +2764,7 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Fill",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Fill",
         "BorderColor",
         "BorderStyle",
         "FocusedBorderColor",
@@ -2791,7 +2784,7 @@
       "LayoutName": "vertical",
       "MetaDataIDKey": "%DetailViewContainer.ID%",
       "Name": "DetailForm1",
-      "ParentIndex": 5,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3031,7 +3024,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon2_2",
-      "ParentIndex": 9,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3197,7 +3190,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon5_2",
-      "ParentIndex": 8,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3363,7 +3356,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon6_2",
-      "ParentIndex": 10,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3549,7 +3542,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplatePhoneIconBackarrow.ID%",
       "Name": "IconBackarrow1",
-      "ParentIndex": 1,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3772,7 +3765,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplatePhoneIconDelete.ID%",
       "Name": "IconDelete1",
-      "ParentIndex": 3,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3995,7 +3988,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplatePhoneIconEdit.ID%",
       "Name": "IconEdit1",
-      "ParentIndex": 4,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4192,14 +4185,7 @@
         },
         "BorderColor",
         "BorderStyle",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Fill",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Fill",
         "X",
         "Y",
         "Width",
@@ -4355,7 +4341,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label1_6",
-      "ParentIndex": 13,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4900,7 +4886,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label4_3",
-      "ParentIndex": 11,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5169,7 +5155,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label5_3",
-      "ParentIndex": 12,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5422,7 +5408,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplatePhoneLblAppName.ID%",
       "Name": "LblAppName2",
-      "ParentIndex": 2,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5874,7 +5860,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplatePhoneRectQuickActionBar.ID%",
       "Name": "RectQuickActionBar2",
-      "ParentIndex": 0,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6249,7 +6235,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "TextInput1_4",
-      "ParentIndex": 7,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6480,7 +6466,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Video1",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
