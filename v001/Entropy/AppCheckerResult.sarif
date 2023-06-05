@@ -2538,42 +2538,6 @@
               "message": {
                 "text": "Error occurred running rule app-InefficientDelayLoading."
               }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 9
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error occurred running rule app-InefficientDelayLoading."
-              }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 9
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error occurred running rule app-InefficientDelayLoading."
-              }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 9
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error occurred running rule app-InefficientDelayLoading."
-              }
             }
           ]
         }
@@ -2832,8 +2796,166 @@
                   "relativeAddress": 0
                 },
                 "region": {
+                  "charLength": 44,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Remove([@Libreria], BrowseGallery1.Selected)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Reproductor",
+                "type": "Reproductor.IconDelete1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Remove"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
                   "charLength": 8,
-                  "charOffset": 60,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "Libreria"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Reproductor",
+                "type": "Reproductor.IconDelete1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Table",
+              "Control"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 9,
+                  "snippet": {
+                    "text": "Libreria"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Reproductor",
+                "type": "Reproductor.IconDelete1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Remove"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrNeedCollection-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 34,
+                  "snippet": {
+                    "text": ".Selected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Reproductor",
+                "type": "Reproductor.IconDelete1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrCollectionDoesNotAcceptThisType",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 67,
                   "snippet": {
                     "text": "Libreria"
                   }
@@ -2874,7 +2996,7 @@
                 },
                 "region": {
                   "charLength": 44,
-                  "charOffset": 51,
+                  "charOffset": 58,
                   "snippet": {
                     "text": "Errors([@Libreria], BrowseGallery1.Selected)"
                   }
@@ -2904,39 +3026,36 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect"
+                  "fullyQualifiedName": "Libreria.IconRefresh1.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Reproductor.IconDelete1.OnSelect",
+                  "fullyQualifiedName": "Libreria.IconRefresh1.OnSelect",
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 1,
-                  "charOffset": 9,
+                  "charLength": 8,
+                  "charOffset": 10,
                   "snippet": {
-                    "text": "m"
+                    "text": "Libreria"
                   }
                 }
               },
               "properties": {
                 "member": "OnSelect",
-                "module": "Reproductor",
-                "type": "Reproductor.IconDelete1"
+                "module": "Libreria",
+                "type": "Libreria.IconRefresh1"
               }
             }
           ],
           "message": {
-            "arguments": [
-              "Remove"
-            ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrWriteToReadOnlyDataSource",
+          "ruleId": "app-ErrNeedAgg",
           "ruleIndex": 4
         },
         {
@@ -3574,36 +3693,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Error Loging'.TextInput3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Error Loging'.TextInput3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Error Loging",
-                "type": "'Error Loging'.TextInput3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "Home.TextInput1.AccessibleLabel"
                 }
               ],
@@ -3875,18 +3964,14 @@
               }
             },
             {
-              "id": "app-ErrWriteToReadOnlyDataSource",
+              "id": "app-ErrNeedAgg",
               "messageStrings": {
                 "issue": {
-                  "text": "The data source is either read-only or has no primary key, so the function {0} can’t write to it. "
+                  "text": "Expected a record or table value."
                 }
               },
               "properties": {
                 "componentType": "app",
-                "howToFix": [
-                  "Confirm that the data source isn’t read-only and that you have write access to it. ",
-                  "If this data source is a SQL table, ensure that it has a primary key. For write operations, Power Apps requires SQL tables to have a primary key."
-                ],
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
