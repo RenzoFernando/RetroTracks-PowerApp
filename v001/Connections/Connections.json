@@ -31,5 +31,27 @@
     "dependencies": {},
     "dependents": [],
     "id": "599b1913-4d6c-430e-8b80-6f1264943d5c"
+  },
+  "ee34c791-1cbc-4cea-ad65-15606f9ff976": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1636/1.0.1636.3297/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://icesiedu-my.sharepoint.com/personal/1114876013_u_icesi_edu_co": {
+        "dataSources": {
+          "personas": {
+            "tableName": "804c6397-9881-4397-bd56-6d699f2f8698"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "personas"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "ee34c791-1cbc-4cea-ad65-15606f9ff976"
   }
 }
