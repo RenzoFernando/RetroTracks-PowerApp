@@ -100,7 +100,7 @@
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.Reload
-        OnSelect: =Refresh([@m])
+        OnSelect: =Refresh([@Libreria])
         PaddingBottom: =22
         PaddingLeft: =22
         PaddingRight: =22
