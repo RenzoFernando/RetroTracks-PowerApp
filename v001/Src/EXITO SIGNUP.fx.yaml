@@ -2,6 +2,7 @@
 
     Button1_1 As button:
         BorderThickness: =0
+        Fill: =RGBA(172, 0, 255, 1)
         Height: =1136
         OnSelect: =Navigate(Log_in)
         RadiusBottomLeft: =0
