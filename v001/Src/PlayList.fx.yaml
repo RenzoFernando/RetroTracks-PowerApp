@@ -250,17 +250,6 @@ PlayList As screen:
         Y: =994
         ZIndex: =42
 
-    Label1_28 As label:
-        Align: =Align.Center
-        Color: =RGBA(172, 0, 255, 1)
-        Height: =64
-        Size: =21
-        Text: ="Libreria"
-        Width: =153
-        X: =247
-        Y: =1072
-        ZIndex: =43
-
     Icon1_1 As icon.Settings:
         Color: =RGBA(172, 0, 255, 1)
         Height: =52
@@ -268,40 +257,4 @@ PlayList As screen:
         X: =502
         Y: =1037
         ZIndex: =44
-
-    Icon2_24 As icon.Home:
-        Color: =RGBA(172, 0, 255, 1)
-        Icon: =Icon.Home
-        X: =91
-        Y: =1022
-        ZIndex: =45
-
-    Icon5_24 As icon.DetailList:
-        Color: =RGBA(172, 0, 255, 1)
-        Height: =71
-        Icon: =Icon.DetailList
-        Width: =56
-        X: =295
-        Y: =1018
-        ZIndex: =46
-
-    Label4_25 As label:
-        Color: =RGBA(172, 0, 255, 1)
-        Height: =64
-        Size: =21
-        Text: ="Home"
-        Width: =94
-        X: =76
-        Y: =1072
-        ZIndex: =47
-
-    Label5_36 As label:
-        Color: =RGBA(172, 0, 255, 1)
-        Height: =64
-        Size: =21
-        Text: ="Ajustes"
-        Width: =125
-        X: =482
-        Y: =1072
-        ZIndex: =48
 
