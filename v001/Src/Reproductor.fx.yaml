@@ -75,7 +75,7 @@
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@m],DataSourceInfo.DisplayName,"field_3")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =305
+            Height: =377
             Required: =false
             Width: =640
             X: =0
@@ -102,8 +102,8 @@
                 Size: =21
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey4.Y + DataCardKey4.Height + 5
+                X: =17
+                Y: =333
                 ZIndex: =2
 
         Interprete_DataCard1 As typedDataCard.textualViewCard:
@@ -113,7 +113,7 @@
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@m],DataSourceInfo.DisplayName,"field_4")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
+            Height: =75
             Required: =false
             Width: =640
             X: =0
@@ -132,6 +132,7 @@
                 ZIndex: =1
 
             DataCardValue5 As label:
+                Align: =Align.Right
                 AutoHeight: =true
                 DisplayMode: =Parent.DisplayMode
                 PaddingLeft: =0
@@ -140,8 +141,7 @@
                 Size: =21
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
-                X: =27
-                Y: =DataCardKey5.Y + DataCardKey5.Height + 5
+                X: =30
                 ZIndex: =2
 
         Momento_DataCard1 As typedDataCard.textualViewCard:
