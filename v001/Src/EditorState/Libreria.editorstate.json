@@ -4,7 +4,7 @@
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         {
-          "AFDDataSourceName": "m",
+          "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
           "AutoRuleBindingString": "",
           "InvariantPropertyName": "Items",
