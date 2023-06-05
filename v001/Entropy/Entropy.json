@@ -147,7 +147,7 @@
     "Genero_DataCard1_2": 312,
     "Genero_DataCard1_3": 343,
     "Genero_DataCard2": 606,
-    "Group1": 174,
+    "Group1": 623,
     "Group1_1": 175,
     "Group1_2": 176,
     "Group1_3": 177,
@@ -299,6 +299,7 @@
     "Image6": 523,
     "Image7": 385,
     "Image8_1": 155,
+    "Image8_10": 622,
     "Image8_2": 158,
     "Image8_3": 159,
     "Image8_4": 162,
@@ -620,7 +621,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/05/2023 16:12:28",
+  "HeaderLastSavedDateTimeUTC": "06/05/2023 16:14:50",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "599b1913-4d6c-430e-8b80-6f1264943d5c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/1844cddf9dba4a71bfd8896ee9767ec8\""
@@ -649,7 +650,8 @@
   },
   "OrderGroupControls": {
     "Group1": {
-      "TextInput2": 0
+      "Image8_10": 0,
+      "TextInput2": 1
     },
     "Group1_1": {
       "Image8_1": 0,
@@ -1002,6 +1004,7 @@
     "Image6": {},
     "Image7": {},
     "Image8_1": {},
+    "Image8_10": {},
     "Image8_2": {},
     "Image8_3": {},
     "Image8_4": {},
@@ -1469,7 +1472,7 @@
     "Genero_DataCard1_2": 493,
     "Genero_DataCard1_3": 524,
     "Genero_DataCard2": 151,
-    "Group1": 356,
+    "Group1": 0,
     "Group1_1": 357,
     "Group1_2": 358,
     "Group1_3": 359,
@@ -1621,6 +1624,7 @@
     "Image6": 88,
     "Image7": 567,
     "Image8_1": 337,
+    "Image8_10": 337,
     "Image8_2": 340,
     "Image8_3": 341,
     "Image8_4": 344,
@@ -1960,7 +1964,7 @@
       "galleryTemplate": 13,
       "group": 10,
       "icon": 135,
-      "image": 31,
+      "image": 32,
       "label": 219,
       "rectangle": 49,
       "screen": 27,
