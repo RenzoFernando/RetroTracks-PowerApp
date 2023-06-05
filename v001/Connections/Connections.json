@@ -14,9 +14,6 @@
           "m": {
             "tableName": "1ccccd6d-ec72-4e8f-bf78-5ccd0671bfc7"
           },
-          "m1": {
-            "tableName": "f04671f1-93e2-4e65-b452-3f3c3e0117e7"
-          },
           "registro": {
             "tableName": "4dd436c9-5821-4752-8ed2-95609a1d1293"
           }
@@ -25,8 +22,7 @@
     },
     "dataSources": [
       "m",
-      "registro",
-      "m1"
+      "registro"
     ],
     "dependencies": {},
     "dependents": [],

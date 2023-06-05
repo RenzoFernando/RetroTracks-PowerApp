@@ -246,27 +246,6 @@ Home As screen:
         Y: =994
         ZIndex: =28
 
-    Image2_6 As image:
-        Height: =148
-        Width: =200
-        X: =41
-        Y: =806
-        ZIndex: =29
-
-    Image3_1 As image:
-        Height: =148
-        Width: =181
-        X: =238
-        Y: =806
-        ZIndex: =30
-
-    Image3_2 As image:
-        Height: =148
-        Width: =149
-        X: =435
-        Y: =806
-        ZIndex: =31
-
     TextInput1_2 As text:
         BorderColor: =RGBA(72, 50, 133, 1)
         Color: =RGBA(15, 15, 15, 1)
