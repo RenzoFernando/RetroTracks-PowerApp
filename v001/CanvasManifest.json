@@ -126,7 +126,7 @@
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
     "PublishTarget": "player",
-    "UserLocale": "en-US"
+    "UserLocale": "es-ES"
   },
   "ScreenOrder": [
     "Bienvenidos",
@@ -154,6 +154,7 @@
     "Exito Signup",
     "Configuraciones",
     "Screen1",
-    "Screen2"
+    "Screen2",
+    "PlayList"
   ]
 }
