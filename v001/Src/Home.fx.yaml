@@ -1,6 +1,6 @@
 Home As screen:
     BackgroundImage: =
-    Fill: =RGBA(0, 0, 0, 1)
+    Fill: =RGBA(0,0,0,1)
 
     Label1_4 As label:
         Align: =Align.Center
@@ -228,7 +228,7 @@ Home As screen:
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =21
-        Text: =
+        Text: ="Bienvenido " & UsuarioActual
         Width: =560
         X: =6
         Y: =5
