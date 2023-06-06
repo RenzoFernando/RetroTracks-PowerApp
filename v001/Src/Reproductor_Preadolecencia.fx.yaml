@@ -377,7 +377,7 @@
             Height: =60
             Icon: =Icon.Heart
             OnSelect: |-
-                =Set(aa, "Te gusto esta cancion :" & DataCardValue4_3) && Navigate(Confirmar_Corazon) && Set(regresar, Reproductor_Infancia);
+                =Set(aa, "Te gusto esta cancion :" & DataCardValue4_7) && Navigate(Confirmar_Corazon) && Set(regresar, Reproductor_Preadolecencia);
             Width: =50
             X: =426
             Y: =14
