@@ -3,71 +3,26 @@ Home As screen:
     Fill: =RGBA(0,0,0,1)
     LoadingSpinnerColor: =RGBA(197, 24, 128, 1)
 
-    Rectangle6 As rectangle:
-        BorderColor: =RGBA(189, 189, 189, 1)
-        Fill: =RGBA(172, 0, 255, 1)
-        Height: =50
-        Width: =263
-        X: =51
-        Y: =114
-        ZIndex: =11
-
-    Label8 As label:
-        BorderColor: =RGBA(189, 189, 189, 1)
-        Color: =RGBA(0, 0, 0, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        Height: =50
-        Size: =15
-        Text: |-
-            ="Canciones Recomendadas:"
-        Width: =263
-        X: =51
-        Y: =114
-        ZIndex: =12
-
     TextInput1 As text:
         BorderColor: =RGBA(189, 189, 189, 1)
+        BorderStyle: =BorderStyle.None
         BorderThickness: =2
-        Color: =RGBA(15, 15, 15, 1)
+        Color: =RGBA(0, 0, 0, 1)
         Default: ="Otras Playlists"
         DisabledBorderColor: =RGBA(172, 0, 255, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(172, 0, 255, 1)
-        Fill: =RGBA(172, 0, 255, 1)
         FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
         Height: =51
         HoverBorderColor: =RGBA(189, 189, 189, 1)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =RGBA(108, 8, 68, 1)
-        RadiusBottomLeft: =10
-        RadiusBottomRight: =10
-        RadiusTopLeft: =10
-        RadiusTopRight: =10
         Size: =15
         Width: =527
-        X: =51
+        X: =55
         Y: =489
         ZIndex: =20
-
-    TextInput1_2 As text:
-        BorderColor: =RGBA(189, 189, 189, 1)
-        BorderThickness: =2
-        Color: =RGBA(15, 15, 15, 1)
-        Default: ="Otras Playlists"
-        DisabledBorderColor: =RGBA(172, 0, 255, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(172, 0, 255, 1)
-        Fill: =RGBA(172, 0, 255, 1)
-        FocusedBorderThickness: =4
-        Height: =49
-        HoverBorderColor: =RGBA(189, 189, 189, 1)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =RGBA(108, 8, 68, 1)
-        Size: =15
-        Width: =520
-        X: =58
-        Y: =754
-        ZIndex: =25
 
     Rectangle5 As rectangle:
         BorderColor: =RGBA(255, 255, 255, 1)
@@ -84,7 +39,7 @@ Home As screen:
         Height: =70
         Size: =21
         Text: ="Bienvenido " & UsuarioActual
-        Width: =560
+        Width: =523
         X: =6
         Y: =5
         ZIndex: =28
@@ -147,19 +102,27 @@ Home As screen:
         ZIndex: =34
 
         Image2_1 As image:
-            BorderColor: =RGBA(189, 189, 189, 1)
+            BorderColor: =RGBA(172, 0, 255, 1)
+            BorderThickness: =3
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =150
             Image: =NIGORI
             OnSelect: =Navigate(Nigori)
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
             Width: =150
-            X: =41
+            X: =55
             Y: =561
             ZIndex: =17
 
         Label18 As label:
-            BorderColor: =RGBA(189, 189, 189, 1)
+            Align: =Align.Center
+            BorderColor: =RGBA(230, 46, 46, 1)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Bold
@@ -168,8 +131,8 @@ Home As screen:
             Size: =17
             Text: ="~Nigori"
             Width: =142
-            X: =68
-            Y: =709
+            X: =61
+            Y: =711
             ZIndex: =31
 
     Group3 As group:
@@ -180,20 +143,28 @@ Home As screen:
         ZIndex: =34
 
         Image3 As image:
-            BorderColor: =RGBA(189, 189, 189, 1)
+            BorderColor: =RGBA(172, 0, 255, 1)
+            BorderThickness: =3
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
-            Height: =148
+            Height: =150
             Image: ='4d68417a11d97ac0877c12514c9b8406'
             ImagePosition: =ImagePosition.Fill
             OnSelect: =Navigate(Moon)
-            Width: =166
-            X: =241
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Width: =150
+            X: =245
             Y: =561
             ZIndex: =18
 
         Label18_2 As label:
-            BorderColor: =RGBA(189, 189, 189, 1)
+            Align: =Align.Center
+            BorderColor: =RGBA(230, 46, 46, 1)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Bold
@@ -202,8 +173,8 @@ Home As screen:
             Size: =17
             Text: ="~Moon"
             Width: =148
-            X: =251
-            Y: =709
+            X: =246
+            Y: =711
             ZIndex: =33
 
     Group4 As group:
@@ -214,18 +185,26 @@ Home As screen:
         ZIndex: =34
 
         Image4 As image:
-            BorderColor: =RGBA(189, 189, 189, 1)
+            BorderColor: =RGBA(172, 0, 255, 1)
+            BorderThickness: =3
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
-            Height: =148
+            Height: =150
             OnSelect: =Navigate(RenFer)
-            Width: =195
-            X: =404
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Width: =150
+            X: =435
             Y: =561
             ZIndex: =19
 
         Label18_1 As label:
-            BorderColor: =RGBA(189, 189, 189, 1)
+            Align: =Align.Center
+            BorderColor: =RGBA(230, 46, 46, 1)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Bold
@@ -234,8 +213,8 @@ Home As screen:
             Size: =17
             Text: ="~Renfer"
             Width: =142
-            X: =427
-            Y: =709
+            X: =439
+            Y: =712
             ZIndex: =32
 
     Group8 As group:
@@ -499,4 +478,46 @@ Home As screen:
             X: =346
             Y: =352
             ZIndex: =43
+
+    TextInput1_1 As text:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
+        Default: ="Otras Playlists"
+        DisabledBorderColor: =RGBA(172, 0, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(172, 0, 255, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Height: =51
+        HoverBorderColor: =RGBA(189, 189, 189, 1)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(108, 8, 68, 1)
+        Size: =15
+        Width: =527
+        X: =55
+        Y: =760
+        ZIndex: =45
+
+    TextInput1_2 As text:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
+        Default: ="Otras Playlists"
+        DisabledBorderColor: =RGBA(172, 0, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(172, 0, 255, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Height: =51
+        HoverBorderColor: =RGBA(189, 189, 189, 1)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(108, 8, 68, 1)
+        Size: =15
+        Width: =527
+        X: =55
+        Y: =119
+        ZIndex: =46
 
