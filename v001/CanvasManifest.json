@@ -96,7 +96,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 0,
+    "BindingErrorCount": 1,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -131,7 +131,6 @@
   "ScreenOrder": [
     "Bienvenidos",
     "Log_in",
-    "Log_in_Prueba",
     "Create_account",
     "Home",
     "PlayList_",
