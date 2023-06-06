@@ -11,7 +11,7 @@
     "BrowseGallery1_15 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
         DelayItemLoading: =true
         Height: =838
-        Items: =MiBandaSonora
+        Items: =MiBandaSonora_1
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         OnSelect: =Navigate(Reproductor_Moon, ScreenTransition.None)
@@ -134,7 +134,7 @@
         ZIndex: =5
 
     TextSearchBox1_15 As text:
-        Default: ="Moon"
+        Default: ="Nigori"
         DelayOutput: =true
         DisplayMode: =DisplayMode.View
         Height: =68
@@ -248,7 +248,7 @@
     Icon6_46 As icon.BackArrow:
         Height: =43
         Icon: =Icon.BackArrow
-        OnSelect: =Navigate(PlayList_)
+        OnSelect: =Navigate(Home)
         Width: =45
         X: =15
         Y: =100

@@ -1020,7 +1020,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/05/2023 23:50:15",
+  "HeaderLastSavedDateTimeUTC": "06/06/2023 00:03:24",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "599b1913-4d6c-430e-8b80-6f1264943d5c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/f10d7844c54140f8a5b20c8d05d07042\"",
@@ -1069,6 +1069,7 @@
     "ListboxSample": 3,
     "m": 4,
     "MiBandaSonora": 5,
+    "MiBandaSonora_1": 10,
     "personas": 6,
     "registro": 7,
     "Tabla1": 8,
