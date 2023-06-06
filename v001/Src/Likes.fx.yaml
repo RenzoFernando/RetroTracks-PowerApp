@@ -17,7 +17,7 @@
         Items: =Filter([@personas], StartsWith(Título, LILI.Text))
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        OnSelect: =Navigate(Reproductor, ScreenTransition.None)
+        OnSelect: =Navigate(Libreria_Like, ScreenTransition.None) && Set(like, ThisItem.canción)
         TemplatePadding: =0
         TemplateSize: =90
         Y: =88
@@ -27,23 +27,23 @@
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
+            Height: =66
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Size: =15
+            Size: =17
             Text: =ThisItem.notif
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 86
-            X: =16
-            Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Subtitle4.Size * 1.8)) / 2
+            Width: =490
+            X: =73
+            Y: =10
             ZIndex: =1
 
         Subtitle4 As label:
-            Color: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(0, 0, 0, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
+            DisplayMode: =DisplayMode.View
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
@@ -59,29 +59,10 @@
             Y: =Title4.Y + Title4.Height
             ZIndex: =2
 
-        NextArrow4 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            BorderColor: =RGBA(189, 189, 189, 1)
-            Color: =RGBA(166, 166, 166, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(244, 244, 244, 1)
-            Height: =50
-            Icon: =Icon.ChevronRight
-            OnSelect: =Navigate(Reproductor, ScreenTransition.None) && Set(like,Subtitle4)
-            PaddingBottom: =16
-            PaddingLeft: =16
-            PaddingRight: =16
-            PaddingTop: =16
-            Tooltip: ="Ver los detalles del elemento"
-            Width: =50
-            X: =Parent.TemplateWidth - Self.Width - 12
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =3
-
         Separator4 As rectangle:
             BorderColor: =RGBA(189, 189, 189, 1)
             Fill: =RGBA(255, 255, 255, 1)
-            Height: =3
+            Height: =2.5
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
             Y: =87
@@ -95,6 +76,38 @@
             Visible: =If(ThisItem.IsSelected, true, false)
             Width: =4
             ZIndex: =5
+
+        NextArrow3_16 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            BorderColor: =RGBA(189, 189, 189, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(0, 0, 0, 1)
+            Height: =60
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="Ver los detalles del elemento"
+            Width: =60
+            X: =570
+            Y: =13
+            ZIndex: =6
+
+        Image10 As image:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Height: =35
+            Image: ='me-gusta'
+            Width: =35
+            X: =22
+            Y: =26
+            ZIndex: =7
 
     LblAppName5 As label:
         Align: =Align.Center
