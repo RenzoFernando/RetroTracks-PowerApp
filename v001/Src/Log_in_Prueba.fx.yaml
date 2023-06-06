@@ -37,7 +37,7 @@ Log_in_Prueba As screen:
         HoverFill: =ColorFade(RGBA(0, 0, 0, 0), 000%)
         OnSelect: |-
             =If(!IsBlank(LookUp(registro,Nombre = DataCardValue7.Text && Contrasena = constrasena_1.Text)),
-            SubmitForm(Form2) && Navigate(Home) && Reset(constrasena_1) && ResetForm(Form2) && Set(u, DataCardValue7);,
+            SubmitForm(Form2) && Navigate(Home) && Set(v,DataCardValue7) && Reset(constrasena_1) && ResetForm(Form2);,
             Navigate('Error Loging') && Reset(constrasena_1) && Reset(DataCardValue7));
         Size: =24
         Text: ="Iniciar sesión"
@@ -142,6 +142,7 @@ Log_in_Prueba As screen:
             DataCardValue7 As text:
                 BorderColor: =RGBA(172, 0, 255, 1)
                 BorderThickness: =5
+                Color: =RGBA(255, 255, 255, 1)
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
