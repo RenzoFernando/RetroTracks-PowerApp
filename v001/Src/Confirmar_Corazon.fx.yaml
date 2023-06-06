@@ -2,23 +2,6 @@
     Fill: =RGBA(0, 0, 0, 1)
     LoadingSpinnerColor: =RGBA(197, 24, 128, 1)
 
-    RectQuickActionBar4 As rectangle:
-        BorderColor: =RGBA(189, 189, 189, 1)
-        Fill: =RGBA(197, 24, 128, 1)
-        Height: =88
-        Width: =Parent.Width
-        ZIndex: =1
-
-    LblAppName4 As label:
-        Align: =Align.Center
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        Height: =88
-        Size: =27
-        Text: ="¿Te gusta esta cancion?"
-        Width: =Parent.Width
-        ZIndex: =2
-
     Button10 As button:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
@@ -254,4 +237,12 @@
                 Wrap: =false
                 Y: =DataCardKey25.Y
                 ZIndex: =4
+
+    RectQuickActionBar1_17 As rectangle:
+        BorderColor: =RGBA(109, 49, 162, 1)
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(172, 0, 255, 1)
+        Height: =103
+        Width: =Parent.Width
+        ZIndex: =8
 
