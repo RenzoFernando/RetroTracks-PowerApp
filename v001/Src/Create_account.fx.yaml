@@ -34,7 +34,7 @@ Create_account As screen:
             BorderStyle: =BorderStyle.None
             BorderThickness: =5
             DataField: ="Title"
-            Default: =ThisItem.Título
+            Default: =ThisItem.Title
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@registro],DataSourceInfo.DisplayName,"Title")
             Fill: =RGBA(0, 0, 0, 0)

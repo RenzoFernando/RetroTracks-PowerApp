@@ -20,7 +20,7 @@ Log_in As screen:
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(104, 0, 156, 0.66)
+        Fill: =RGBA(104, 0, 156, 0.65)
         FocusedBorderThickness: =4
         Height: =70
         HintText: =""
@@ -124,7 +124,7 @@ Log_in As screen:
         Text: ="Nombre de usuario"
         Width: =560
         X: =40
-        Y: =628
+        Y: =642
         ZIndex: =8
 
     Form2 As form:
@@ -141,6 +141,7 @@ Log_in As screen:
         Título_DataCard3 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(189, 189, 189, 1)
             BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
             DataField: ="Title"
             Default: =ThisItem.Título
             DisplayMode: =Parent.DisplayMode
@@ -157,20 +158,21 @@ Log_in As screen:
 
             DataCardKey7 As label:
                 AutoHeight: =true
-                Color: =RGBA(189, 189, 189, 1)
+                Color: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =DisplayMode.View
                 Height: =48
-                Size: =21
+                Size: =1
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =31
+                Y: =33
                 ZIndex: =1
 
             DataCardValue7 As text:
                 BorderColor: =RGBA(172, 0, 255, 1)
-                BorderThickness: =2
+                BorderThickness: =5
                 Color: =RGBA(255, 255, 255, 1)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -178,7 +180,7 @@ Log_in As screen:
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =Parent.DisplayMode
-                Fill: =RGBA(0, 0, 0, 1)
+                Fill: =RGBA(104, 0, 156, 0.65)
                 FocusedBorderThickness: =4
                 Height: =70
                 HoverBorderColor: =RGBA(189, 189, 189, 1)
