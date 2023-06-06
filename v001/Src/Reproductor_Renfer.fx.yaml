@@ -29,50 +29,6 @@
         Width: =88
         ZIndex: =2
 
-    IconEdit1_12 As icon.Edit:
-        AccessibleLabel: =Self.Tooltip
-        BorderColor: =RGBA(189, 189, 189, 1)
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(244, 244, 244, 1)
-        DisplayMode: =If(DataSourceInfo([@m], DataSourceInfo.EditPermission), DisplayMode.Edit, DisplayMode.Disabled)
-        Fill: =RGBA(104, 0, 156, 0)
-        Height: =88
-        Icon: =Icon.Edit
-        OnSelect: =EditForm(EditForm1);Navigate('Edit[no oficial en pruevas]', ScreenTransition.None)
-        PaddingBottom: =24
-        PaddingLeft: =24
-        PaddingRight: =24
-        PaddingTop: =24
-        PressedFill: =RGBA(255, 255, 255, 0.3)
-        TabIndex: =0
-        Tooltip: ="Editar este elemento"
-        Width: =88
-        X: =Parent.Width - Self.Width
-        ZIndex: =3
-
-    IconDelete1_12 As icon.Trash:
-        AccessibleLabel: =Self.Tooltip
-        BorderColor: =RGBA(189, 189, 189, 1)
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(244, 244, 244, 1)
-        DisplayMode: =If(!IsBlank(BrowseGallery1.Selected) && DataSourceInfo([@m], DataSourceInfo.DeletePermission), DisplayMode.Edit, DisplayMode.Disabled)
-        Fill: =RGBA(104, 0, 156, 0)
-        Height: =88
-        Icon: =Icon.Trash
-        OnSelect: =Remove([@m], BrowseGallery1.Selected); If (IsEmpty(Errors([@m], BrowseGallery1.Selected)), Back())
-        PaddingBottom: =24
-        PaddingLeft: =24
-        PaddingRight: =24
-        PaddingTop: =24
-        PressedFill: =RGBA(255, 255, 255, 0.3)
-        TabIndex: =0
-        Tooltip: ="Eliminar este elemento"
-        Width: =88
-        X: =Parent.Width - IconEdit1_12.Width - Self.Width
-        ZIndex: =4
-
     LblAppName2_12 As label:
         BorderColor: =RGBA(172, 0, 255, 1)
         Color: =RGBA(255, 255, 255, 1)
@@ -457,4 +413,70 @@
             X: =474
             Y: =1072
             ZIndex: =19
+
+    Group1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =23
+
+        IconEdit1_15 As icon.Edit:
+            AccessibleLabel: =Self.Tooltip
+            BorderColor: =RGBA(189, 189, 189, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            DisplayMode: =If(DataSourceInfo([@m], DataSourceInfo.EditPermission), DisplayMode.Edit, DisplayMode.Disabled)
+            Fill: =RGBA(104, 0, 156, 0)
+            Height: =88
+            Icon: =Icon.Edit
+            OnSelect: =EditForm(EditForm1);Navigate('Edit[no oficial en pruevas]', ScreenTransition.None)
+            PaddingBottom: =24
+            PaddingLeft: =24
+            PaddingRight: =24
+            PaddingTop: =24
+            PressedFill: =RGBA(255, 255, 255, 0.3)
+            TabIndex: =0
+            Tooltip: ="Editar este elemento"
+            Width: =88
+            X: =552
+            ZIndex: =20
+
+        IconDelete1_15 As icon.Trash:
+            AccessibleLabel: =Self.Tooltip
+            BorderColor: =RGBA(189, 189, 189, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            DisplayMode: =If(!IsBlank(BrowseGallery1.Selected) && DataSourceInfo([@m], DataSourceInfo.DeletePermission), DisplayMode.Edit, DisplayMode.Disabled)
+            Fill: =RGBA(104, 0, 156, 0)
+            Height: =88
+            Icon: =Icon.Trash
+            OnSelect: =Remove([@m], BrowseGallery1.Selected); If (IsEmpty(Errors([@m], BrowseGallery1.Selected)), Back())
+            PaddingBottom: =24
+            PaddingLeft: =24
+            PaddingRight: =24
+            PaddingTop: =24
+            PressedFill: =RGBA(255, 255, 255, 0.3)
+            TabIndex: =0
+            Tooltip: ="Eliminar este elemento"
+            Width: =88
+            X: =483
+            ZIndex: =21
+
+        Icon11_1 As icon.Heart:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(197, 24, 128, 0)
+            Height: =60
+            Icon: =Icon.Heart
+            OnSelect: |-
+                =Set(aa, "Te gusto esta cancion :" & DataCardValue4_12) && Navigate(Confirmar_Corazon);
+            Width: =50
+            X: =426
+            Y: =14
+            ZIndex: =22
 

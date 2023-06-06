@@ -327,7 +327,7 @@
         TabIndex: =0
         Tooltip: ="Eliminar este elemento"
         Width: =88
-        X: =Parent.Width - IconEdit1.Width - Self.Width
+        X: =483
         ZIndex: =5
 
     LblAppName2 As label:
@@ -366,13 +366,13 @@
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(197, 24, 128, 0)
-        Height: =54
+        Height: =60
         Icon: =Icon.Heart
         OnSelect: |-
             =Set(aa, "Te gusto esta cancion :" & DataCardValue4) && Navigate(Confirmar_Corazon);
-        Width: =54
-        X: =398
-        Y: =17
+        Width: =50
+        X: =426
+        Y: =14
         ZIndex: =15
 
     Group9_17 As group:
