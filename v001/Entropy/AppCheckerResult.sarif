@@ -15561,6 +15561,80 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Reproductor_Laboral.Icon11_8.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reproductor_Laboral.Icon11_8.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 25,
+                  "charOffset": 152,
+                  "snippet": {
+                    "text": "Set(ee; DataCardValue4_5)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Reproductor_Laboral",
+                "type": "Reproductor_Laboral.Icon11_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reproductor_Conexión.Icon11_6.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reproductor_Conexión.Icon11_6.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 25,
+                  "charOffset": 153,
+                  "snippet": {
+                    "text": "Set(ee; DataCardValue4_3)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Reproductor_Conexión",
+                "type": "Reproductor_Conexión.Icon11_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Reproductor_Moon.Icon11_2.OnSelect"
                 }
               ],
@@ -15715,6 +15789,339 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Reproductor_Infancia.Icon11_7.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reproductor_Infancia.Icon11_7.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 25,
+                  "charOffset": 153,
+                  "snippet": {
+                    "text": "Set(ee; DataCardValue4_4)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Reproductor_Infancia",
+                "type": "Reproductor_Infancia.Icon11_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reproductor_Vacaciones.Icon11_14.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reproductor_Vacaciones.Icon11_14.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 26,
+                  "charOffset": 156,
+                  "snippet": {
+                    "text": "Set(ee; DataCardValue4_11)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Reproductor_Vacaciones",
+                "type": "Reproductor_Vacaciones.Icon11_14"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reproductor_Puntos.Icon11_11.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reproductor_Puntos.Icon11_11.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 25,
+                  "charOffset": 151,
+                  "snippet": {
+                    "text": "Set(ee; DataCardValue4_8)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Reproductor_Puntos",
+                "type": "Reproductor_Puntos.Icon11_11"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reproductor.Icon11.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reproductor.Icon11.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 22,
+                  "charOffset": 53,
+                  "snippet": {
+                    "text": "Set(ee;DataCardValue4)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Reproductor",
+                "type": "Reproductor.Icon11"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reproductor_Universidad.Icon11_13.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reproductor_Universidad.Icon11_13.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 26,
+                  "charOffset": 157,
+                  "snippet": {
+                    "text": "Set(ee; DataCardValue4_10)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Reproductor_Universidad",
+                "type": "Reproductor_Universidad.Icon11_13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reproductor_Bachi.Icon11_5.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reproductor_Bachi.Icon11_5.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 25,
+                  "charOffset": 151,
+                  "snippet": {
+                    "text": "Set(ee; DataCardValue4_2)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Reproductor_Bachi",
+                "type": "Reproductor_Bachi.Icon11_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reproductor_Nostalgia.Icon11_9.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reproductor_Nostalgia.Icon11_9.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 25,
+                  "charOffset": 154,
+                  "snippet": {
+                    "text": "Set(ee; DataCardValue4_6)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Reproductor_Nostalgia",
+                "type": "Reproductor_Nostalgia.Icon11_9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reproductor_Preadolecencia.Icon11_10.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reproductor_Preadolecencia.Icon11_10.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 25,
+                  "charOffset": 159,
+                  "snippet": {
+                    "text": "Set(ee; DataCardValue4_7)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Reproductor_Preadolecencia",
+                "type": "Reproductor_Preadolecencia.Icon11_10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reproductor_Adole.Icon11_4.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reproductor_Adole.Icon11_4.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 25,
+                  "charOffset": 150,
+                  "snippet": {
+                    "text": "Set(ee; DataCardValue4_1)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Reproductor_Adole",
+                "type": "Reproductor_Adole.Icon11_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Reproductor_Renfer.Icon11_1.OnSelect"
                 }
               ],
@@ -15735,6 +16142,43 @@
                 "member": "OnSelect",
                 "module": "Reproductor_Renfer",
                 "type": "Reproductor_Renfer.Icon11_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleCtxtVariableTypes",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Reproductor_Romance.Icon11_12.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Reproductor_Romance.Icon11_12.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 25,
+                  "charOffset": 152,
+                  "snippet": {
+                    "text": "Set(ee; DataCardValue4_9)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Reproductor_Romance",
+                "type": "Reproductor_Romance.Icon11_12"
               }
             }
           ],
