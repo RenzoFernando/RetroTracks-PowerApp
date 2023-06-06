@@ -14,7 +14,7 @@
         Items: =MiBandaSonora_1
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        OnSelect: =Navigate(Reproductor_Moon, ScreenTransition.None)
+        OnSelect: =Navigate(Reproductor_Nigori, ScreenTransition.None)
         ShowScrollbar: =false
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
