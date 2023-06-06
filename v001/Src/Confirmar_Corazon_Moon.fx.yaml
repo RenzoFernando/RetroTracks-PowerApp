@@ -9,9 +9,8 @@
         DefaultMode: =FormMode.New
         Height: =324
         OnFailure: =
-        Visible: =false
         Width: =640
-        Y: =114
+        Y: =120
         ZIndex: =1
 
         Título_DataCard1_2 As typedDataCard.textualEditCard:
@@ -41,7 +40,6 @@
                 Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
-                Y: =10
                 ZIndex: =1
 
             DataCardValue24_2 As text:
