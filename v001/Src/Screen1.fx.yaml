@@ -12,12 +12,13 @@
     "Gallery1 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
         BorderColor: =RGBA(189, 189, 189, 1)
         DelayItemLoading: =true
+        Height: =622
         Items: =personas
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
         TemplateSize: =80
-        Y: =103
+        Y: =88
         ZIndex: =1
 
         Title2 As label:
@@ -64,24 +65,4 @@
         Text: ="Notificaciones"
         Width: =Parent.Width
         ZIndex: =2
-
-    Icon11 As icon.Heart:
-        BorderColor: =RGBA(189, 189, 189, 1)
-        Color: =RGBA(189, 189, 189, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(244, 244, 244, 1)
-        Icon: =Icon.Heart
-        X: =433
-        Y: =950
-        ZIndex: =4
-
-    Icon12 As icon.Sync:
-        BorderColor: =RGBA(189, 189, 189, 1)
-        Color: =RGBA(189, 189, 189, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(244, 244, 244, 1)
-        Icon: =Icon.Sync
-        X: =154
-        Y: =950
-        ZIndex: =5
 

@@ -361,23 +361,20 @@
         Y: =1014
         ZIndex: =7
 
-    Button9 As button:
+    Icon11 As icon.Heart:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(255, 255, 255, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(197, 24, 128, 1)
-        FontWeight: =FontWeight.Semibold
-        Height: =68
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(197, 24, 128, 1), -20%)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(197, 24, 128, 0)
+        Height: =54
+        Icon: =Icon.Heart
         OnSelect: |-
-            =Set(aa,"te gusto esta cancion:" & DataCardValue4) && Navigate(Confirmar_Corazon);
-        Size: =24
-        Text: ="Botón"
-        Width: =104
-        X: =370
-        Y: =10
-        ZIndex: =14
+            =Set(aa, "Te gusto esta cancion :" & DataCardValue4) && Navigate(Confirmar_Corazon);
+        Width: =54
+        X: =401
+        Y: =34
+        ZIndex: =15
 
     Group9_17 As group:
         Height: =5
