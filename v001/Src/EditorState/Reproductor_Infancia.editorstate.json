@@ -69,7 +69,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "DataCardKey2_8",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -898,7 +898,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey5_4",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2304,7 +2304,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue5_4",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4503,7 +4503,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplatePhoneIconEdit.ID%",
       "Name": "IconEdit1_4",
-      "ParentIndex": 2,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5693,7 +5693,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplatePhoneLblAppName.ID%",
       "Name": "LblAppName2_4",
-      "ParentIndex": 4,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

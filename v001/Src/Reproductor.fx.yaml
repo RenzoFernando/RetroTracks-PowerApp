@@ -53,16 +53,16 @@
                 Size: =21
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
-                X: =39
-                Y: =347
+                X: =30
+                Y: =329
                 ZIndex: =2
 
             Video1 As videoPlayback:
                 BorderColor: =RGBA(189, 189, 189, 1)
                 Fill: =RGBA(197, 24, 128, 1)
-                Height: =323
+                Height: =265
                 Media: =ThisItem.Fuente
-                Width: =575
+                Width: =545
                 X: =39
                 Y: =24
                 ZIndex: =3
@@ -74,7 +74,7 @@
             Default: =ThisItem.Interprete
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@m],DataSourceInfo.DisplayName,"field_4")
-            Fill: =RGBA(109, 49, 162, 1)
+            Fill: =RGBA(0, 0, 0, 1)
             Height: =75
             Required: =false
             Width: =640
@@ -132,8 +132,8 @@
             Default: =ThisItem.Momento
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@m],DataSourceInfo.DisplayName,"field_1")
-            Fill: =RGBA(109, 49, 162, 1)
-            Height: =210
+            Fill: =RGBA(0, 0, 0, 1)
+            Height: =145
             Required: =false
             Width: =640
             X: =0
@@ -142,7 +142,7 @@
 
             DataCardKey2 As label:
                 AutoHeight: =true
-                Color: =RGBA(189, 189, 189, 1)
+                Color: =RGBA(172, 0, 255, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FontWeight: =FontWeight.Bold
                 Height: =48
@@ -178,7 +178,7 @@
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@m],DataSourceInfo.DisplayName,"field_5")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
+            Height: =135
             Required: =false
             Width: =640
             X: =0
