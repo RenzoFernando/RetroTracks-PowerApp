@@ -133,7 +133,7 @@
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@m],DataSourceInfo.DisplayName,"field_1")
             Fill: =RGBA(109, 49, 162, 1)
-            Height: =40
+            Height: =210
             Required: =false
             Width: =640
             X: =0
@@ -167,7 +167,7 @@
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey2.Y + DataCardKey2.Height + 5
+                Y: =58
                 ZIndex: =2
 
         Genero_DataCard1 As typedDataCard.textualViewCard:
@@ -259,20 +259,6 @@
                 X: =30
                 Y: =58
                 ZIndex: =2
-
-            Checkbox1 As checkbox:
-                BorderColor: =RGBA(189, 189, 189, 1)
-                CheckboxBackgroundFill: =RGBA(0, 0, 0, 1)
-                CheckboxBorderColor: =RGBA(189, 189, 189, 1)
-                CheckmarkFill: =RGBA(255, 255, 255, 1)
-                Color: =RGBA(255, 255, 255, 1)
-                Height: =85
-                HoverColor: =RGBA(189, 189, 189, 1)
-                Size: =21
-                Text: ="Opción"
-                Width: =280
-                X: =279
-                ZIndex: =3
 
     RectQuickActionBar2 As rectangle:
         BorderColor: =RGBA(189, 189, 189, 1)
@@ -374,6 +360,23 @@
         Width: =640
         Y: =1014
         ZIndex: =7
+
+    Button9 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(197, 24, 128, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =68
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(197, 24, 128, 1), -20%)
+        OnSelect: =Set(aa, DataCardValue4) && Navigate(Pruebas);
+        Size: =24
+        Text: ="Botón"
+        Width: =104
+        X: =370
+        Y: =10
+        ZIndex: =14
 
     Group9_17 As group:
         Height: =5
