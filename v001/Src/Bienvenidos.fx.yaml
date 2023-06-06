@@ -1,5 +1,6 @@
 Bienvenidos As screen:
     Fill: =RGBA(0, 0, 0, 1)
+    ImagePosition: =ImagePosition.Fill
     LoadingSpinnerColor: =RGBA(197, 24, 128, 1)
 
     Button5 As button:
