@@ -190,7 +190,7 @@ Configuraciones As screen:
         DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =57
         Size: =23
-        Text: =LookUp(registro,Nombre=UsuarioActual).Título
+        Text: =LookUp(registro,Nombre=UsuarioActual).Title
         Width: =316
         X: =323
         Y: =412
@@ -288,7 +288,7 @@ Configuraciones As screen:
         DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =55
         Size: =23
-        Text: ="¿Desea cerrar cesion?"
+        Text: ="¿Desea cerrar sesión?"
         Width: =446
         X: =97
         Y: =789
