@@ -35,7 +35,7 @@ Log_in As screen:
         Size: =21
         Width: =560
         X: =44
-        Y: =804
+        Y: =820
         ZIndex: =2
 
     "'Inicio de sesión_1' As button":
@@ -98,7 +98,7 @@ Log_in As screen:
         Text: ="¿Olvidaste tu contraseña?"
         Width: =293
         X: =311
-        Y: =874
+        Y: =890
         ZIndex: =5
 
     Label3_3 As label:
@@ -111,7 +111,7 @@ Log_in As screen:
         Text: ="Contraseña"
         Width: =560
         X: =44
-        Y: =762
+        Y: =778
         ZIndex: =6
 
     Label3_2 As label:

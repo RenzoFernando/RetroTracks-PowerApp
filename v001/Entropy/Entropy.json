@@ -1148,7 +1148,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/06/2023 04:39:23",
+  "HeaderLastSavedDateTimeUTC": "06/06/2023 04:46:53",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "599b1913-4d6c-430e-8b80-6f1264943d5c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/f10d7844c54140f8a5b20c8d05d07042\"",
@@ -1156,6 +1156,7 @@
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
+    "4d68417a11d97ac0877c12514c9b8406": "8d2b78f7-e2d4-4126-988c-a40a15bb9b2d.jpg",
     "adoles": "0001.jpg",
     "bachi": "0002.jpg",
     "coneccionF": "0003.jpg",
@@ -1172,6 +1173,7 @@
     "vaca": "0014.jpg"
   },
   "LocalResourceRootPaths": {
+    "4d68417a11d97ac0877c12514c9b8406": "https://docserverpwaprodeus.blob.core.windows.net/e6908cd8-ef93-4aed-a344-f3ea755e24f7-1/resource/234556de-47ec-4271-9e14-daadd52f943f.jpg?sv=2018-03-28&sr=b&sig=dKbh6D8GAABUfl1MmaZ816H8qEiaGDsYvFxaomkPjAM%3D&spr=https&se=2023-06-07T05%3A01%3A26Z&sp=r",
     "adoles": "https://docserverpwaprodeus.blob.core.windows.net/e6908cd8-ef93-4aed-a344-f3ea755e24f7-1/resource/Assets0Images00001.jpg?sv=2018-03-28&sr=b&sig=7HwmcCOsvumvWIPT8ycru89xY2K8YeUQUzphBbBGH9E%3D&spr=https&se=2023-06-07T04%3A47%3A20Z&sp=r",
     "bachi": "https://docserverpwaprodeus.blob.core.windows.net/e6908cd8-ef93-4aed-a344-f3ea755e24f7-1/resource/Assets0Images00002.jpg?sv=2018-03-28&sr=b&sig=1WVaowIXH8OXDTMtl0yT%2BgSSOe02gCP6Vb1bzKXM%2B8E%3D&spr=https&se=2023-06-07T04%3A47%3A20Z&sp=r",
     "coneccionF": "https://docserverpwaprodeus.blob.core.windows.net/e6908cd8-ef93-4aed-a344-f3ea755e24f7-1/resource/Assets0Images00003.jpg?sv=2018-03-28&sr=b&sig=SO6%2BrL8QQjB7lgfu6OGlLBpvnyR9TB70PMJuTgrlOXs%3D&spr=https&se=2023-06-07T04%3A47%3A20Z&sp=r",
@@ -3951,6 +3953,7 @@
   },
   "ResourcesJsonIndices": {
     "Audio-SampleAudio": 0,
+    "Image-4d68417a11d97ac0877c12514c9b8406": 17,
     "Image-adoles": 3,
     "Image-bachi": 4,
     "Image-coneccionF": 5,
