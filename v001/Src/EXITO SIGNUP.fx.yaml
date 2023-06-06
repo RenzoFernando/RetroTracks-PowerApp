@@ -74,12 +74,11 @@
         Color: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         Fill: =RGBA(172, 0, 255, 1)
-        Height: =77
+        Height: =84
         Size: =21
         Text: ="Registro exitoso "
-        Width: =542
-        X: =49
-        Y: =57
+        Width: =640
+        Y: =77
         ZIndex: =5
 
     Image5_2 As image:

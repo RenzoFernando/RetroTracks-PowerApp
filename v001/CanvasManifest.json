@@ -96,7 +96,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 0,
+    "BindingErrorCount": 2,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -115,7 +115,7 @@
     "ManualOfflineProfileId": "",
     "Name": "RetroTracks_v001",
     "OriginatingVersion": "1.331",
-    "ParserErrorCount": 0
+    "ParserErrorCount": 1
   },
   "PublishInfo": {
     "AppName": "RetroTracks_v001",
