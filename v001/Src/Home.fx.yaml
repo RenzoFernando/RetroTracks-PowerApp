@@ -152,6 +152,7 @@ Home As screen:
             DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =150
             Image: =NIGORI
+            OnSelect: =Navigate(Nigori)
             Width: =150
             X: =41
             Y: =561
@@ -163,6 +164,7 @@ Home As screen:
             DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Bold
             Height: =30
+            OnSelect: =Navigate(Nigori)
             Size: =17
             Text: ="~Nigori"
             Width: =142
@@ -184,6 +186,7 @@ Home As screen:
             Height: =148
             Image: ='4d68417a11d97ac0877c12514c9b8406'
             ImagePosition: =ImagePosition.Fill
+            OnSelect: =Navigate(Moon)
             Width: =166
             X: =241
             Y: =561
@@ -195,6 +198,7 @@ Home As screen:
             DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Bold
             Height: =31
+            OnSelect: =Navigate(Moon)
             Size: =17
             Text: ="~Moon"
             Width: =148
@@ -214,6 +218,7 @@ Home As screen:
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =148
+            OnSelect: =Navigate(RenFer)
             Width: =195
             X: =404
             Y: =561
@@ -225,6 +230,7 @@ Home As screen:
             DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Bold
             Height: =30
+            OnSelect: =Navigate(RenFer)
             Size: =17
             Text: ="~Renfer"
             Width: =142
