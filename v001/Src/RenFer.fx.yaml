@@ -248,7 +248,7 @@
     Icon6_44 As icon.BackArrow:
         Height: =43
         Icon: =Icon.BackArrow
-        OnSelect: =Navigate(PlayList_)
+        OnSelect: =Navigate(Home)
         Width: =45
         X: =15
         Y: =100
