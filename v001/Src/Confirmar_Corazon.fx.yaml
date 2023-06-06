@@ -231,6 +231,7 @@
             DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =350
             Image: =foto
+            ImagePosition: =ImagePosition.Fill
             RadiusBottomLeft: =10
             RadiusBottomRight: =10
             RadiusTopLeft: =10
