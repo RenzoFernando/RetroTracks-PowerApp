@@ -1,6 +1,6 @@
 App As appinfo:
     BackEnabled: =false
-    OnStart: =
+    OnStart: =Set(pw_visible, false);
     StartScreen: =
 
     Host As hostControl.DefaultHostControlVariant:
