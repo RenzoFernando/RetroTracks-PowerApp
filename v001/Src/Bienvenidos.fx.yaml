@@ -4,14 +4,15 @@ Bienvenidos As screen:
     LoadingSpinnerColor: =RGBA(197, 24, 128, 1)
 
     Button5 As button:
+        BorderStyle: =BorderStyle.None
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(172, 0, 255, 1)
         FontWeight: =FontWeight.Semibold
         Height: =94
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(197, 24, 128, 1), -20%)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =ColorFade(RGBA(255, 255, 255, 1), 0%)
         OnSelect: =Navigate(Log_in)
         Size: =24
         Text: ="Continuar"
