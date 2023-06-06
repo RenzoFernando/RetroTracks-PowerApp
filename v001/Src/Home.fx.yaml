@@ -4,33 +4,32 @@ Home As screen:
     LoadingSpinnerColor: =RGBA(197, 24, 128, 1)
 
     TextInput1 As text:
-        BorderColor: =RGBA(189, 189, 189, 1)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
-        Color: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(255, 255, 255, 1)
         Default: ="Playlist Populares"
-        DisabledBorderColor: =RGBA(172, 0, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(172, 0, 255, 1)
         DisplayMode: =DisplayMode.View
+        Fill: =RGBA(0, 0, 0, 1)
         FocusedBorderThickness: =4
-        FontWeight: =FontWeight.Semibold
+        FontWeight: =FontWeight.Bold
         Height: =51
         HoverBorderColor: =RGBA(189, 189, 189, 1)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =RGBA(108, 8, 68, 1)
-        Size: =15
+        Size: =19
         Width: =527
-        X: =55
-        Y: =489
-        ZIndex: =20
+        Y: =495
+        ZIndex: =1
 
     Rectangle5 As rectangle:
         BorderColor: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(255, 255, 255, 1)
         Height: =81
         Width: =640
-        ZIndex: =26
+        ZIndex: =11
 
     Label12 As label:
         BorderColor: =RGBA(189, 189, 189, 1)
@@ -43,7 +42,7 @@ Home As screen:
         Width: =523
         X: =6
         Y: =5
-        ZIndex: =28
+        ZIndex: =12
 
     Image8 As image:
         BorderColor: =RGBA(189, 189, 189, 1)
@@ -58,8 +57,8 @@ Home As screen:
         RadiusTopRight: =10
         Width: =482
         X: =79
-        Y: =831
-        ZIndex: =29
+        Y: =821
+        ZIndex: =13
 
     Button6 As button:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
@@ -75,8 +74,8 @@ Home As screen:
         Text: ="Clic aqui para descubrir"
         Width: =483
         X: =80
-        Y: =831
-        ZIndex: =30
+        Y: =821
+        ZIndex: =14
 
     TextInput1_6 As text:
         BorderThickness: =0
@@ -97,6 +96,263 @@ Home As screen:
         Size: =21
         Width: =640
         Y: =1008
+        ZIndex: =18
+
+    Icon4 As icon.Heart:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(172, 0, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Height: =59
+        Icon: =Icon.Heart
+        OnSelect: =Navigate(Likes)
+        Width: =53
+        X: =563
+        Y: =10
+        ZIndex: =19
+
+    TextInput1_1 As text:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(255, 255, 255, 1)
+        Default: ="Otras Playlist"
+        DisabledBorderColor: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(172, 0, 255, 1)
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(0, 0, 0, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Bold
+        Height: =51
+        HoverBorderColor: =RGBA(189, 189, 189, 1)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(108, 8, 68, 1)
+        Size: =19
+        Width: =527
+        Y: =770
+        ZIndex: =20
+
+    TextInput1_2 As text:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(255, 255, 255, 1)
+        Default: ="Más escuchados"
+        DisabledBorderColor: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(172, 0, 255, 1)
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(0, 0, 0, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Bold
+        Height: =51
+        HoverBorderColor: =RGBA(189, 189, 189, 1)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        Size: =19
+        Width: =527
+        Y: =110
+        ZIndex: =21
+
+    TextInput2 As text:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =0
+        Color: =RGBA(255, 255, 255, 1)
+        Default: ="Entrada de texto"
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(172, 0, 255, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Height: =130
+        HoverBorderColor: =RGBA(189, 189, 189, 1)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(108, 8, 68, 1)
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Size: =15
+        Width: =272
+        X: =36
+        Y: =162
+        ZIndex: =22
+
+    Image2_22 As image:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =85
+        Width: =101
+        X: =59
+        Y: =184
+        ZIndex: =23
+
+    Label9_5 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =82
+        Size: =15
+        Text: ="Nombre de la playlist"
+        Width: =125
+        X: =160
+        Y: =187
+        ZIndex: =24
+
+    TextInput2_1 As text:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =0
+        Color: =RGBA(255, 255, 255, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(172, 0, 255, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Height: =130
+        HoverBorderColor: =RGBA(189, 189, 189, 1)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(108, 8, 68, 1)
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Size: =15
+        Width: =272
+        X: =36
+        Y: =316
+        ZIndex: =25
+
+    Image2_23 As image:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =85
+        Width: =101
+        X: =59
+        Y: =338
+        ZIndex: =26
+
+    Label9_6 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =82
+        Size: =15
+        Text: ="Nombre de la playlist"
+        Width: =125
+        X: =160
+        Y: =341
+        ZIndex: =27
+
+    TextInput2_2 As text:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =0
+        Color: =RGBA(255, 255, 255, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(172, 0, 255, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Height: =130
+        HoverBorderColor: =RGBA(189, 189, 189, 1)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(108, 8, 68, 1)
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Size: =15
+        Width: =272
+        X: =333
+        Y: =161
+        ZIndex: =28
+
+    Image2_24 As image:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =85
+        Width: =101
+        X: =356
+        Y: =186
+        ZIndex: =29
+
+    Label9_7 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =82
+        Size: =15
+        Text: ="Nombre de la playlist"
+        Width: =125
+        X: =457
+        Y: =189
+        ZIndex: =30
+
+    TextInput2_3 As text:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =0
+        Color: =RGBA(255, 255, 255, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(172, 0, 255, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Height: =130
+        HoverBorderColor: =RGBA(189, 189, 189, 1)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(108, 8, 68, 1)
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Size: =15
+        Width: =272
+        X: =333
+        Y: =315
+        ZIndex: =31
+
+    Image2_25 As image:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =85
+        Width: =101
+        X: =356
+        Y: =340
+        ZIndex: =32
+
+    Label9_8 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =82
+        Size: =15
+        Text: ="Nombre de la playlist"
+        Width: =125
+        X: =457
+        Y: =343
+        ZIndex: =33
+
+    Rectangle3 As rectangle:
+        BorderColor: =RGBA(189, 189, 189, 0.04)
+        Fill: =RGBA(172, 0, 255, 1)
+        Height: =5
+        Width: =640
+        Y: =76
         ZIndex: =34
 
     Group2 As group:
@@ -120,15 +376,15 @@ Home As screen:
             RadiusTopRight: =10
             Width: =150
             X: =57
-            Y: =561
-            ZIndex: =17
+            Y: =546
+            ZIndex: =8
 
         Label18 As label:
             Align: =Align.Center
             BorderColor: =RGBA(230, 46, 46, 1)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(172, 0, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Bold
             Height: =30
@@ -137,8 +393,8 @@ Home As screen:
             Text: ="~Nigori"
             Width: =142
             X: =65
-            Y: =711
-            ZIndex: =31
+            Y: =696
+            ZIndex: =15
 
     Group3 As group:
         Height: =5
@@ -162,15 +418,15 @@ Home As screen:
             RadiusTopRight: =10
             Width: =150
             X: =245
-            Y: =561
-            ZIndex: =18
+            Y: =546
+            ZIndex: =9
 
         Label18_2 As label:
             Align: =Align.Center
             BorderColor: =RGBA(230, 46, 46, 1)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(172, 0, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Bold
             Height: =31
@@ -179,8 +435,8 @@ Home As screen:
             Text: ="~Moon"
             Width: =148
             X: =246
-            Y: =711
-            ZIndex: =33
+            Y: =696
+            ZIndex: =17
 
     Group4 As group:
         Height: =5
@@ -202,15 +458,15 @@ Home As screen:
             RadiusTopRight: =10
             Width: =150
             X: =431
-            Y: =561
-            ZIndex: =19
+            Y: =546
+            ZIndex: =10
 
         Label18_1 As label:
             Align: =Align.Center
             BorderColor: =RGBA(230, 46, 46, 1)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            Color: =RGBA(255, 255, 255, 1)
+            Color: =RGBA(172, 0, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Bold
             Height: =30
@@ -219,8 +475,8 @@ Home As screen:
             Text: ="~Renfer"
             Width: =142
             X: =435
-            Y: =712
-            ZIndex: =32
+            Y: =697
+            ZIndex: =16
 
     Group8 As group:
         Height: =5
@@ -238,7 +494,7 @@ Home As screen:
             OnSelect: =Navigate(Home)
             X: =80
             Y: =1025
-            ZIndex: =7
+            ZIndex: =4
 
         Label4_1 As label:
             BorderColor: =RGBA(189, 189, 189, 1)
@@ -251,7 +507,7 @@ Home As screen:
             Width: =94
             X: =68
             Y: =1072
-            ZIndex: =9
+            ZIndex: =6
 
     Group9 As group:
         Height: =5
@@ -272,7 +528,7 @@ Home As screen:
             Width: =153
             X: =240
             Y: =1072
-            ZIndex: =1
+            ZIndex: =2
 
         Icon5 As icon.DetailList:
             BorderColor: =RGBA(189, 189, 189, 1)
@@ -285,7 +541,7 @@ Home As screen:
             Width: =56
             X: =288
             Y: =1021
-            ZIndex: =8
+            ZIndex: =5
 
     Group10 As group:
         Height: =5
@@ -304,7 +560,7 @@ Home As screen:
             OnSelect: =Navigate(Configuraciones)
             X: =495
             Y: =1031
-            ZIndex: =6
+            ZIndex: =3
 
         Label5 As label:
             BorderColor: =RGBA(189, 189, 189, 1)
@@ -317,282 +573,5 @@ Home As screen:
             Width: =125
             X: =474
             Y: =1072
-            ZIndex: =10
-
-    Icon4 As icon.Heart:
-        BorderColor: =RGBA(189, 189, 189, 1)
-        Color: =RGBA(172, 0, 255, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(244, 244, 244, 1)
-        Height: =59
-        Icon: =Icon.Heart
-        OnSelect: =Navigate(Likes)
-        Width: =53
-        X: =563
-        Y: =10
-        ZIndex: =44
-
-    TextInput1_1 As text:
-        BorderColor: =RGBA(189, 189, 189, 1)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(0, 0, 0, 1)
-        Default: ="Otras Playlist"
-        DisabledBorderColor: =RGBA(172, 0, 255, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(172, 0, 255, 1)
-        DisplayMode: =DisplayMode.View
-        FocusedBorderThickness: =4
-        FontWeight: =FontWeight.Semibold
-        Height: =51
-        HoverBorderColor: =RGBA(189, 189, 189, 1)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =RGBA(108, 8, 68, 1)
-        Size: =15
-        Width: =527
-        X: =55
-        Y: =760
-        ZIndex: =45
-
-    TextInput1_2 As text:
-        BorderColor: =RGBA(189, 189, 189, 1)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(0, 0, 0, 1)
-        Default: ="Más escuchados"
-        DisabledBorderColor: =RGBA(172, 0, 255, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(172, 0, 255, 1)
-        DisplayMode: =DisplayMode.View
-        FocusedBorderThickness: =4
-        FontWeight: =FontWeight.Semibold
-        Height: =51
-        HoverBorderColor: =RGBA(189, 189, 189, 1)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =RGBA(255, 255, 255, 1)
-        Size: =15
-        Width: =527
-        X: =55
-        Y: =119
-        ZIndex: =46
-
-    Group5 As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =51
-
-        TextInput2 As text:
-            BorderColor: =RGBA(189, 189, 189, 1)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =0
-            Color: =RGBA(255, 255, 255, 1)
-            Default: ="Entrada de texto"
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(172, 0, 255, 1)
-            FocusedBorderThickness: =4
-            FontWeight: =FontWeight.Semibold
-            Height: =130
-            HoverBorderColor: =RGBA(189, 189, 189, 1)
-            HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =RGBA(108, 8, 68, 1)
-            RadiusBottomLeft: =10
-            RadiusBottomRight: =10
-            RadiusTopLeft: =10
-            RadiusTopRight: =10
-            Size: =15
-            Width: =231
-            X: =78
-            Y: =185
-            ZIndex: =47
-
-        Image2_22 As image:
-            BorderColor: =RGBA(189, 189, 189, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Height: =85
-            Width: =85
-            X: =98
-            Y: =207
-            ZIndex: =49
-
-        Label9_5 As label:
-            BorderColor: =RGBA(189, 189, 189, 1)
-            Color: =RGBA(255, 255, 255, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Height: =82
-            Size: =15
-            Text: ="Nombre de la playlist"
-            Width: =106
-            X: =183
-            Y: =210
-            ZIndex: =50
-
-    Group5_1 As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =54
-
-        TextInput2_1 As text:
-            BorderColor: =RGBA(189, 189, 189, 1)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =0
-            Color: =RGBA(255, 255, 255, 1)
-            Default: =""
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(172, 0, 255, 1)
-            FocusedBorderThickness: =4
-            FontWeight: =FontWeight.Semibold
-            Height: =130
-            HoverBorderColor: =RGBA(189, 189, 189, 1)
-            HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =RGBA(108, 8, 68, 1)
-            RadiusBottomLeft: =10
-            RadiusBottomRight: =10
-            RadiusTopLeft: =10
-            RadiusTopRight: =10
-            Size: =15
-            Width: =231
-            X: =78
-            Y: =326
-            ZIndex: =51
-
-        Image2_23 As image:
-            BorderColor: =RGBA(189, 189, 189, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Height: =85
-            Width: =85
-            X: =98
-            Y: =348
-            ZIndex: =52
-
-        Label9_6 As label:
-            BorderColor: =RGBA(189, 189, 189, 1)
-            Color: =RGBA(255, 255, 255, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Height: =82
-            Size: =15
-            Text: ="Nombre de la playlist"
-            Width: =106
-            X: =183
-            Y: =351
-            ZIndex: =53
-
-    Group5_2 As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =57
-
-        TextInput2_2 As text:
-            BorderColor: =RGBA(189, 189, 189, 1)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =0
-            Color: =RGBA(255, 255, 255, 1)
-            Default: =""
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(172, 0, 255, 1)
-            FocusedBorderThickness: =4
-            FontWeight: =FontWeight.Semibold
-            Height: =130
-            HoverBorderColor: =RGBA(189, 189, 189, 1)
-            HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =RGBA(108, 8, 68, 1)
-            RadiusBottomLeft: =10
-            RadiusBottomRight: =10
-            RadiusTopLeft: =10
-            RadiusTopRight: =10
-            Size: =15
-            Width: =231
-            X: =331
-            Y: =187
-            ZIndex: =54
-
-        Image2_24 As image:
-            BorderColor: =RGBA(189, 189, 189, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Height: =85
-            Width: =85
-            X: =351
-            Y: =209
-            ZIndex: =55
-
-        Label9_7 As label:
-            BorderColor: =RGBA(189, 189, 189, 1)
-            Color: =RGBA(255, 255, 255, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Height: =82
-            Size: =15
-            Text: ="Nombre de la playlist"
-            Width: =106
-            X: =436
-            Y: =212
-            ZIndex: =56
-
-    Group5_3 As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =61
-
-        TextInput2_3 As text:
-            BorderColor: =RGBA(189, 189, 189, 1)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =0
-            Color: =RGBA(255, 255, 255, 1)
-            Default: =""
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(172, 0, 255, 1)
-            FocusedBorderThickness: =4
-            FontWeight: =FontWeight.Semibold
-            Height: =130
-            HoverBorderColor: =RGBA(189, 189, 189, 1)
-            HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =RGBA(108, 8, 68, 1)
-            RadiusBottomLeft: =10
-            RadiusBottomRight: =10
-            RadiusTopLeft: =10
-            RadiusTopRight: =10
-            Size: =15
-            Width: =231
-            X: =331
-            Y: =328
-            ZIndex: =58
-
-        Image2_25 As image:
-            BorderColor: =RGBA(189, 189, 189, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Height: =85
-            Width: =85
-            X: =351
-            Y: =350
-            ZIndex: =59
-
-        Label9_8 As label:
-            BorderColor: =RGBA(189, 189, 189, 1)
-            Color: =RGBA(255, 255, 255, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Height: =82
-            Size: =15
-            Text: ="Nombre de la playlist"
-            Width: =106
-            X: =436
-            Y: =353
-            ZIndex: =60
+            ZIndex: =7
 
