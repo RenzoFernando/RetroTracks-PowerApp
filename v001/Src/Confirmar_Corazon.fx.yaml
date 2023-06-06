@@ -204,31 +204,41 @@
         Y: =103
         ZIndex: =6
 
-    Icon3 As icon.Heart:
-        BorderColor: =RGBA(189, 189, 189, 1)
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(244, 244, 244, 1)
-        Height: =176
-        Icon: =Icon.Heart
-        Width: =216
-        X: =212
-        Y: =328
-        ZIndex: =7
+    Group32 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =10
 
-    LblAppName1_16 As label:
-        Align: =Align.Center
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        Fill: =RGBA(58, 58, 58, 0)
-        FontWeight: =FontWeight.Semibold
-        Height: =85
-        Size: =24
-        Text: =aa
-        Width: =640
-        Wrap: =false
-        Y: =516
-        ZIndex: =8
+        LblAppName1_16 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(58, 58, 58, 0)
+            FontWeight: =FontWeight.Semibold
+            Height: =85
+            Size: =24
+            Text: =aa
+            Width: =640
+            Wrap: =false
+            Y: =701
+            ZIndex: =8
+
+        Image9 As image:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Height: =350
+            Image: =foto
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Width: =350
+            X: =145
+            Y: =351
+            ZIndex: =9
 
     Group30 As group:
         Height: =5
@@ -279,7 +289,7 @@
             Text: ="si"
             Width: =180
             X: =71
-            Y: =690
+            Y: =956
             ZIndex: =4
 
         Button10_1 As button:
@@ -296,6 +306,6 @@
             Text: ="no"
             Width: =180
             X: =388
-            Y: =690
+            Y: =956
             ZIndex: =5
 
