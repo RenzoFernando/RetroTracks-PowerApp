@@ -197,7 +197,7 @@
                 ZIndex: =2
 
             DataCardKey2_2 As label:
-                Color: =RGBA(189, 189, 189, 1)
+                Color: =RGBA(172, 0, 255, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FontWeight: =FontWeight.Bold
                 Height: =53
@@ -226,7 +226,7 @@
 
             DataCardKey2_3 As label:
                 AutoHeight: =true
-                Color: =RGBA(189, 189, 189, 1)
+                Color: =RGBA(172, 0, 255, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FontWeight: =FontWeight.Bold
                 Height: =48
@@ -271,7 +271,7 @@
 
             DataCardKey6_1 As label:
                 AutoHeight: =true
-                Color: =RGBA(189, 189, 189, 1)
+                Color: =RGBA(172, 0, 255, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FontWeight: =FontWeight.Bold
                 Height: =48
@@ -316,7 +316,7 @@
 
             DataCardKey8_1 As label:
                 AutoHeight: =true
-                Color: =RGBA(189, 189, 189, 1)
+                Color: =RGBA(172, 0, 255, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FontWeight: =FontWeight.Bold
                 Height: =48

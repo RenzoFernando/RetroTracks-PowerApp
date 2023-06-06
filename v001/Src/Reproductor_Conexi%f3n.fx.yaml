@@ -193,17 +193,17 @@
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =30
+                Y: =20
                 ZIndex: =2
 
             DataCardKey2_6 As label:
-                AutoHeight: =true
-                Color: =RGBA(189, 189, 189, 1)
+                Color: =RGBA(172, 0, 255, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FontWeight: =FontWeight.Bold
-                Height: =48
+                Height: =53
                 Size: =21
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =255
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -226,7 +226,7 @@
 
             DataCardKey2_7 As label:
                 AutoHeight: =true
-                Color: =RGBA(189, 189, 189, 1)
+                Color: =RGBA(172, 0, 255, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FontWeight: =FontWeight.Bold
                 Height: =48
@@ -271,7 +271,7 @@
 
             DataCardKey6_3 As label:
                 AutoHeight: =true
-                Color: =RGBA(189, 189, 189, 1)
+                Color: =RGBA(172, 0, 255, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FontWeight: =FontWeight.Bold
                 Height: =48
@@ -316,7 +316,7 @@
 
             DataCardKey8_3 As label:
                 AutoHeight: =true
-                Color: =RGBA(189, 189, 189, 1)
+                Color: =RGBA(172, 0, 255, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FontWeight: =FontWeight.Bold
                 Height: =48

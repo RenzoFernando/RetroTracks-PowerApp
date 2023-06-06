@@ -198,7 +198,7 @@
 
             DataCardKey2_24 As label:
                 AutoHeight: =true
-                Color: =RGBA(189, 189, 189, 1)
+                Color: =RGBA(172, 0, 255, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FontWeight: =FontWeight.Bold
                 Height: =48
@@ -227,7 +227,7 @@
 
             DataCardKey2_25 As label:
                 AutoHeight: =true
-                Color: =RGBA(189, 189, 189, 1)
+                Color: =RGBA(172, 0, 255, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FontWeight: =FontWeight.Bold
                 Height: =48
