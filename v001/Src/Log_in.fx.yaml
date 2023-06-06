@@ -49,9 +49,9 @@ Log_in As screen:
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(0, 0, 0, 0), 000%)
         OnSelect: |-
-            =If(!IsBlank(LookUp(registro,Nombre = DataCardValue7.Text && Contrasena = constrasena_1.Text)),
-            Set(UsuarioActual, DataCardValue7.Text) && SubmitForm(Form2) && Navigate(Home) && Reset(constrasena_1) && ResetForm(Form2);,
-            Navigate('Error Loging') && Reset(constrasena_1) && Reset(DataCardValue7));
+            =If(!IsBlank(LookUp(registro,Nombre = nombre_u.Text && Contrasena = constrasena_1.Text)),
+            Set(UsuarioActual, nombre_u.Text) && Navigate(Home) && Reset(constrasena_1) && Reset(nombre_u),
+            Navigate('Error Loging'));
         Size: =24
         Text: ="Iniciar sesión"
         Tooltip: =
@@ -128,75 +128,30 @@ Log_in As screen:
         Y: =642
         ZIndex: =8
 
-    Form2 As form:
-        BorderColor: =RGBA(189, 189, 189, 1)
-        DataSource: =personas
-        DefaultMode: =FormMode.New
-        Height: =103
-        OnFailure: =
-        Width: =572
-        X: =34
-        Y: =670
+    nombre_u As text:
+        BorderColor: =RGBA(172, 0, 255, 1)
+        BorderThickness: =5
+        Clear: =true
+        Color: =RGBA(255, 255, 255, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(172, 0, 255, 1)
+        DisabledColor: =RGBA(172, 0, 255, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(104, 0, 156, 0.65)
+        FocusedBorderThickness: =4
+        Height: =70
+        HintText: =""
+        HoverBorderColor: =RGBA(172, 0, 255, 1)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Mode: =TextMode.Password
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Size: =21
+        Width: =560
+        X: =44
+        Y: =696
         ZIndex: =9
-
-        Título_DataCard3 As typedDataCard.textualEditCard:
-            BorderColor: =RGBA(189, 189, 189, 1)
-            BorderStyle: =BorderStyle.Solid
-            BorderThickness: =0
-            DataField: ="Title"
-            Default: =ThisItem.Título
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@personas],DataSourceInfo.DisplayName,"Title")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =98
-            MaxLength: =DataSourceInfo([@personas], DataSourceInfo.MaxLength, "Title")
-            Required: =true
-            Update: =DataCardValue7.Text
-            Width: =572
-            X: =0
-            Y: =0
-            ZIndex: =10
-
-            DataCardKey7 As label:
-                AutoHeight: =true
-                Color: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                DisplayMode: =DisplayMode.View
-                Height: =48
-                Size: =1
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =31
-                Y: =33
-                ZIndex: =1
-
-            DataCardValue7 As text:
-                BorderColor: =RGBA(172, 0, 255, 1)
-                BorderThickness: =5
-                Color: =RGBA(255, 255, 255, 1)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisabledBorderColor: =RGBA(172, 0, 255, 1)
-                DisabledColor: =RGBA(172, 0, 255, 1)
-                DisabledFill: =RGBA(0, 0, 0, 0)
-                DisplayMode: =Parent.DisplayMode
-                Fill: =RGBA(104, 0, 156, 0.65)
-                FocusedBorderThickness: =4
-                Height: =70
-                HoverBorderColor: =RGBA(172, 0, 255, 1)
-                HoverColor: =RGBA(255, 255, 255, 1)
-                HoverFill: =RGBA(0, 0, 0, 0)
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =10
-                RadiusBottomRight: =10
-                RadiusTopLeft: =10
-                RadiusTopRight: =10
-                Size: =21
-                Tooltip: =Parent.DisplayName
-                Width: =564
-                X: =5
-                Y: =22
-                ZIndex: =2
 
