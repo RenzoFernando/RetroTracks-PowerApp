@@ -9,6 +9,7 @@
         DefaultMode: =FormMode.New
         Height: =324
         OnFailure: =
+        Visible: =false
         Width: =640
         Y: =114
         ZIndex: =1
@@ -194,15 +195,6 @@
                 Wrap: =false
                 Y: =DataCardKey25_1.Y
                 ZIndex: =4
-
-    RectQuickActionBar1_20 As rectangle:
-        BorderColor: =RGBA(109, 49, 162, 1)
-        DisplayMode: =DisplayMode.View
-        Fill: =RGBA(0, 0, 0, 1)
-        Height: =636
-        Width: =640
-        Y: =103
-        ZIndex: =6
 
     Group32_1 As group:
         Height: =5
