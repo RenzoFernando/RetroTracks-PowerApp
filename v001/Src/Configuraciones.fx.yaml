@@ -136,27 +136,14 @@ Configuraciones As screen:
         HoverBorderColor: =RGBA(189, 189, 189, 1)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =RGBA(108, 8, 68, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
         Size: =21
         Width: =640
         Y: =1008
         ZIndex: =11
-
-    TextInput1_12 As text:
-        BorderThickness: =0
-        Color: =RGBA(15, 15, 15, 1)
-        Default: =""
-        DisabledBorderColor: =RGBA(172, 0, 255, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(172, 0, 255, 1)
-        FocusedBorderThickness: =4
-        Height: =10
-        HoverBorderColor: =RGBA(189, 189, 189, 1)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =RGBA(108, 8, 68, 1)
-        Size: =21
-        Width: =640
-        Y: =90
-        ZIndex: =12
 
     Image6 As image:
         BorderColor: =RGBA(189, 189, 189, 1)
@@ -275,7 +262,7 @@ Configuraciones As screen:
 
         Icon1_32 As icon.Settings:
             BorderColor: =RGBA(189, 189, 189, 1)
-            Color: =RGBA(172, 0, 255, 1)
+            Color: =RGBA(255, 255, 255, 1)
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =52
@@ -287,7 +274,7 @@ Configuraciones As screen:
 
         Label5_30 As label:
             BorderColor: =RGBA(189, 189, 189, 1)
-            Color: =RGBA(172, 0, 255, 1)
+            Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =64
             OnSelect: =Navigate(Configuraciones)
