@@ -93,7 +93,7 @@
         DelayItemLoading: =true
         Fill: =RGBA(0, 0, 0, 1)
         Height: =928
-        Items: =Filter([@personas], StartsWith(Title, LILI.Text))
+        Items: =Filter([@personas], StartsWith(Título, LILI.Text))
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
