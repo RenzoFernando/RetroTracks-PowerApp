@@ -1272,7 +1272,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/06/2023 19:41:38",
+  "HeaderLastSavedDateTimeUTC": "06/06/2023 19:48:56",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "599b1913-4d6c-430e-8b80-6f1264943d5c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/1844cddf9dba4a71bfd8896ee9767ec8\"",
@@ -1282,6 +1282,7 @@
   "LocalResourceFileNames": {
     "4d68417a11d97ac0877c12514c9b8406": "8d2b78f7-e2d4-4126-988c-a40a15bb9b2d.jpg",
     "adoles": "0001.jpg",
+    "as": "726cfd05-e98b-46cb-8b24-c274577ea53c.jpg",
     "avatar (1)": "a8154184-b4b5-46cf-99f5-c08474343823.png",
     "bachi": "0002.jpg",
     "coneccionF": "0003.jpg",
@@ -1301,6 +1302,7 @@
   "LocalResourceRootPaths": {
     "4d68417a11d97ac0877c12514c9b8406": "https://docserverpwaprodeus.blob.core.windows.net/ae4eaea4-c3fd-4879-a68d-892fce3641d0-1/resource/Assets0Images08d2b78f7-e2d4-4126-988c-a40a15bb9b2d.jpg?sv=2018-03-28&sr=b&sig=z%2FBlvzh1NbpFYX3AwrLEsxn2fR2swQImGMUmqbjYnRY%3D&spr=https&se=2023-06-07T19%3A11%3A50Z&sp=r",
     "adoles": "https://docserverpwaprodeus.blob.core.windows.net/ae4eaea4-c3fd-4879-a68d-892fce3641d0-1/resource/Assets0Images00001.jpg?sv=2018-03-28&sr=b&sig=gr2l6AIkKEO27M4a0wAC31rn%2BCncDWSmqfp9CpCkG4A%3D&spr=https&se=2023-06-07T19%3A11%3A50Z&sp=r",
+    "as": "https://docserverpwaprodeus.blob.core.windows.net/ae4eaea4-c3fd-4879-a68d-892fce3641d0-1/resource/c285aeab-322c-4663-9d5f-003b04734f4b.jpg?sv=2018-03-28&sr=b&sig=z2fJl6906JacUdKA4fkp7D5%2FZc1bqMnd0%2BBb%2FB6obK4%3D&spr=https&se=2023-06-07T20%3A01%3A20Z&sp=r",
     "avatar (1)": "https://docserverpwaprodeus.blob.core.windows.net/ae4eaea4-c3fd-4879-a68d-892fce3641d0-1/resource/6b719285-9ddd-4957-ab59-52bef58b22fa.png?sv=2018-03-28&sr=b&sig=hlWWggF1j3xXieVKniHASWjgJ%2FHN9XrQoSZJGQmxd5A%3D&spr=https&se=2023-06-07T19%3A47%3A38Z&sp=r",
     "bachi": "https://docserverpwaprodeus.blob.core.windows.net/ae4eaea4-c3fd-4879-a68d-892fce3641d0-1/resource/Assets0Images00002.jpg?sv=2018-03-28&sr=b&sig=nce%2BBCPxQzYz1HtzAdLeOiPmLa3FKAEEDBgc5WhOZ7w%3D&spr=https&se=2023-06-07T19%3A11%3A50Z&sp=r",
     "coneccionF": "https://docserverpwaprodeus.blob.core.windows.net/ae4eaea4-c3fd-4879-a68d-892fce3641d0-1/resource/Assets0Images00003.jpg?sv=2018-03-28&sr=b&sig=XME2gKrhH2FhPf%2BfJzeZbNrLOqk%2B8Y%2BOaFl65vNm668%3D&spr=https&se=2023-06-07T19%3A11%3A50Z&sp=r",
@@ -4482,6 +4484,7 @@
     "Audio-SampleAudio": 0,
     "Image-4d68417a11d97ac0877c12514c9b8406": 17,
     "Image-adoles": 3,
+    "Image-as": 20,
     "Image-avatar (1)": 18,
     "Image-bachi": 4,
     "Image-coneccionF": 5,

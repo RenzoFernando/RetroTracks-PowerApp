@@ -49,7 +49,7 @@ Home As screen:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         Height: =158
-        Image: ='cover-spotify-artwork-mac'
+        Image: =as
         ImagePosition: =ImagePosition.Stretch
         RadiusBottomLeft: =10
         RadiusBottomRight: =10
