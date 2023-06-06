@@ -1,4 +1,5 @@
 "Reproductor_Conexión As screen.'phoneDetailViewLayout_ver3.0'":
+    Fill: =RGBA(0, 0, 0, 1)
 
     RectQuickActionBar2_3 As rectangle:
         Height: =88
@@ -71,7 +72,7 @@
         BorderColor: =RGBA(0, 0, 0, 1)
         DataSource: =m
         Fill: =RGBA(0, 0, 0, 1)
-        Height: =1048
+        Height: =933
         Item: =BrowseGallery1_3.Selected
         Width: =Parent.Width
         Y: =88
@@ -85,7 +86,7 @@
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@m],DataSourceInfo.DisplayName,"field_3")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =377
+            Height: =392
             Required: =false
             Width: =640
             X: =0
@@ -115,7 +116,7 @@
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =34
-                Y: =337
+                Y: =350
                 ZIndex: =2
 
             Video1_3 As videoPlayback:
@@ -300,59 +301,6 @@
                 Y: =DataCardKey8_3.Y + DataCardKey8_3.Height + 5
                 ZIndex: =2
 
-    Label1_21 As label:
-        Color: =RGBA(172, 0, 255, 1)
-        Height: =64
-        Size: =21
-        Text: ="Tu libreria"
-        Width: =153
-        X: =407
-        Y: =1072
-        ZIndex: =7
-
-    Icon2_17 As icon.Home:
-        Color: =RGBA(172, 0, 255, 1)
-        Icon: =Icon.Home
-        X: =91
-        Y: =1022
-        ZIndex: =8
-
-    Icon5_17 As icon.DetailList:
-        Color: =RGBA(172, 0, 255, 1)
-        Height: =71
-        Icon: =Icon.DetailList
-        Width: =56
-        X: =455
-        Y: =1018
-        ZIndex: =9
-
-    Icon6_21 As icon.Search:
-        Color: =RGBA(172, 0, 255, 1)
-        Icon: =Icon.Search
-        X: =265
-        Y: =1022
-        ZIndex: =10
-
-    Label4_18 As label:
-        Color: =RGBA(172, 0, 255, 1)
-        Height: =64
-        Size: =21
-        Text: ="Home"
-        Width: =94
-        X: =76
-        Y: =1072
-        ZIndex: =11
-
-    Label5_29 As label:
-        Color: =RGBA(172, 0, 255, 1)
-        Height: =64
-        Size: =21
-        Text: ="Buscar"
-        Width: =125
-        X: =254
-        Y: =1072
-        ZIndex: =12
-
     TextInput1_26 As text:
         BorderColor: =RGBA(0, 0, 0, 1)
         BorderThickness: =0
@@ -369,4 +317,86 @@
         Width: =640
         Y: =1014
         ZIndex: =13
+
+    Group9_23 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =20
+
+        Label1_21 As label:
+            Align: =Align.Center
+            Color: =RGBA(172, 0, 255, 1)
+            Height: =64
+            OnSelect: =Navigate(Libreria)
+            Size: =21
+            Text: ="Libreria"
+            Width: =153
+            X: =240
+            Y: =1072
+            ZIndex: =14
+
+        Icon5_17 As icon.DetailList:
+            Color: =RGBA(172, 0, 255, 1)
+            Height: =71
+            Icon: =Icon.DetailList
+            OnSelect: =Navigate(Libreria)
+            Width: =56
+            X: =288
+            Y: =1021
+            ZIndex: =17
+
+    Group8_23 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =21
+
+        Icon2_17 As icon.Home:
+            Color: =RGBA(172, 0, 255, 1)
+            Icon: =Icon.Home
+            OnSelect: =Navigate(Home)
+            X: =80
+            Y: =1025
+            ZIndex: =16
+
+        Label4_18 As label:
+            Color: =RGBA(172, 0, 255, 1)
+            Height: =64
+            OnSelect: =Navigate(Home)
+            Size: =21
+            Text: ="Home"
+            Width: =94
+            X: =68
+            Y: =1072
+            ZIndex: =18
+
+    Group10_23 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =22
+
+        Icon1_23 As icon.Settings:
+            Color: =RGBA(172, 0, 255, 1)
+            Height: =52
+            Icon: =Icon.Settings
+            OnSelect: =Navigate(Configuraciones)
+            X: =495
+            Y: =1031
+            ZIndex: =15
+
+        Label5_21 As label:
+            Color: =RGBA(172, 0, 255, 1)
+            Height: =64
+            OnSelect: =Navigate(Configuraciones)
+            Size: =21
+            Text: ="Ajustes"
+            Width: =125
+            X: =474
+            Y: =1072
+            ZIndex: =19
 
