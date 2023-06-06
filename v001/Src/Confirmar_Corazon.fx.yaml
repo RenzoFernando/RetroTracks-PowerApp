@@ -1,50 +1,7 @@
 "Confirmar_Corazon As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
     Fill: =RGBA(0, 0, 0, 1)
     LoadingSpinnerColor: =RGBA(197, 24, 128, 1)
-
-    Button10 As button:
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(197, 24, 128, 1)
-        FontWeight: =FontWeight.Semibold
-        Height: =70
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(197, 24, 128, 1), -20%)
-        OnSelect: =SubmitForm(Form1) && Navigate(Reproductor) && ResetForm(Form1)
-        Size: =24
-        Text: ="si"
-        Width: =280
-        Y: =641
-        ZIndex: =4
-
-    Button10_1 As button:
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(197, 24, 128, 1)
-        FontWeight: =FontWeight.Semibold
-        Height: =70
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(197, 24, 128, 1), -20%)
-        OnSelect: =Navigate(Reproductor)
-        Size: =24
-        Text: ="no"
-        Width: =280
-        X: =309
-        Y: =780
-        ZIndex: =5
-
-    Icon3 As icon.BackArrow:
-        BorderColor: =RGBA(189, 189, 189, 1)
-        Color: =RGBA(189, 189, 189, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(244, 244, 244, 1)
-        Icon: =Icon.BackArrow
-        OnSelect: =ResetForm(Form1)
-        X: =388
-        Y: =577
-        ZIndex: =6
+    OnVisible: =
 
     Form1 As form:
         BorderColor: =RGBA(189, 189, 189, 1)
@@ -54,7 +11,7 @@
         OnFailure: =
         Width: =640
         Y: =114
-        ZIndex: =7
+        ZIndex: =1
 
         Título_DataCard1 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(189, 189, 189, 1)
@@ -238,11 +195,107 @@
                 Y: =DataCardKey25.Y
                 ZIndex: =4
 
-    RectQuickActionBar1_17 As rectangle:
+    RectQuickActionBar1_18 As rectangle:
         BorderColor: =RGBA(109, 49, 162, 1)
         DisplayMode: =DisplayMode.View
-        Fill: =RGBA(172, 0, 255, 1)
-        Height: =103
-        Width: =Parent.Width
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =375
+        Width: =640
+        Y: =103
+        ZIndex: =6
+
+    Icon3 As icon.Heart:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        Height: =176
+        Icon: =Icon.Heart
+        Width: =216
+        X: =212
+        Y: =328
+        ZIndex: =7
+
+    LblAppName1_16 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(58, 58, 58, 0)
+        FontWeight: =FontWeight.Semibold
+        Height: =85
+        Size: =24
+        Text: =aa
+        Width: =640
+        Wrap: =false
+        Y: =516
         ZIndex: =8
+
+    Group30 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =10
+
+        RectQuickActionBar1_17 As rectangle:
+            BorderColor: =RGBA(109, 49, 162, 1)
+            DisplayMode: =DisplayMode.View
+            Fill: =RGBA(172, 0, 255, 1)
+            Height: =103
+            Width: =Parent.Width
+            ZIndex: =2
+
+        LblAppName1_11 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(58, 58, 58, 0)
+            FontWeight: =FontWeight.Semibold
+            Height: =103
+            Size: =27
+            Text: ="¿Te gustó esta canción?"
+            Width: =640
+            Wrap: =false
+            ZIndex: =3
+
+    Group31 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =10
+
+        Button10 As button:
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(172, 0, 255, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =80
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(197, 24, 128, 1), -20%)
+            OnSelect: =SubmitForm(Form1) && Navigate(regresar) && ResetForm(Form1)
+            Size: =24
+            Text: ="si"
+            Width: =180
+            X: =71
+            Y: =690
+            ZIndex: =4
+
+        Button10_1 As button:
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(172, 0, 255, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =80
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(197, 24, 128, 1), -20%)
+            OnSelect: =Navigate(regresar) && ResetForm(Form1)
+            Size: =24
+            Text: ="no"
+            Width: =180
+            X: =388
+            Y: =690
+            ZIndex: =5
 
