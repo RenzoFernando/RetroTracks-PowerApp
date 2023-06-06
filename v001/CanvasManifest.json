@@ -126,7 +126,7 @@
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
     "PublishTarget": "player",
-    "UserLocale": "en-US"
+    "UserLocale": "es-ES"
   },
   "ScreenOrder": [
     "Bienvenidos",
@@ -172,6 +172,7 @@
     "Confirmar_Corazon_Renfer",
     "Confirmar_Corazon_Moon",
     "Confirmar_Corazon_Nigori",
+    "Libreria_Like",
     "Likes"
   ]
 }
