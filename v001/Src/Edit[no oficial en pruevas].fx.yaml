@@ -1,12 +1,20 @@
 "'Edit[no oficial en pruevas]' As screen.'phoneDetailEditLayout_ver3.0'":
+    Fill: =RGBA(29, 29, 29 ,1)
+    LoadingSpinnerColor: =RGBA(197, 24, 128, 1)
 
     RectQuickActionBar3 As rectangle:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Fill: =RGBA(197, 24, 128, 1)
         Height: =88
         Width: =Parent.Width
         ZIndex: =1
 
     IconCancel1 As icon.Cancel:
         AccessibleLabel: =Self.Tooltip
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
         Height: =88
         Icon: =Icon.Cancel
         OnSelect: =ResetForm(EditForm1);Back()
@@ -14,6 +22,7 @@
         PaddingLeft: =22
         PaddingRight: =22
         PaddingTop: =22
+        PressedFill: =RGBA(255, 255, 255, 0.3)
         TabIndex: =0
         Tooltip: ="Cancelar elemento"
         Width: =88
@@ -21,6 +30,10 @@
 
     IconAccept1 As icon.Check:
         AccessibleLabel: =Self.Tooltip
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
         Height: =88
         Icon: =Icon.Check
         OnSelect: =SubmitForm(EditForm1)
@@ -28,6 +41,7 @@
         PaddingLeft: =22
         PaddingRight: =22
         PaddingTop: =22
+        PressedFill: =RGBA(255, 255, 255, 0.3)
         TabIndex: =0
         Tooltip: ="Enviar elemento"
         Width: =88
@@ -35,6 +49,8 @@
         ZIndex: =3
 
     LblAppName3 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Fill: =RGBA(58, 58, 58, 0)
         Height: =88
         Size: =27
@@ -45,6 +61,7 @@
         ZIndex: =4
 
     EditForm1 As form:
+        BorderColor: =RGBA(189, 189, 189, 1)
         DataSource: =[@m]
         Height: =Parent.Height - EditForm1.Y
         Item: =BrowseGallery1.Selected
@@ -54,6 +71,7 @@
         ZIndex: =5
 
         Id_lista_DataCard2 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(189, 189, 189, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="Title"
             Default: =ThisItem.Id_lista
@@ -71,6 +89,8 @@
 
             DataCardKey9 As label:
                 AutoHeight: =true
+                Color: =RGBA(189, 189, 189, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
@@ -82,10 +102,20 @@
 
             DataCardValue9 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =2
+                Color: =RGBA(255, 255, 255, 1)
                 Default: =Parent.Default
                 DelayOutput: =true
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(0, 0, 0, 1)
+                FocusedBorderThickness: =4
                 Height: =70
+                HoverBorderColor: =RGBA(189, 189, 189, 1)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(108, 8, 68, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -101,6 +131,9 @@
 
             ErrorMessage1 As label:
                 AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
@@ -117,6 +150,8 @@
 
             StarVisible1 As label:
                 Align: =Align.Center
+                Color: =RGBA(189, 189, 189, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =DataCardKey9.Height
                 Size: =21
                 Text: ="*"
@@ -127,6 +162,7 @@
                 ZIndex: =4
 
         Momento_DataCard2 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(189, 189, 189, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_1"
             Default: =ThisItem.Momento
@@ -144,6 +180,8 @@
 
             DataCardKey10 As label:
                 AutoHeight: =true
+                Color: =RGBA(189, 189, 189, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
@@ -155,10 +193,20 @@
 
             DataCardValue10 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =2
+                Color: =RGBA(255, 255, 255, 1)
                 Default: =Parent.Default
                 DelayOutput: =true
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(0, 0, 0, 1)
+                FocusedBorderThickness: =4
                 Height: =70
+                HoverBorderColor: =RGBA(189, 189, 189, 1)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(108, 8, 68, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -174,6 +222,9 @@
 
             ErrorMessage2 As label:
                 AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
@@ -190,6 +241,8 @@
 
             StarVisible2 As label:
                 Align: =Align.Center
+                Color: =RGBA(189, 189, 189, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =DataCardKey10.Height
                 Size: =21
                 Text: ="*"
@@ -200,6 +253,7 @@
                 ZIndex: =4
 
         "'Image[image]_DataCard2' As typedDataCard.textualEditCard":
+            BorderColor: =RGBA(189, 189, 189, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_2"
             Default: =ThisItem.'Image[image]'
@@ -217,6 +271,8 @@
 
             DataCardKey11 As label:
                 AutoHeight: =true
+                Color: =RGBA(189, 189, 189, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
@@ -228,10 +284,20 @@
 
             DataCardValue11 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =2
+                Color: =RGBA(255, 255, 255, 1)
                 Default: =Parent.Default
                 DelayOutput: =true
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(0, 0, 0, 1)
+                FocusedBorderThickness: =4
                 Height: =70
+                HoverBorderColor: =RGBA(189, 189, 189, 1)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(108, 8, 68, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -247,6 +313,9 @@
 
             ErrorMessage3 As label:
                 AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
@@ -263,6 +332,8 @@
 
             StarVisible3 As label:
                 Align: =Align.Center
+                Color: =RGBA(189, 189, 189, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =DataCardKey11.Height
                 Size: =21
                 Text: ="*"
@@ -273,6 +344,7 @@
                 ZIndex: =4
 
         NombreC_DataCard2 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(189, 189, 189, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_3"
             Default: =ThisItem.NombreC
@@ -290,6 +362,8 @@
 
             DataCardKey12 As label:
                 AutoHeight: =true
+                Color: =RGBA(189, 189, 189, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
@@ -301,10 +375,20 @@
 
             DataCardValue12 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =2
+                Color: =RGBA(255, 255, 255, 1)
                 Default: =Parent.Default
                 DelayOutput: =true
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(0, 0, 0, 1)
+                FocusedBorderThickness: =4
                 Height: =70
+                HoverBorderColor: =RGBA(189, 189, 189, 1)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(108, 8, 68, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -320,6 +404,9 @@
 
             ErrorMessage4 As label:
                 AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
@@ -336,6 +423,8 @@
 
             StarVisible4 As label:
                 Align: =Align.Center
+                Color: =RGBA(189, 189, 189, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =DataCardKey12.Height
                 Size: =21
                 Text: ="*"
@@ -346,6 +435,7 @@
                 ZIndex: =4
 
         Interprete_DataCard2 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(189, 189, 189, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_4"
             Default: =ThisItem.Interprete
@@ -363,6 +453,8 @@
 
             DataCardKey13 As label:
                 AutoHeight: =true
+                Color: =RGBA(189, 189, 189, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
@@ -374,10 +466,20 @@
 
             DataCardValue13 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =2
+                Color: =RGBA(255, 255, 255, 1)
                 Default: =Parent.Default
                 DelayOutput: =true
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(0, 0, 0, 1)
+                FocusedBorderThickness: =4
                 Height: =70
+                HoverBorderColor: =RGBA(189, 189, 189, 1)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(108, 8, 68, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -393,6 +495,9 @@
 
             ErrorMessage5 As label:
                 AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
@@ -409,6 +514,8 @@
 
             StarVisible5 As label:
                 Align: =Align.Center
+                Color: =RGBA(189, 189, 189, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =DataCardKey13.Height
                 Size: =21
                 Text: ="*"
@@ -419,6 +526,7 @@
                 ZIndex: =4
 
         Genero_DataCard2 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(189, 189, 189, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_5"
             Default: =ThisItem.Genero
@@ -436,6 +544,8 @@
 
             DataCardKey14 As label:
                 AutoHeight: =true
+                Color: =RGBA(189, 189, 189, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
@@ -447,10 +557,20 @@
 
             DataCardValue14 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =2
+                Color: =RGBA(255, 255, 255, 1)
                 Default: =Parent.Default
                 DelayOutput: =true
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(0, 0, 0, 1)
+                FocusedBorderThickness: =4
                 Height: =70
+                HoverBorderColor: =RGBA(189, 189, 189, 1)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(108, 8, 68, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -466,6 +586,9 @@
 
             ErrorMessage6 As label:
                 AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
@@ -482,6 +605,8 @@
 
             StarVisible6 As label:
                 Align: =Align.Center
+                Color: =RGBA(189, 189, 189, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =DataCardKey14.Height
                 Size: =21
                 Text: ="*"
@@ -492,6 +617,7 @@
                 ZIndex: =4
 
         Fuente_DataCard2 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(189, 189, 189, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_6"
             Default: =ThisItem.Fuente
@@ -509,6 +635,8 @@
 
             DataCardKey15 As label:
                 AutoHeight: =true
+                Color: =RGBA(189, 189, 189, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
@@ -520,10 +648,20 @@
 
             DataCardValue15 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =2
+                Color: =RGBA(255, 255, 255, 1)
                 Default: =Parent.Default
                 DelayOutput: =true
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(0, 0, 0, 1)
+                FocusedBorderThickness: =4
                 Height: =70
+                HoverBorderColor: =RGBA(189, 189, 189, 1)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(108, 8, 68, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -539,6 +677,9 @@
 
             ErrorMessage7 As label:
                 AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
@@ -555,6 +696,8 @@
 
             StarVisible7 As label:
                 Align: =Align.Center
+                Color: =RGBA(189, 189, 189, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =DataCardKey15.Height
                 Size: =21
                 Text: ="*"
@@ -565,6 +708,7 @@
                 ZIndex: =4
 
         Relato_DataCard2 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(189, 189, 189, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_7"
             Default: =ThisItem.Relato
@@ -582,6 +726,8 @@
 
             DataCardKey16 As label:
                 AutoHeight: =true
+                Color: =RGBA(189, 189, 189, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
@@ -593,10 +739,20 @@
 
             DataCardValue16 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =2
+                Color: =RGBA(255, 255, 255, 1)
                 Default: =Parent.Default
                 DelayOutput: =true
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(0, 0, 0, 1)
+                FocusedBorderThickness: =4
                 Height: =70
+                HoverBorderColor: =RGBA(189, 189, 189, 1)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(108, 8, 68, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
@@ -612,6 +768,9 @@
 
             ErrorMessage8 As label:
                 AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
@@ -628,6 +787,8 @@
 
             StarVisible8 As label:
                 Align: =Align.Center
+                Color: =RGBA(189, 189, 189, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =DataCardKey16.Height
                 Size: =21
                 Text: ="*"

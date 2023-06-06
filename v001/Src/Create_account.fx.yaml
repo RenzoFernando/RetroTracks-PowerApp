@@ -1,9 +1,12 @@
 Create_account As screen:
     Fill: =RGBA(0, 0, 0, 1)
+    LoadingSpinnerColor: =RGBA(197, 24, 128, 1)
 
     Label2_2 As label:
         Align: =Align.Center
+        BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(172, 0, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Font: =Font.'Lato Black'
         FontWeight: =FontWeight.Bold
         Height: =55
@@ -14,6 +17,7 @@ Create_account As screen:
         ZIndex: =2
 
     Form3 As form:
+        BorderColor: =RGBA(189, 189, 189, 1)
         DataSource: =registro
         DefaultMode: =FormMode.New
         Height: =949
@@ -30,7 +34,7 @@ Create_account As screen:
             BorderStyle: =BorderStyle.None
             BorderThickness: =5
             DataField: ="Title"
-            Default: =ThisItem.Title
+            Default: =ThisItem.Título
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@registro],DataSourceInfo.DisplayName,"Title")
             Fill: =RGBA(0, 0, 0, 0)
@@ -46,6 +50,7 @@ Create_account As screen:
             DataCardKey14_1 As label:
                 AutoHeight: =true
                 Color: =RGBA(172, 0, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 FontWeight: =FontWeight.Semibold
                 Height: =48
                 Size: =21
@@ -62,10 +67,16 @@ Create_account As screen:
                 Color: =RGBA(255, 255, 255, 1)
                 Default: =Parent.Default
                 DelayOutput: =true
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =Parent.DisplayMode
                 Fill: =RGBA(104, 0, 156, 0.64)
+                FocusedBorderThickness: =4
                 Height: =70
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(108, 8, 68, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =10
@@ -81,6 +92,9 @@ Create_account As screen:
 
             ErrorMessage11 As label:
                 AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
@@ -98,6 +112,7 @@ Create_account As screen:
             StarVisible11 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 255, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =DataCardKey14_1.Height
                 Size: =21
                 Text: ="*"
@@ -131,10 +146,15 @@ Create_account As screen:
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =Parent.DisplayMode
                 Fill: =RGBA(104, 0, 156, 0.64)
+                FocusedBorderThickness: =4
                 Height: =70
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(108, 8, 68, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =10
@@ -151,6 +171,7 @@ Create_account As screen:
             DataCardKey15_1 As label:
                 AutoHeight: =true
                 Color: =RGBA(172, 0, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 FontWeight: =FontWeight.Semibold
                 Height: =48
                 Size: =21
@@ -163,6 +184,9 @@ Create_account As screen:
 
             ErrorMessage12 As label:
                 AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
@@ -180,6 +204,7 @@ Create_account As screen:
             StarVisible12 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 255, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =DataCardKey15_1.Height
                 Size: =21
                 Text: ="*"
@@ -190,6 +215,7 @@ Create_account As screen:
                 ZIndex: =5
 
         "'Teléfono _DataCard2' As typedDataCard.numberEditCard":
+            BorderColor: =RGBA(189, 189, 189, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="Tel_x00e9_fono"
             Default: =ThisItem.Teléfono
@@ -207,6 +233,7 @@ Create_account As screen:
             DataCardKey16_1 As label:
                 AutoHeight: =true
                 Color: =RGBA(172, 0, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 FontWeight: =FontWeight.Semibold
                 Height: =48
                 Size: =21
@@ -224,11 +251,16 @@ Create_account As screen:
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =Parent.DisplayMode
                 Fill: =RGBA(104, 0, 156, 0.64)
+                FocusedBorderThickness: =4
                 Format: =TextFormat.Number
                 Height: =70
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(108, 8, 68, 1)
                 PaddingLeft: =5
                 RadiusBottomLeft: =10
                 RadiusBottomRight: =10
@@ -243,6 +275,9 @@ Create_account As screen:
 
             ErrorMessage13 As label:
                 AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
@@ -260,6 +295,7 @@ Create_account As screen:
             StarVisible13 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 255, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =DataCardKey16_1.Height
                 Size: =21
                 Text: ="*"
@@ -270,6 +306,7 @@ Create_account As screen:
                 ZIndex: =4
 
         Correo_DataCard2 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(189, 189, 189, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="Correo"
             Default: =ThisItem.Correo
@@ -288,6 +325,7 @@ Create_account As screen:
             DataCardKey17 As label:
                 AutoHeight: =true
                 Color: =RGBA(172, 0, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 FontWeight: =FontWeight.Semibold
                 Height: =48
                 Size: =21
@@ -305,10 +343,15 @@ Create_account As screen:
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =Parent.DisplayMode
                 Fill: =RGBA(104, 0, 156, 0.64)
+                FocusedBorderThickness: =4
                 Height: =70
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(108, 8, 68, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
                 RadiusBottomLeft: =10
@@ -324,6 +367,9 @@ Create_account As screen:
 
             ErrorMessage14 As label:
                 AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
@@ -341,6 +387,7 @@ Create_account As screen:
             StarVisible14 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 255, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =DataCardKey17.Height
                 Size: =21
                 Text: ="*"
@@ -351,6 +398,7 @@ Create_account As screen:
                 ZIndex: =4
 
         Contraseña_DataCard2 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(189, 189, 189, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="Contrase_x00f1_a"
             Default: =ThisItem.Contrasena
@@ -369,6 +417,7 @@ Create_account As screen:
             DataCardKey18 As label:
                 AutoHeight: =true
                 Color: =RGBA(172, 0, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 FontWeight: =FontWeight.Semibold
                 Height: =48
                 Size: =21
@@ -386,10 +435,15 @@ Create_account As screen:
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =Parent.DisplayMode
                 Fill: =RGBA(104, 0, 156, 0.63)
+                FocusedBorderThickness: =4
                 Height: =70
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(108, 8, 68, 1)
                 MaxLength: =Parent.MaxLength
                 Mode: =TextMode.Password
                 PaddingLeft: =5
@@ -406,6 +460,9 @@ Create_account As screen:
 
             ErrorMessage15 As label:
                 AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
@@ -423,6 +480,7 @@ Create_account As screen:
             StarVisible15 As label:
                 Align: =Align.Center
                 Color: =RGBA(255, 255, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =DataCardKey18.Height
                 Size: =21
                 Text: ="*"
@@ -450,6 +508,7 @@ Create_account As screen:
 
             DataCardKey19 As label:
                 Color: =RGBA(172, 0, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 Height: =37
                 Size: =17
                 Text: =Parent.DisplayName
@@ -461,12 +520,12 @@ Create_account As screen:
 
             DataCardValue19 As toggleSwitch:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Color: =RGBA(255, 255, 255, 1)
                 Default: =Parent.Default
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisplayMode: =Parent.DisplayMode
                 FalseFill: =RGBA(172, 0, 255, 0.55)
+                HandleFill: =RGBA(255, 255, 255, 1)
                 Height: =37
-                HoverBorderColor: =ColorFade(Self.BorderColor, 0%)
                 OnChange: =
                 OnCheck: =true
                 OnSelect: =true
@@ -482,7 +541,9 @@ Create_account As screen:
                 ZIndex: =2
 
             Label4 As label:
+                BorderColor: =RGBA(189, 189, 189, 1)
                 Color: =RGBA(184, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
                 FontWeight: =FontWeight.Semibold
                 Height: =70
                 Size: =10
@@ -495,8 +556,14 @@ Create_account As screen:
 
     Registrar_1 As button:
         AutoDisableOnSelect: =
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(172, 0, 255, 1)
+        FontWeight: =FontWeight.Semibold
         Height: =82
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(197, 24, 128, 1), -20%)
         OnSelect: |-
             =If(DataCardValue19.Value, Set(te,false), Set(te,true));
             
@@ -509,10 +576,14 @@ Create_account As screen:
         ZIndex: =4
 
     volver_2 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(104, 0, 156, 1)
         FontWeight: =FontWeight.Bold
         Height: =54
         HoverColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =ColorFade(RGBA(197, 24, 128, 1), -20%)
         OnSelect: =Navigate(Log_in)
         PressedBorderColor: =
         Size: =20

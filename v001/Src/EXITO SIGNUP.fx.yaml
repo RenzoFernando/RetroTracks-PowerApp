@@ -1,9 +1,16 @@
 "'Exito Signup' As screen":
+    Fill: =RGBA(29, 29, 29 ,1)
+    LoadingSpinnerColor: =RGBA(197, 24, 128, 1)
 
     Button1_1 As button:
         BorderThickness: =0
-        Fill: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(197, 24, 128, 1)
+        FontWeight: =FontWeight.Semibold
         Height: =1136
+        HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(0, 0, 0, 0), 0%)
         OnSelect: =Navigate(Log_in)
         RadiusBottomLeft: =0
@@ -20,7 +27,9 @@
         ZIndex: =1
 
     Label6_1 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =198
         Size: =21
         Text: ="Felicidades registro exitoso. Ahora porfavor inicie la sesion con los datos correspondientes. Precione para continuar."
@@ -30,8 +39,14 @@
         ZIndex: =2
 
     Button4 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(104, 0, 156, 1)
+        FontWeight: =FontWeight.Semibold
         Height: =70
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(197, 24, 128, 1), -20%)
         OnSelect: =Navigate(Log_in)
         Size: =24
         Text: ="Continuar "
@@ -41,7 +56,10 @@
         ZIndex: =3
 
     Icon8 As icon.EmojiSmile:
+        BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(172, 0, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
         Icon: =Icon.EmojiSmile
         X: =527
         Y: =767
@@ -49,7 +67,9 @@
 
     Label7_1 As label:
         Align: =Align.Center
+        BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Fill: =RGBA(104, 0, 156, 1)
         Height: =77
         Size: =21
@@ -60,6 +80,9 @@
         ZIndex: =5
 
     Image5_2 As image:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
         Height: =642
         Image: ='logo (1)'
         OnSelect: =Navigate(Log_in)

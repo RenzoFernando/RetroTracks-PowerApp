@@ -1,6 +1,7 @@
 Home As screen:
     BackgroundImage: =
     Fill: =RGBA(0,0,0,1)
+    LoadingSpinnerColor: =RGBA(197, 24, 128, 1)
 
     Rectangle1 As rectangle:
         BorderColor: =RGBA(72, 50, 133, 1)
@@ -21,6 +22,7 @@ Home As screen:
         ZIndex: =3
 
     Rectangle3 As rectangle:
+        BorderColor: =RGBA(189, 189, 189, 1)
         Fill: =RGBA(122, 0, 184, 1)
         Height: =106
         Width: =249
@@ -38,7 +40,7 @@ Home As screen:
         ZIndex: =5
 
     Rectangle6 As rectangle:
-        BorderColor: =RGBA(72, 50, 133, 1)
+        BorderColor: =RGBA(189, 189, 189, 1)
         Fill: =RGBA(172, 0, 255, 1)
         Height: =50
         Width: =263
@@ -47,6 +49,9 @@ Home As screen:
         ZIndex: =11
 
     Label8 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =50
         Size: =15
         Text: |-
@@ -57,6 +62,9 @@ Home As screen:
         ZIndex: =12
 
     Label9 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =90
         Size: =15
         Text: ="Nombre de la playlist"
@@ -66,6 +74,9 @@ Home As screen:
         ZIndex: =13
 
     Label9_1 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =100
         Size: =15
         Text: ="Nombre de la playlist"
@@ -75,6 +86,9 @@ Home As screen:
         ZIndex: =14
 
     Label9_2 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =89
         Size: =15
         Text: ="Nombre de la playlist"
@@ -84,6 +98,9 @@ Home As screen:
         ZIndex: =15
 
     Label9_3 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =100
         Size: =15
         Text: ="Nombre de la playlist"
@@ -93,13 +110,19 @@ Home As screen:
         ZIndex: =16
 
     TextInput1 As text:
-        BorderColor: =RGBA(72, 50, 133, 1)
+        BorderColor: =RGBA(189, 189, 189, 1)
+        BorderThickness: =2
         Color: =RGBA(15, 15, 15, 1)
         Default: ="Otras Playlists"
         DisabledBorderColor: =RGBA(172, 0, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(172, 0, 255, 1)
         Fill: =RGBA(172, 0, 255, 1)
+        FocusedBorderThickness: =4
         Height: =51
+        HoverBorderColor: =RGBA(189, 189, 189, 1)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(108, 8, 68, 1)
         RadiusBottomLeft: =10
         RadiusBottomRight: =10
         RadiusTopLeft: =10
@@ -111,6 +134,9 @@ Home As screen:
         ZIndex: =20
 
     Image2_2 As image:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
         Height: =90
         Width: =84
         X: =337
@@ -118,6 +144,9 @@ Home As screen:
         ZIndex: =21
 
     Image2_3 As image:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
         Height: =87
         Width: =84
         X: =337
@@ -125,6 +154,9 @@ Home As screen:
         ZIndex: =22
 
     Image2_4 As image:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
         Height: =90
         Width: =87
         X: =68
@@ -132,6 +164,9 @@ Home As screen:
         ZIndex: =23
 
     Image2_5 As image:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
         Height: =87
         Width: =83
         X: =68
@@ -139,13 +174,19 @@ Home As screen:
         ZIndex: =24
 
     TextInput1_2 As text:
-        BorderColor: =RGBA(72, 50, 133, 1)
+        BorderColor: =RGBA(189, 189, 189, 1)
+        BorderThickness: =2
         Color: =RGBA(15, 15, 15, 1)
         Default: ="Otras Playlists"
         DisabledBorderColor: =RGBA(172, 0, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(172, 0, 255, 1)
         Fill: =RGBA(172, 0, 255, 1)
+        FocusedBorderThickness: =4
         Height: =49
+        HoverBorderColor: =RGBA(189, 189, 189, 1)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(108, 8, 68, 1)
         Size: =15
         Width: =520
         X: =58
@@ -160,7 +201,10 @@ Home As screen:
         ZIndex: =26
 
     Icon4 As icon.Bell:
+        BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(172, 0, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
         Height: =55
         Icon: =Icon.Bell
         Width: =61
@@ -169,7 +213,9 @@ Home As screen:
         ZIndex: =27
 
     Label12 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(172, 0, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =21
@@ -180,6 +226,9 @@ Home As screen:
         ZIndex: =28
 
     Image8 As image:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
         Height: =158
         Image: ='cover-spotify-artwork-mac'
         ImagePosition: =ImagePosition.Stretch
@@ -193,8 +242,13 @@ Home As screen:
         ZIndex: =29
 
     Button6 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(0, 0, 0, 0.33)
+        FontWeight: =FontWeight.Semibold
         Height: =158
+        HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(172, 0, 225, 50), 0)
         OnSelect: =Navigate(PlayList_)
         Size: =24
@@ -205,17 +259,17 @@ Home As screen:
         ZIndex: =30
 
     TextInput1_6 As text:
-        BorderColor: =RGBA(0, 0, 0, 1)
         BorderThickness: =0
         Color: =RGBA(15, 15, 15, 1)
         Default: =""
         DisabledBorderColor: =RGBA(172, 0, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(172, 0, 255, 1)
+        FocusedBorderThickness: =4
         Height: =10
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
+        HoverBorderColor: =RGBA(189, 189, 189, 1)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(108, 8, 68, 1)
         Size: =21
         Width: =640
         Y: =1008
@@ -229,6 +283,9 @@ Home As screen:
         ZIndex: =34
 
         Image2_1 As image:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =150
             Image: =NIGORI
             Width: =150
@@ -237,7 +294,9 @@ Home As screen:
             ZIndex: =17
 
         Label18 As label:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Bold
             Height: =30
             Size: =17
@@ -255,6 +314,9 @@ Home As screen:
         ZIndex: =34
 
         Image3 As image:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =148
             Width: =166
             X: =241
@@ -262,7 +324,9 @@ Home As screen:
             ZIndex: =18
 
         Label18_2 As label:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Bold
             Height: =31
             Size: =17
@@ -280,6 +344,9 @@ Home As screen:
         ZIndex: =34
 
         Image4 As image:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =148
             Width: =195
             X: =404
@@ -287,7 +354,9 @@ Home As screen:
             ZIndex: =19
 
         Label18_1 As label:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Bold
             Height: =30
             Size: =17
@@ -305,7 +374,10 @@ Home As screen:
         ZIndex: =35
 
         Icon2 As icon.Home:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(172, 0, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
             Icon: =Icon.Home
             OnSelect: =Navigate(Home)
             X: =80
@@ -313,7 +385,9 @@ Home As screen:
             ZIndex: =7
 
         Label4_1 As label:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(172, 0, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =64
             OnSelect: =Navigate(Home)
             Size: =21
@@ -332,7 +406,9 @@ Home As screen:
 
         Label1_4 As label:
             Align: =Align.Center
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(172, 0, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =64
             OnSelect: =Navigate(Libreria)
             Size: =21
@@ -343,7 +419,10 @@ Home As screen:
             ZIndex: =1
 
         Icon5 As icon.DetailList:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(172, 0, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =71
             Icon: =Icon.DetailList
             OnSelect: =Navigate(Libreria)
@@ -360,7 +439,10 @@ Home As screen:
         ZIndex: =35
 
         Icon1 As icon.Settings:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(172, 0, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =52
             Icon: =Icon.Settings
             OnSelect: =Navigate(Configuraciones)
@@ -369,7 +451,9 @@ Home As screen:
             ZIndex: =6
 
         Label5 As label:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(172, 0, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =64
             OnSelect: =Navigate(Configuraciones)
             Size: =21

@@ -1,9 +1,16 @@
 Bienvenidos As screen:
     Fill: =RGBA(0, 0, 0, 1)
+    LoadingSpinnerColor: =RGBA(197, 24, 128, 1)
 
     Button5 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(172, 0, 255, 1)
+        FontWeight: =FontWeight.Semibold
         Height: =94
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(197, 24, 128, 1), -20%)
         OnSelect: =Navigate(Log_in)
         Size: =24
         Text: ="Continuar"
@@ -13,6 +20,9 @@ Bienvenidos As screen:
         ZIndex: =5
 
     Image5 As image:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
         Height: =642
         Image: ='logo (1)'
         Width: =640
@@ -20,6 +30,9 @@ Bienvenidos As screen:
         ZIndex: =10
 
     Image1 As image:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
         Height: =320
         Image: =Imagen1
         Width: =640

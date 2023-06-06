@@ -1,18 +1,19 @@
 PlayList_ As screen:
     Fill: =RGBA(0, 0, 0, 1)
+    LoadingSpinnerColor: =RGBA(197, 24, 128, 1)
 
     TextInput1_5 As text:
-        BorderColor: =RGBA(0, 0, 0, 1)
         BorderThickness: =0
         Color: =RGBA(15, 15, 15, 1)
         Default: =""
         DisabledBorderColor: =RGBA(172, 0, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(172, 0, 255, 1)
+        FocusedBorderThickness: =4
         Height: =10
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
+        HoverBorderColor: =RGBA(189, 189, 189, 1)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(108, 8, 68, 1)
         Size: =21
         Width: =640
         Y: =994
@@ -26,6 +27,9 @@ PlayList_ As screen:
         ZIndex: =54
 
         Image7 As image:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =150
             Image: =adoles
             ImagePosition: =ImagePosition.Fill
@@ -36,7 +40,9 @@ PlayList_ As screen:
             ZIndex: =51
 
         Label11 As label:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Semibold
             Height: =38
             OnSelect: =Navigate(Adolescencia)
@@ -55,6 +61,9 @@ PlayList_ As screen:
         ZIndex: =56
 
         Image7_1 As image:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =150
             Image: =bachi
             ImagePosition: =ImagePosition.Fill
@@ -65,7 +74,9 @@ PlayList_ As screen:
             ZIndex: =54
 
         Label11_1 As label:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Semibold
             Height: =38
             OnSelect: =Navigate(Bachillerato)
@@ -84,6 +95,9 @@ PlayList_ As screen:
         ZIndex: =58
 
         Image7_2 As image:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =150
             Image: =coneccionF
             ImagePosition: =ImagePosition.Fill
@@ -94,7 +108,9 @@ PlayList_ As screen:
             ZIndex: =56
 
         Label11_2 As label:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Semibold
             Height: =38
             OnSelect: =Navigate('Conexión Familiar')
@@ -113,6 +129,9 @@ PlayList_ As screen:
         ZIndex: =61
 
         Image7_3 As image:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =150
             Image: =infa
             ImagePosition: =ImagePosition.Fill
@@ -123,7 +142,9 @@ PlayList_ As screen:
             ZIndex: =59
 
         Label11_3 As label:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Semibold
             Height: =38
             OnSelect: =Navigate(Infancia)
@@ -142,6 +163,9 @@ PlayList_ As screen:
         ZIndex: =63
 
         Image7_4 As image:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =150
             Image: =labo
             ImagePosition: =ImagePosition.Fill
@@ -152,7 +176,9 @@ PlayList_ As screen:
             ZIndex: =61
 
         Label11_4 As label:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Semibold
             Height: =38
             OnSelect: =Navigate(Laboral)
@@ -171,6 +197,9 @@ PlayList_ As screen:
         ZIndex: =66
 
         Image7_5 As image:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =150
             Image: =nosta
             ImagePosition: =ImagePosition.Fill
@@ -181,7 +210,9 @@ PlayList_ As screen:
             ZIndex: =64
 
         Label11_5 As label:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Semibold
             Height: =38
             OnSelect: =Navigate(Nostalgia)
@@ -200,6 +231,9 @@ PlayList_ As screen:
         ZIndex: =69
 
         Image7_6 As image:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =150
             Image: ='pre-a'
             ImagePosition: =ImagePosition.Fill
@@ -210,7 +244,9 @@ PlayList_ As screen:
             ZIndex: =67
 
         Label11_6 As label:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Semibold
             Height: =38
             OnSelect: =Navigate(Preadolecencia)
@@ -229,6 +265,9 @@ PlayList_ As screen:
         ZIndex: =72
 
         Image7_7 As image:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =150
             Image: =puntQ
             ImagePosition: =ImagePosition.Fill
@@ -239,7 +278,9 @@ PlayList_ As screen:
             ZIndex: =70
 
         Label11_7 As label:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Semibold
             Height: =38
             OnSelect: =Navigate('Puntos De Quiebre')
@@ -258,6 +299,9 @@ PlayList_ As screen:
         ZIndex: =74
 
         Image7_8 As image:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =150
             Image: =roma
             ImagePosition: =ImagePosition.Fill
@@ -268,7 +312,9 @@ PlayList_ As screen:
             ZIndex: =72
 
         Label11_8 As label:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Semibold
             Height: =38
             OnSelect: =Navigate(Romance)
@@ -287,6 +333,9 @@ PlayList_ As screen:
         ZIndex: =77
 
         Image7_9 As image:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =150
             Image: =vaca
             ImagePosition: =ImagePosition.Fill
@@ -297,7 +346,9 @@ PlayList_ As screen:
             ZIndex: =75
 
         Label11_9 As label:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Semibold
             Height: =38
             OnSelect: =Navigate(Vacaciones)
@@ -317,7 +368,9 @@ PlayList_ As screen:
 
         Label1_30 As label:
             Align: =Align.Center
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(172, 0, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =64
             OnSelect: =Navigate(Libreria)
             Size: =21
@@ -328,7 +381,10 @@ PlayList_ As screen:
             ZIndex: =77
 
         Icon5_26 As icon.DetailList:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(172, 0, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =71
             Icon: =Icon.DetailList
             OnSelect: =Navigate(Libreria)
@@ -345,7 +401,10 @@ PlayList_ As screen:
         ZIndex: =84
 
         Icon2_26 As icon.Home:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(172, 0, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
             Icon: =Icon.Home
             OnSelect: =Navigate(Home)
             X: =80
@@ -353,7 +412,9 @@ PlayList_ As screen:
             ZIndex: =79
 
         Label4_27 As label:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(172, 0, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =64
             OnSelect: =Navigate(Home)
             Size: =21
@@ -371,7 +432,10 @@ PlayList_ As screen:
         ZIndex: =85
 
         Icon1_2 As icon.Settings:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(172, 0, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =52
             Icon: =Icon.Settings
             OnSelect: =Navigate(Configuraciones)
@@ -380,7 +444,9 @@ PlayList_ As screen:
             ZIndex: =78
 
         Label5_38 As label:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(172, 0, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =64
             OnSelect: =Navigate(Configuraciones)
             Size: =21

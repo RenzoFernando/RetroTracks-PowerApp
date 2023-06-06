@@ -1,8 +1,11 @@
 Configuraciones As screen:
     Fill: =RGBA(0, 0, 0, 1)
+    LoadingSpinnerColor: =RGBA(197, 24, 128, 1)
 
     Label1 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         FontWeight: =FontWeight.Semibold
         Height: =57
         Size: =23
@@ -13,7 +16,9 @@ Configuraciones As screen:
         ZIndex: =1
 
     Label10 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =27
         Size: =21
         Text: ="ver perfil"
@@ -25,6 +30,8 @@ Configuraciones As screen:
     Icon9 As icon.ChevronRight:
         BorderColor: =RGBA(172, 0, 255, 1)
         Color: =RGBA(172, 0, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
         Height: =40
         Icon: =Icon.ChevronRight
         Width: =37
@@ -33,7 +40,9 @@ Configuraciones As screen:
         ZIndex: =3
 
     Label13 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         FontWeight: =FontWeight.Semibold
         Height: =44
         Size: =21
@@ -44,7 +53,9 @@ Configuraciones As screen:
         ZIndex: =4
 
     Label14 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =54
         Size: =21
         Text: ="Email"
@@ -54,7 +65,9 @@ Configuraciones As screen:
         ZIndex: =5
 
     Label15 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =31
         Size: =21
         Text: ="x"
@@ -64,7 +77,9 @@ Configuraciones As screen:
         ZIndex: =6
 
     Label16 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =51
         Size: =21
         Text: ="Usuario"
@@ -74,7 +89,9 @@ Configuraciones As screen:
         ZIndex: =7
 
     Label15_1 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =31
         Size: =21
         Text: ="x"
@@ -84,7 +101,9 @@ Configuraciones As screen:
         ZIndex: =8
 
     Label16_1 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =51
         Size: =21
         Text: ="Contraseña"
@@ -94,7 +113,9 @@ Configuraciones As screen:
         ZIndex: =9
 
     Label15_2 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =31
         Size: =21
         Text: ="x"
@@ -104,41 +125,43 @@ Configuraciones As screen:
         ZIndex: =10
 
     TextInput1_11 As text:
-        BorderColor: =RGBA(0, 0, 0, 1)
         BorderThickness: =0
         Color: =RGBA(15, 15, 15, 1)
         Default: =""
         DisabledBorderColor: =RGBA(172, 0, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(172, 0, 255, 1)
+        FocusedBorderThickness: =4
         Height: =10
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
+        HoverBorderColor: =RGBA(189, 189, 189, 1)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(108, 8, 68, 1)
         Size: =21
         Width: =640
         Y: =1008
         ZIndex: =11
 
     TextInput1_12 As text:
-        BorderColor: =RGBA(0, 0, 0, 1)
         BorderThickness: =0
         Color: =RGBA(15, 15, 15, 1)
         Default: =""
         DisabledBorderColor: =RGBA(172, 0, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(172, 0, 255, 1)
+        FocusedBorderThickness: =4
         Height: =10
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
+        HoverBorderColor: =RGBA(189, 189, 189, 1)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(108, 8, 68, 1)
         Size: =21
         Width: =640
         Y: =90
         ZIndex: =12
 
     Label1_7 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(172, 0, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =64
         Size: =21
         Text: ="Tu libreria"
@@ -148,14 +171,20 @@ Configuraciones As screen:
         ZIndex: =13
 
     Icon2_3 As icon.Home:
+        BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(172, 0, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
         Icon: =Icon.Home
         X: =91
         Y: =1022
         ZIndex: =14
 
     Icon5_3 As icon.DetailList:
+        BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(172, 0, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
         Height: =71
         Icon: =Icon.DetailList
         Width: =56
@@ -164,14 +193,19 @@ Configuraciones As screen:
         ZIndex: =15
 
     Icon6_3 As icon.Search:
+        BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(172, 0, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
         Icon: =Icon.Search
         X: =265
         Y: =1022
         ZIndex: =16
 
     Label4_4 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(172, 0, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =64
         Size: =21
         Text: ="Home"
@@ -181,7 +215,9 @@ Configuraciones As screen:
         ZIndex: =17
 
     Label5_4 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(172, 0, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =64
         Size: =21
         Text: ="Buscar"
@@ -191,6 +227,9 @@ Configuraciones As screen:
         ZIndex: =18
 
     Image6 As image:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
         Height: =105
         Width: =165
         X: =40
@@ -206,7 +245,9 @@ Configuraciones As screen:
         ZIndex: =20
 
     Label17 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         FontWeight: =FontWeight.Semibold
         Height: =70
         Size: =21
@@ -219,6 +260,8 @@ Configuraciones As screen:
     Icon10 As icon.ChevronLeft:
         BorderColor: =RGBA(172, 0, 255, 1)
         Color: =RGBA(172, 0, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
         Height: =40
         Icon: =Icon.ChevronLeft
         Width: =59

@@ -1,5 +1,6 @@
 "Moon As screen.'phoneBrowseLayout_ver3.0'":
     Fill: =RGBA(0, 0, 0, 1)
+    LoadingSpinnerColor: =RGBA(197, 24, 128, 1)
 
     RectQuickActionBar1_13 As rectangle:
         BorderColor: =RGBA(109, 49, 162, 1)
@@ -9,6 +10,7 @@
         ZIndex: =1
 
     "BrowseGallery1_13 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        BorderColor: =RGBA(189, 189, 189, 1)
         DelayItemLoading: =true
         Height: =838
         Items: =MiBandaSonora
@@ -23,6 +25,9 @@
         ZIndex: =1
 
         Image2_18 As image:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =128
             Image: =ThisItem.'Image[image]'
             OnSelect: =Select(Parent)
@@ -33,12 +38,15 @@
 
         Title3_13 As label:
             Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =FontWeight.Semibold
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
+            Size: =20
             Text: =ThisItem.Nombre
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - Image2_18.Width - 104
@@ -48,12 +56,14 @@
 
         Subtitle2_13 As label:
             Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
+            Size: =18
             Text: =ThisItem.Interprete
             VerticalAlign: =VerticalAlign.Top
             Width: =Title3_13.Width
@@ -63,7 +73,10 @@
 
         NextArrow3_13 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
             Fill: =RGBA(109, 49, 162, 1)
             Height: =60
             Icon: =Icon.ChevronRight
@@ -80,6 +93,8 @@
             ZIndex: =4
 
         Separator3_13 As rectangle:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            Fill: =RGBA(189, 189, 189, 1)
             Height: =1
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
@@ -88,6 +103,10 @@
 
     IconRefresh1_13 As icon.Reload:
         AccessibleLabel: =Self.Tooltip
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
         Height: =88
         Icon: =Icon.Reload
         OnSelect: =
@@ -95,6 +114,7 @@
         PaddingLeft: =22
         PaddingRight: =22
         PaddingTop: =22
+        PressedFill: =RGBA(255, 255, 255, 0.3)
         TabIndex: =0
         Tooltip: ="Actualizar lista"
         Width: =88
@@ -103,6 +123,10 @@
 
     IconSortUpDown1_13 As icon.ArrowsUpDown:
         AccessibleLabel: =Self.Tooltip
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
         Height: =88
         Icon: =Icon.Sort
         OnSelect: |-
@@ -111,6 +135,7 @@
         PaddingLeft: =26
         PaddingRight: =26
         PaddingTop: =26
+        PressedFill: =RGBA(255, 255, 255, 0.3)
         TabIndex: =0
         Tooltip: =If(SortDescending1, "Ordenar la lista en orden alfabético inverso", "Ordenar la lista en orden alfabético")
         Width: =88
@@ -119,6 +144,10 @@
 
     IconNewItem1_13 As icon.Add:
         AccessibleLabel: =Self.Tooltip
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
         DisplayMode: =If(DataSourceInfo([@m], DataSourceInfo.CreatePermission), DisplayMode.Edit, DisplayMode.Disabled)
         Height: =88
         Icon: =Icon.Add
@@ -127,6 +156,7 @@
         PaddingLeft: =24
         PaddingRight: =24
         PaddingTop: =24
+        PressedFill: =RGBA(255, 255, 255, 0.3)
         TabIndex: =0
         Tooltip: ="Crear elemento"
         Width: =88
@@ -134,11 +164,23 @@
         ZIndex: =5
 
     TextSearchBox1_13 As text:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(255, 255, 255, 1)
         Default: ="Moon"
         DelayOutput: =true
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
         DisplayMode: =DisplayMode.View
+        Fill: =RGBA(0, 0, 0, 1)
+        FocusedBorderThickness: =4
         Height: =68
         HintText: =""
+        HoverBorderColor: =RGBA(189, 189, 189, 1)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(108, 8, 68, 1)
         PaddingLeft: =70
         RadiusBottomLeft: =0
         RadiusBottomRight: =0
@@ -150,29 +192,33 @@
         ZIndex: =6
 
     Rectangle11_13 As rectangle:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Fill: =RGBA(189, 189, 189, 1)
         Height: =2
         Width: =Parent.Width
         Y: =TextSearchBox1_13.Y + TextSearchBox1_13.Height
         ZIndex: =8
 
     TextInput1_9 As text:
-        BorderColor: =RGBA(0, 0, 0, 1)
         BorderThickness: =0
         Color: =RGBA(15, 15, 15, 1)
         Default: =""
         DisabledBorderColor: =RGBA(172, 0, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(172, 0, 255, 1)
+        FocusedBorderThickness: =4
         Height: =10
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
+        HoverBorderColor: =RGBA(189, 189, 189, 1)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(108, 8, 68, 1)
         Size: =21
         Width: =640
         Y: =994
         ZIndex: =16
 
     LblAppName1_13 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
         Fill: =RGBA(58, 58, 58, 0)
         Height: =88
         Size: =27
@@ -183,6 +229,10 @@
         ZIndex: =17
 
     Icon6_42 As icon.BackArrow:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(189, 189, 189, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
         Height: =43
         Icon: =Icon.BackArrow
         OnSelect: =Navigate(Home)
@@ -200,7 +250,9 @@
 
         Label1_33 As label:
             Align: =Align.Center
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(172, 0, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =64
             OnSelect: =Navigate(Libreria)
             Size: =21
@@ -211,7 +263,10 @@
             ZIndex: =19
 
         Icon5_29 As icon.DetailList:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(172, 0, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =71
             Icon: =Icon.DetailList
             OnSelect: =Navigate(Libreria)
@@ -228,7 +283,10 @@
         ZIndex: =26
 
         Icon2_29 As icon.Home:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(172, 0, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
             Icon: =Icon.Home
             OnSelect: =Navigate(Home)
             X: =80
@@ -236,7 +294,9 @@
             ZIndex: =21
 
         Label4_30 As label:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(172, 0, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =64
             OnSelect: =Navigate(Home)
             Size: =21
@@ -254,7 +314,10 @@
         ZIndex: =27
 
         Icon1_4 As icon.Settings:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(172, 0, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
             Height: =52
             Icon: =Icon.Settings
             OnSelect: =Navigate(Configuraciones)
@@ -263,7 +326,9 @@
             ZIndex: =20
 
         Label5_39 As label:
+            BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(172, 0, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
             Height: =64
             OnSelect: =Navigate(Configuraciones)
             Size: =21
