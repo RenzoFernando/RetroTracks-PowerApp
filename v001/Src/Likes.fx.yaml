@@ -9,78 +9,13 @@
         Width: =Parent.Width
         ZIndex: =1
 
-    "Gallery1 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
-        BorderColor: =RGBA(189, 189, 189, 1)
-        DelayItemLoading: =true
-        Height: =722
-        Items: =Filter([@personas], StartsWith(Title, LILI.Text))
-        Layout: =Layout.Vertical
-        LoadingSpinner: =LoadingSpinner.Data
-        TemplatePadding: =0
-        TemplateSize: =80
-        Y: =294
-        ZIndex: =1
-
-        Title2 As label:
-            Color: =RGBA(255, 255, 255, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.notif
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 86
-            X: =4
-            ZIndex: =1
-
-        NextArrow2 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            BorderColor: =RGBA(189, 189, 189, 1)
-            Color: =RGBA(166, 166, 166, 1)
-            DisabledBorderColor: =RGBA(166, 166, 166, 1)
-            DisabledColor: =RGBA(244, 244, 244, 1)
-            Height: =50
-            Icon: =Icon.ChevronRight
-            OnSelect: =Select(Parent)
-            PaddingBottom: =12
-            PaddingLeft: =12
-            PaddingRight: =12
-            PaddingTop: =12
-            Tooltip: ="Ver los detalles del elemento"
-            Width: =50
-            X: =Parent.TemplateWidth - Self.Width - 12
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =2
-
-        Separator2 As rectangle:
-            BorderColor: =RGBA(189, 189, 189, 1)
-            Fill: =RGBA(255, 255, 255, 1)
-            Height: =3
-            OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
-            Y: =72
-            ZIndex: =3
-
-        Rectangle4 As rectangle:
-            BorderColor: =RGBA(189, 189, 189, 1)
-            Fill: =RGBA(189, 189, 189, 1)
-            Height: =Parent.TemplateHeight - Separator2.Height
-            OnSelect: =Select(Parent)
-            Visible: =If(ThisItem.IsSelected, true, false)
-            Width: =4
-            ZIndex: =4
-
     LblAppName5 As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =88
         Size: =27
-        Text: ="Notificaciones"
+        Text: ="Likes"
         Width: =Parent.Width
         ZIndex: =2
 
@@ -109,9 +44,11 @@
         BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
+        DisplayMode: =DisplayMode.View
         Height: =70
         Size: =21
         Text: =UsuarioActual
+        Visible: =false
         Width: =560
         X: =40
         Y: =111
@@ -150,6 +87,74 @@
             X: =288
             Y: =1021
             ZIndex: =6
+
+    "Gallery1 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
+        BorderColor: =RGBA(189, 189, 189, 1)
+        DelayItemLoading: =true
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =928
+        Items: =Filter([@personas], StartsWith(Title, LILI.Text))
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =0
+        TemplateSize: =80
+        Y: =88
+        ZIndex: =11
+
+        Title2 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =15
+            Text: =ThisItem.notif
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 86
+            X: =14
+            Y: =26
+            ZIndex: =1
+
+        NextArrow2 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            BorderColor: =RGBA(189, 189, 189, 1)
+            Color: =RGBA(166, 166, 166, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Height: =50
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =12
+            PaddingLeft: =12
+            PaddingRight: =12
+            PaddingTop: =12
+            Tooltip: ="Ver los detalles del elemento"
+            Width: =50
+            X: =Parent.TemplateWidth - Self.Width - 12
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =2
+
+        Separator2 As rectangle:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =3
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =72
+            ZIndex: =3
+
+        Rectangle4 As rectangle:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            Fill: =RGBA(189, 189, 189, 1)
+            Height: =Parent.TemplateHeight - Separator2.Height
+            OnSelect: =Select(Parent)
+            Visible: =If(ThisItem.IsSelected, true, false)
+            Width: =4
+            ZIndex: =4
 
     Group8_33 As group:
         Height: =5
