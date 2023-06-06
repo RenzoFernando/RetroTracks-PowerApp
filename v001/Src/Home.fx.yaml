@@ -451,6 +451,7 @@ Home As screen:
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =150
+            Image: =renfer
             OnSelect: =Navigate(RenFer)
             RadiusBottomLeft: =10
             RadiusBottomRight: =10

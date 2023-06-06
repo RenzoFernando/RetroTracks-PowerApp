@@ -1272,7 +1272,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/06/2023 19:39:24",
+  "HeaderLastSavedDateTimeUTC": "06/06/2023 19:41:38",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "599b1913-4d6c-430e-8b80-6f1264943d5c": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/1844cddf9dba4a71bfd8896ee9767ec8\"",
@@ -1294,6 +1294,7 @@
     "nosta": "0010.jpg",
     "pre-a": "0011.jpg",
     "puntQ": "0012.jpg",
+    "renfer": "0e5e8131-2f27-400e-a5e9-c89a77e7f7f1.jpg",
     "roma": "0013.jpg",
     "vaca": "0014.jpg"
   },
@@ -1312,6 +1313,7 @@
     "nosta": "https://docserverpwaprodeus.blob.core.windows.net/ae4eaea4-c3fd-4879-a68d-892fce3641d0-1/resource/Assets0Images00010.jpg?sv=2018-03-28&sr=b&sig=eMNzA%2BPoMh2KP2VY%2FUpKneiObHD6FpggHoyy8PSTLo8%3D&spr=https&se=2023-06-07T19%3A11%3A50Z&sp=r",
     "pre-a": "https://docserverpwaprodeus.blob.core.windows.net/ae4eaea4-c3fd-4879-a68d-892fce3641d0-1/resource/Assets0Images00011.jpg?sv=2018-03-28&sr=b&sig=zYgmZxCTjhobUzqT6KNG6Opp77qprPIBLCmu8%2BVnIpk%3D&spr=https&se=2023-06-07T19%3A11%3A50Z&sp=r",
     "puntQ": "https://docserverpwaprodeus.blob.core.windows.net/ae4eaea4-c3fd-4879-a68d-892fce3641d0-1/resource/Assets0Images00012.jpg?sv=2018-03-28&sr=b&sig=%2BBEX9U%2BRc4N%2BmNohzcyfN%2BuL%2BI33VpHYQ0U9%2B6cFcys%3D&spr=https&se=2023-06-07T19%3A11%3A50Z&sp=r",
+    "renfer": "https://docserverpwaprodeus.blob.core.windows.net/ae4eaea4-c3fd-4879-a68d-892fce3641d0-1/resource/942ef1d8-d8ad-48e7-9903-8d1bb84ec66e.jpg?sv=2018-03-28&sr=b&sig=Bb46h04LQZ5He8bRebSkhITjW1lIctz8yZZUAP%2B55m0%3D&spr=https&se=2023-06-07T19%3A56%3A33Z&sp=r",
     "roma": "https://docserverpwaprodeus.blob.core.windows.net/ae4eaea4-c3fd-4879-a68d-892fce3641d0-1/resource/Assets0Images00013.jpg?sv=2018-03-28&sr=b&sig=ppwWLyu%2BGWxYYaPwkWqjhZbCVzSJ4Rx85yeZGDsiZpU%3D&spr=https&se=2023-06-07T19%3A11%3A50Z&sp=r",
     "vaca": "https://docserverpwaprodeus.blob.core.windows.net/ae4eaea4-c3fd-4879-a68d-892fce3641d0-1/resource/Assets0Images00014.jpg?sv=2018-03-28&sr=b&sig=l%2FIvurQqg3SoIoAn%2FTZS9muxkahgdP2fjKeaWesl2iM%3D&spr=https&se=2023-06-07T19%3A11%3A50Z&sp=r"
   },
@@ -4492,6 +4494,7 @@
     "Image-nosta": 12,
     "Image-pre-a": 13,
     "Image-puntQ": 14,
+    "Image-renfer": 19,
     "Image-roma": 15,
     "Image-SampleImage": 1,
     "Image-vaca": 16,
