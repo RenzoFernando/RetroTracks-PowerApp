@@ -1,9 +1,9 @@
-"Confirmar_Corazon As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+"Confirmar_Corazon_Moon As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
     Fill: =RGBA(0, 0, 0, 1)
     LoadingSpinnerColor: =RGBA(197, 24, 128, 1)
     OnVisible: =
 
-    Form1 As form:
+    Form1_2 As form:
         BorderColor: =RGBA(189, 189, 189, 1)
         DataSource: =personas
         DefaultMode: =FormMode.New
@@ -13,7 +13,7 @@
         Y: =114
         ZIndex: =1
 
-        Título_DataCard1 As typedDataCard.textualEditCard:
+        Título_DataCard1_2 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(189, 189, 189, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="Title"
@@ -24,13 +24,13 @@
             Height: =50
             MaxLength: =DataSourceInfo([@personas], DataSourceInfo.MaxLength, "Title")
             Required: =true
-            Update: =DataCardValue24.Text
+            Update: =DataCardValue24_2.Text
             Width: =640
             X: =0
             Y: =0
             ZIndex: =8
 
-            DataCardKey24 As label:
+            DataCardKey24_2 As label:
                 AutoHeight: =true
                 Color: =RGBA(189, 189, 189, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -43,7 +43,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue24 As text:
+            DataCardValue24_2 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(255, 255, 255, 1)
@@ -69,10 +69,10 @@
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey24.Y + DataCardKey24.Height + 5
+                Y: =DataCardKey24_2.Y + DataCardKey24_2.Height + 5
                 ZIndex: =2
 
-            ErrorMessage9 As label:
+            ErrorMessage9_2 As label:
                 AutoHeight: =true
                 Color: =RGBA(255, 51, 51, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -88,23 +88,23 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue24.Y + DataCardValue24.Height
+                Y: =DataCardValue24_2.Y + DataCardValue24_2.Height
                 ZIndex: =3
 
-            StarVisible9 As label:
+            StarVisible9_2 As label:
                 Align: =Align.Center
                 Color: =RGBA(189, 189, 189, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey24.Height
+                Height: =DataCardKey24_2.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey24.Y
+                Y: =DataCardKey24_2.Y
                 ZIndex: =4
 
-        notif_DataCard1 As typedDataCard.textualEditCard:
+        notif_DataCard1_2 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(189, 189, 189, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="notif"
@@ -115,13 +115,13 @@
             Height: =50
             MaxLength: =DataSourceInfo([@personas], DataSourceInfo.MaxLength, "notif")
             Required: =true
-            Update: =DataCardValue25.Text
+            Update: =DataCardValue25_2.Text
             Width: =640
             X: =0
             Y: =1
             ZIndex: =8
 
-            DataCardKey25 As label:
+            DataCardKey25_2 As label:
                 AutoHeight: =true
                 Color: =RGBA(189, 189, 189, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -134,7 +134,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue25 As text:
+            DataCardValue25_2 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(255, 255, 255, 1)
@@ -160,10 +160,10 @@
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey25.Y + DataCardKey25.Height + 5
+                Y: =DataCardKey25_2.Y + DataCardKey25_2.Height + 5
                 ZIndex: =2
 
-            ErrorMessage10 As label:
+            ErrorMessage10_2 As label:
                 AutoHeight: =true
                 Color: =RGBA(255, 51, 51, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -179,23 +179,23 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue25.Y + DataCardValue25.Height
+                Y: =DataCardValue25_2.Y + DataCardValue25_2.Height
                 ZIndex: =3
 
-            StarVisible10 As label:
+            StarVisible10_2 As label:
                 Align: =Align.Center
                 Color: =RGBA(189, 189, 189, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
-                Height: =DataCardKey25.Height
+                Height: =DataCardKey25_2.Height
                 Size: =21
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey25.Y
+                Y: =DataCardKey25_2.Y
                 ZIndex: =4
 
-    RectQuickActionBar1_18 As rectangle:
+    RectQuickActionBar1_22 As rectangle:
         BorderColor: =RGBA(109, 49, 162, 1)
         DisplayMode: =DisplayMode.View
         Fill: =RGBA(0, 0, 0, 1)
@@ -204,14 +204,14 @@
         Y: =103
         ZIndex: =6
 
-    Group32 As group:
+    Group32_2 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
         ZIndex: =10
 
-        LblAppName1_16 As label:
+        LblAppName1_20 As label:
             Align: =Align.Center
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
@@ -225,12 +225,12 @@
             Y: =701
             ZIndex: =8
 
-        Image9 As image:
+        Image9_2 As image:
             BorderColor: =RGBA(189, 189, 189, 1)
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =350
-            Image: =
+            Image: ='4d68417a11d97ac0877c12514c9b8406'
             ImagePosition: =ImagePosition.Fill
             RadiusBottomLeft: =10
             RadiusBottomRight: =10
@@ -241,14 +241,14 @@
             Y: =351
             ZIndex: =9
 
-    Group30 As group:
+    Group30_2 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
         ZIndex: =10
 
-        RectQuickActionBar1_17 As rectangle:
+        RectQuickActionBar1_21 As rectangle:
             BorderColor: =RGBA(109, 49, 162, 1)
             DisplayMode: =DisplayMode.View
             Fill: =RGBA(172, 0, 255, 1)
@@ -256,7 +256,7 @@
             Width: =Parent.Width
             ZIndex: =2
 
-        LblAppName1_11 As label:
+        LblAppName1_19 As label:
             Align: =Align.Center
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
@@ -269,14 +269,14 @@
             Wrap: =false
             ZIndex: =3
 
-    Group31 As group:
+    Group31_2 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
         ZIndex: =10
 
-        Button10 As button:
+        Button10_4 As button:
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
@@ -285,7 +285,7 @@
             Height: =80
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(197, 24, 128, 1), -20%)
-            OnSelect: =SubmitForm(Form1) && Navigate(regresar) && ResetForm(Form1)
+            OnSelect: =SubmitForm(Form1_2) && Navigate(regresar) && ResetForm(Form1_2)
             Size: =24
             Text: ="si"
             Width: =180
@@ -293,7 +293,7 @@
             Y: =956
             ZIndex: =4
 
-        Button10_1 As button:
+        Button10_5 As button:
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
@@ -302,7 +302,7 @@
             Height: =80
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(197, 24, 128, 1), -20%)
-            OnSelect: =Navigate(regresar) && ResetForm(Form1)
+            OnSelect: =Navigate(regresar) && ResetForm(Form1_2)
             Size: =24
             Text: ="no"
             Width: =180

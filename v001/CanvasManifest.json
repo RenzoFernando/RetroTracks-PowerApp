@@ -96,7 +96,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 2,
+    "BindingErrorCount": 0,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -115,7 +115,7 @@
     "ManualOfflineProfileId": "",
     "Name": "RetroTracks_v001",
     "OriginatingVersion": "1.331",
-    "ParserErrorCount": 1
+    "ParserErrorCount": 0
   },
   "PublishInfo": {
     "AppName": "RetroTracks_v001",
@@ -169,6 +169,9 @@
     "Exito Signup",
     "Configuraciones",
     "Confirmar_Corazon",
+    "Confirmar_Corazon_Renfer",
+    "Confirmar_Corazon_Moon",
+    "Confirmar_Corazon_Nigori",
     "Likes"
   ]
 }
