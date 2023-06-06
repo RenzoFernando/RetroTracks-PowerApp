@@ -429,7 +429,7 @@
             Height: =60
             Icon: =Icon.Heart
             OnSelect: |-
-                =Set(aa, "Te gustó la cancion: " & DataCardValue4_14) && Navigate(Confirmar_Corazon) && Set(regresar, Reproductor_Nigori);
+                =Set(aa, "Te gustó la canción: " & DataCardValue4_14) && Navigate(Confirmar_Corazon) && Set(regresar, Reproductor_Nigori);
             Width: =50
             X: =426
             Y: =14
