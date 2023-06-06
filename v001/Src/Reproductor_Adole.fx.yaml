@@ -12,7 +12,7 @@
         Fill: =RGBA(104, 0, 156, 1)
         Height: =88
         Icon: =Icon.Edit
-        OnSelect: =EditForm(EditForm1);Navigate('Edit[no oficial en pruevas]', ScreenTransition.None)
+        OnSelect: =EditForm(EditForm1);Navigate(Editar, ScreenTransition.None)
         PaddingBottom: =24
         PaddingLeft: =24
         PaddingRight: =24
@@ -423,7 +423,7 @@
             Fill: =RGBA(104, 0, 156, 0)
             Height: =88
             Icon: =Icon.Edit
-            OnSelect: =EditForm(EditForm1);Navigate('Edit[no oficial en pruevas]', ScreenTransition.None)
+            OnSelect: =EditForm(EditForm1);Navigate(Editar, ScreenTransition.None)
             PaddingBottom: =24
             PaddingLeft: =24
             PaddingRight: =24

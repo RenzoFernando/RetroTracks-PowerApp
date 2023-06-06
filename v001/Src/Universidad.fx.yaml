@@ -151,7 +151,7 @@
         DisplayMode: =If(DataSourceInfo([@m], DataSourceInfo.CreatePermission), DisplayMode.Edit, DisplayMode.Disabled)
         Height: =88
         Icon: =Icon.Add
-        OnSelect: =NewForm(EditForm1);Navigate('Edit[no oficial en pruevas]', ScreenTransition.None)
+        OnSelect: =NewForm(EditForm1);Navigate(Editar, ScreenTransition.None)
         PaddingBottom: =24
         PaddingLeft: =24
         PaddingRight: =24

@@ -30,14 +30,16 @@
         ZIndex: =1
 
     Label6_1 As label:
+        Align: =Align.Center
         BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
-        Height: =198
-        Size: =21
-        Text: ="Felicidades registro exitoso. Ahora porfavor inicie la sesion con los datos correspondientes. Precione para continuar."
-        Width: =460
-        X: =49
+        FontWeight: =FontWeight.Semibold
+        Height: =225
+        Size: =25
+        Text: ="¡Felicidades! Tu registro fue exitoso. Ahora por favor inicie la sesion con los datos correspondientes. Precione para continuar."
+        Width: =620
+        X: =10
         Y: =700
         ZIndex: =2
 
@@ -58,27 +60,17 @@
         Y: =985
         ZIndex: =3
 
-    Icon8 As icon.EmojiSmile:
-        BorderColor: =RGBA(189, 189, 189, 1)
-        Color: =RGBA(172, 0, 255, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(244, 244, 244, 1)
-        Icon: =Icon.EmojiSmile
-        X: =527
-        Y: =767
-        ZIndex: =4
-
     Label7_1 As label:
         Align: =Align.Center
         BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         Fill: =RGBA(172, 0, 255, 1)
-        Height: =84
-        Size: =21
+        FontWeight: =FontWeight.Bold
+        Height: =146
+        Size: =30
         Text: ="Registro exitoso "
         Width: =640
-        Y: =77
         ZIndex: =5
 
     Image5_2 As image:
