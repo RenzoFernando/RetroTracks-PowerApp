@@ -10,10 +10,10 @@ Configuraciones As screen:
         Height: =57
         Size: =23
         Text: |-
-            ="Usuario:"
+            ="Código:"
         Width: =316
         X: =28
-        Y: =396
+        Y: =412
         ZIndex: =1
 
     Label15_2 As label:
@@ -50,12 +50,18 @@ Configuraciones As screen:
         ZIndex: =11
 
     Image6 As image:
-        BorderColor: =RGBA(189, 189, 189, 1)
+        BorderColor: =RGBA(172, 0, 255, 1)
+        BorderThickness: =5
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         Height: =150
+        Image: ='avatar (1)'
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
         Width: =150
-        X: =28
+        X: =36
         Y: =185
         ZIndex: =19
 
@@ -184,10 +190,10 @@ Configuraciones As screen:
         DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =57
         Size: =23
-        Text: =UsuarioActual
+        Text: =LookUp(registro,Nombre=UsuarioActual).Título
         Width: =316
         X: =323
-        Y: =396
+        Y: =412
         ZIndex: =32
 
     Label1_2 As label:
@@ -201,7 +207,7 @@ Configuraciones As screen:
             ="Email:"
         Width: =316
         X: =28
-        Y: =453
+        Y: =461
         ZIndex: =33
 
     Label1_3 As label:
@@ -213,7 +219,7 @@ Configuraciones As screen:
         Text: =LookUp(registro,Nombre=UsuarioActual).Correo
         Width: =316
         X: =324
-        Y: =453
+        Y: =461
         ZIndex: =34
 
     Label1_38 As label:
@@ -243,6 +249,7 @@ Configuraciones As screen:
         ZIndex: =36
 
     Label1_40 As label:
+        AutoHeight: =true
         BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(172, 0, 255, 1)
@@ -253,22 +260,63 @@ Configuraciones As screen:
             ="Mi cuenta:"
         Width: =316
         X: =28
-        Y: =128
+        Y: =136
         ZIndex: =37
 
     Button2 As button:
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(197, 24, 128, 1)
+        BorderThickness: =5
+        DisabledBorderColor: =RGBA(172, 0, 255, 1)
+        DisabledColor: =RGBA(172, 0, 255, 1)
+        DisabledFill: =RGBA(172, 0, 255, 1)
+        Fill: =RGBA(172, 0, 255, 1)
         FontWeight: =FontWeight.Semibold
         Height: =70
         HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(197, 24, 128, 1), -20%)
+        HoverFill: =ColorFade(RGBA(255, 255, 255, 0), 0%)
+        OnSelect: =Navigate(Log_in) && Reset(constrasena_1) && Reset(nombre_u)
         Size: =24
-        Text: ="Botón"
+        Text: ="Haga clic aquí"
         Width: =280
-        X: =60
-        Y: =60
+        X: =176
+        Y: =844
         ZIndex: =38
+
+    Label1_41 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =55
+        Size: =23
+        Text: ="¿Desea cerrar cesion?"
+        Width: =446
+        X: =97
+        Y: =789
+        ZIndex: =39
+
+    Label1_42 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(172, 0, 255, 1)
+        DisabledColor: =RGBA(172, 0, 255, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =57
+        Size: =23
+        Text: |-
+            ="Usuario:"
+        Width: =316
+        X: =29
+        Y: =362
+        ZIndex: =40
+
+    Label1_43 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =57
+        Size: =23
+        Text: =UsuarioActual
+        Width: =316
+        X: =324
+        Y: =362
+        ZIndex: =41
 
