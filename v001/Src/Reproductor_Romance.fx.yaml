@@ -181,29 +181,29 @@
 
             DataCardValue5_9 As label:
                 Align: =Align.Right
-                AutoHeight: =true
                 BorderColor: =RGBA(189, 189, 189, 1)
                 Color: =RGBA(255, 255, 255, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisplayMode: =Parent.DisplayMode
+                Height: =30
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
                 Size: =21
                 Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =10
+                Width: =327
+                X: =262
                 Y: =20
                 ZIndex: =2
 
             DataCardKey2_18 As label:
-                Color: =RGBA(189, 189, 189, 1)
+                Color: =RGBA(172, 0, 255, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FontWeight: =FontWeight.Bold
-                Height: =58
+                Height: =65
                 Size: =21
                 Text: =Parent.DisplayName
-                Width: =172
+                Width: =184
                 Wrap: =false
                 X: =30
                 Y: =10
@@ -226,7 +226,7 @@
 
             DataCardKey2_19 As label:
                 AutoHeight: =true
-                Color: =RGBA(189, 189, 189, 1)
+                Color: =RGBA(172, 0, 255, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FontWeight: =FontWeight.Bold
                 Height: =48
@@ -271,7 +271,7 @@
 
             DataCardKey6_9 As label:
                 AutoHeight: =true
-                Color: =RGBA(189, 189, 189, 1)
+                Color: =RGBA(172, 0, 255, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FontWeight: =FontWeight.Bold
                 Height: =48
@@ -316,7 +316,7 @@
 
             DataCardKey8_9 As label:
                 AutoHeight: =true
-                Color: =RGBA(189, 189, 189, 1)
+                Color: =RGBA(172, 0, 255, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FontWeight: =FontWeight.Bold
                 Height: =48
