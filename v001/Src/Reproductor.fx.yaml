@@ -370,7 +370,8 @@
         Height: =68
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(197, 24, 128, 1), -20%)
-        OnSelect: =Set(aa, DataCardValue4) && Navigate(Pruebas);
+        OnSelect: |-
+            =Set(aa,"te gusto esta cancion:" & DataCardValue4) && Navigate(Confirmar_Corazon);
         Size: =24
         Text: ="Botón"
         Width: =104

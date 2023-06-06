@@ -1,4 +1,4 @@
-"Pruebas As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+"Confirmar_Corazon As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
     Fill: =RGBA(0, 0, 0, 1)
     LoadingSpinnerColor: =RGBA(197, 24, 128, 1)
 
@@ -28,7 +28,7 @@
         Height: =70
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(197, 24, 128, 1), -20%)
-        OnSelect: =SubmitForm(Form1) && Navigate(Reproductor)
+        OnSelect: =SubmitForm(Form1) && Navigate(Reproductor) && ResetForm(Form1)
         Size: =24
         Text: ="si"
         Width: =280
@@ -44,7 +44,7 @@
         Height: =70
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(197, 24, 128, 1), -20%)
-        OnSelect: =ResetForm(Form1)
+        OnSelect: =Navigate(Reproductor)
         Size: =24
         Text: ="no"
         Width: =280
@@ -68,7 +68,7 @@
         DataSource: =personas
         DefaultMode: =FormMode.New
         Height: =324
-        OnFailure: =If(SubmitForm(Form1), ResetForm(Form1));
+        OnFailure: =
         Width: =640
         Y: =114
         ZIndex: =7
