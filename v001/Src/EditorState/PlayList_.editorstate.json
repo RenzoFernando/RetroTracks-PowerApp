@@ -19,7 +19,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Group1",
-      "ParentIndex": 29,
+      "ParentIndex": 34,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -70,7 +70,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Group1_1",
-      "ParentIndex": 30,
+      "ParentIndex": 35,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -121,7 +121,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Group1_2",
-      "ParentIndex": 31,
+      "ParentIndex": 36,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -172,7 +172,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Group1_3",
-      "ParentIndex": 32,
+      "ParentIndex": 37,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -223,7 +223,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Group1_4",
-      "ParentIndex": 36,
+      "ParentIndex": 41,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -274,7 +274,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Group1_5",
-      "ParentIndex": 35,
+      "ParentIndex": 40,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -325,7 +325,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Group1_6",
-      "ParentIndex": 34,
+      "ParentIndex": 39,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -376,7 +376,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Group1_7",
-      "ParentIndex": 33,
+      "ParentIndex": 38,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -427,7 +427,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Group1_8",
-      "ParentIndex": 38,
+      "ParentIndex": 43,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -478,7 +478,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Group1_9",
-      "ParentIndex": 37,
+      "ParentIndex": 42,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -529,7 +529,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Group10_2",
-      "ParentIndex": 39,
+      "ParentIndex": 44,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -580,7 +580,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Group8_2",
-      "ParentIndex": 27,
+      "ParentIndex": 32,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -631,7 +631,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Group9_2",
-      "ParentIndex": 28,
+      "ParentIndex": 33,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -715,7 +715,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon1_2",
-      "ParentIndex": 23,
+      "ParentIndex": 28,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -894,7 +894,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon2_26",
-      "ParentIndex": 22,
+      "ParentIndex": 27,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1073,7 +1073,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon5_26",
-      "ParentIndex": 21,
+      "ParentIndex": 26,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1250,10 +1250,38 @@
         "BorderStyle",
         "DisplayMode",
         "ZIndex",
-        "RadiusTopLeft",
-        "RadiusTopRight",
-        "RadiusBottomLeft",
-        "RadiusBottomRight",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusTopLeft",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusTopRight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusBottomLeft",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusBottomRight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "BorderThickness",
         "FocusedBorderThickness",
         "PaddingTop",
@@ -1486,10 +1514,38 @@
         "BorderStyle",
         "DisplayMode",
         "ZIndex",
-        "RadiusTopLeft",
-        "RadiusTopRight",
-        "RadiusBottomLeft",
-        "RadiusBottomRight",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusTopLeft",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusTopRight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusBottomLeft",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusBottomRight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "BorderThickness",
         "FocusedBorderThickness",
         "PaddingTop",
@@ -1515,7 +1571,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image7_1",
-      "ParentIndex": 1,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1722,10 +1778,38 @@
         "BorderStyle",
         "DisplayMode",
         "ZIndex",
-        "RadiusTopLeft",
-        "RadiusTopRight",
-        "RadiusBottomLeft",
-        "RadiusBottomRight",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusTopLeft",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusTopRight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusBottomLeft",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusBottomRight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "BorderThickness",
         "FocusedBorderThickness",
         "PaddingTop",
@@ -1751,7 +1835,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image7_2",
-      "ParentIndex": 4,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1958,10 +2042,38 @@
         "BorderStyle",
         "DisplayMode",
         "ZIndex",
-        "RadiusTopLeft",
-        "RadiusTopRight",
-        "RadiusBottomLeft",
-        "RadiusBottomRight",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusTopLeft",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusTopRight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusBottomLeft",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusBottomRight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "BorderThickness",
         "FocusedBorderThickness",
         "PaddingTop",
@@ -1987,7 +2099,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image7_3",
-      "ParentIndex": 5,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2194,10 +2306,38 @@
         "BorderStyle",
         "DisplayMode",
         "ZIndex",
-        "RadiusTopLeft",
-        "RadiusTopRight",
-        "RadiusBottomLeft",
-        "RadiusBottomRight",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusTopLeft",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusTopRight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusBottomLeft",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusBottomRight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "BorderThickness",
         "FocusedBorderThickness",
         "PaddingTop",
@@ -2223,7 +2363,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image7_4",
-      "ParentIndex": 8,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2430,10 +2570,38 @@
         "BorderStyle",
         "DisplayMode",
         "ZIndex",
-        "RadiusTopLeft",
-        "RadiusTopRight",
-        "RadiusBottomLeft",
-        "RadiusBottomRight",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusTopLeft",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusTopRight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusBottomLeft",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusBottomRight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "BorderThickness",
         "FocusedBorderThickness",
         "PaddingTop",
@@ -2459,7 +2627,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image7_5",
-      "ParentIndex": 9,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2666,10 +2834,38 @@
         "BorderStyle",
         "DisplayMode",
         "ZIndex",
-        "RadiusTopLeft",
-        "RadiusTopRight",
-        "RadiusBottomLeft",
-        "RadiusBottomRight",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusTopLeft",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusTopRight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusBottomLeft",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusBottomRight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "BorderThickness",
         "FocusedBorderThickness",
         "PaddingTop",
@@ -2695,7 +2891,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image7_6",
-      "ParentIndex": 12,
+      "ParentIndex": 17,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2902,10 +3098,38 @@
         "BorderStyle",
         "DisplayMode",
         "ZIndex",
-        "RadiusTopLeft",
-        "RadiusTopRight",
-        "RadiusBottomLeft",
-        "RadiusBottomRight",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusTopLeft",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusTopRight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusBottomLeft",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusBottomRight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "BorderThickness",
         "FocusedBorderThickness",
         "PaddingTop",
@@ -2931,7 +3155,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image7_7",
-      "ParentIndex": 13,
+      "ParentIndex": 18,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3138,10 +3362,38 @@
         "BorderStyle",
         "DisplayMode",
         "ZIndex",
-        "RadiusTopLeft",
-        "RadiusTopRight",
-        "RadiusBottomLeft",
-        "RadiusBottomRight",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusTopLeft",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusTopRight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusBottomLeft",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusBottomRight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "BorderThickness",
         "FocusedBorderThickness",
         "PaddingTop",
@@ -3167,7 +3419,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image7_8",
-      "ParentIndex": 16,
+      "ParentIndex": 21,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3374,10 +3626,38 @@
         "BorderStyle",
         "DisplayMode",
         "ZIndex",
-        "RadiusTopLeft",
-        "RadiusTopRight",
-        "RadiusBottomLeft",
-        "RadiusBottomRight",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusTopLeft",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusTopRight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusBottomLeft",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "RadiusBottomRight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "BorderThickness",
         "FocusedBorderThickness",
         "PaddingTop",
@@ -3403,7 +3683,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image7_9",
-      "ParentIndex": 17,
+      "ParentIndex": 22,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3635,7 +3915,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label1_30",
-      "ParentIndex": 25,
+      "ParentIndex": 30,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3886,7 +4166,14 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "Align",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Align",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "VerticalAlign",
         "X",
         "Y",
@@ -3931,7 +4218,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label11",
-      "ParentIndex": 2,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4182,7 +4469,14 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "Align",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Align",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "VerticalAlign",
         "X",
         "Y",
@@ -4227,7 +4521,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label11_1",
-      "ParentIndex": 3,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4478,7 +4772,14 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "Align",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Align",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "VerticalAlign",
         "X",
         "Y",
@@ -4523,7 +4824,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label11_2",
-      "ParentIndex": 6,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4774,7 +5075,14 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "Align",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Align",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "VerticalAlign",
         "X",
         "Y",
@@ -4819,7 +5127,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label11_3",
-      "ParentIndex": 7,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5070,7 +5378,14 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "Align",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Align",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "VerticalAlign",
         "X",
         "Y",
@@ -5115,7 +5430,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label11_4",
-      "ParentIndex": 10,
+      "ParentIndex": 15,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5366,7 +5681,14 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "Align",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Align",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "VerticalAlign",
         "X",
         "Y",
@@ -5411,7 +5733,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label11_5",
-      "ParentIndex": 11,
+      "ParentIndex": 16,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5662,7 +5984,14 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "Align",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Align",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "VerticalAlign",
         "X",
         "Y",
@@ -5707,7 +6036,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label11_6",
-      "ParentIndex": 14,
+      "ParentIndex": 19,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5958,7 +6287,14 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "Align",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Align",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "VerticalAlign",
         "X",
         "Y",
@@ -6003,7 +6339,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label11_7",
-      "ParentIndex": 15,
+      "ParentIndex": 20,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6254,7 +6590,14 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "Align",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Align",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "VerticalAlign",
         "X",
         "Y",
@@ -6299,7 +6642,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label11_8",
-      "ParentIndex": 18,
+      "ParentIndex": 23,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6550,7 +6893,14 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        "Align",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Align",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "VerticalAlign",
         "X",
         "Y",
@@ -6595,7 +6945,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label11_9",
-      "ParentIndex": 19,
+      "ParentIndex": 24,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6877,7 +7227,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label4_27",
-      "ParentIndex": 24,
+      "ParentIndex": 29,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7159,7 +7509,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label5_38",
-      "ParentIndex": 26,
+      "ParentIndex": 31,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7441,6 +7791,603 @@
       "StyleName": "defaultScreenStyle",
       "Type": "ControlInfo"
     },
+    "Rectangle2": {
+      "AllowAccessToGlobals": true,
+      "ControlPropertyState": [
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Fill",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        "DisabledFill",
+        "PressedFill",
+        "HoverFill",
+        "BorderColor",
+        "BorderStyle",
+        "FocusedBorderColor",
+        "DisplayMode",
+        "X",
+        "Y",
+        "Width",
+        "Height",
+        "ZIndex",
+        "BorderThickness",
+        "FocusedBorderThickness"
+      ],
+      "HasDynamicProperties": false,
+      "IsAutoGenerated": false,
+      "IsComponentDefinition": false,
+      "IsDataControl": false,
+      "IsFromScreenLayout": false,
+      "IsGroupControl": false,
+      "IsLocked": false,
+      "LayoutName": "",
+      "MetaDataIDKey": "",
+      "Name": "Rectangle2",
+      "ParentIndex": 4,
+      "PersistMetaDataIDKey": false,
+      "Properties": [
+        {
+          "Category": "Design",
+          "PropertyName": "Fill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "DisabledFill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PressedFill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "HoverFill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "BorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "BorderStyle",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "FocusedBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "DisplayMode",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "X",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Y",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Width",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Height",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "ZIndex",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "BorderThickness",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "FocusedBorderThickness",
+          "RuleProviderType": "Unknown"
+        }
+      ],
+      "StyleName": "defaultRectangleStyle",
+      "Type": "ControlInfo"
+    },
+    "Rectangle2_1": {
+      "AllowAccessToGlobals": true,
+      "ControlPropertyState": [
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Fill",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        "DisabledFill",
+        "PressedFill",
+        "HoverFill",
+        "BorderColor",
+        "BorderStyle",
+        "FocusedBorderColor",
+        "DisplayMode",
+        "X",
+        "Y",
+        "Width",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Height",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        "ZIndex",
+        "BorderThickness",
+        "FocusedBorderThickness"
+      ],
+      "HasDynamicProperties": false,
+      "IsAutoGenerated": false,
+      "IsComponentDefinition": false,
+      "IsDataControl": false,
+      "IsFromScreenLayout": false,
+      "IsGroupControl": false,
+      "IsLocked": false,
+      "LayoutName": "",
+      "MetaDataIDKey": "",
+      "Name": "Rectangle2_1",
+      "ParentIndex": 14,
+      "PersistMetaDataIDKey": false,
+      "Properties": [
+        {
+          "Category": "Design",
+          "PropertyName": "Fill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "DisabledFill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PressedFill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "HoverFill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "BorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "BorderStyle",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "FocusedBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "DisplayMode",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "X",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Y",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Width",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Height",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "ZIndex",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "BorderThickness",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "FocusedBorderThickness",
+          "RuleProviderType": "Unknown"
+        }
+      ],
+      "StyleName": "defaultRectangleStyle",
+      "Type": "ControlInfo"
+    },
+    "Rectangle2_3": {
+      "AllowAccessToGlobals": true,
+      "ControlPropertyState": [
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Fill",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        "DisabledFill",
+        "PressedFill",
+        "HoverFill",
+        "BorderColor",
+        "BorderStyle",
+        "FocusedBorderColor",
+        "DisplayMode",
+        "X",
+        "Y",
+        "Width",
+        "Height",
+        "ZIndex",
+        "BorderThickness",
+        "FocusedBorderThickness"
+      ],
+      "HasDynamicProperties": false,
+      "IsAutoGenerated": false,
+      "IsComponentDefinition": false,
+      "IsDataControl": false,
+      "IsFromScreenLayout": false,
+      "IsGroupControl": false,
+      "IsLocked": false,
+      "LayoutName": "",
+      "MetaDataIDKey": "",
+      "Name": "Rectangle2_3",
+      "ParentIndex": 9,
+      "PersistMetaDataIDKey": false,
+      "Properties": [
+        {
+          "Category": "Design",
+          "PropertyName": "Fill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "DisabledFill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PressedFill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "HoverFill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "BorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "BorderStyle",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "FocusedBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "DisplayMode",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "X",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Y",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Width",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Height",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "ZIndex",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "BorderThickness",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "FocusedBorderThickness",
+          "RuleProviderType": "Unknown"
+        }
+      ],
+      "StyleName": "defaultRectangleStyle",
+      "Type": "ControlInfo"
+    },
+    "Rectangle2_4": {
+      "AllowAccessToGlobals": true,
+      "ControlPropertyState": [
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Fill",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        "DisabledFill",
+        "PressedFill",
+        "HoverFill",
+        "BorderColor",
+        "BorderStyle",
+        "FocusedBorderColor",
+        "DisplayMode",
+        "X",
+        "Y",
+        "Width",
+        "Height",
+        "ZIndex",
+        "BorderThickness",
+        "FocusedBorderThickness"
+      ],
+      "HasDynamicProperties": false,
+      "IsAutoGenerated": false,
+      "IsComponentDefinition": false,
+      "IsDataControl": false,
+      "IsFromScreenLayout": false,
+      "IsGroupControl": false,
+      "IsLocked": false,
+      "LayoutName": "",
+      "MetaDataIDKey": "",
+      "Name": "Rectangle2_4",
+      "ParentIndex": 2,
+      "PersistMetaDataIDKey": false,
+      "Properties": [
+        {
+          "Category": "Design",
+          "PropertyName": "Fill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "DisabledFill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PressedFill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "HoverFill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "BorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "BorderStyle",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "FocusedBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "DisplayMode",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "X",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Y",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Width",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Height",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "ZIndex",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "BorderThickness",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "FocusedBorderThickness",
+          "RuleProviderType": "Unknown"
+        }
+      ],
+      "StyleName": "defaultRectangleStyle",
+      "Type": "ControlInfo"
+    },
+    "Rectangle2_5": {
+      "AllowAccessToGlobals": true,
+      "ControlPropertyState": [
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Fill",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
+        "DisabledFill",
+        "PressedFill",
+        "HoverFill",
+        "BorderColor",
+        "BorderStyle",
+        "FocusedBorderColor",
+        "DisplayMode",
+        "X",
+        "Y",
+        "Width",
+        "Height",
+        "ZIndex",
+        "BorderThickness",
+        "FocusedBorderThickness"
+      ],
+      "HasDynamicProperties": false,
+      "IsAutoGenerated": false,
+      "IsComponentDefinition": false,
+      "IsDataControl": false,
+      "IsFromScreenLayout": false,
+      "IsGroupControl": false,
+      "IsLocked": false,
+      "LayoutName": "",
+      "MetaDataIDKey": "",
+      "Name": "Rectangle2_5",
+      "ParentIndex": 1,
+      "PersistMetaDataIDKey": false,
+      "Properties": [
+        {
+          "Category": "Design",
+          "PropertyName": "Fill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "DisabledFill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PressedFill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "HoverFill",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "BorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "BorderStyle",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "FocusedBorderColor",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "DisplayMode",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "X",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Y",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Width",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "Height",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "ZIndex",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "BorderThickness",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "FocusedBorderThickness",
+          "RuleProviderType": "Unknown"
+        }
+      ],
+      "StyleName": "defaultRectangleStyle",
+      "Type": "ControlInfo"
+    },
     "TextInput1_5": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
@@ -7542,7 +8489,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "TextInput1_5",
-      "ParentIndex": 20,
+      "ParentIndex": 25,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

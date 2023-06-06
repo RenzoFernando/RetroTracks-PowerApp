@@ -2,6 +2,46 @@ PlayList_ As screen:
     Fill: =RGBA(0, 0, 0, 1)
     LoadingSpinnerColor: =RGBA(197, 24, 128, 1)
 
+    Rectangle2_5 As rectangle:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Fill: =RGBA(172, 0, 255, 0.65)
+        Height: =38
+        Width: =640
+        Y: =956
+        ZIndex: =1
+
+    Rectangle2_4 As rectangle:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Fill: =RGBA(172, 0, 255, 0.65)
+        Height: =38
+        Width: =640
+        Y: =768
+        ZIndex: =2
+
+    Rectangle2_3 As rectangle:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Fill: =RGBA(172, 0, 255, 0.65)
+        Height: =38
+        Width: =640
+        Y: =392
+        ZIndex: =3
+
+    Rectangle2_1 As rectangle:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Fill: =RGBA(172, 0, 255, 0.65)
+        Height: =39
+        Width: =640
+        Y: =579
+        ZIndex: =4
+
+    Rectangle2 As rectangle:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Fill: =RGBA(172, 0, 255, 0.65)
+        Height: =38
+        Width: =640
+        Y: =204
+        ZIndex: =5
+
     TextInput1_5 As text:
         BorderThickness: =0
         Color: =RGBA(15, 15, 15, 1)
@@ -17,7 +57,7 @@ PlayList_ As screen:
         Size: =21
         Width: =640
         Y: =994
-        ZIndex: =50
+        ZIndex: =6
 
     Group1 As group:
         Height: =5
@@ -34,12 +74,17 @@ PlayList_ As screen:
             Image: =adoles
             ImagePosition: =ImagePosition.Fill
             OnSelect: =Navigate(Adolescencia)
-            Width: =150
-            X: =79
-            Y: =39
-            ZIndex: =51
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Width: =250
+            X: =45
+            Y: =54
+            ZIndex: =7
 
         Label11 As label:
+            Align: =Align.Center
             BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
@@ -48,10 +93,10 @@ PlayList_ As screen:
             OnSelect: =Navigate(Adolescencia)
             Size: =19
             Text: ="Adolescencia"
-            Width: =227
-            X: =79
-            Y: =189
-            ZIndex: =53
+            Width: =249
+            X: =46
+            Y: =204
+            ZIndex: =8
 
     Group1_1 As group:
         Height: =5
@@ -68,12 +113,17 @@ PlayList_ As screen:
             Image: =bachi
             ImagePosition: =ImagePosition.Fill
             OnSelect: =Navigate(Bachillerato)
-            Width: =150
-            X: =371
-            Y: =39
-            ZIndex: =54
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Width: =250
+            X: =337
+            Y: =54
+            ZIndex: =9
 
         Label11_1 As label:
+            Align: =Align.Center
             BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
@@ -82,10 +132,10 @@ PlayList_ As screen:
             OnSelect: =Navigate(Bachillerato)
             Size: =19
             Text: ="Bachillerato"
-            Width: =227
-            X: =371
-            Y: =189
-            ZIndex: =55
+            Width: =250
+            X: =337
+            Y: =204
+            ZIndex: =10
 
     Group1_2 As group:
         Height: =5
@@ -102,12 +152,17 @@ PlayList_ As screen:
             Image: =coneccionF
             ImagePosition: =ImagePosition.Fill
             OnSelect: =Navigate('Conexión Familiar')
-            Width: =150
-            X: =79
-            Y: =227
-            ZIndex: =56
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Width: =250
+            X: =45
+            Y: =242
+            ZIndex: =11
 
         Label11_2 As label:
+            Align: =Align.Center
             BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
@@ -116,10 +171,10 @@ PlayList_ As screen:
             OnSelect: =Navigate('Conexión Familiar')
             Size: =19
             Text: ="Conexión familiar"
-            Width: =227
-            X: =79
-            Y: =377
-            ZIndex: =57
+            Width: =258
+            X: =45
+            Y: =392
+            ZIndex: =12
 
     Group1_3 As group:
         Height: =5
@@ -136,12 +191,17 @@ PlayList_ As screen:
             Image: =infa
             ImagePosition: =ImagePosition.Fill
             OnSelect: =Navigate(Infancia)
-            Width: =150
-            X: =371
-            Y: =227
-            ZIndex: =59
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Width: =250
+            X: =337
+            Y: =242
+            ZIndex: =13
 
         Label11_3 As label:
+            Align: =Align.Center
             BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
@@ -150,10 +210,10 @@ PlayList_ As screen:
             OnSelect: =Navigate(Infancia)
             Size: =19
             Text: ="Infancia"
-            Width: =227
-            X: =371
-            Y: =377
-            ZIndex: =60
+            Width: =250
+            X: =337
+            Y: =392
+            ZIndex: =14
 
     Group1_4 As group:
         Height: =5
@@ -170,12 +230,17 @@ PlayList_ As screen:
             Image: =labo
             ImagePosition: =ImagePosition.Fill
             OnSelect: =Navigate(Laboral)
-            Width: =150
-            X: =79
-            Y: =415
-            ZIndex: =61
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Width: =250
+            X: =45
+            Y: =429
+            ZIndex: =15
 
         Label11_4 As label:
+            Align: =Align.Center
             BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
@@ -184,10 +249,10 @@ PlayList_ As screen:
             OnSelect: =Navigate(Laboral)
             Size: =19
             Text: ="Laboral"
-            Width: =227
-            X: =79
-            Y: =565
-            ZIndex: =62
+            Width: =250
+            X: =45
+            Y: =579
+            ZIndex: =16
 
     Group1_5 As group:
         Height: =5
@@ -204,12 +269,17 @@ PlayList_ As screen:
             Image: =nosta
             ImagePosition: =ImagePosition.Fill
             OnSelect: =Navigate(Nostalgia)
-            Width: =150
-            X: =371
-            Y: =415
-            ZIndex: =64
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Width: =250
+            X: =337
+            Y: =429
+            ZIndex: =17
 
         Label11_5 As label:
+            Align: =Align.Center
             BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
@@ -218,10 +288,10 @@ PlayList_ As screen:
             OnSelect: =Navigate(Nostalgia)
             Size: =19
             Text: ="Nostalgia"
-            Width: =227
-            X: =371
-            Y: =565
-            ZIndex: =65
+            Width: =250
+            X: =337
+            Y: =579
+            ZIndex: =18
 
     Group1_6 As group:
         Height: =5
@@ -238,12 +308,17 @@ PlayList_ As screen:
             Image: ='pre-a'
             ImagePosition: =ImagePosition.Fill
             OnSelect: =Navigate(Preadolecencia)
-            Width: =150
-            X: =79
-            Y: =604
-            ZIndex: =67
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Width: =250
+            X: =45
+            Y: =618
+            ZIndex: =19
 
         Label11_6 As label:
+            Align: =Align.Center
             BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
@@ -252,10 +327,10 @@ PlayList_ As screen:
             OnSelect: =Navigate(Preadolecencia)
             Size: =19
             Text: ="Preadolescencia"
-            Width: =227
-            X: =79
-            Y: =754
-            ZIndex: =68
+            Width: =250
+            X: =45
+            Y: =768
+            ZIndex: =20
 
     Group1_7 As group:
         Height: =5
@@ -272,12 +347,17 @@ PlayList_ As screen:
             Image: =puntQ
             ImagePosition: =ImagePosition.Fill
             OnSelect: =Navigate('Puntos De Quiebre')
-            Width: =150
-            X: =371
-            Y: =604
-            ZIndex: =70
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Width: =250
+            X: =337
+            Y: =618
+            ZIndex: =21
 
         Label11_7 As label:
+            Align: =Align.Center
             BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
@@ -285,11 +365,11 @@ PlayList_ As screen:
             Height: =38
             OnSelect: =Navigate('Puntos De Quiebre')
             Size: =19
-            Text: ="Puntos de quiebre"
-            Width: =257
-            X: =371
-            Y: =754
-            ZIndex: =71
+            Text: ="Puntos De Quiebre"
+            Width: =250
+            X: =337
+            Y: =768
+            ZIndex: =22
 
     Group1_8 As group:
         Height: =5
@@ -306,12 +386,17 @@ PlayList_ As screen:
             Image: =roma
             ImagePosition: =ImagePosition.Fill
             OnSelect: =Navigate(Romance)
-            Width: =150
-            X: =79
-            Y: =796
-            ZIndex: =72
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Width: =250
+            X: =45
+            Y: =806
+            ZIndex: =23
 
         Label11_8 As label:
+            Align: =Align.Center
             BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
@@ -320,10 +405,10 @@ PlayList_ As screen:
             OnSelect: =Navigate(Romance)
             Size: =19
             Text: ="Romance"
-            Width: =227
-            X: =79
-            Y: =946
-            ZIndex: =73
+            Width: =250
+            X: =45
+            Y: =956
+            ZIndex: =24
 
     Group1_9 As group:
         Height: =5
@@ -340,12 +425,17 @@ PlayList_ As screen:
             Image: =vaca
             ImagePosition: =ImagePosition.Fill
             OnSelect: =Navigate(Vacaciones)
-            Width: =150
-            X: =371
-            Y: =796
-            ZIndex: =75
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Width: =250
+            X: =337
+            Y: =806
+            ZIndex: =25
 
         Label11_9 As label:
+            Align: =Align.Center
             BorderColor: =RGBA(189, 189, 189, 1)
             Color: =RGBA(255, 255, 255, 1)
             DisabledColor: =RGBA(166, 166, 166, 1)
@@ -354,10 +444,10 @@ PlayList_ As screen:
             OnSelect: =Navigate(Vacaciones)
             Size: =19
             Text: ="Vacaciones"
-            Width: =227
-            X: =371
-            Y: =946
-            ZIndex: =76
+            Width: =250
+            X: =337
+            Y: =956
+            ZIndex: =26
 
     Group9_2 As group:
         Height: =5
@@ -378,7 +468,7 @@ PlayList_ As screen:
             Width: =153
             X: =240
             Y: =1072
-            ZIndex: =77
+            ZIndex: =27
 
         Icon5_26 As icon.DetailList:
             BorderColor: =RGBA(189, 189, 189, 1)
@@ -391,7 +481,7 @@ PlayList_ As screen:
             Width: =56
             X: =288
             Y: =1021
-            ZIndex: =80
+            ZIndex: =30
 
     Group8_2 As group:
         Height: =5
@@ -409,7 +499,7 @@ PlayList_ As screen:
             OnSelect: =Navigate(Home)
             X: =80
             Y: =1025
-            ZIndex: =79
+            ZIndex: =29
 
         Label4_27 As label:
             BorderColor: =RGBA(189, 189, 189, 1)
@@ -422,7 +512,7 @@ PlayList_ As screen:
             Width: =94
             X: =68
             Y: =1072
-            ZIndex: =81
+            ZIndex: =31
 
     Group10_2 As group:
         Height: =5
@@ -441,7 +531,7 @@ PlayList_ As screen:
             OnSelect: =Navigate(Configuraciones)
             X: =495
             Y: =1031
-            ZIndex: =78
+            ZIndex: =28
 
         Label5_38 As label:
             BorderColor: =RGBA(189, 189, 189, 1)
@@ -454,5 +544,5 @@ PlayList_ As screen:
             Width: =125
             X: =474
             Y: =1072
-            ZIndex: =82
+            ZIndex: =32
 
