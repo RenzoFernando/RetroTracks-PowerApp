@@ -300,6 +300,29 @@
                 Y: =DataCardKey8_15.Y + DataCardKey8_15.Height + 5
                 ZIndex: =2
 
+        DataCard2 As typedDataCard.blankCard:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =225
+            Width: =640
+            X: =0
+            Y: =5
+            ZIndex: =1
+
+            Label7 As label:
+                BorderColor: =RGBA(189, 189, 189, 1)
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =70
+                Size: =21
+                Text: =LookUp(m,NombreC=ee.Text,'Image[image]')
+                Width: =560
+                X: =40
+                Y: =40
+                ZIndex: =1
+
     TextInput1_38 As text:
         BorderThickness: =0
         Color: =RGBA(15, 15, 15, 1)
@@ -474,7 +497,7 @@
             Height: =60
             Icon: =Icon.Heart
             OnSelect: |-
-                =Set(aa, "Te gustó la canción: " & DataCardValue4_15) && Set(ee, DataCardValue4_15) && Navigate(Confirmar_Corazon) && Set(regresar, Reproductor_Renfer_Prueba) && Set(ee, DataCardValue4_15)
+                =Set(aa, "Te gustó la canción: " & DataCardValue4_15) && Set(ee, DataCardValue4_15) && Navigate(Confirmar_Corazon) && Set(regresar, Reproductor_Renfer_Prueba) && Set(ee, DataCardValue4_15) && Set(foto,Label7)
             Width: =50
             X: =426
             Y: =14
