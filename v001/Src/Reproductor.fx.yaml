@@ -363,7 +363,7 @@
         Fill: =RGBA(104, 0, 156, 0)
         Height: =88
         Icon: =Icon.Trash
-        OnSelect: =Remove([@m], BrowseGallery1.Selected); If (IsEmpty(Errors([@m], BrowseGallery1.Selected)), Back())
+        OnSelect: =Navigate(Confirmar_Eliminar) && Set(foto,DataCardValue1) && Set(ee, DataCardValue4) && Set(volver,Libreria)
         PaddingBottom: =24
         PaddingLeft: =24
         PaddingRight: =24
@@ -414,7 +414,7 @@
         Height: =60
         Icon: =Icon.Heart
         OnSelect: |-
-            =Set(ee, DataCardValue4) && Set(aa, "Te gustó la canción: " & DataCardValue4)  && Navigate(Confirmar_Corazon) && Set(regresar, Reproductor) && Set(foto,DataCardValue1);
+            =Set(aa, "Te gustó la canción: " & DataCardValue4)  && Navigate(Confirmar_Corazon) && Set(regresar, Reproductor) && Set(foto,DataCardValue1) && Set(ee, DataCardValue4);
         Width: =50
         X: =426
         Y: =14

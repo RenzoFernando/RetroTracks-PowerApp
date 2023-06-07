@@ -190,7 +190,7 @@ Configuraciones As screen:
         DisabledColor: =RGBA(166, 166, 166, 1)
         Height: =57
         Size: =23
-        Text: =LookUp(registro,Nombre=UsuarioActual).Título
+        Text: =LookUp(registro,Nombre=UsuarioActual).Title
         Width: =316
         X: =323
         Y: =412

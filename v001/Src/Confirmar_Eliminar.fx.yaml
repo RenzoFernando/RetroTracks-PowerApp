@@ -1,0 +1,111 @@
+"Confirmar_Eliminar As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+    Fill: =RGBA(0, 0, 0, 1)
+    LoadingSpinnerColor: =RGBA(197, 24, 128, 1)
+    OnVisible: =
+
+    Group32_1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =10
+
+        LblAppName1_18 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(58, 58, 58, 0)
+            FontWeight: =FontWeight.Semibold
+            Height: =85
+            Size: =24
+            Text: =ee
+            Width: =640
+            Wrap: =false
+            Y: =701
+            ZIndex: =8
+
+        Image9_1 As image:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Height: =350
+            Image: =foto
+            ImagePosition: =ImagePosition.Fill
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Width: =350
+            X: =145
+            Y: =351
+            ZIndex: =9
+
+    Group30_1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =10
+
+        RectQuickActionBar1_19 As rectangle:
+            BorderColor: =RGBA(109, 49, 162, 1)
+            DisplayMode: =DisplayMode.View
+            Fill: =RGBA(172, 0, 255, 1)
+            Height: =103
+            Width: =Parent.Width
+            ZIndex: =2
+
+        LblAppName1_17 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(58, 58, 58, 0)
+            FontWeight: =FontWeight.Semibold
+            Height: =103
+            Size: =27
+            Text: ="¿Vas a eliminar esta canción?"
+            Width: =640
+            Wrap: =false
+            ZIndex: =3
+
+    Group31_1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =10
+
+        Button10_2 As button:
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(172, 0, 255, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =80
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(197, 24, 128, 1), -20%)
+            OnSelect: =Remove([@m], BrowseGallery1.Selected); If (IsEmpty(Errors([@m], BrowseGallery1.Selected)), Back()) && Navigate(volver)
+            Size: =24
+            Text: ="si"
+            Width: =180
+            X: =71
+            Y: =956
+            ZIndex: =4
+
+        Button10_3 As button:
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(172, 0, 255, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =80
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(197, 24, 128, 1), -20%)
+            OnSelect: =Navigate(volver)
+            Size: =24
+            Text: ="no"
+            Width: =180
+            X: =388
+            Y: =956
+            ZIndex: =5
+
