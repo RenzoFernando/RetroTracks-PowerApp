@@ -106,7 +106,7 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(255, 255, 255, 1)
-                Default: =Parent.Default
+                Default: =UsuarioActual
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(166, 166, 166, 1)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -297,6 +297,7 @@
                 Fill: =RGBA(0, 0, 0, 1)
                 FocusedBorderThickness: =4
                 Height: =70
+                HintText: ="Link de la foto de portada  de la canción"
                 HoverBorderColor: =RGBA(189, 189, 189, 1)
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =RGBA(108, 8, 68, 1)
