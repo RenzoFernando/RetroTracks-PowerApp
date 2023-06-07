@@ -126,7 +126,7 @@
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
     "PublishTarget": "player",
-    "UserLocale": "en-US"
+    "UserLocale": "es-ES"
   },
   "ScreenOrder": [
     "Bienvenidos",
@@ -134,6 +134,7 @@
     "Create_account",
     "Home",
     "Libreria",
+    "Libreria_Home",
     "PlayList_",
     "RenFer",
     "Moon",

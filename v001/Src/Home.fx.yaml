@@ -173,7 +173,13 @@ Home As screen:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         Height: =85
-        Width: =101
+        Image: =LookUp(m,NombreC="Chop Suey",'Image[image]')
+        ImagePosition: =ImagePosition.Fill
+        RadiusBottomLeft: =7
+        RadiusBottomRight: =7
+        RadiusTopLeft: =7
+        RadiusTopRight: =7
+        Width: =85
         X: =59
         Y: =184
         ZIndex: =23
@@ -182,9 +188,10 @@ Home As screen:
         BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Semibold
         Height: =82
         Size: =15
-        Text: ="Nombre de la playlist"
+        Text: ="Chop Suey"
         Width: =125
         X: =160
         Y: =187
@@ -221,7 +228,13 @@ Home As screen:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         Height: =85
-        Width: =101
+        Image: =LookUp(m,NombreC="In The Name Of Love",'Image[image]')
+        ImagePosition: =ImagePosition.Fill
+        RadiusBottomLeft: =7
+        RadiusBottomRight: =7
+        RadiusTopLeft: =7
+        RadiusTopRight: =7
+        Width: =85
         X: =59
         Y: =338
         ZIndex: =26
@@ -230,9 +243,10 @@ Home As screen:
         BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Semibold
         Height: =82
         Size: =15
-        Text: ="Nombre de la playlist"
+        Text: ="In The Name Of Love "
         Width: =125
         X: =160
         Y: =341
@@ -269,7 +283,13 @@ Home As screen:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         Height: =85
-        Width: =101
+        Image: =LookUp(m,NombreC="Cafuné",'Image[image]')
+        ImagePosition: =ImagePosition.Fill
+        RadiusBottomLeft: =7
+        RadiusBottomRight: =7
+        RadiusTopLeft: =7
+        RadiusTopRight: =7
+        Width: =85
         X: =356
         Y: =186
         ZIndex: =29
@@ -278,9 +298,10 @@ Home As screen:
         BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Semibold
         Height: =82
         Size: =15
-        Text: ="Nombre de la playlist"
+        Text: ="Cafuné"
         Width: =125
         X: =457
         Y: =189
@@ -317,7 +338,13 @@ Home As screen:
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
         Height: =85
-        Width: =101
+        Image: =LookUp(m,NombreC="Somewhere over the Rainbow",'Image[image]')
+        ImagePosition: =ImagePosition.Fill
+        RadiusBottomLeft: =7
+        RadiusBottomRight: =7
+        RadiusTopLeft: =7
+        RadiusTopRight: =7
+        Width: =85
         X: =356
         Y: =340
         ZIndex: =32
@@ -326,9 +353,10 @@ Home As screen:
         BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Semibold
         Height: =82
         Size: =15
-        Text: ="Nombre de la playlist"
+        Text: ="Somewhere over the Rainbow"
         Width: =125
         X: =457
         Y: =343
