@@ -26,25 +26,28 @@
 
     RectQuickActionBar2_13 As rectangle:
         BorderColor: =RGBA(189, 189, 189, 1)
-        Fill: =RGBA(197, 24, 128, 1)
+        Fill: =RGBA(172, 0, 255, 1)
         Height: =88
         Width: =Parent.Width
         ZIndex: =2
 
     IconBackarrow1_13 As icon.ChevronLeft:
         AccessibleLabel: =Self.Tooltip
+        AutoDisableOnSelect: =false
         BorderColor: =RGBA(189, 189, 189, 1)
         Color: =RGBA(255, 255, 255, 1)
         DisabledBorderColor: =RGBA(166, 166, 166, 1)
         DisabledColor: =RGBA(244, 244, 244, 1)
         Fill: =RGBA(172, 0, 255, 1)
         Height: =88
+        HoverBorderColor: =ColorFade(Self.BorderColor, 0%)
         Icon: =Icon.ChevronLeft
         OnSelect: =Navigate(Moon, ScreenTransition.None)
         PaddingBottom: =24
         PaddingLeft: =24
         PaddingRight: =24
         PaddingTop: =24
+        PressedBorderColor: =ColorFade(Self.BorderColor, 0%)
         PressedFill: =RGBA(255, 255, 255, 0.3)
         TabIndex: =0
         Tooltip: ="Volver a la lista"
