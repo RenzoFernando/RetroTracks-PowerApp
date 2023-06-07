@@ -109,7 +109,7 @@
             BorderColor: =RGBA(189, 189, 189, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="Title"
-            Default: =ThisItem.Título
+            Default: =ThisItem.Title
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@personas],DataSourceInfo.DisplayName,"Title")
             Fill: =RGBA(0, 0, 0, 0)

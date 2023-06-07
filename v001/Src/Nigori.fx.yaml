@@ -85,8 +85,8 @@
             Text: =ThisItem.Interprete
             VerticalAlign: =VerticalAlign.Top
             Width: =Title3_15.Width
-            X: =Title3_15.X
-            Y: =Title3_15.Y + Title3_15.Height + 4
+            X: =185
+            Y: =80
             ZIndex: =3
 
         NextArrow3_15 As icon.ChevronRight:
