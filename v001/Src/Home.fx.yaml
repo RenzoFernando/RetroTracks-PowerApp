@@ -125,7 +125,7 @@ Home As screen:
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
         Color: =RGBA(255, 255, 255, 1)
-        Default: ="Más escuchados"
+        Default: ="Playlist más escuchadas"
         DisabledBorderColor: =RGBA(0, 0, 0, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(172, 0, 255, 1)
@@ -406,7 +406,7 @@ Home As screen:
             HoverBorderColor: =RGBA(189, 189, 189, 1)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =RGBA(108, 8, 68, 1)
-            OnSelect: =Navigate(Libreria_Home) && Set(q, "Chop Suey") 
+            OnSelect: =Navigate(Adolescencia)
             RadiusBottomLeft: =10
             RadiusBottomRight: =10
             RadiusTopLeft: =10
@@ -422,9 +422,9 @@ Home As screen:
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =85
-            Image: =LookUp(m,NombreC="Chop Suey",'Image[image]')
+            Image: =adoles
             ImagePosition: =ImagePosition.Fill
-            OnSelect: =Navigate(Libreria_Home) && Set(q, "Chop Suey") 
+            OnSelect: =Navigate(Adolescencia)
             RadiusBottomLeft: =7
             RadiusBottomRight: =7
             RadiusTopLeft: =7
@@ -440,9 +440,9 @@ Home As screen:
             DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Semibold
             Height: =82
-            OnSelect: =Navigate(Libreria_Home) && Set(q, "Chop Suey") 
-            Size: =17
-            Text: ="Chop Suey"
+            OnSelect: =Navigate(Adolescencia)
+            Size: =18
+            Text: ="Adolescencia"
             Width: =125
             X: =160
             Y: =187
@@ -471,7 +471,7 @@ Home As screen:
             HoverBorderColor: =RGBA(189, 189, 189, 1)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =RGBA(108, 8, 68, 1)
-            OnSelect: =Navigate(Libreria_Home) && Set(q, "Cafuné")
+            OnSelect: =Navigate(Infancia)
             RadiusBottomLeft: =10
             RadiusBottomRight: =10
             RadiusTopLeft: =10
@@ -487,9 +487,9 @@ Home As screen:
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =85
-            Image: =LookUp(m,NombreC="Cafuné",'Image[image]')
+            Image: =infa
             ImagePosition: =ImagePosition.Fill
-            OnSelect: =Navigate(Libreria_Home) && Set(q, "Cafuné")
+            OnSelect: =Navigate(Infancia)
             RadiusBottomLeft: =7
             RadiusBottomRight: =7
             RadiusTopLeft: =7
@@ -505,9 +505,9 @@ Home As screen:
             DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Semibold
             Height: =82
-            OnSelect: =Navigate(Libreria_Home) && Set(q, "Cafuné")
-            Size: =17
-            Text: ="Cafuné"
+            OnSelect: =Navigate(Infancia)
+            Size: =18
+            Text: ="Infancia"
             Width: =125
             X: =457
             Y: =189
@@ -536,7 +536,7 @@ Home As screen:
             HoverBorderColor: =RGBA(189, 189, 189, 1)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =RGBA(108, 8, 68, 1)
-            OnSelect: =Navigate(Libreria_Home) && Set(q, "In The Name Of Love")
+            OnSelect: =Navigate(Vacaciones)
             RadiusBottomLeft: =10
             RadiusBottomRight: =10
             RadiusTopLeft: =10
@@ -552,9 +552,9 @@ Home As screen:
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =85
-            Image: =LookUp(m,NombreC="In The Name Of Love",'Image[image]')
+            Image: =vaca
             ImagePosition: =ImagePosition.Fill
-            OnSelect: =Navigate(Libreria_Home) && Set(q, "In The Name Of Love")
+            OnSelect: =Navigate(Vacaciones)
             RadiusBottomLeft: =7
             RadiusBottomRight: =7
             RadiusTopLeft: =7
@@ -570,9 +570,9 @@ Home As screen:
             DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Semibold
             Height: =82
-            OnSelect: =Navigate(Libreria_Home) && Set(q, "In The Name Of Love") 
-            Size: =17
-            Text: ="In The Name Of Love "
+            OnSelect: =Navigate(Vacaciones)
+            Size: =18
+            Text: ="Vacaciones"
             Width: =125
             X: =160
             Y: =341
@@ -601,7 +601,7 @@ Home As screen:
             HoverBorderColor: =RGBA(189, 189, 189, 1)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =RGBA(108, 8, 68, 1)
-            OnSelect: =Navigate(Libreria_Home) && Set(q, "Somewhere over the Rainbow") 
+            OnSelect: =Navigate(Preadolecencia)
             RadiusBottomLeft: =10
             RadiusBottomRight: =10
             RadiusTopLeft: =10
@@ -617,9 +617,9 @@ Home As screen:
             DisabledBorderColor: =RGBA(166, 166, 166, 1)
             DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =85
-            Image: =LookUp(m,NombreC="Somewhere over the Rainbow",'Image[image]')
+            Image: ='pre-a'
             ImagePosition: =ImagePosition.Fill
-            OnSelect: =Navigate(Libreria_Home) && Set(q, "Somewhere over the Rainbow") 
+            OnSelect: =Navigate(Preadolecencia)
             RadiusBottomLeft: =7
             RadiusBottomRight: =7
             RadiusTopLeft: =7
@@ -635,9 +635,9 @@ Home As screen:
             DisabledColor: =RGBA(166, 166, 166, 1)
             FontWeight: =FontWeight.Semibold
             Height: =109
-            OnSelect: =Navigate(Libreria_Home) && Set(q, "Somewhere over the Rainbow") 
-            Size: =17
-            Text: ="Somewhere over the Rainbow"
+            OnSelect: =Navigate(Preadolecencia)
+            Size: =18
+            Text: ="Preadolecencia"
             Width: =125
             X: =457
             Y: =325

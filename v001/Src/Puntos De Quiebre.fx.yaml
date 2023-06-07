@@ -43,7 +43,12 @@
             DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =128
             Image: =ThisItem.'Image[image]'
+            ImagePosition: =ImagePosition.Fill
             OnSelect: =Select(Parent)
+            RadiusBottomLeft: =5
+            RadiusBottomRight: =5
+            RadiusTopLeft: =5
+            RadiusTopRight: =5
             Width: =128
             X: =16
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
