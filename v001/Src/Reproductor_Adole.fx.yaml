@@ -401,6 +401,10 @@
         HoverBorderColor: =RGBA(189, 189, 189, 1)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =RGBA(108, 8, 68, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
         Size: =21
         Width: =640
         Y: =1014
