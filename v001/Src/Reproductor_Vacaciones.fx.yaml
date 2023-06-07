@@ -394,7 +394,7 @@
             Fill: =RGBA(104, 0, 156, 0)
             Height: =88
             Icon: =Icon.Trash
-            OnSelect: =Remove([@m], BrowseGallery1.Selected); If (IsEmpty(Errors([@m], BrowseGallery1.Selected)), Back())
+            OnSelect: =Navigate(Confirmar_Eliminar) && Set(foto,DataCardValue31) && Set(ee, DataCardValue4_11) && Set(volver,Reproductor_Vacaciones)
             PaddingBottom: =24
             PaddingLeft: =24
             PaddingRight: =24
