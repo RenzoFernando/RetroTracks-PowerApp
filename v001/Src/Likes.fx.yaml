@@ -1,5 +1,5 @@
 "Likes As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
-    Fill: =RGBA(29, 29, 29 ,1)
+    Fill: =RGBA(0, 0, 0, 1)
     LoadingSpinnerColor: =RGBA(197, 24, 128, 1)
 
     RectQuickActionBar5 As rectangle:
@@ -20,7 +20,7 @@
         OnSelect: =Navigate(Libreria_Like, ScreenTransition.None) && Set(like, ThisItem.canción)
         TemplatePadding: =0
         TemplateSize: =90
-        Y: =88
+        Y: =90
         ZIndex: =1
 
         Title4 As label:

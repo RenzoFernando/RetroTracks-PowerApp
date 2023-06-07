@@ -164,6 +164,7 @@ Home As screen:
             DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =150
             Image: =NIGORI
+            ImagePosition: =ImagePosition.Fill
             OnSelect: =Navigate(Nigori)
             RadiusBottomLeft: =10
             RadiusBottomRight: =10
@@ -247,6 +248,7 @@ Home As screen:
             DisabledFill: =RGBA(244, 244, 244, 1)
             Height: =150
             Image: =renfer
+            ImagePosition: =ImagePosition.Fill
             OnSelect: =Navigate(RenFer)
             RadiusBottomLeft: =10
             RadiusBottomRight: =10
