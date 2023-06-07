@@ -2,11 +2,24 @@
     Fill: =RGBA(0, 0, 0, 1)
     LoadingSpinnerColor: =RGBA(197, 24, 128, 1)
 
-    RectQuickActionBar1_11 As rectangle:
-        BorderColor: =RGBA(109, 49, 162, 1)
-        Fill: =RGBA(172, 0, 255, 1)
+    IconSortUpDown1_11 As icon.ArrowsUpDown:
+        AccessibleLabel: =Self.Tooltip
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
         Height: =88
-        Width: =Parent.Width
+        Icon: =Icon.Sort
+        OnSelect: |-
+            =UpdateContext({SortDescending1: !SortDescending1})
+        PaddingBottom: =26
+        PaddingLeft: =26
+        PaddingRight: =26
+        PaddingTop: =26
+        PressedFill: =RGBA(255, 255, 255, 0.3)
+        TabIndex: =0
+        Tooltip: =If(SortDescending1, "Ordenar la lista en orden alfabético inverso", "Ordenar la lista en orden alfabético")
+        Width: =88
         ZIndex: =1
 
     "BrowseGallery1_11 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
@@ -22,7 +35,7 @@
         TemplateSize: =Min(160, Self.Height - 60)
         Width: =Parent.Width
         Y: =156
-        ZIndex: =1
+        ZIndex: =2
 
         Image2_16 As image:
             BorderColor: =RGBA(189, 189, 189, 1)
@@ -101,67 +114,12 @@
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
 
-    IconRefresh1_11 As icon.Reload:
-        AccessibleLabel: =Self.Tooltip
-        BorderColor: =RGBA(189, 189, 189, 1)
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(244, 244, 244, 1)
+    RectQuickActionBar1_11 As rectangle:
+        BorderColor: =RGBA(109, 49, 162, 1)
+        Fill: =RGBA(172, 0, 255, 1)
         Height: =88
-        Icon: =Icon.Reload
-        OnSelect: =Refresh([@m])
-        PaddingBottom: =22
-        PaddingLeft: =22
-        PaddingRight: =22
-        PaddingTop: =22
-        PressedFill: =RGBA(255, 255, 255, 0.3)
-        TabIndex: =0
-        Tooltip: ="Actualizar lista"
-        Width: =88
-        X: =Parent.Width - IconNewItem1_11.Width - IconSortUpDown1_11.Width - Self.Width
+        Width: =Parent.Width
         ZIndex: =3
-
-    IconSortUpDown1_11 As icon.ArrowsUpDown:
-        AccessibleLabel: =Self.Tooltip
-        BorderColor: =RGBA(189, 189, 189, 1)
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(244, 244, 244, 1)
-        Height: =88
-        Icon: =Icon.Sort
-        OnSelect: |-
-            =UpdateContext({SortDescending1: !SortDescending1})
-        PaddingBottom: =26
-        PaddingLeft: =26
-        PaddingRight: =26
-        PaddingTop: =26
-        PressedFill: =RGBA(255, 255, 255, 0.3)
-        TabIndex: =0
-        Tooltip: =If(SortDescending1, "Ordenar la lista en orden alfabético inverso", "Ordenar la lista en orden alfabético")
-        Width: =88
-        X: =Parent.Width - IconNewItem1_11.Width - Self.Width
-        ZIndex: =4
-
-    IconNewItem1_11 As icon.Add:
-        AccessibleLabel: =Self.Tooltip
-        BorderColor: =RGBA(189, 189, 189, 1)
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(244, 244, 244, 1)
-        DisplayMode: =If(DataSourceInfo([@m], DataSourceInfo.CreatePermission), DisplayMode.Edit, DisplayMode.Disabled)
-        Height: =88
-        Icon: =Icon.Add
-        OnSelect: =NewForm(EditForm1);Navigate(Editar, ScreenTransition.None)
-        PaddingBottom: =24
-        PaddingLeft: =24
-        PaddingRight: =24
-        PaddingTop: =24
-        PressedFill: =RGBA(255, 255, 255, 0.3)
-        TabIndex: =0
-        Tooltip: ="Crear elemento"
-        Width: =88
-        X: =Parent.Width - Self.Width
-        ZIndex: =5
 
     TextSearchBox1_11 As text:
         BorderColor: =RGBA(189, 189, 189, 1)
@@ -196,7 +154,7 @@
         Height: =2
         Width: =Parent.Width
         Y: =TextSearchBox1_11.Y + TextSearchBox1_11.Height
-        ZIndex: =8
+        ZIndex: =7
 
     TextInput1_23 As text:
         BorderThickness: =0
@@ -213,7 +171,7 @@
         Size: =21
         Width: =640
         Y: =994
-        ZIndex: =16
+        ZIndex: =8
 
     LblAppName1_10 As label:
         Color: =RGBA(255, 255, 255, 1)
@@ -225,7 +183,7 @@
         Width: =Parent.Width - Self.X - IconSortUpDown1_1.Width - IconNewItem1_1.Width - IconRefresh1_1.Width
         Wrap: =false
         X: =24
-        ZIndex: =17
+        ZIndex: =9
 
     Icon6_36 As icon.BackArrow:
         BorderColor: =RGBA(189, 189, 189, 1)
@@ -238,7 +196,68 @@
         Width: =45
         X: =15
         Y: =100
-        ZIndex: =18
+        ZIndex: =10
+
+    Group1_15 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =20
+        ZIndex: =20
+
+        IconRefresh1_11 As icon.Reload:
+            AccessibleLabel: =Self.Tooltip
+            BorderColor: =RGBA(189, 189, 189, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Height: =88
+            Icon: =Icon.Reload
+            OnSelect: =Refresh([@m])
+            PaddingBottom: =22
+            PaddingLeft: =22
+            PaddingRight: =22
+            PaddingTop: =22
+            PressedFill: =RGBA(255, 255, 255, 0.3)
+            TabIndex: =0
+            Tooltip: ="Actualizar lista"
+            Width: =88
+            X: =471
+            ZIndex: =17
+
+        IconNewItem1_11 As icon.Add:
+            AccessibleLabel: =Self.Tooltip
+            BorderColor: =RGBA(189, 189, 189, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            DisplayMode: =If(DataSourceInfo([@m], DataSourceInfo.CreatePermission), DisplayMode.Edit, DisplayMode.Disabled)
+            Height: =88
+            Icon: =Icon.Add
+            OnSelect: =NewForm(EditForm1);Navigate(Editar, ScreenTransition.None)
+            PaddingBottom: =24
+            PaddingLeft: =24
+            PaddingRight: =24
+            PaddingTop: =24
+            PressedFill: =RGBA(255, 255, 255, 0.3)
+            TabIndex: =0
+            Tooltip: ="Crear elemento"
+            Width: =88
+            X: =Parent.Width - Self.Width
+            ZIndex: =18
+
+        Icon4_16 As icon.Heart:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Height: =59
+            Icon: =Icon.Heart
+            OnSelect: =Navigate(Likes)
+            Width: =53
+            X: =407
+            Y: =14
+            ZIndex: =19
 
     Group9_16 As group:
         Height: =5
@@ -259,7 +278,7 @@
             Width: =153
             X: =240
             Y: =1072
-            ZIndex: =19
+            ZIndex: =11
 
         Icon5_14 As icon.DetailList:
             BorderColor: =RGBA(189, 189, 189, 1)
@@ -272,7 +291,7 @@
             Width: =56
             X: =288
             Y: =1021
-            ZIndex: =22
+            ZIndex: =14
 
     Group8_16 As group:
         Height: =5
@@ -290,7 +309,7 @@
             OnSelect: =Navigate(Home)
             X: =80
             Y: =1025
-            ZIndex: =21
+            ZIndex: =13
 
         Label4_15 As label:
             BorderColor: =RGBA(189, 189, 189, 1)
@@ -303,7 +322,7 @@
             Width: =94
             X: =68
             Y: =1072
-            ZIndex: =23
+            ZIndex: =15
 
     Group10_16 As group:
         Height: =5
@@ -322,7 +341,7 @@
             OnSelect: =Navigate(Configuraciones)
             X: =495
             Y: =1031
-            ZIndex: =20
+            ZIndex: =12
 
         Label5_15 As label:
             BorderColor: =RGBA(189, 189, 189, 1)
@@ -335,5 +354,5 @@
             Width: =125
             X: =474
             Y: =1072
-            ZIndex: =24
+            ZIndex: =16
 

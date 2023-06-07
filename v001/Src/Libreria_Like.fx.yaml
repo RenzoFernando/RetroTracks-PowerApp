@@ -203,7 +203,7 @@
         Fill: =RGBA(0, 0, 0, 1)
         FocusedBorderThickness: =4
         Height: =68
-        HintText: ="Buscar en elementos"
+        HintText: =""
         HoverBorderColor: =RGBA(189, 189, 189, 1)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =RGBA(0, 0, 0, 1)

@@ -79,6 +79,7 @@ PlayList_ As screen:
         Size: =21
         Text: ="Categorias de Playlist"
         Width: =523
+        X: =8
         Y: =9
         ZIndex: =34
 
