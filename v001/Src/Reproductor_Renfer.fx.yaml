@@ -1,4 +1,4 @@
-"Reproductor_Renfer_Prueba As screen.'phoneDetailViewLayout_ver3.0'":
+"Reproductor_Renfer As screen.'phoneDetailViewLayout_ver3.0'":
     Fill: =RGBA(0, 0, 0, 1)
     LoadingSpinnerColor: =RGBA(197, 24, 128, 1)
 
@@ -498,7 +498,7 @@
             Height: =60
             Icon: =Icon.Heart
             OnSelect: |-
-                =Set(ee, DataCardValue4_15) && Set(aa, "Te gustó la canción: " & DataCardValue4_15)  && Navigate(Confirmar_Corazon) && Set(regresar, Reproductor_Renfer_Prueba) && Set(foto,Label7)
+                =Set(ee, DataCardValue4_15) && Set(aa, "Te gustó la canción: " & DataCardValue4_15)  && Navigate(Confirmar_Corazon) && Set(regresar, Reproductor_Renfer) && Set(foto,Label7)
             Width: =50
             X: =426
             Y: =14
