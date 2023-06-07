@@ -367,7 +367,7 @@
             FontWeight: =FontWeight.Semibold
             Height: =80
             HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =ColorFade(RGBA(197, 24, 128, 1), -20%)
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 1), 0%)
             OnSelect: =SubmitForm(Form1) && Navigate(regresar) && ResetForm(Form1)
             Size: =24
             Text: ="si"
@@ -384,7 +384,7 @@
             FontWeight: =FontWeight.Semibold
             Height: =80
             HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =ColorFade(RGBA(197, 24, 128, 1), -20%)
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 1), 0%)
             OnSelect: =Navigate(regresar) && ResetForm(Form1)
             Size: =24
             Text: ="no"

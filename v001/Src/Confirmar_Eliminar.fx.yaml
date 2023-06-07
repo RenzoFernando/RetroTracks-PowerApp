@@ -83,7 +83,7 @@
             FontWeight: =FontWeight.Semibold
             Height: =80
             HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =ColorFade(RGBA(197, 24, 128, 1), -20%)
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 1), 0%)
             OnSelect: =Remove([@m], BrowseGallery1.Selected); If (IsEmpty(Errors([@m], BrowseGallery1.Selected)), Back()) && Navigate(volver)
             Size: =24
             Text: ="si"
@@ -100,7 +100,7 @@
             FontWeight: =FontWeight.Semibold
             Height: =80
             HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =ColorFade(RGBA(197, 24, 128, 1), -20%)
+            HoverFill: =ColorFade(RGBA(255, 255, 255, 1), 0%)
             OnSelect: =Navigate(volver)
             Size: =24
             Text: ="no"
