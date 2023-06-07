@@ -13,7 +13,7 @@ Configuraciones As screen:
             ="Código:"
         Width: =316
         X: =28
-        Y: =412
+        Y: =428
         ZIndex: =1
 
     Label15_2 As label:
@@ -193,7 +193,7 @@ Configuraciones As screen:
         Text: =LookUp(registro,Nombre=UsuarioActual).Título
         Width: =316
         X: =323
-        Y: =412
+        Y: =428
         ZIndex: =32
 
     Label1_2 As label:
@@ -207,7 +207,7 @@ Configuraciones As screen:
             ="Email:"
         Width: =316
         X: =28
-        Y: =461
+        Y: =493
         ZIndex: =33
 
     Label1_3 As label:
@@ -219,7 +219,7 @@ Configuraciones As screen:
         Text: =LookUp(registro,Nombre=UsuarioActual).Correo
         Width: =316
         X: =324
-        Y: =461
+        Y: =493
         ZIndex: =34
 
     Label1_38 As label:
@@ -233,7 +233,7 @@ Configuraciones As screen:
             ="Telefono:"
         Width: =316
         X: =28
-        Y: =510
+        Y: =558
         ZIndex: =35
 
     Label1_39 As label:
@@ -245,7 +245,7 @@ Configuraciones As screen:
         Text: =LookUp(registro,Nombre=UsuarioActual).Teléfono
         Width: =316
         X: =324
-        Y: =510
+        Y: =558
         ZIndex: =36
 
     Label1_40 As label:

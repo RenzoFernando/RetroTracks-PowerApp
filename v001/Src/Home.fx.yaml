@@ -142,226 +142,6 @@ Home As screen:
         Y: =110
         ZIndex: =21
 
-    TextInput2 As text:
-        BorderColor: =RGBA(189, 189, 189, 1)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =0
-        Color: =RGBA(255, 255, 255, 1)
-        Default: =""
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(172, 0, 255, 1)
-        FocusedBorderThickness: =4
-        FontWeight: =FontWeight.Semibold
-        Height: =130
-        HoverBorderColor: =RGBA(189, 189, 189, 1)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =RGBA(108, 8, 68, 1)
-        RadiusBottomLeft: =10
-        RadiusBottomRight: =10
-        RadiusTopLeft: =10
-        RadiusTopRight: =10
-        Size: =15
-        Width: =272
-        X: =36
-        Y: =162
-        ZIndex: =22
-
-    Image2_22 As image:
-        BorderColor: =RGBA(189, 189, 189, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Height: =85
-        Image: =LookUp(m,NombreC="Chop Suey",'Image[image]')
-        ImagePosition: =ImagePosition.Fill
-        RadiusBottomLeft: =7
-        RadiusBottomRight: =7
-        RadiusTopLeft: =7
-        RadiusTopRight: =7
-        Width: =85
-        X: =59
-        Y: =184
-        ZIndex: =23
-
-    Label9_5 As label:
-        BorderColor: =RGBA(189, 189, 189, 1)
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FontWeight: =FontWeight.Semibold
-        Height: =82
-        Size: =15
-        Text: ="Chop Suey"
-        Width: =125
-        X: =160
-        Y: =187
-        ZIndex: =24
-
-    TextInput2_1 As text:
-        BorderColor: =RGBA(189, 189, 189, 1)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =0
-        Color: =RGBA(255, 255, 255, 1)
-        Default: =""
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(172, 0, 255, 1)
-        FocusedBorderThickness: =4
-        FontWeight: =FontWeight.Semibold
-        Height: =130
-        HoverBorderColor: =RGBA(189, 189, 189, 1)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =RGBA(108, 8, 68, 1)
-        RadiusBottomLeft: =10
-        RadiusBottomRight: =10
-        RadiusTopLeft: =10
-        RadiusTopRight: =10
-        Size: =15
-        Width: =272
-        X: =36
-        Y: =316
-        ZIndex: =25
-
-    Image2_23 As image:
-        BorderColor: =RGBA(189, 189, 189, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Height: =85
-        Image: =LookUp(m,NombreC="In The Name Of Love",'Image[image]')
-        ImagePosition: =ImagePosition.Fill
-        RadiusBottomLeft: =7
-        RadiusBottomRight: =7
-        RadiusTopLeft: =7
-        RadiusTopRight: =7
-        Width: =85
-        X: =59
-        Y: =338
-        ZIndex: =26
-
-    Label9_6 As label:
-        BorderColor: =RGBA(189, 189, 189, 1)
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FontWeight: =FontWeight.Semibold
-        Height: =82
-        Size: =15
-        Text: ="In The Name Of Love "
-        Width: =125
-        X: =160
-        Y: =341
-        ZIndex: =27
-
-    TextInput2_2 As text:
-        BorderColor: =RGBA(189, 189, 189, 1)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =0
-        Color: =RGBA(255, 255, 255, 1)
-        Default: =""
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(172, 0, 255, 1)
-        FocusedBorderThickness: =4
-        FontWeight: =FontWeight.Semibold
-        Height: =130
-        HoverBorderColor: =RGBA(189, 189, 189, 1)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =RGBA(108, 8, 68, 1)
-        RadiusBottomLeft: =10
-        RadiusBottomRight: =10
-        RadiusTopLeft: =10
-        RadiusTopRight: =10
-        Size: =15
-        Width: =272
-        X: =333
-        Y: =161
-        ZIndex: =28
-
-    Image2_24 As image:
-        BorderColor: =RGBA(189, 189, 189, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Height: =85
-        Image: =LookUp(m,NombreC="Cafuné",'Image[image]')
-        ImagePosition: =ImagePosition.Fill
-        RadiusBottomLeft: =7
-        RadiusBottomRight: =7
-        RadiusTopLeft: =7
-        RadiusTopRight: =7
-        Width: =85
-        X: =356
-        Y: =186
-        ZIndex: =29
-
-    Label9_7 As label:
-        BorderColor: =RGBA(189, 189, 189, 1)
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FontWeight: =FontWeight.Semibold
-        Height: =82
-        Size: =15
-        Text: ="Cafuné"
-        Width: =125
-        X: =457
-        Y: =189
-        ZIndex: =30
-
-    TextInput2_3 As text:
-        BorderColor: =RGBA(189, 189, 189, 1)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =0
-        Color: =RGBA(255, 255, 255, 1)
-        Default: =""
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(172, 0, 255, 1)
-        FocusedBorderThickness: =4
-        FontWeight: =FontWeight.Semibold
-        Height: =130
-        HoverBorderColor: =RGBA(189, 189, 189, 1)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =RGBA(108, 8, 68, 1)
-        RadiusBottomLeft: =10
-        RadiusBottomRight: =10
-        RadiusTopLeft: =10
-        RadiusTopRight: =10
-        Size: =15
-        Width: =272
-        X: =333
-        Y: =315
-        ZIndex: =31
-
-    Image2_25 As image:
-        BorderColor: =RGBA(189, 189, 189, 1)
-        DisabledBorderColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Height: =85
-        Image: =LookUp(m,NombreC="Somewhere over the Rainbow",'Image[image]')
-        ImagePosition: =ImagePosition.Fill
-        RadiusBottomLeft: =7
-        RadiusBottomRight: =7
-        RadiusTopLeft: =7
-        RadiusTopRight: =7
-        Width: =85
-        X: =356
-        Y: =340
-        ZIndex: =32
-
-    Label9_8 As label:
-        BorderColor: =RGBA(189, 189, 189, 1)
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FontWeight: =FontWeight.Semibold
-        Height: =82
-        Size: =15
-        Text: ="Somewhere over the Rainbow"
-        Width: =125
-        X: =457
-        Y: =343
-        ZIndex: =33
-
     Rectangle3 As rectangle:
         BorderColor: =RGBA(189, 189, 189, 0.04)
         Fill: =RGBA(172, 0, 255, 1)
@@ -602,4 +382,264 @@ Home As screen:
             X: =474
             Y: =1072
             ZIndex: =7
+
+    Group34 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =36
+
+        TextInput2 As text:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =0
+            Color: =RGBA(255, 255, 255, 1)
+            Default: =""
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(172, 0, 255, 1)
+            FocusedBorderThickness: =4
+            FontWeight: =FontWeight.Semibold
+            Height: =130
+            HoverBorderColor: =RGBA(189, 189, 189, 1)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =RGBA(108, 8, 68, 1)
+            OnSelect: =Navigate(Libreria_Home) && Set(q, "Chop Suey") 
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Size: =15
+            Width: =272
+            X: =36
+            Y: =162
+            ZIndex: =22
+
+        Image2_22 As image:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Height: =85
+            Image: =LookUp(m,NombreC="Chop Suey",'Image[image]')
+            ImagePosition: =ImagePosition.Fill
+            OnSelect: =Navigate(Libreria_Home) && Set(q, "Chop Suey") 
+            RadiusBottomLeft: =7
+            RadiusBottomRight: =7
+            RadiusTopLeft: =7
+            RadiusTopRight: =7
+            Width: =85
+            X: =59
+            Y: =184
+            ZIndex: =23
+
+        Label9_5 As label:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =82
+            OnSelect: =Navigate(Libreria_Home) && Set(q, "Chop Suey") 
+            Size: =17
+            Text: ="Chop Suey"
+            Width: =125
+            X: =160
+            Y: =187
+            ZIndex: =24
+
+    Group35 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =36
+
+        TextInput2_2 As text:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =0
+            Color: =RGBA(255, 255, 255, 1)
+            Default: =""
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(172, 0, 255, 1)
+            FocusedBorderThickness: =4
+            FontWeight: =FontWeight.Semibold
+            Height: =130
+            HoverBorderColor: =RGBA(189, 189, 189, 1)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =RGBA(108, 8, 68, 1)
+            OnSelect: =Navigate(Libreria_Home) && Set(q, "Cafuné")
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Size: =15
+            Width: =272
+            X: =333
+            Y: =161
+            ZIndex: =28
+
+        Image2_24 As image:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Height: =85
+            Image: =LookUp(m,NombreC="Cafuné",'Image[image]')
+            ImagePosition: =ImagePosition.Fill
+            OnSelect: =Navigate(Libreria_Home) && Set(q, "Cafuné")
+            RadiusBottomLeft: =7
+            RadiusBottomRight: =7
+            RadiusTopLeft: =7
+            RadiusTopRight: =7
+            Width: =85
+            X: =356
+            Y: =186
+            ZIndex: =29
+
+        Label9_7 As label:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =82
+            OnSelect: =Navigate(Libreria_Home) && Set(q, "Cafuné")
+            Size: =17
+            Text: ="Cafuné"
+            Width: =125
+            X: =457
+            Y: =189
+            ZIndex: =30
+
+    Group36 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =36
+
+        TextInput2_1 As text:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =0
+            Color: =RGBA(255, 255, 255, 1)
+            Default: =""
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(172, 0, 255, 1)
+            FocusedBorderThickness: =4
+            FontWeight: =FontWeight.Semibold
+            Height: =130
+            HoverBorderColor: =RGBA(189, 189, 189, 1)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =RGBA(108, 8, 68, 1)
+            OnSelect: =Navigate(Libreria_Home) && Set(q, "In The Name Of Love")
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Size: =15
+            Width: =272
+            X: =36
+            Y: =316
+            ZIndex: =25
+
+        Image2_23 As image:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Height: =85
+            Image: =LookUp(m,NombreC="In The Name Of Love",'Image[image]')
+            ImagePosition: =ImagePosition.Fill
+            OnSelect: =Navigate(Libreria_Home) && Set(q, "In The Name Of Love")
+            RadiusBottomLeft: =7
+            RadiusBottomRight: =7
+            RadiusTopLeft: =7
+            RadiusTopRight: =7
+            Width: =85
+            X: =59
+            Y: =338
+            ZIndex: =26
+
+        Label9_6 As label:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =82
+            OnSelect: =Navigate(Libreria_Home) && Set(q, "In The Name Of Love") 
+            Size: =17
+            Text: ="In The Name Of Love "
+            Width: =125
+            X: =160
+            Y: =341
+            ZIndex: =27
+
+    Group37 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =36
+
+        TextInput2_3 As text:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =0
+            Color: =RGBA(255, 255, 255, 1)
+            Default: =""
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(172, 0, 255, 1)
+            FocusedBorderThickness: =4
+            FontWeight: =FontWeight.Semibold
+            Height: =130
+            HoverBorderColor: =RGBA(189, 189, 189, 1)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =RGBA(108, 8, 68, 1)
+            OnSelect: =Navigate(Libreria_Home) && Set(q, "Somewhere over the Rainbow") 
+            RadiusBottomLeft: =10
+            RadiusBottomRight: =10
+            RadiusTopLeft: =10
+            RadiusTopRight: =10
+            Size: =15
+            Width: =272
+            X: =333
+            Y: =315
+            ZIndex: =31
+
+        Image2_25 As image:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Height: =85
+            Image: =LookUp(m,NombreC="Somewhere over the Rainbow",'Image[image]')
+            ImagePosition: =ImagePosition.Fill
+            OnSelect: =Navigate(Libreria_Home) && Set(q, "Somewhere over the Rainbow") 
+            RadiusBottomLeft: =7
+            RadiusBottomRight: =7
+            RadiusTopLeft: =7
+            RadiusTopRight: =7
+            Width: =85
+            X: =356
+            Y: =340
+            ZIndex: =32
+
+        Label9_8 As label:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =109
+            OnSelect: =Navigate(Libreria_Home) && Set(q, "Somewhere over the Rainbow") 
+            Size: =17
+            Text: ="Somewhere over the Rainbow"
+            Width: =125
+            X: =457
+            Y: =325
+            ZIndex: =33
 
