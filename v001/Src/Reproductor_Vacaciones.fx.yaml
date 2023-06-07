@@ -92,7 +92,7 @@
 
             Video1_11 As videoPlayback:
                 BorderColor: =RGBA(189, 189, 189, 1)
-                Fill: =RGBA(197, 24, 128, 1)
+                Fill: =RGBA(0, 0, 0, 1)
                 Height: =265
                 Media: =ThisItem.Fuente
                 Width: =517
