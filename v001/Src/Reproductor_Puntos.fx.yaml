@@ -4,7 +4,7 @@
 
     RectQuickActionBar2_8 As rectangle:
         BorderColor: =RGBA(189, 189, 189, 1)
-        Fill: =RGBA(197, 24, 128, 1)
+        Fill: =RGBA(172, 0, 255, 1)
         Height: =88
         Width: =Parent.Width
         ZIndex: =3

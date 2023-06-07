@@ -30,9 +30,9 @@
         Height: =88
         Size: =27
         Text: ="Reproduciendo..."
-        Width: =560
+        Width: =552
         Wrap: =false
-        X: =80
+        X: =88
         ZIndex: =5
 
     DetailForm1_9 As formViewer:
