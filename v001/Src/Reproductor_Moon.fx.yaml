@@ -171,11 +171,10 @@
                 Text: =Parent.Default
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =16
                 ZIndex: =2
 
             DataCardKey2_26 As label:
-                Color: =RGBA(172, 0, 255, 1)
+                Color: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FontWeight: =FontWeight.Bold
                 Height: =53

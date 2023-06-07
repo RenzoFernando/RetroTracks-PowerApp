@@ -141,8 +141,7 @@
                 Size: =21
                 Text: =Parent.Default
                 Width: =327
-                X: =262
-                Y: =20
+                X: =264
                 ZIndex: =2
 
             DataCardKey2_18 As label:
