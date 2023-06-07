@@ -1,5 +1,5 @@
 "Contrasena As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
-    Fill: =RGBA(29, 29, 29 ,1)
+    Fill: =RGBA(0, 0, 0, 1)
     LoadingSpinnerColor: =RGBA(197, 24, 128, 1)
 
     RectQuickActionBar4 As rectangle:
@@ -13,28 +13,340 @@
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         DisabledColor: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(172, 0, 255, 1)
         Height: =88
         Size: =27
-        Text: ="[Título]"
+        Text: ="Recuperar Contraseña"
         Width: =Parent.Width
         ZIndex: =2
 
-    Canvas1 As fluidGrid.fluidGridWithBlankCard:
+    TextInput1_8 As text:
         BorderThickness: =0
-        Height: =Parent.Height - Self.Y
-        Width: =Parent.Width
-        Y: =RectQuickActionBar4.Y + RectQuickActionBar4.Height
-        ZIndex: =3
+        Color: =RGBA(15, 15, 15, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(172, 0, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(172, 0, 255, 1)
+        FocusedBorderThickness: =4
+        Height: =10
+        HoverBorderColor: =RGBA(189, 189, 189, 1)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(108, 8, 68, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =21
+        Width: =640
+        Y: =1008
+        ZIndex: =9
 
-        DataCard4 As dataCard:
-            BorderColor: =RGBA(0, 0, 0, 1)
-            BorderStyle: =BorderStyle.Solid
-            BorderThickness: =0
-            DisplayMode: =DisplayMode.Edit
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =Parent.Height - 100
-            Width: =Parent.Width
-            X: =0
-            Y: =0
-            ZIndex: =1
+    Label1_46 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(172, 0, 255, 1)
+        DisabledColor: =RGBA(172, 0, 255, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =57
+        Size: =23
+        Text: |-
+            ="Código:"
+        Width: =316
+        X: =28
+        Y: =428
+        ZIndex: =10
+
+    Group9_36 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =10
+
+        Label1_32 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(189, 189, 189, 1)
+            Color: =RGBA(172, 0, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =64
+            OnSelect: =Navigate(Libreria)
+            Size: =21
+            Text: ="Libreria"
+            Width: =153
+            X: =240
+            Y: =1072
+            ZIndex: =3
+
+        Icon5_28 As icon.DetailList:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            Color: =RGBA(172, 0, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Height: =71
+            Icon: =Icon.DetailList
+            OnSelect: =Navigate(Libreria)
+            Width: =56
+            X: =288
+            Y: =1021
+            ZIndex: =6
+
+    Label1_48 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(172, 0, 255, 1)
+        DisabledColor: =RGBA(172, 0, 255, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =57
+        Size: =23
+        Text: |-
+            ="Email:"
+        Width: =316
+        X: =28
+        Y: =493
+        ZIndex: =11
+
+    Group8_36 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =11
+
+        Icon2_28 As icon.Home:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            Color: =RGBA(172, 0, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(172, 0, 255, 1)
+            Fill: =RGBA(172, 0, 255, 0)
+            Icon: =Icon.Home
+            OnSelect: =Navigate(Home)
+            X: =80
+            Y: =1025
+            ZIndex: =5
+
+        Label4_29 As label:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            Color: =RGBA(172, 0, 255, 1)
+            DisabledColor: =RGBA(172, 0, 255, 1)
+            Fill: =RGBA(172, 0, 255, 0)
+            Height: =64
+            OnSelect: =Navigate(Home)
+            Size: =21
+            Text: ="Home"
+            Width: =94
+            X: =68
+            Y: =1072
+            ZIndex: =7
+
+    Label1_50 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(172, 0, 255, 1)
+        DisabledColor: =RGBA(172, 0, 255, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =57
+        Size: =23
+        Text: |-
+            ="Usuario:"
+        Width: =316
+        X: =29
+        Y: =362
+        ZIndex: =12
+
+    Group10_36 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =12
+
+        Icon1_36 As icon.Settings:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            Color: =RGBA(172, 0, 255, 1)
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(244, 244, 244, 1)
+            Height: =52
+            Icon: =Icon.Settings
+            OnSelect: =Navigate(Configuraciones)
+            X: =495
+            Y: =1031
+            ZIndex: =4
+
+        Label5_16 As label:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            Color: =RGBA(172, 0, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Height: =64
+            OnSelect: =Navigate(Configuraciones)
+            Size: =21
+            Text: ="Ajustes"
+            Width: =125
+            X: =474
+            Y: =1072
+            ZIndex: =8
+
+    Label1_52 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =121
+        Size: =23
+        Text: ="Por favor digite los siguientes campos para proporcionarle su contraseña"
+        Width: =513
+        X: =60
+        Y: =178
+        ZIndex: =13
+
+    Label1_53 As label:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(172, 0, 255, 1)
+        DisabledColor: =RGBA(172, 0, 255, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =57
+        Size: =23
+        Text: |-
+            ="Constraseña:"
+        Width: =316
+        X: =21
+        Y: =666
+        ZIndex: =14
+
+    Button7 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(172, 0, 255, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        OnSelect: |
+            =If(!IsBlank(LookUp(registro,Nombre=TextInput3.Text&&Title=TextInput3_1.Text&&Correo=TextInput3_2.Text)),
+            Set(luna, true) && Set(cali, false),
+            Set(cali, true ));
+        Size: =24
+        Text: ="Confirmar"
+        Width: =280
+        X: =180
+        Y: =574
+        ZIndex: =16
+
+    TextInput3_3 As text:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        BorderThickness: =2
+        Color: =RGBA(255, 255, 255, 1)
+        Default: =LookUp(registro,Nombre=UsuarioActual).Contrasena
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(0, 0, 0, 1)
+        FocusedBorderThickness: =4
+        Height: =57
+        HoverBorderColor: =RGBA(189, 189, 189, 1)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(108, 8, 68, 1)
+        Size: =21
+        Visible: =luna
+        Width: =359
+        X: =240
+        Y: =666
+        ZIndex: =20
+
+    Button7_1 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(172, 0, 255, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        OnSelect: =Navigate(Log_in) && Reset(TextInput3) && Reset(TextInput3_1) && Reset(TextInput3_2) && Reset(TextInput3_3)
+        Size: =24
+        Text: ="Volver"
+        Width: =280
+        X: =180
+        Y: =889
+        ZIndex: =21
+
+    Label3 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Color: =RGBA(255, 0, 0, 1)
+        DisabledColor: =RGBA(255, 0, 0, 1)
+        Height: =77
+        Size: =16
+        Text: ="ERROR. No se encontro su contraseña en la base de datos o verifique nuevamente los datos ingresados. "
+        VerticalAlign: =VerticalAlign.Top
+        Visible: =cali
+        Width: =560
+        X: =40
+        Y: =740
+        ZIndex: =22
+
+    Group38 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =23
+
+        TextInput3 As text:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            BorderThickness: =2
+            Color: =RGBA(255, 255, 255, 1)
+            Default: =""
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(0, 0, 0, 1)
+            FocusedBorderThickness: =4
+            Height: =57
+            HoverBorderColor: =RGBA(189, 189, 189, 1)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =RGBA(108, 8, 68, 1)
+            Size: =21
+            Width: =414
+            X: =185
+            Y: =362
+            ZIndex: =17
+
+        TextInput3_1 As text:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            BorderThickness: =2
+            Color: =RGBA(255, 255, 255, 1)
+            Default: =""
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(0, 0, 0, 1)
+            FocusedBorderThickness: =4
+            Height: =57
+            HoverBorderColor: =RGBA(189, 189, 189, 1)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =RGBA(108, 8, 68, 1)
+            Size: =21
+            Width: =414
+            X: =185
+            Y: =427
+            ZIndex: =18
+
+        TextInput3_2 As text:
+            BorderColor: =RGBA(189, 189, 189, 1)
+            BorderThickness: =2
+            Color: =RGBA(255, 255, 255, 1)
+            Default: =""
+            DisabledBorderColor: =RGBA(166, 166, 166, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(0, 0, 0, 1)
+            FocusedBorderThickness: =4
+            Height: =57
+            HoverBorderColor: =RGBA(189, 189, 189, 1)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =RGBA(108, 8, 68, 1)
+            Size: =21
+            Width: =414
+            X: =185
+            Y: =493
+            ZIndex: =19
 

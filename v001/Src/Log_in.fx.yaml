@@ -81,16 +81,18 @@ Log_in As screen:
 
     olvidar_1 As button:
         Align: =Align.Right
-        AutoDisableOnSelect: =false
         Color: =RGBA(172, 0, 255, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
         Fill: =RGBA(0, 0, 0, 0)
         FontWeight: =FontWeight.Semibold
         Height: =42
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(0, 0, 0, 0),000)
+        OnSelect: =Set(luna, false) && Navigate(Contrasena) && Set(cali, false)
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
         RadiusBottomLeft: =9
         RadiusBottomRight: =9
         RadiusTopLeft: =9
