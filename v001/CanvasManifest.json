@@ -102,7 +102,7 @@
     "DocumentAppType": "Phone",
     "DocumentLayoutHeight": 1136,
     "DocumentLayoutLockOrientation": false,
-    "DocumentLayoutMaintainAspectRatio": true,
+    "DocumentLayoutMaintainAspectRatio": false,
     "DocumentLayoutOrientation": "portrait",
     "DocumentLayoutScaleToFit": true,
     "DocumentLayoutWidth": 640,
