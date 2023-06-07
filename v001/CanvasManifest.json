@@ -126,7 +126,7 @@
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
     "PublishTarget": "player",
-    "UserLocale": "en-US"
+    "UserLocale": "es-ES"
   },
   "ScreenOrder": [
     "Bienvenidos",
@@ -171,6 +171,7 @@
     "Confirmar_Corazon",
     "Confirmar_Eliminar",
     "Libreria_Like",
-    "Likes"
+    "Likes",
+    "Contrasena"
   ]
 }

@@ -1,0 +1,40 @@
+"Contrasena As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+    Fill: =RGBA(29, 29, 29 ,1)
+    LoadingSpinnerColor: =RGBA(197, 24, 128, 1)
+
+    RectQuickActionBar4 As rectangle:
+        BorderColor: =RGBA(189, 189, 189, 1)
+        Fill: =RGBA(197, 24, 128, 1)
+        Height: =88
+        Width: =Parent.Width
+        ZIndex: =1
+
+    LblAppName4 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =88
+        Size: =27
+        Text: ="[Título]"
+        Width: =Parent.Width
+        ZIndex: =2
+
+    Canvas1 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =Parent.Height - Self.Y
+        Width: =Parent.Width
+        Y: =RectQuickActionBar4.Y + RectQuickActionBar4.Height
+        ZIndex: =3
+
+        DataCard4 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =Parent.Height - 100
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+

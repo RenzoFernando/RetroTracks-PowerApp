@@ -1462,7 +1462,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplatePhoneIconNewItem.ID%",
       "Name": "IconNewItem1_1",
-      "ParentIndex": 5,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1685,7 +1685,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IconNewItem1_16",
-      "ParentIndex": 6,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2117,7 +2117,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IconRefresh1_16",
-      "ParentIndex": 4,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2333,7 +2333,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplatePhoneIconSortUpDown.ID%",
       "Name": "IconSortUpDown1_1",
-      "ParentIndex": 3,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3625,7 +3625,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplatePhoneLblAppName.ID%",
       "Name": "LblAppName1_1",
-      "ParentIndex": 1,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4143,7 +4143,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplatePhoneRectQuickActionBar.ID%",
       "Name": "RectQuickActionBar1_1",
-      "ParentIndex": 0,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
