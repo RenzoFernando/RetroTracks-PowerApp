@@ -7,7 +7,7 @@
   },
   "Properties": {
     "AppCreationSource": "AppFromSharePoint",
-    "AppDescription": "",
+    "AppDescription": "RetroTracks es una aplicación que ofrece una compilación de canciones cuidadosamente seleccionadas para evocar recuerdos y emociones. Esta app te permite sumergirte en una experiencia musical nostálgica, ofreciendo una variedad de géneros y éxitos de diferentes épocas. Ya sea reviviendo momentos especiales o transportándote a un pasado sentimental, RetroTracks te brinda una forma única de disfrutar de la música y conectarte con tus recuerdos a través de una cuidada selección de canciones.",
     "AppPreviewFlagsMap": {
       "aibuilderserviceenrollment": false,
       "allowmultiplescreensincanvaspages": false,
@@ -113,12 +113,12 @@
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
-    "Name": "RetroTracks_v001",
+    "Name": "_RetroTracks_",
     "OriginatingVersion": "1.331",
     "ParserErrorCount": 0
   },
   "PublishInfo": {
-    "AppName": "RetroTracks_v001",
+    "AppName": "_RetroTracks_",
     "BackgroundColor": "rgba(0, 0, 0, 1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "",
