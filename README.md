@@ -52,7 +52,7 @@ Este proyecto fue posible gracias al trabajo en equipo de:
 
 * **[Renzo Fernando Mosquera Daza](https://github.com/RenzoFernando)**
 * **[Luna Martinez](https://github.com/LunaKatalina)**
-* **[rlsnigori](https://github.com/rlsnigori)**
+* **[Nicolas Gongora](https://github.com/rlsnigori)**
 
 ## Licencia
 
